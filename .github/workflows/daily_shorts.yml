@@ -34,7 +34,7 @@ jobs:
       - name: Install System Dependencies (FFmpeg, Chrome, Xvfb)
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y ffmpeg libasound2 libgbm1 xvfb
+          sudo apt-get install -y ffmpeg xvfb
           npx playwright install --with-deps chromium
 
       - name: Install Python Dependencies

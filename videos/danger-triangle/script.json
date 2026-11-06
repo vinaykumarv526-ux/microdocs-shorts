@@ -1,0 +1,24 @@
+{
+  "title": "Why You Should NEVER Pop a Pimple Here",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Cleveland Clinic, The Danger Triangle of the Face",
+    "Johns Hopkins Medicine, Cavernous Sinus Thrombosis",
+    "American Academy of Dermatology, Facial venous anatomy"
+  ],
+  "lines": [
+    { "text": "Why do doctors warn you to never pop a pimple in this triangle on your face?", "caps": "Never pop a *pimple | in this *triangle | on your *face" },
+    { "text": "This area runs from the bridge of your nose down to the corners of your mouth.", "caps": "From the *bridge of your nose | to the *corners | of your *mouth" },
+    { "text": "Unlike most veins in your body, the veins in this triangle have zero valves.", "caps": "Veins in this *triangle | have *zero valves" },
+    { "text": "This means blood can freely flow backwards, straight into your brain's cavernous sinus.", "caps": "Blood flows *backwards | straight into | your *brain" },
+    { "text": "When you squeeze a pimple, you can force deadly bacteria directly into your bloodstream.", "caps": "Squeezing *pushes | deadly *bacteria | into your *bloodstream" },
+    { "text": "This can cause a massive infected blood clot behind your eye sockets.", "caps": "Causes a *blood clot | behind your *eyes | in your *brain" },
+    { "text": "It leads to blindness, brain abscesses, and can even be fatal.", "caps": "Leads to *blindness | brain *infections | can be *fatal" },
+    { "text": "So if you get a pimple in the danger triangle, leave it alone.", "caps": "If it's in the *triangle | leave it *alone", "gap": 0.3 }
+  ]
+}

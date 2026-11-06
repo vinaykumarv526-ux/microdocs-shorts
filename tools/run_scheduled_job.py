@@ -42,17 +42,19 @@ def main():
         video_path.parent.mkdir(parents=True, exist_ok=True)
         subprocess.run(["node", str(folder / "tools/capture.mjs"), "video", str(video_path)], check=True)
 
-    # Upload to YouTube
+    # Upload to YouTube (with optional publish_at scheduling)
+    publish_at = item.get("publish_at")
     video_id = upload_video(
         file_path=str(video_path),
         title=item["title"],
         description=item["description"],
         tags=item.get("tags", []),
-        privacy="public"
+        privacy="private" if publish_at else "public",
+        publish_at=publish_at
     )
 
-    # Mark as uploaded
-    item["status"] = "uploaded"
+    # Mark as scheduled / uploaded
+    item["status"] = "scheduled" if publish_at else "uploaded"
     item["uploaded_at"] = datetime.now(timezone.utc).isoformat()
     item["youtube_url"] = f"https://youtu.be/{video_id}"
 

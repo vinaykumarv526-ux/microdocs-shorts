@@ -1,0 +1,61 @@
+{
+ "duration": 38.88,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What happens if you accidentally swallow two rare earth magnetic balls?",
+   "start": 0.35,
+   "end": 4.069
+  },
+  {
+   "i": 1,
+   "text": "If you swallow just one, it usually passes harmlessly through your body.",
+   "start": 4.349,
+   "end": 8.177
+  },
+  {
+   "i": 2,
+   "text": "But with two or more, a catastrophic disaster begins.",
+   "start": 8.457,
+   "end": 11.672
+  },
+  {
+   "i": 3,
+   "text": "As they move through your digestive tract at different speeds, they enter separate loops of your intestines.",
+   "start": 11.952,
+   "end": 16.9
+  },
+  {
+   "i": 4,
+   "text": "Their powerful neodymium magnetic force snaps them together through your intestinal walls.",
+   "start": 17.18,
+   "end": 21.775
+  },
+  {
+   "i": 5,
+   "text": "This clamps your organs shut, completely cutting off blood supply.",
+   "start": 22.055,
+   "end": 25.64
+  },
+  {
+   "i": 6,
+   "text": "Within hours, the pinched tissue dies, boring holes through your digestive tract and causing septic shock.",
+   "start": 25.92,
+   "end": 31.726
+  },
+  {
+   "i": 7,
+   "text": "This requires immediate emergency surgery to save your life.",
+   "start": 32.006,
+   "end": 35.153
+  },
+  {
+   "i": 8,
+   "text": "Never play with magnetic balls near your mouth.",
+   "start": 35.433,
+   "end": 37.88
+  }
+ ]
+}

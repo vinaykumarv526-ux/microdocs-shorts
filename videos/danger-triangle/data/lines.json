@@ -1,0 +1,55 @@
+{
+ "duration": 33.908,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why do doctors warn you to never pop a pimple in this triangle on your face?",
+   "start": 0.35,
+   "end": 4.025
+  },
+  {
+   "i": 1,
+   "text": "This area runs from the bridge of your nose down to the corners of your mouth.",
+   "start": 4.305,
+   "end": 7.69
+  },
+  {
+   "i": 2,
+   "text": "Unlike most veins in your body, the veins in this triangle have zero valves.",
+   "start": 7.97,
+   "end": 12.267
+  },
+  {
+   "i": 3,
+   "text": "This means blood can freely flow backwards, straight into your brain's cavernous sinus.",
+   "start": 12.547,
+   "end": 17.217
+  },
+  {
+   "i": 4,
+   "text": "When you squeeze a pimple, you can force deadly bacteria directly into your bloodstream.",
+   "start": 17.497,
+   "end": 21.756
+  },
+  {
+   "i": 5,
+   "text": "This can cause a massive infected blood clot behind your eye sockets.",
+   "start": 22.036,
+   "end": 25.465
+  },
+  {
+   "i": 6,
+   "text": "It leads to blindness, brain abscesses, and can even be fatal.",
+   "start": 25.745,
+   "end": 29.516
+  },
+  {
+   "i": 7,
+   "text": "So if you get a pimple in the danger triangle, leave it alone.",
+   "start": 29.796,
+   "end": 32.908
+  }
+ ]
+}

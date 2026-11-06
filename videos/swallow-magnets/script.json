@@ -1,0 +1,25 @@
+{
+  "title": "What If You Swallow Magnetic Balls?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "American Academy of Pediatrics, Ingested Neodymium Magnets",
+    "Mayo Clinic, Multiple magnet ingestion and bowel perforation",
+    "Consumer Product Safety Commission, High-powered magnetic balls"
+  ],
+  "lines": [
+    { "text": "What happens if you accidentally swallow two rare earth magnetic balls?", "caps": "What *happens | if you swallow | *two magnetic balls?" },
+    { "text": "If you swallow just one, it usually passes harmlessly through your body.", "caps": "Swallow *just one | passes *harmlessly | through your *body" },
+    { "text": "But with two or more, a catastrophic disaster begins.", "caps": "With *two or more | a *catastrophic disaster | begins" },
+    { "text": "As they move through your digestive tract at different speeds, they enter separate loops of your intestines.", "caps": "Moving through | *separate loops | of your *intestines" },
+    { "text": "Their powerful neodymium magnetic force snaps them together through your intestinal walls.", "caps": "Magnetic force | *snaps together | through *tissue" },
+    { "text": "This clamps your organs shut, completely cutting off blood supply.", "caps": "Clamps *organs shut | cuts off *blood | supply" },
+    { "text": "Within hours, the pinched tissue dies, boring holes through your digestive tract and causing septic shock.", "caps": "Pinched tissue *dies | tears *holes | septic *shock" },
+    { "text": "This requires immediate emergency surgery to save your life.", "caps": "Requires *emergency | life saving *surgery" },
+    { "text": "Never play with magnetic balls near your mouth.", "caps": "Never *play | with *magnets near your *mouth", "gap": 0.3 }
+  ]
+}

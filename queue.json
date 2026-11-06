@@ -3,36 +3,54 @@
     "id": "7-days-no-sleep",
     "folder": "videos/7-days-no-sleep",
     "video_file": "videos/7-days-no-sleep/renders/7_days_no_sleep.mp4",
-    "title": "What Happens If You DON'T SLEEP For 7 Days? \ud83d\udc80 #Shorts",
-    "description": "What actually happens to your brain and organs when you go 7 days without sleeping? Watch the hour-by-hour breakdown.\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for more 3D human body simulations!\n\n#Shorts #Science #HumanBody #SleepDeprivation #WhatIf #Anatomy #MicroDocs #3DAnimation",
-    "tags": [
-      "Shorts",
-      "Science",
-      "HumanBody",
-      "SleepDeprivation",
-      "WhatIf",
-      "Anatomy",
-      "MicroDocs"
-    ],
-    "status": "uploaded",
-    "uploaded_at": "2026-11-06T06:29:36.469996+00:00",
-    "youtube_url": "https://youtu.be/5PoxChGVoBQ"
+    "title": "What Happens If You DON'T SLEEP For 7 Days? 💀 #Shorts",
+    "description": "What actually happens to your brain and organs when you go 7 days without sleeping? Watch the hour-by-hour breakdown.\n\n🔔 Subscribe to @MicroDocsOfficial for more 3D human body simulations!\n\n#Shorts #Science #HumanBody #SleepDeprivation #WhatIf #Anatomy #MicroDocs #3DAnimation",
+    "tags": ["Shorts", "Science", "HumanBody", "SleepDeprivation", "WhatIf", "Anatomy", "MicroDocs"],
+    "status": "published",
+    "youtube_url": "https://youtu.be/5PoxChGVoBQ",
+    "published_at": "2026-11-06T06:29:36Z"
   },
   {
     "id": "elevator-freefall",
     "folder": "videos/elevator-freefall",
     "video_file": "videos/elevator-freefall/renders/elevator_freefall.mp4",
-    "title": "Can You Survive a Falling Elevator by JUMPING? \ud83d\ude31 #Shorts",
-    "description": "Does jumping right before a falling elevator hits the ground actually save you? Watch the physics and medical breakdown in 3D.\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily 3D human body simulations!\n\n#Shorts #Elevator #Science #MythBusters #Survival #Physics #MicroDocs #3DAnimation",
-    "tags": [
-      "Shorts",
-      "Elevator",
-      "Science",
-      "MythBusters",
-      "Survival",
-      "Physics",
-      "MicroDocs"
-    ],
-    "status": "ready"
+    "title": "Can You Survive a Falling Elevator by JUMPING? 😱 #Shorts",
+    "description": "Does jumping right before a falling elevator hits the ground actually save you? Watch the physics and medical breakdown in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily 3D human body simulations!\n\n#Shorts #Elevator #Science #MythBusters #Survival #Physics #MicroDocs #3DAnimation",
+    "tags": ["Shorts", "Elevator", "Science", "MythBusters", "Survival", "Physics", "MicroDocs"],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/o6F3dxgEzQI",
+    "publish_at": "2026-11-06T23:30:00Z"
+  },
+  {
+    "id": "danger-triangle",
+    "folder": "videos/danger-triangle",
+    "video_file": "videos/danger-triangle/renders/danger_triangle.mp4",
+    "title": "Why You Should NEVER Pop a Pimple Here ⚠️ (Danger Triangle)",
+    "description": "Doctors warn you to NEVER pop a pimple in the facial danger triangle. Watch what happens when bacteria reaches your brain in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily 3D simulations!\n\n#Shorts #PimplePopping #DangerTriangle #Health #Anatomy #MicroDocs #3DAnimation",
+    "tags": ["Shorts", "PimplePopping", "DangerTriangle", "Health", "Anatomy", "MicroDocs"],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/9Tx5gvMms28",
+    "publish_at": "2026-11-07T16:30:00Z"
+  },
+  {
+    "id": "swallow-magnets",
+    "folder": "videos/swallow-magnets",
+    "video_file": "videos/swallow-magnets/renders/swallow_magnets.mp4",
+    "title": "What Happens If You Swallow Magnetic Balls? 🧲 #Shorts",
+    "description": "Swallowing just two magnetic balls can cause catastrophic internal damage. Watch how neodymium magnets pinch and tear intestines in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily 3D simulations!\n\n#Shorts #Magnets #Science #HumanBody #Anatomy #MicroDocs #3DAnimation",
+    "tags": ["Shorts", "Magnets", "Science", "HumanBody", "Anatomy", "MicroDocs"],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/gF3czjxkw_g",
+    "publish_at": "2026-11-07T23:30:00Z"
+  },
+  {
+    "id": "drink-lava",
+    "folder": "videos/drink-lava",
+    "video_file": "videos/drink-lava/renders/drink_lava.mp4",
+    "title": "What Happens If You Drink Molten Lava? 🌋 #Shorts",
+    "description": "What actually happens to your body if you try to drink molten lava? Watch the explosive 3D steam and volcanic rock breakdown.\n\n🔔 Subscribe to @MicroDocsOfficial for daily 3D simulations!\n\n#Shorts #Lava #Science #Volcano #ExtremePhysics #MicroDocs #3DAnimation",
+    "tags": ["Shorts", "Lava", "Science", "Volcano", "ExtremePhysics", "MicroDocs"],
+    "status": "ready",
+    "publish_at": "2026-11-08T16:30:00Z"
   }
 ]

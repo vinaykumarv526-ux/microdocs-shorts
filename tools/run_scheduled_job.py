@@ -4,6 +4,13 @@ Finds the next video in queue.json, uploads it to YouTube, and marks it as uploa
 import os, sys, json, subprocess
 from datetime import datetime, timezone
 from pathlib import Path
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
+sys.path.insert(0, str(Path(__file__).parent))
 from youtube_upload import upload_video
 
 QUEUE_FILE = Path("queue.json")

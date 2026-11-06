@@ -2,6 +2,12 @@
 Reads credentials from GitHub Actions secrets / environment variables or local yt_token.json.
 """
 import argparse, os, sys, json, time
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 import google.oauth2.credentials
 import googleapiclient.discovery
 import googleapiclient.errors

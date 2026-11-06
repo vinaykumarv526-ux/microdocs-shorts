@@ -26,3 +26,6 @@ videos/**/review/
 # OS
 .DS_Store
 Thumbs.db
+
+lemo-opuscar/
+

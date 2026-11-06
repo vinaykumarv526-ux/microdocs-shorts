@@ -31,10 +31,10 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install System Dependencies (FFmpeg & Chrome)
+      - name: Install System Dependencies (FFmpeg, Chrome, Xvfb)
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y ffmpeg libasound2 libgbm1
+          sudo apt-get install -y ffmpeg libasound2 libgbm1 xvfb
           npx playwright install --with-deps chromium
 
       - name: Install Python Dependencies
@@ -42,18 +42,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements-cloud.txt
 
-      - name: Run Twice-Daily Scheduled Short Publisher
+      - name: Autonomous Video Creation & Scheduling on GitHub Servers
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          SOFTWARE_GL: "1"
+          CHROME: "/usr/bin/google-chrome"
         run: |
-          python tools/run_scheduled_job.py
+          xvfb-run --auto-servernum python tools/run_scheduled_job.py
 
-      - name: Commit and Push Queue Updates
+      - name: Commit and Push Updates Back to GitHub
         run: |
           git config user.name "MicroDocs Automation Bot"
           git config user.email "bot@microdocs.media"
-          git add queue.json
-          git commit -m "Auto-published next short [skip ci]" || echo "No changes to commit"
-          git push
+          git add queue.json videos/ template_deep_dive/ tools/
+          git commit -m "Auto-generated & scheduled next 3D short on YouTube [skip ci]" || echo "No changes to commit"
+          git push origin main

@@ -1,8 +1,10 @@
-"""Job runner called by GitHub Actions twice daily.
-Finds the next video in queue.json, uploads it to YouTube, and marks it as uploaded.
+"""Autonomously executed by GitHub Actions twice daily (11:30 AM EST and 6:30 PM EST).
+Ensures YouTube is always ahead scheduled for 2 days (rolling 48h buffer / 4 future scheduled slots).
+Creates the video project, renders it headlessly with Three.js WebGL & FFmpeg,
+and uploads & schedules it on YouTube using OAuth refresh token credentials.
 """
-import os, sys, json, subprocess
-from datetime import datetime, timezone
+import os, sys, json
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 if hasattr(sys.stdout, 'reconfigure'):
@@ -12,56 +14,134 @@ if hasattr(sys.stderr, 'reconfigure'):
 
 sys.path.insert(0, str(Path(__file__).parent))
 from youtube_upload import upload_video
+from catalog import TOPICS
+from generate_topic_project import create_project_for_topic, render_project
 
 QUEUE_FILE = Path("queue.json")
+MIN_FUTURE_BUFFER = 4  # 4 slots = 2 full days ahead (morning + evening)
+
+def get_next_slot(latest_str):
+    if not latest_str:
+        # Schedule 48 hours from right now
+        target = datetime.now(timezone.utc) + timedelta(days=2)
+        hour = 16 if target.hour < 20 else 23
+        return target.replace(hour=hour, minute=30, second=0, microsecond=0).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+    dt = datetime.fromisoformat(latest_str.replace('Z', '+00:00'))
+    if dt.hour < 20:
+        # If at 16:30 (11:30 AM EST), next slot is 23:30 (6:30 PM EST) same day
+        next_dt = dt.replace(hour=23, minute=30, second=0, microsecond=0)
+    else:
+        # If at 23:30, next slot is 16:30 next day
+        next_dt = (dt + timedelta(days=1)).replace(hour=16, minute=30, second=0, microsecond=0)
+    return next_dt.strftime('%Y-%m-%dT%H:%M:%SZ')
 
 def main():
     if not QUEUE_FILE.exists():
-        print("No queue.json found.")
-        sys.exit(1)
+        print("No queue.json found. Creating new queue...")
+        queue = []
+    else:
+        with open(QUEUE_FILE, "r", encoding="utf-8") as f:
+            queue = json.load(f)
 
-    with open(QUEUE_FILE, "r", encoding="utf-8") as f:
-        queue = json.load(f)
+    now_utc = datetime.now(timezone.utc)
+    print(f"Current UTC time: {now_utc.isoformat()}")
 
-    item = next((x for x in queue if x.get("status") == "ready"), None)
-    if not item:
-        print("Queue is empty or all videos have been uploaded!")
-        print("Please add more items to queue.json.")
-        sys.exit(0)
+    # 1. Process any manually queued "ready" items first
+    ready_item = next((x for x in queue if x.get("status") == "ready"), None)
+    if ready_item:
+        print(f"Found ready item: {ready_item['id']} ('{ready_item['title']}')")
+        video_path = Path(ready_item["video_file"])
+        if not video_path.exists():
+            folder = Path(ready_item["folder"])
+            render_project(folder, ready_item["id"])
+        publish_at = ready_item.get("publish_at")
+        video_id = upload_video(
+            file_path=str(video_path),
+            title=ready_item["title"],
+            description=ready_item["description"],
+            tags=ready_item.get("tags", []),
+            privacy="private" if publish_at else "public",
+            publish_at=publish_at
+        )
+        ready_item["status"] = "scheduled" if publish_at else "uploaded"
+        ready_item["uploaded_at"] = datetime.now(timezone.utc).isoformat()
+        ready_item["youtube_url"] = f"https://youtu.be/{video_id}"
+        with open(QUEUE_FILE, "w", encoding="utf-8") as f:
+            json.dump(queue, f, indent=2)
+        print(f"Successfully processed ready item -> https://youtu.be/{video_id}")
 
-    print(f"Processing scheduled item: {item['id']} ('{item['title']}')")
+    # 2. Check future scheduled items to ensure 2-day buffer
+    future_scheduled = [
+        x for x in queue
+        if x.get("publish_at") and datetime.fromisoformat(x["publish_at"].replace("Z", "+00:00")) > now_utc
+    ]
+    print(f"Future scheduled videos count: {len(future_scheduled)}")
+    for item in future_scheduled:
+        print(f"  • {item['publish_at']}: {item['title']} ({item.get('youtube_url', 'N/A')})")
 
-    video_path = Path(item["video_file"])
-    # If video file doesn't exist yet, render it
-    if not video_path.exists():
-        folder = Path(item["folder"])
-        print(f"Video file not found at {video_path}. Running render...")
-        subprocess.run(["python", str(folder / "generate_audio.py")], check=True)
-        subprocess.run(["node", str(folder / "tools/capture.mjs"), "cues"], check=True)
-        subprocess.run(["python", str(folder / "tools/mix.py")], check=True)
-        video_path.parent.mkdir(parents=True, exist_ok=True)
-        subprocess.run(["node", str(folder / "tools/capture.mjs"), "video", str(video_path)], check=True)
+    # Find the latest scheduled slot time
+    latest_slot = None
+    if future_scheduled:
+        latest_slot = max(x["publish_at"] for x in future_scheduled)
+    elif queue:
+        scheduled_all = [x["publish_at"] for x in queue if x.get("publish_at")]
+        if scheduled_all:
+            latest_slot = max(scheduled_all)
 
-    # Upload to YouTube (with optional publish_at scheduling)
-    publish_at = item.get("publish_at")
-    video_id = upload_video(
-        file_path=str(video_path),
-        title=item["title"],
-        description=item["description"],
-        tags=item.get("tags", []),
-        privacy="private" if publish_at else "public",
-        publish_at=publish_at
-    )
+    # If future buffer is less than required (or during twice-daily schedule run)
+    # create the next video and schedule it to keep the 2-day horizon
+    if len(future_scheduled) < MIN_FUTURE_BUFFER or True:
+        existing_ids = {x["id"] for x in queue}
+        next_topic = next((t for t in TOPICS if t["id"] not in existing_ids), None)
 
-    # Mark as scheduled / uploaded
-    item["status"] = "scheduled" if publish_at else "uploaded"
-    item["uploaded_at"] = datetime.now(timezone.utc).isoformat()
-    item["youtube_url"] = f"https://youtu.be/{video_id}"
+        if not next_topic:
+            print("All catalog topics have been produced! Please add more topics to catalog.py.")
+            return
 
-    with open(QUEUE_FILE, "w", encoding="utf-8") as f:
-        json.dump(queue, f, indent=2)
+        target_slot = get_next_slot(latest_slot)
+        print(f"\n==========================================")
+        print(f"AUTONOMOUS GENERATION INITIATED ON GIT SERVER")
+        print(f"Topic: {next_topic['title']}")
+        print(f"Scheduling Target Slot: {target_slot} (Rolling 2-Day Buffer)")
+        print(f"==========================================\n")
 
-    print(f"Successfully published '{item['title']}' -> https://youtu.be/{video_id}")
+        # Create project files
+        project_dir = create_project_for_topic(next_topic)
+
+        # Render video
+        video_file = render_project(project_dir, next_topic["id"])
+
+        # Upload and schedule on YouTube
+        print(f"Uploading to YouTube and scheduling for {target_slot}...")
+        video_id = upload_video(
+            file_path=str(video_file),
+            title=next_topic["title"],
+            description=next_topic["description"],
+            tags=next_topic["tags"],
+            privacy="private",
+            publish_at=target_slot
+        )
+
+        # Record in queue.json
+        queue_entry = {
+            "id": next_topic["id"],
+            "folder": f"videos/{next_topic['id']}",
+            "video_file": f"videos/{next_topic['id']}/renders/{next_topic['id']}.mp4",
+            "title": next_topic["title"],
+            "description": next_topic["description"],
+            "tags": next_topic["tags"],
+            "status": "scheduled",
+            "youtube_url": f"https://youtu.be/{video_id}",
+            "publish_at": target_slot,
+            "uploaded_at": datetime.now(timezone.utc).isoformat()
+        }
+        queue.append(queue_entry)
+
+        with open(QUEUE_FILE, "w", encoding="utf-8") as f:
+            json.dump(queue, f, indent=2)
+
+        print(f"\nSUCCESS! Scheduled video on YouTube: https://youtu.be/{video_id} at {target_slot}\n")
 
 if __name__ == "__main__":
     main()

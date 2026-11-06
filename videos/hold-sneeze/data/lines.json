@@ -1,0 +1,49 @@
+{
+ "duration": 31.686,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What actually happens if you pinch your nose and hold in a sneeze?",
+   "start": 0.35,
+   "end": 3.322
+  },
+  {
+   "i": 1,
+   "text": "A normal sneeze blasts air out of your lungs at over one hundred miles per hour.",
+   "start": 3.602,
+   "end": 7.512
+  },
+  {
+   "i": 2,
+   "text": "When you clamp your mouth and nose shut, that massive pressure has nowhere to escape.",
+   "start": 7.792,
+   "end": 12.028
+  },
+  {
+   "i": 3,
+   "text": "The explosive force gets redirected backwards up your Eustachian tubes.",
+   "start": 12.308,
+   "end": 16.054
+  },
+  {
+   "i": 4,
+   "text": "This can violently rupture your delicate eardrum, causing permanent hearing damage.",
+   "start": 16.334,
+   "end": 20.399
+  },
+  {
+   "i": 5,
+   "text": "In extreme cases, the pressure can tear your pharynx or push air into your chest cavity.",
+   "start": 20.679,
+   "end": 25.272
+  },
+  {
+   "i": 6,
+   "text": "So whenever you feel a sneeze coming, never hold it in. Just let it fly!",
+   "start": 25.552,
+   "end": 30.386
+  }
+ ]
+}

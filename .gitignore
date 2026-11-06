@@ -17,6 +17,12 @@ ENV/
 node_modules/
 npm-debug.log*
 
+# Renders & raw media (YouTube hosts the final MP4)
+videos/**/renders/
+videos/**/data/*.wav
+videos/**/data/*.mp3
+videos/**/review/
+
 # OS
 .DS_Store
 Thumbs.db

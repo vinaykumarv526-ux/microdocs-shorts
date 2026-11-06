@@ -1,0 +1,44 @@
+{
+  "title": "What Happens When a Bullet Ant Stings You?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Schmidt Pain Index, Paraponera clavata sting analysis",
+    "Journal of Neurophysiology, Poneratoxin synaptic blocking"
+  ],
+  "lines": [
+    {
+      "text": "The bullet ant delivers the most agonizing sting known to humankind.",
+      "caps": "Delivers the most | *agonizing sting | on *Earth"
+    },
+    {
+      "text": "Victims describe the pain as identical to being shot by a high caliber gun.",
+      "caps": "Feels identical | to being *shot | by a *gun"
+    },
+    {
+      "text": "Its stinger pumps a paralyzing peptide neurotoxin called poneratoxin straight into your tissue.",
+      "caps": "Pumps a *neurotoxin | called *poneratoxin | into your *tissue"
+    },
+    {
+      "text": "The venom permanently blocks voltage-gated sodium channels in your sensory nerves.",
+      "caps": "Blocks *nerve channels | triggering endless | *pain signals"
+    },
+    {
+      "text": "This causes your brain to receive maximum agony signals non-stop for twenty-four straight hours.",
+      "caps": "Non-stop *agony | for *24 hours | straight"
+    },
+    {
+      "text": "Your limbs tremble uncontrollably and cold sweats drench your body.",
+      "caps": "Causes *uncontrollable shaking | and cold *sweats"
+    },
+    {
+      "text": "Fortunately, the venom rarely kills, but the pain will feel unforgettable.",
+      "caps": "Rarely kills | but the *pain | is *unforgettable",
+      "gap": 0.3
+    }
+  ]
+}

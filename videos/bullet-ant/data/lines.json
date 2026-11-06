@@ -1,0 +1,49 @@
+{
+ "duration": 32.347,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "The bullet ant delivers the most agonizing sting known to humankind.",
+   "start": 0.35,
+   "end": 3.794
+  },
+  {
+   "i": 1,
+   "text": "Victims describe the pain as identical to being shot by a high caliber gun.",
+   "start": 4.074,
+   "end": 8.045
+  },
+  {
+   "i": 2,
+   "text": "Its stinger pumps a paralyzing peptide neurotoxin called poneratoxin straight into your tissue.",
+   "start": 8.325,
+   "end": 13.286
+  },
+  {
+   "i": 3,
+   "text": "The venom permanently blocks voltage-gated sodium channels in your sensory nerves.",
+   "start": 13.566,
+   "end": 17.837
+  },
+  {
+   "i": 4,
+   "text": "This causes your brain to receive maximum agony signals non-stop for twenty-four straight hours.",
+   "start": 18.117,
+   "end": 23.076
+  },
+  {
+   "i": 5,
+   "text": "Your limbs tremble uncontrollably and cold sweats drench your body.",
+   "start": 23.356,
+   "end": 26.779
+  },
+  {
+   "i": 6,
+   "text": "Fortunately, the venom rarely kills, but the pain will feel unforgettable.",
+   "start": 27.059,
+   "end": 31.047
+  }
+ ]
+}

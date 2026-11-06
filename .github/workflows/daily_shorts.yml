@@ -49,6 +49,8 @@ jobs:
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           SOFTWARE_GL: "1"
           CHROME: "/usr/bin/google-chrome"
+          QS: "&res=0.75&aa=0&shadow=512"
+          FPS: "24"
         run: |
           xvfb-run --auto-servernum python tools/run_scheduled_job.py
 

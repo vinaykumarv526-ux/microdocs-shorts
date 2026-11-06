@@ -1,0 +1,25 @@
+{
+  "title": "What Happens If You Drink Lava?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "USGS Volcano Hazards Program, Lava Temperature and Physical Properties",
+    "Smithsonian Global Volcanism Program, Thermal Burns and Explosive Water Vaporization",
+    "Journal of Thermal Biology, Human tissue response to extreme molten temperatures"
+  ],
+  "lines": [
+    { "text": "What actually happens to your body if you try to drink molten lava?", "caps": "What *happens | if you try | to *drink lava?" },
+    { "text": "First, lava is liquid rock heated to over two thousand degrees Fahrenheit.", "caps": "Lava is *molten rock | over *2000 degrees" },
+    { "text": "Before it even touches your lips, the intense radiant heat blisters your face and sears your airway.", "caps": "Radiant heat | *blisters your face | sears your *airway" },
+    { "text": "As the thick glowing rock enters your throat, it instantly incinerates moisture in your esophagus.", "caps": "Entering your *throat | *incinerates moisture | in your *esophagus" },
+    { "text": "When it hits your stomach fluids, water flash-boils into steam, expanding seventeen hundred times in volume.", "caps": "Water *flash boils | expanding *1700 times | explosive *steam" },
+    { "text": "This creates an explosive internal shockwave, blowing your stomach and esophagus apart from the inside.", "caps": "Explosive *shockwave | ruptures your *stomach | from *inside" },
+    { "text": "At the same time, the lava rapidly cools and solidifies into sharp jagged volcanic glass inside your chest.", "caps": "Cools into *sharp | volcanic *glass | inside your *chest" },
+    { "text": "Death is virtually instantaneous within seconds.", "caps": "Instant *death | within *seconds" },
+    { "text": "Lava is not a drink, it is liquid magma.", "caps": "Lava is *not a drink | it is *liquid rock", "gap": 0.3 }
+  ]
+}

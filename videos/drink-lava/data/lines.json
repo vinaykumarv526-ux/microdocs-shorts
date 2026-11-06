@@ -1,0 +1,61 @@
+{
+ "duration": 43.207,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What actually happens to your body if you try to drink molten lava?",
+   "start": 0.35,
+   "end": 3.466
+  },
+  {
+   "i": 1,
+   "text": "First, lava is liquid rock heated to over two thousand degrees Fahrenheit.",
+   "start": 3.746,
+   "end": 7.712
+  },
+  {
+   "i": 2,
+   "text": "Before it even touches your lips, the intense radiant heat blisters your face and sears your airway.",
+   "start": 7.992,
+   "end": 13.001
+  },
+  {
+   "i": 3,
+   "text": "As the thick glowing rock enters your throat, it instantly incinerates moisture in your esophagus.",
+   "start": 13.281,
+   "end": 18.384
+  },
+  {
+   "i": 4,
+   "text": "When it hits your stomach fluids, water flash-boils into steam, expanding seventeen hundred times in volume.",
+   "start": 18.664,
+   "end": 24.494
+  },
+  {
+   "i": 5,
+   "text": "This creates an explosive internal shockwave, blowing your stomach and esophagus apart from the inside.",
+   "start": 24.774,
+   "end": 30.166
+  },
+  {
+   "i": 6,
+   "text": "At the same time, the lava rapidly cools and solidifies into sharp jagged volcanic glass inside your chest.",
+   "start": 30.446,
+   "end": 36.631
+  },
+  {
+   "i": 7,
+   "text": "Death is virtually instantaneous within seconds.",
+   "start": 36.911,
+   "end": 39.493
+  },
+  {
+   "i": 8,
+   "text": "Lava is not a drink, it is liquid magma.",
+   "start": 39.773,
+   "end": 42.207
+  }
+ ]
+}

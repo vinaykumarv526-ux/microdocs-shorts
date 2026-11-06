@@ -14,7 +14,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const FPS = +(process.env.FPS || 30);
+const FPS = +(process.env.FPS || 24);
 const linuxPlaywright = fs.existsSync('/root/.cache/ms-playwright') ? fs.readdirSync('/root/.cache/ms-playwright').map(d => path.join('/root/.cache/ms-playwright', d, 'chrome-linux/chrome')).find(f => fs.existsSync(f)) : null;
 const userPlaywright = (process.env.HOME && fs.existsSync(path.join(process.env.HOME, '.cache/ms-playwright'))) ? 
   fs.readdirSync(path.join(process.env.HOME, '.cache/ms-playwright')).map(d => path.join(process.env.HOME, '.cache/ms-playwright', d, 'chrome-linux/chrome')).find(f => fs.existsSync(f)) : null;
@@ -141,12 +141,12 @@ else {
         '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out], { stdio: ['pipe', 'inherit', 'inherit'] });
       const t0 = Date.now();
       for (let i = 0; i < n; i++) {
-        const b = jpg(await P.ev(FRAME(a0 + i / FPS, flags.has('--draft') ? 0.8 : 0.93)));
+        const b = jpg(await P.ev(FRAME(a0 + i / FPS, flags.has('--draft') ? 0.8 : 0.88)));
         if (!ff.stdin.write(b)) await new Promise((r) => ff.stdin.once('drain', r));
-        if (i % 150 === 0) process.stdout.write(`\r${i}/${n} frames`);
+        if (i % 50 === 0 || i === n - 1) console.log(`  [render] ${i + 1}/${n} frames (${Math.round(((i + 1)/n)*100)}%)`);
       }
       ff.stdin.end(); await new Promise((r) => ff.on('close', r));
-      console.log(`\r${out} (${n} frames, ${hasMix ? 'with data/mix.wav' : 'SILENT: no data/mix.wav'}, ${((Date.now() - t0) / 1000).toFixed(0)} s)`);
+      console.log(`\n${out} (${n} frames, ${hasMix ? 'with data/mix.wav' : 'SILENT: no data/mix.wav'}, ${((Date.now() - t0) / 1000).toFixed(0)} s)`);
     } else console.log('modes: check · cues · sheet · frames · video · preview');
-  } finally { P.close(); srv.close(); }
+  } finally { P.close(); srv.close(); process.exit(0); }
 }

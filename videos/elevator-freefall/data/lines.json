@@ -1,0 +1,61 @@
+{
+ "duration": 38.459,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What happens if your elevator snaps and plunges into a freefall?",
+   "start": 0.35,
+   "end": 3.539
+  },
+  {
+   "i": 1,
+   "text": "Most people believe jumping right before impact will cancel the speed and save you.",
+   "start": 3.819,
+   "end": 7.8
+  },
+  {
+   "i": 2,
+   "text": "But physics says this is completely impossible.",
+   "start": 8.08,
+   "end": 10.507
+  },
+  {
+   "i": 3,
+   "text": "The elevator is falling at fifty miles an hour, while you can only jump up at two miles an hour.",
+   "start": 10.787,
+   "end": 15.713
+  },
+  {
+   "i": 4,
+   "text": "Plus, jumping up will slam your head directly into the descending ceiling.",
+   "start": 15.993,
+   "end": 19.622
+  },
+  {
+   "i": 5,
+   "text": "If you try standing with bent knees, the sheer G force will snap your legs and shatter your spine.",
+   "start": 19.902,
+   "end": 24.987
+  },
+  {
+   "i": 6,
+   "text": "The only real way to survive is to lie flat on your back in the center of the floor.",
+   "start": 25.267,
+   "end": 29.221
+  },
+  {
+   "i": 7,
+   "text": "This spreads the catastrophic impact evenly across your entire body and shields your vital organs.",
+   "start": 29.501,
+   "end": 34.507
+  },
+  {
+   "i": 8,
+   "text": "Never jump in an elevator, always lie flat.",
+   "start": 34.787,
+   "end": 37.459
+  }
+ ]
+}

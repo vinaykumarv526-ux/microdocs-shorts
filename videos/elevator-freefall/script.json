@@ -1,0 +1,25 @@
+{
+  "title": "What If You Freefall in an Elevator?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "MIT Department of Physics, Elevator Freefall and Impact Dynamics",
+    "Center for Science in the Public Interest, Survival Physics in High Acceleration",
+    "Discovery Channel Mythbusters, Elevator Freefall Jump Test"
+  ],
+  "lines": [
+    { "text": "What happens if your elevator snaps and plunges into a freefall?", "caps": "What *happens | if your *elevator | plunges in *freefall?" },
+    { "text": "Most people believe jumping right before impact will cancel the speed and save you.", "caps": "People *believe | *jumping right before | cancels the *speed" },
+    { "text": "But physics says this is completely impossible.", "caps": "Physics says *this | is *impossible" },
+    { "text": "The elevator is falling at fifty miles an hour, while you can only jump up at two miles an hour.", "caps": "Falling at *50 MPH | you only jump *2 MPH | into the *floor" },
+    { "text": "Plus, jumping up will slam your head directly into the descending ceiling.", "caps": "Jumping *slams | your *head | into the *ceiling" },
+    { "text": "If you try standing with bent knees, the sheer G force will snap your legs and shatter your spine.", "caps": "Standing with *bent knees | snaps your *legs | shatters your *spine" },
+    { "text": "The only real way to survive is to lie flat on your back in the center of the floor.", "caps": "To *survive | lie *flat on your back | on the *floor" },
+    { "text": "This spreads the catastrophic impact evenly across your entire body and shields your vital organs.", "caps": "This *spreads the impact | across your *entire body | shields vital *organs" },
+    { "text": "Never jump in an elevator, always lie flat.", "caps": "Never *jump | always *lie flat", "gap": 0.3 }
+  ]
+}

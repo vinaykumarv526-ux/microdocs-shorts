@@ -1,0 +1,107 @@
+import asyncio, json, re, wave
+from pathlib import Path
+import edge_tts
+import numpy as np
+from scipy.io import wavfile
+import soundfile as sf
+
+VOICE = "en-US-ChristopherNeural"
+RATE = "+6%" # punchy viral shorts pace
+
+SCRIPT_FILE = Path("videos/7-days-no-sleep/script.json")
+DATA_DIR = Path("videos/7-days-no-sleep/data")
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+with open(SCRIPT_FILE, "r", encoding="utf-8") as f:
+    script = json.load(f)
+
+lines_def = script["lines"]
+lead = script.get("lead", 0.35)
+gap = script.get("gap", 0.28)
+outro = script.get("outro", 1.0)
+
+async def generate():
+    temp_wavs = []
+    lines_out = []
+    words_out = []
+    cur_t = lead
+
+    print("Generating speech lines with edge-tts...")
+    for idx, item in enumerate(lines_def):
+        text = item["text"]
+        mp3_path = DATA_DIR / f"line_{idx}.mp3"
+        wav_path = DATA_DIR / f"line_{idx}.wav"
+
+        comm = edge_tts.Communicate(text, VOICE, rate=RATE)
+        await comm.save(str(mp3_path))
+
+        # Convert to 24000Hz mono wav
+        data, sr = sf.read(str(mp3_path))
+        if len(data.shape) > 1:
+            data = data.mean(axis=1)
+        
+        # trim silence
+        thr = 0.008
+        active = np.where(np.abs(data) > thr)[0]
+        if len(active):
+            a = max(0, active[0] - int(0.02 * sr))
+            b = min(len(data), active[-1] + int(0.04 * sr))
+            data = data[a:b]
+        
+        # Resample to 24000
+        import soxr
+        data_24k = soxr.resample(data, sr, 24000)
+        dur = len(data_24k) / 24000.0
+
+        sf.write(str(wav_path), data_24k, 24000, subtype="PCM_16")
+        temp_wavs.append((data_24k, cur_t, cur_t + dur))
+
+        lines_out.append({
+            "i": idx,
+            "text": text,
+            "start": round(cur_t, 3),
+            "end": round(cur_t + dur, 3)
+        })
+
+        # Calculate word intervals roughly by syllables/length within line
+        words = re.findall(r"\b[\w']+\b", text)
+        w_dur = dur / max(1, len(words))
+        for w_idx, w in enumerate(words):
+            words_out.append({
+                "w": w,
+                "line": idx,
+                "s": round(cur_t + w_idx * w_dur, 3),
+                "e": round(cur_t + (w_idx + 1) * w_dur - 0.02, 3)
+            })
+
+        cur_t += dur + gap
+
+    total_dur = cur_t - gap + outro
+    total_samples = int(total_dur * 24000)
+    full_audio = np.zeros(total_samples, dtype=np.float32)
+
+    for data, st, en in temp_wavs:
+        s_idx = int(st * 24000)
+        e_idx = s_idx + len(data)
+        if e_idx <= total_samples:
+            full_audio[s_idx:e_idx] = data
+
+    # Write combined narration.wav
+    sf.write(str(DATA_DIR / "narration.wav"), full_audio, 24000, subtype="PCM_16")
+
+    # Write lines.json
+    with open(DATA_DIR / "lines.json", "w", encoding="utf-8") as f:
+        json.dump({
+            "duration": round(total_dur, 3),
+            "voice": VOICE,
+            "speed": 1.0,
+            "lines": lines_out
+        }, f, indent=1)
+
+    # Write words.json
+    with open(DATA_DIR / "words.json", "w", encoding="utf-8") as f:
+        json.dump(words_out, f, indent=1)
+
+    print(f"Generated {len(lines_out)} lines, duration: {total_dur:.2f}s")
+
+asyncio.run(generate())

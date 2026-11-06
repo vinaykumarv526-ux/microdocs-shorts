@@ -1,0 +1,24 @@
+{
+  "title": "What Happens If You Don't Sleep for 7 Days?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Nature Neuroscience, Sleep deprivation and cognitive decline",
+    "Harvard Medical School, Sleep and mental health",
+    "National Sleep Foundation, Effects of prolonged wakefulness"
+  ],
+  "lines": [
+    { "text": "What happens if you don't sleep for seven days?", "caps": "What *happens | if you *don't sleep | for *7 days?" },
+    { "text": "After twenty four hours, your brain is flooded with adenosine, making you as impaired as being legally drunk.", "caps": "After *24 hours | your brain *floods | with *adenosine | legally *drunk" },
+    { "text": "By day two, your body experiences micro sleeps, shutting you off for seconds without you even knowing.", "caps": "By *day two | *micro sleeps | shut you *off | without *knowing" },
+    { "text": "On day three, you lose grip on reality, hallucinating eerie shadows and hearing voices.", "caps": "On *day three | you *hallucinate | seeing *shadows | hearing *voices" },
+    { "text": "By day four, severe paranoia sets in as stress hormones spike out of control.", "caps": "By *day four | severe *paranoia | stress hormones *spike | out of *control" },
+    { "text": "On day five, your speech slurs and your motor skills fail as your brain misfires.", "caps": "On *day five | speech *slurs | motor skills *fail | brain *misfires" },
+    { "text": "By day seven, your organs begin shutting down, and total collapse can be fatal.", "caps": "By *day seven | organs *shut down | total *collapse | can be *fatal" },
+    { "text": "Which is why sleep is not optional, it is pure survival.", "caps": "Sleep isn't *optional | it is *survival", "gap": 0.3 }
+  ]
+}

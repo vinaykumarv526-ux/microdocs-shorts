@@ -1,0 +1,55 @@
+{
+ "duration": 38.724,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What happens if you don't sleep for seven days?",
+   "start": 0.35,
+   "end": 2.559
+  },
+  {
+   "i": 1,
+   "text": "After twenty four hours, your brain is flooded with adenosine, making you as impaired as being legally drunk.",
+   "start": 2.839,
+   "end": 8.541
+  },
+  {
+   "i": 2,
+   "text": "By day two, your body experiences micro sleeps, shutting you off for seconds without you even knowing.",
+   "start": 8.821,
+   "end": 14.546
+  },
+  {
+   "i": 3,
+   "text": "On day three, you lose grip on reality, hallucinating eerie shadows and hearing voices.",
+   "start": 14.826,
+   "end": 20.006
+  },
+  {
+   "i": 4,
+   "text": "By day four, severe paranoia sets in as stress hormones spike out of control.",
+   "start": 20.287,
+   "end": 24.733
+  },
+  {
+   "i": 5,
+   "text": "On day five, your speech slurs and your motor skills fail as your brain misfires.",
+   "start": 25.013,
+   "end": 29.695
+  },
+  {
+   "i": 6,
+   "text": "By day seven, your organs begin shutting down, and total collapse can be fatal.",
+   "start": 29.975,
+   "end": 34.373
+  },
+  {
+   "i": 7,
+   "text": "Which is why sleep is not optional, it is pure survival.",
+   "start": 34.653,
+   "end": 37.724
+  }
+ ]
+}

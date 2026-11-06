@@ -1,0 +1,22 @@
+# Credentials & Secrets (NEVER COMMIT)
+client_secrets.json
+yt_token.json
+*.pem
+*.key
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

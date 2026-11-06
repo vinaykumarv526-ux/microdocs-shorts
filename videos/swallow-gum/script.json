@@ -1,0 +1,44 @@
+{
+  "title": "What REALLY Happens If You Swallow Chewing Gum?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Mayo Clinic, What happens to swallowed gum",
+    "American Academy of Pediatrics, Gastrointestinal bezoars"
+  ],
+  "lines": [
+    {
+      "text": "You've probably been told that swallowed gum sits inside your stomach for seven years.",
+      "caps": "Does gum stay in | your *stomach | for *7 years?"
+    },
+    {
+      "text": "The truth is, that is completely false.",
+      "caps": "That is | completely *false!"
+    },
+    {
+      "text": "While your stomach acid can't dissolve the rubbery synthetic gum base, your body breaks down everything else.",
+      "caps": "Stomach acid breaks | down the *sugars | and *flavoring"
+    },
+    {
+      "text": "Powerful muscular contractions called peristalsis push the gum through your intestines.",
+      "caps": "Intestinal *muscles | keep *moving the gum | forward"
+    },
+    {
+      "text": "Within forty-eight hours, the gum passes out in the toilet completely harmlessly.",
+      "caps": "Passes out *naturally | in just *two days"
+    },
+    {
+      "text": "However, swallowing huge clumps of gum at once can form a dangerous digestive blockage called a bezoar.",
+      "caps": "Swallowing *clumps | can cause | a dangerous *blockage"
+    },
+    {
+      "text": "So while an accidental swallow won't hurt, it's always best to spit it out.",
+      "caps": "One piece is *fine | but always *spit it out!",
+      "gap": 0.3
+    }
+  ]
+}

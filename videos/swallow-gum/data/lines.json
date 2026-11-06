@@ -1,0 +1,49 @@
+{
+ "duration": 33.465,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "You've probably been told that swallowed gum sits inside your stomach for seven years.",
+   "start": 0.35,
+   "end": 4.47
+  },
+  {
+   "i": 1,
+   "text": "The truth is, that is completely false.",
+   "start": 4.75,
+   "end": 7.176
+  },
+  {
+   "i": 2,
+   "text": "While your stomach acid can't dissolve the rubbery synthetic gum base, your body breaks down everything else.",
+   "start": 7.456,
+   "end": 12.998
+  },
+  {
+   "i": 3,
+   "text": "Powerful muscular contractions called peristalsis push the gum through your intestines.",
+   "start": 13.279,
+   "end": 17.566
+  },
+  {
+   "i": 4,
+   "text": "Within forty-eight hours, the gum passes out in the toilet completely harmlessly.",
+   "start": 17.846,
+   "end": 22.075
+  },
+  {
+   "i": 5,
+   "text": "However, swallowing huge clumps of gum at once can form a dangerous digestive blockage called a bezoar.",
+   "start": 22.355,
+   "end": 27.963
+  },
+  {
+   "i": 6,
+   "text": "So while an accidental swallow won't hurt, it's always best to spit it out.",
+   "start": 28.243,
+   "end": 32.165
+  }
+ ]
+}

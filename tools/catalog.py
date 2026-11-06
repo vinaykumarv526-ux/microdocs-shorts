@@ -1,8 +1,10 @@
-"""Catalog of high-retention viral 3D Deep Dive body/science explainers.
-Each topic includes script, voice timings, caption chunks, and 3D visual setup.
+"""Catalog of high-retention viral 3D explainers across Science, Space, History, Money/Stock Market, and Curiosities.
+Directly curated from the official MicroDocs 100 Curiosity Hooks framework.
+Each topic includes full narration script, kinetic captions, cues, visual pills, and 3D simulation setup.
 """
 
 TOPICS = [
+    # ── 1. BODY & HEALTH SCIENCE ──
     {
         "id": "hold-sneeze",
         "title": "What Happens If You Hold in a Sneeze? 💨 #Shorts",
@@ -131,17 +133,19 @@ TOPICS = [
             ]
         }
     },
+
+    # ── 2. SPACE & BIG THOUGHT EXPERIMENTS (PDF Category 1 & 5) ──
     {
-        "id": "solar-eclipse",
-        "title": "What Happens If You Stare at a Solar Eclipse? ☀️ #Shorts",
-        "description": "Why can staring at a solar eclipse permanently blind you without feeling any pain? Watch the retinal solar burn in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily 3D simulations!\n\n#Shorts #SolarEclipse #EyeHealth #Science #Vision #MicroDocs #3DAnimation",
-        "tags": ["Shorts", "SolarEclipse", "EyeHealth", "Science", "Vision", "MicroDocs"],
-        "pill": "STARING AT ECLIPSE",
-        "pill_color": "#F59E0B",
-        "theme_color": "#F59E0B",
-        "shirt_color": "#D97706",
+        "id": "earth-stops",
+        "title": "What If Earth Stopped Spinning For Just 1 Second? 🌍 #Shorts",
+        "description": "What catastrophic physics would happen if the Earth suddenly paused its rotation for a single second? Watch the breakdown in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Earth #Science #Physics #Space #WhatIf #MicroDocs #3DAnimation",
+        "tags": ["Shorts", "Earth", "Science", "Physics", "Space", "WhatIf", "MicroDocs"],
+        "pill": "EARTH STOPS SPINNING",
+        "pill_color": "#3B82F6",
+        "theme_color": "#3B82F6",
+        "shirt_color": "#1E40AF",
         "script": {
-            "title": "What Happens If You Stare at a Solar Eclipse?",
+            "title": "What If Earth Stopped Spinning For Just 1 Second?",
             "voice": "en-US-ChristopherNeural",
             "speed": 1.0,
             "lead": 0.35,
@@ -149,31 +153,31 @@ TOPICS = [
             "gap": 0.28,
             "music": "tension",
             "sources": [
-                "American Academy of Ophthalmology, Solar Retinopathy Guide",
-                "NASA, Eye Safety During Solar Eclipses"
+                "NASA Goddard Space Flight Center, Planetary Angular Momentum",
+                "American Journal of Physics, Atmospheric Momentum Conservation"
             ],
             "lines": [
-                { "text": "Why is staring at a solar eclipse so deceptively dangerous for your eyes?", "caps": "Why is staring at | an *eclipse | so *dangerous?" },
-                { "text": "Because the sun is partially covered, your pupil widens to let in more light.", "caps": "Your *pupils dilate | letting in *more light" },
-                { "text": "At the same time, your retina has zero pain receptors, so you feel nothing happening.", "caps": "Your retina has | *zero pain receptors" },
-                { "text": "Your eye's crystalline lens focuses concentrated ultraviolet radiation directly onto your fovea.", "caps": "Lens focuses *UV rays | like a magnifying | *glass" },
-                { "text": "Within seconds, the heat literally cooks your photoreceptor rod and cone cells.", "caps": "Cooks your *vision cells | in just *seconds" },
-                { "text": "When you look away, you have permanent solar retinopathy with a black hole in your center of vision.", "caps": "Leaves a *permanent | blind spot | in your *vision" },
-                { "text": "Always wear certified ISO eclipse glasses to protect your sight.", "caps": "Always use *certified | eclipse *glasses!", "gap": 0.3 }
+                { "text": "What would happen if the Earth suddenly stopped spinning for just one second?", "caps": "What if Earth *stopped | spinning for | just *one second?" },
+                { "text": "At the equator, the Earth's surface is rotating at roughly one thousand miles per hour.", "caps": "The surface spins | at *1,000 miles | per *hour" },
+                { "text": "If the planet halted, everything not bolted to bedrock would keep moving due to inertia.", "caps": "Inertia flings *everything | eastward at | *supersonic speeds" },
+                { "text": "Humans, cars, and entire cities would instantly be hurled through the air like cannonballs.", "caps": "Buildings and cars | become supersonic | *projectiles" },
+                { "text": "Massive oceans would surge onto continents in colossal, miles-high megatsunamis.", "caps": "Oceans form *miles-high | catastrophic | *megatsunamis" },
+                { "text": "Supersonic winds would obliterate the landscape before Earth resumed spinning.", "caps": "Supersonic *winds | tear across | the *surface" },
+                { "text": "Thankfully, the Earth's immense momentum keeps us safely spinning forever.", "caps": "Planetary momentum | keeps us *spinning | safely!", "gap": 0.3 }
             ]
         }
     },
     {
-        "id": "hold-pee",
-        "title": "Why You Should NEVER Hold Your Pee 🚽 #Shorts",
-        "description": "Holding your urine for hours can cause permanent bladder muscle damage and serious infections. Watch what happens inside in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily 3D simulations!\n\n#Shorts #Health #HumanBody #Science #Bladder #MicroDocs #3DAnimation",
-        "tags": ["Shorts", "Health", "HumanBody", "Science", "Bladder", "MicroDocs"],
-        "pill": "HOLDING YOUR URINE",
-        "pill_color": "#EAB308",
-        "theme_color": "#EAB308",
-        "shirt_color": "#1E3A8A",
+        "id": "black-hole-fall",
+        "title": "What If You Fell Into a Black Hole? 🕳️ #Shorts",
+        "description": "What actually happens to your body when you cross the event horizon of a black hole? Watch spaghettification in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily science simulations!\n\n#Shorts #BlackHole #Space #Astrophysics #Science #Relativity #MicroDocs #3DAnimation",
+        "tags": ["Shorts", "BlackHole", "Space", "Astrophysics", "Science", "Relativity", "MicroDocs"],
+        "pill": "FALLING IN BLACK HOLE",
+        "pill_color": "#8B5CF6",
+        "theme_color": "#8B5CF6",
+        "shirt_color": "#6D28D9",
         "script": {
-            "title": "Why You Should NEVER Hold Your Pee",
+            "title": "What If You Fell Into a Black Hole?",
             "voice": "en-US-ChristopherNeural",
             "speed": 1.0,
             "lead": 0.35,
@@ -181,63 +185,33 @@ TOPICS = [
             "gap": 0.28,
             "music": "tension",
             "sources": [
-                "Cleveland Clinic, The Dangers of Holding Your Urine",
-                "Urology Care Foundation, Urinary Retention Mechanics"
+                "Stephen Hawking, A Brief History of Time",
+                "Caltech Theoretical Astrophysics, Tidal Gravitational Spaghettification"
             ],
             "lines": [
-                { "text": "What happens inside your body when you hold your pee for hours?", "caps": "What happens when | you hold your pee | for *hours?" },
-                { "text": "Your bladder is an elastic muscular balloon designed to hold about two cups of fluid.", "caps": "Your bladder holds | about *two cups | of fluid" },
-                { "text": "When full, stretch receptors signal your brain that it is time to empty.", "caps": "Stretch *receptors | tell your brain | to *go" },
-                { "text": "If you constantly ignore these signals, the cylindrical bladder muscles can overstretch and lose tone.", "caps": "Muscles *overstretch | and lose their | *elasticity" },
-                { "text": "Stagnant urine also allows harmful bacteria to multiply exponentially.", "caps": "Stagnant *urine | lets bacteria | *multiply rapidly" },
-                { "text": "This leads to severe urinary tract infections that can travel up to your kidneys.", "caps": "Can cause *infections | that attack | your *kidneys" },
-                { "text": "So whenever your body gives you the signal, never wait. Find a restroom!", "caps": "Never *hold it in | go when you | *need to!", "gap": 0.3 }
+                { "text": "What would actually happen to your body if you fell into a black hole?", "caps": "What happens if | you fall into | a *black hole?" },
+                { "text": "As you drift toward the event horizon, extreme gravitational tidal forces take over.", "caps": "Gravitational *tidal forces | rapidly take | *over" },
+                { "text": "Gravity pulls significantly harder on your feet than on your head.", "caps": "Gravity pulls *harder | on your *feet | than *head" },
+                { "text": "This stretches your body vertically while squeezing your sides into a thin strand.", "caps": "Stretches you into | a thin strand: | *spaghettification" },
+                { "text": "To an outside observer, time for you appears to slow down until you freeze in space.", "caps": "Time slows *down | you appear | *frozen forever" },
+                { "text": "From your perspective, you plunge straight into the singularity within milliseconds.", "caps": "Plunge into | the center *singularity | in *milliseconds" },
+                { "text": "All matter gets crushed to infinite density, erasing all known physics.", "caps": "Crushed into | infinite *density | and pure *energy", "gap": 0.3 }
             ]
         }
     },
+
+    # ── 3. MONEY, STOCK MARKET & HIDDEN SYSTEMS (PDF Category 3, 6 & 9) ──
     {
-        "id": "drink-seawater",
-        "title": "What Happens If You Drink Sea Water? 🌊 #Shorts",
-        "description": "If you are stranded at sea, drinking ocean water actually dehydrates and kills you faster. Watch the kidney osmosis process in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily 3D simulations!\n\n#Shorts #Survival #SeaWater #Science #HumanBody #MicroDocs #3DAnimation",
-        "tags": ["Shorts", "Survival", "SeaWater", "Science", "HumanBody", "MicroDocs"],
-        "pill": "DRINKING SEA WATER",
-        "pill_color": "#0284C7",
-        "theme_color": "#0284C7",
-        "shirt_color": "#0369A1",
-        "script": {
-            "title": "What Happens If You Drink Sea Water?",
-            "voice": "en-US-ChristopherNeural",
-            "speed": 1.0,
-            "lead": 0.35,
-            "outro": 1.0,
-            "gap": 0.28,
-            "music": "tension",
-            "sources": [
-                "NOAA Ocean Exploration, Why can't humans drink seawater?",
-                "USGS Water Science School, Osmoregulation in humans"
-            ],
-            "lines": [
-                { "text": "If you are stranded in the ocean, why will drinking seawater kill you faster?", "caps": "Why will drinking | ocean *water | kill you *faster?" },
-                { "text": "Seawater is about four times saltier than your human bloodstream.", "caps": "Seawater is *4 times | saltier than your | *blood" },
-                { "text": "To flush out all that extreme excess salt, your kidneys must produce huge amounts of urine.", "caps": "Your *kidneys must | work in *overdrive" },
-                { "text": "In fact, your body has to pee out more water than you actually drank in the first place.", "caps": "You pee out *more water | than you *drank!" },
-                { "text": "This draws critical moisture out of your brain cells and vital organs.", "caps": "Sucks water out | of your *brain cells" },
-                { "text": "Rapid dehydration sets in, causing severe hallucinations, organ failure, and coma.", "caps": "Causes *hallucinations | and total *organ failure" },
-                { "text": "No matter how thirsty you are at sea, never drink the ocean water.", "caps": "Never drink *seawater | no matter *how thirsty!", "gap": 0.3 }
-            ]
-        }
-    },
-    {
-        "id": "teeth-plaque",
-        "title": "What If You Don't Brush Your Teeth for a Month? 🦷 #Shorts",
-        "description": "What actually happens to your teeth and gums if you stop brushing for 30 days? Watch the bacterial biofilm acid breakdown in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily 3D simulations!\n\n#Shorts #DentalHealth #Teeth #Hygiene #Science #MicroDocs #3DAnimation",
-        "tags": ["Shorts", "DentalHealth", "Teeth", "Hygiene", "Science", "MicroDocs"],
-        "pill": "NO TOOTHBRUSHING",
+        "id": "credit-card-speed",
+        "title": "How Credit Card Payments Work in 2 Seconds 💳 #Shorts",
+        "description": "Ever wonder what happens across undersea cables when you tap your credit card? Watch the 2-second global network race in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily hidden systems explained!\n\n#Shorts #Money #CreditCard #Fintech #Banking #Technology #MicroDocs #3DAnimation",
+        "tags": ["Shorts", "Money", "CreditCard", "Fintech", "Banking", "Technology", "MicroDocs"],
+        "pill": "CREDIT CARD SPEED",
         "pill_color": "#10B981",
         "theme_color": "#10B981",
         "shirt_color": "#047857",
         "script": {
-            "title": "What If You Don't Brush Your Teeth for a Month?",
+            "title": "How Credit Card Payments Work in 2 Seconds",
             "voice": "en-US-ChristopherNeural",
             "speed": 1.0,
             "lead": 0.35,
@@ -245,31 +219,31 @@ TOPICS = [
             "gap": 0.28,
             "music": "tension",
             "sources": [
-                "American Dental Association, Plaque and Tartar Formation",
-                "Mayo Clinic, Gingivitis pathophysiology"
+                "Visa Inc., Transaction Processing Architecture (VisaNet)",
+                "Federal Reserve Financial Services, Payment Clearing Networks"
             ],
             "lines": [
-                { "text": "What happens inside your mouth if you don't brush your teeth for a whole month?", "caps": "What if you *don't brush | your *teeth | for a *month?" },
-                { "text": "Within just forty-eight hours, billions of bacteria form a sticky film called plaque.", "caps": "Bacteria forms | a sticky film | called *plaque" },
-                { "text": "These microbes feed on leftover sugars, producing harsh acids that dissolve your enamel.", "caps": "Produces harsh *acids | that dissolve | *enamel" },
-                { "text": "By week two, minerals in your saliva calcify the plaque into concrete-hard tartar.", "caps": "Plaque *calcifies | into rock-hard | *tartar" },
-                { "text": "This pushes your gum line back, leading to severe inflammation known as gingivitis.", "caps": "Causes bleeding | and painful *gingivitis" },
-                { "text": "By thirty days, bacterial toxins start attacking the jawbone holding your teeth in place.", "caps": "Bacteria *attacks | your *jawbone" },
-                { "text": "Brush twice a day for two minutes to keep your teeth for life!", "caps": "Brush *twice a day | to protect | your *smile!", "gap": 0.3 }
+                { "text": "When you tap your credit card at a register, how is your payment approved in two seconds?", "caps": "How does tapping | your *credit card | take *two seconds?" },
+                { "text": "The moment you tap, an encrypted token shoots from the terminal to the merchant's bank.", "caps": "Shoots an *encrypted token | to the *merchant's bank" },
+                { "text": "In a split second, it routes through Visa or Mastercard's global fiber-optic supercomputers.", "caps": "Routes through *fiber optics | across global | *supercomputers" },
+                { "text": "Your personal bank receives the ping, checks your balance, and runs sophisticated fraud algorithms.", "caps": "Your bank checks | your *balance | and fraud *AI" },
+                { "text": "An approval code is sent back halfway across the globe before you even put your wallet away.", "caps": "Sends approval *back | halfway around | the *world" },
+                { "text": "All of this happens across thousands of miles in less than fifteen hundred milliseconds.", "caps": "Covers *thousands of miles | in just *1.5 seconds" },
+                { "text": "Next time you tap to pay, remember the global digital race that just occurred!", "caps": "A global *race | happens on *every tap!", "gap": 0.3 }
             ]
         }
     },
     {
-        "id": "pop-knuckles",
-        "title": "What REALLY Happens When You Crack Your Knuckles? 💥 #Shorts",
-        "description": "Does cracking your knuckles give you arthritis? Watch the synovial fluid cavitation gas bubble collapse in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily 3D simulations!\n\n#Shorts #KnuckleCracking #Science #MythBusters #Joints #MicroDocs #3DAnimation",
-        "tags": ["Shorts", "KnuckleCracking", "Science", "MythBusters", "Joints", "MicroDocs"],
-        "pill": "CRACKING KNUCKLES",
-        "pill_color": "#6366F1",
-        "theme_color": "#6366F1",
-        "shirt_color": "#4338CA",
+        "id": "penny-cost",
+        "title": "Why Pennies Cost 3 Cents to Make 🪙 #Shorts",
+        "description": "Why does the U.S. government keep minting pennies when each one costs over three cents to produce? Watch the economics breakdown.\n\n🔔 Subscribe to @MicroDocsOfficial for daily money & curiosity explainers!\n\n#Shorts #Money #Pennies #Economics #USMint #Finance #MicroDocs #3DAnimation",
+        "tags": ["Shorts", "Money", "Pennies", "Economics", "USMint", "Finance", "MicroDocs"],
+        "pill": "THE PENNY DILEMMA",
+        "pill_color": "#F59E0B",
+        "theme_color": "#F59E0B",
+        "shirt_color": "#B45309",
         "script": {
-            "title": "What REALLY Happens When You Crack Your Knuckles?",
+            "title": "Why Pennies Cost 3 Cents to Make",
             "voice": "en-US-ChristopherNeural",
             "speed": 1.0,
             "lead": 0.35,
@@ -277,17 +251,149 @@ TOPICS = [
             "gap": 0.28,
             "music": "tension",
             "sources": [
-                "Harvard Health Publishing, Does Knuckle Cracking Cause Arthritis?",
-                "PLOS ONE, Real-Time MRI of Joint Cavitation"
+                "U.S. Mint Annual Report, Cost of Unit Coinage Production",
+                "Federal Reserve Bank of St. Louis, Seigniorage and Small Denominations"
             ],
             "lines": [
-                { "text": "Does cracking your knuckles really cause arthritis like your parents told you?", "caps": "Does cracking *knuckles | really cause | *arthritis?" },
-                { "text": "Science has proven that this common warning is actually a myth.", "caps": "Science proves | that is a *myth!" },
-                { "text": "Your finger joints are surrounded by a protective lubricating fluid called synovial fluid.", "caps": "Joints are cushioned | by *synovial fluid" },
-                { "text": "When you pull your joint, you create negative pressure inside the capsule.", "caps": "Pulling creates | *negative pressure" },
-                { "text": "This sudden vacuum causes dissolved nitrogen gas to form microscopic bubbles that instantly collapse.", "caps": "Nitrogen bubbles | form and *burst" },
-                { "text": "That rapid bubble formation is the loud popping sound you hear.", "caps": "That makes | the loud *pop | you hear" },
-                { "text": "So while it might annoy your friends, cracking your knuckles won't hurt your bones.", "caps": "It won't cause *arthritis | but it might *annoy friends!", "gap": 0.3 }
+                { "text": "Did you know that every single penny made today costs over three cents to manufacture?", "caps": "Every *penny made | costs *three cents | to *make!" },
+                { "text": "Modern pennies are actually ninety-seven point five percent zinc coated with a thin layer of copper.", "caps": "Pennies are 97.5% *zinc | coated with thin | *copper" },
+                { "text": "Rising commodity prices mean the raw metals inside cost more than the coin's face value.", "caps": "Raw metal *costs | exceed the coin's | *face value" },
+                { "text": "Because of this, the U.S. Mint loses nearly one hundred million dollars every single year.", "caps": "The U.S. Mint *loses | $100 million | *every year" },
+                { "text": "Countries like Canada and New Zealand eliminated their one cent coins years ago with zero issues.", "caps": "Canada and New Zealand | abolished pennies | *years ago" },
+                { "text": "Yet American tradition, zinc lobbyists, and rounding fears keep the penny alive.", "caps": "Tradition and *lobbyists | keep the penny | in your *pocket" },
+                { "text": "Do you think the United States should finally retire the one-cent coin?", "caps": "Should the U.S. *retire | the penny | *forever?", "gap": 0.3 }
+            ]
+        }
+    },
+
+    # ── 4. HISTORY & REAL-WORLD MYSTERIES (PDF Category 4 & 10) ──
+    {
+        "id": "manhole-round",
+        "title": "Why Are Manhole Covers ALWAYS Round? 🕳️ #Shorts",
+        "description": "Why don't cities use square or triangular manhole covers? The clever engineering geometry will surprise you.\n\n🔔 Subscribe to @MicroDocsOfficial for daily urban & science curiosities!\n\n#Shorts #Engineering #UrbanSecrets #Geometry #Science #MicroDocs #3DAnimation",
+        "tags": ["Shorts", "Engineering", "UrbanSecrets", "Geometry", "Science", "MicroDocs"],
+        "pill": "MANHOLE GEOMETRY",
+        "pill_color": "#64748B",
+        "theme_color": "#64748B",
+        "shirt_color": "#334155",
+        "script": {
+            "title": "Why Are Manhole Covers ALWAYS Round?",
+            "voice": "en-US-ChristopherNeural",
+            "speed": 1.0,
+            "lead": 0.35,
+            "outro": 1.0,
+            "gap": 0.28,
+            "music": "tension",
+            "sources": [
+                "American Society of Civil Engineers, Utility Access Cover Specifications",
+                "MIT Department of Mathematics, Constant Width Shapes and Curves"
+            ],
+            "lines": [
+                { "text": "Have you ever wondered why almost every manhole cover in the world is perfectly round?", "caps": "Why are *manhole covers | always *round | in *cities?" },
+                { "text": "The primary reason comes down to clever geometry and worker safety.", "caps": "Comes down to *geometry | and worker | *safety" },
+                { "text": "If a manhole cover were square, its diagonal would be wider than the sides of the hole.", "caps": "A square cover | has a diagonal *longer | than its *sides" },
+                { "text": "This means if you turned it diagonally, the heavy iron lid could easily fall straight through.", "caps": "Tipping it *diagonally | drops it straight | *down" },
+                { "text": "Because a circle has constant diameter at every angle, a round cover can never fall in.", "caps": "A circle *cannot fall | into its own | *hole" },
+                { "text": "Round lids can also be easily rolled down streets by utility workers instead of carried.", "caps": "Workers can *roll them | instead of *lifting" },
+                { "text": "It's one of the simplest pieces of brilliant engineering hidden in plain sight!", "caps": "Brilliant *engineering | hidden in *plain sight!", "gap": 0.3 }
+            ]
+        }
+    },
+    {
+        "id": "statue-of-liberty",
+        "title": "How Did the Statue of Liberty Get to New York? 🗽 #Shorts",
+        "description": "How did a 305-foot copper colossus cross the stormy Atlantic Ocean in 1885? Watch the 3D historical puzzle breakdown.\n\n🔔 Subscribe to @MicroDocsOfficial for daily history & engineering explainers!\n\n#Shorts #History #StatueOfLiberty #NYC #Engineering #MicroDocs #3DAnimation",
+        "tags": ["Shorts", "History", "StatueOfLiberty", "NYC", "Engineering", "MicroDocs"],
+        "pill": "STATUE OF LIBERTY",
+        "pill_color": "#14B8A6",
+        "theme_color": "#14B8A6",
+        "shirt_color": "#0F766E",
+        "script": {
+            "title": "How Did the Statue of Liberty Get to New York?",
+            "voice": "en-US-ChristopherNeural",
+            "speed": 1.0,
+            "lead": 0.35,
+            "outro": 1.0,
+            "gap": 0.28,
+            "music": "tension",
+            "sources": [
+                "National Park Service, Statue of Liberty Construction & Transport Archive",
+                "Smithsonian Magazine, How Lady Liberty Crossed the Atlantic"
+            ],
+            "lines": [
+                { "text": "How did the gigantic Statue of Liberty actually travel across the Atlantic Ocean in eighteen eighty-five?", "caps": "How did *Lady Liberty | cross the *ocean | in *1885?" },
+                { "text": "The three-hundred-foot monument was first fully constructed and assembled in the streets of Paris.", "caps": "First *assembled fully | on the streets of | *Paris" },
+                { "text": "To ship it across the sea, French engineers meticulously dismantled the entire statue into three hundred and fifty pieces.", "caps": "Dismantled into | *350 individual | *pieces" },
+                { "text": "Each piece was numbered and packed into over two hundred giant wooden crates.", "caps": "Packed into *200 crates | aboard a naval *warship" },
+                { "text": "The naval frigate Isere endured violent ocean storms before arriving in New York Harbor.", "caps": "Endured violent *storms | to reach | *New York" },
+                { "text": "American workers reassembled the copper skin onto Gustave Eiffel's revolutionary steel skeleton in four months.", "caps": "Rebuilt on *Eiffel's | steel *skeleton | in *4 months" },
+                { "text": "It became the greatest giant three-dimensional puzzle in American history!", "caps": "The greatest *3D puzzle | in American *history!", "gap": 0.3 }
+            ]
+        }
+    },
+
+    # ── 5. EVERYDAY SCIENCE & NATURAL PHENOMENA (PDF Category 2 & 8) ──
+    {
+        "id": "metal-microwave",
+        "title": "What Happens If You Put Metal in a Microwave? ⚡ #Shorts",
+        "description": "Why does aluminum foil spark violently in a microwave while the metal walls remain completely safe? Watch the electromagnetic breakdown in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily science simulations!\n\n#Shorts #Science #Microwave #Physics #EverydayScience #MicroDocs #3DAnimation",
+        "tags": ["Shorts", "Science", "Microwave", "Physics", "EverydayScience", "MicroDocs"],
+        "pill": "METAL IN MICROWAVE",
+        "pill_color": "#E11D48",
+        "theme_color": "#E11D48",
+        "shirt_color": "#BE123C",
+        "script": {
+            "title": "What Happens If You Put Metal in a Microwave?",
+            "voice": "en-US-ChristopherNeural",
+            "speed": 1.0,
+            "lead": 0.35,
+            "outro": 1.0,
+            "gap": 0.28,
+            "music": "tension",
+            "sources": [
+                "Department of Physics, University of Illinois, Microwave Reflections",
+                "USDA Food Safety and Inspection Service, Microwave Safe Materials"
+            ],
+            "lines": [
+                { "text": "Why does aluminum foil explode with sparks in a microwave, but the metal walls inside stay safe?", "caps": "Why does *foil spark | in a *microwave | so *violently?" },
+                { "text": "Microwaves heat food by shooting radio waves that vibrate water molecules back and forth.", "caps": "Radio waves vibrate | *water molecules | to create *heat" },
+                { "text": "When these waves strike metal, free electrons inside the metal begin rushing across the surface.", "caps": "Waves excite *electrons | across the *metal surface" },
+                { "text": "On thick flat walls, the electrical charges disperse harmlessly without building up.", "caps": "Thick smooth *walls | disperse current | *safely" },
+                { "text": "However, crinkled foil and fork tines concentrate voltage at sharp points.", "caps": "Sharp fork *tines | concentrate intense | *voltage" },
+                { "text": "The voltage becomes so high that it rips electrons out of the surrounding air, creating fiery plasma arcs.", "caps": "Sparks *fiery plasma | arcs that can ignite a *fire" },
+                { "text": "So keep forks and wrinkled foil far away from your microwave!", "caps": "Keep all *foil and forks | out of your *microwave!", "gap": 0.3 }
+            ]
+        }
+    },
+    {
+        "id": "deepest-ocean",
+        "title": "How Terrifyingly Deep is the Mariana Trench? 🌊 #Shorts",
+        "description": "If you dropped Mount Everest into the Mariana Trench, its peak would still be thousands of feet underwater! Watch the descent in 3D.\n\n🔔 Subscribe to @MicroDocsOfficial for daily Earth & ocean explainers!\n\n#Shorts #Ocean #MarianaTrench #DeepSea #Earth #Science #MicroDocs #3DAnimation",
+        "tags": ["Shorts", "Ocean", "MarianaTrench", "DeepSea", "Earth", "Science", "MicroDocs"],
+        "pill": "MARIANA TRENCH",
+        "pill_color": "#06B6D4",
+        "theme_color": "#06B6D4",
+        "shirt_color": "#0891B2",
+        "script": {
+            "title": "How Terrifyingly Deep is the Mariana Trench?",
+            "voice": "en-US-ChristopherNeural",
+            "speed": 1.0,
+            "lead": 0.35,
+            "outro": 1.0,
+            "gap": 0.28,
+            "music": "tension",
+            "sources": [
+                "NOAA Ocean Exploration, Challenger Deep Bathymetric Survey",
+                "Woods Hole Oceanographic Institution, Hadal Zone Pressure Dynamics"
+            ],
+            "lines": [
+                { "text": "How deep is the deepest point on our entire planet?", "caps": "How deep is the | *deepest point | on *Earth?" },
+                { "text": "The Challenger Deep in the Mariana Trench plunges nearly thirty-six thousand feet into the abyss.", "caps": "Plunges nearly | *36,000 feet | into the *abyss" },
+                { "text": "If you placed Mount Everest at the bottom, its highest snowy peak would still be over a mile underwater.", "caps": "Mount Everest would be | a *mile underwater | at the *bottom" },
+                { "text": "At this depth, water pressure reaches over sixteen thousand pounds per square inch.", "caps": "Crushing *pressure: | 16,000 pounds | per *square inch" },
+                { "text": "That is equivalent to having fifty jumbo jet airplanes stacked directly on top of your chest.", "caps": "Like *50 jumbo jets | resting on | your *chest" },
+                { "text": "Yet despite total darkness and crushing pressure, alien-like amphipods thrive here.", "caps": "Alien *creatures thrive | in complete *blackness" },
+                { "text": "We know more about the surface of the Moon than our own deep oceans!", "caps": "We know more about *space | than our own *oceans!", "gap": 0.3 }
             ]
         }
     }

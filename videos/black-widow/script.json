@@ -1,0 +1,44 @@
+{
+  "title": "What Happens When a Black Widow Spider Bites You?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NIH Clinical Center, Latrodectism pathophysiology",
+    "World Health Organization, Venomous spider envenomation"
+  ],
+  "lines": [
+    {
+      "text": "A black widow's venom is fifteen times more potent than a rattlesnake's.",
+      "caps": "Venom is *15 times | stronger than a | *rattlesnake"
+    },
+    {
+      "text": "The bite itself often feels like nothing more than a faint pinprick.",
+      "caps": "The bite feels | like a tiny | *pinprick"
+    },
+    {
+      "text": "Within thirty minutes, a destructive neurotoxin called alpha-latrotoxin floods your nerve endings.",
+      "caps": "Alpha-latrotoxin | attacks your | *nerve endings"
+    },
+    {
+      "text": "It forces your motor synapses to dump all of their neurotransmitters simultaneously.",
+      "caps": "Triggers massive | release of | *calcium"
+    },
+    {
+      "text": "This triggers violent muscle spasms, making your abdominal wall as rigid as concrete.",
+      "caps": "Violent muscle *spasms | turn your stomach | *rock hard"
+    },
+    {
+      "text": "Severe cramping spreads to your back, accompanied by nausea and racing heart rates.",
+      "caps": "Severe cramping | spreads to | your *spine"
+    },
+    {
+      "text": "Fortunately, anti-venom is highly effective, and fatalities are extremely rare.",
+      "caps": "Antivenom is *effective | and saves | *lives",
+      "gap": 0.3
+    }
+  ]
+}

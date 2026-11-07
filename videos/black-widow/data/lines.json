@@ -1,0 +1,49 @@
+{
+ "duration": 33.532,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "A black widow's venom is fifteen times more potent than a rattlesnake's.",
+   "start": 0.35,
+   "end": 4.058
+  },
+  {
+   "i": 1,
+   "text": "The bite itself often feels like nothing more than a faint pinprick.",
+   "start": 4.338,
+   "end": 7.615
+  },
+  {
+   "i": 2,
+   "text": "Within thirty minutes, a destructive neurotoxin called alpha-latrotoxin floods your nerve endings.",
+   "start": 7.895,
+   "end": 13.27
+  },
+  {
+   "i": 3,
+   "text": "It forces your motor synapses to dump all of their neurotransmitters simultaneously.",
+   "start": 13.55,
+   "end": 17.792
+  },
+  {
+   "i": 4,
+   "text": "This triggers violent muscle spasms, making your abdominal wall as rigid as concrete.",
+   "start": 18.072,
+   "end": 22.722
+  },
+  {
+   "i": 5,
+   "text": "Severe cramping spreads to your back, accompanied by nausea and racing heart rates.",
+   "start": 23.002,
+   "end": 27.402
+  },
+  {
+   "i": 6,
+   "text": "Fortunately, anti-venom is highly effective, and fatalities are extremely rare.",
+   "start": 27.682,
+   "end": 32.232
+  }
+ ]
+}

@@ -147,5 +147,24 @@
     "youtube_url": "https://youtu.be/Fq0zUrfkG6o",
     "publish_at": "2026-11-09T23:30:00Z",
     "uploaded_at": "2026-11-06T21:13:57.850478+00:00"
+  },
+  {
+    "id": "black-widow",
+    "folder": "videos/black-widow",
+    "video_file": "videos/black-widow/renders/black-widow.mp4",
+    "title": "What Happens When a Black Widow Spider Bites You? \ud83d\udd77\ufe0f #Shorts",
+    "description": "A black widow's venom is 15 times more potent than a rattlesnake's. Watch what latrotoxin does to your muscles in 3D.\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily 3D human body simulations!\n\n#Shorts #BlackWidow #Spiders #Science #HumanBody #MicroDocs #3DAnimation",
+    "tags": [
+      "Shorts",
+      "BlackWidow",
+      "Spiders",
+      "Science",
+      "HumanBody",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/jxRsCuahcyc",
+    "publish_at": "2026-11-10T16:30:00Z",
+    "uploaded_at": "2026-11-07T02:43:10.220977+00:00"
   }
 ]

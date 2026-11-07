@@ -1,0 +1,44 @@
+{
+  "title": "What if Earth stopped spinning for just one second?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NASA Planetary Angular Momentum Survey",
+    "American Journal of Physics"
+  ],
+  "lines": [
+    {
+      "text": "What would happen if the Earth suddenly stopped spinning for just one second?",
+      "caps": "What if Earth *stopped | spinning for | just *one second?"
+    },
+    {
+      "text": "At the equator, the surface of our planet whips around at roughly one thousand miles per hour.",
+      "caps": "The surface spins | at *1,000 miles | per *hour"
+    },
+    {
+      "text": "If the globe instantly froze, the atmosphere, oceans, and everything on the surface would keep moving due to inertia.",
+      "caps": "Inertia flings *everything | eastward at | *supersonic speeds"
+    },
+    {
+      "text": "Humans, cars, and entire cities would instantly become supersonic missiles flying through the sky.",
+      "caps": "Buildings and cars | become supersonic | *projectiles"
+    },
+    {
+      "text": "Massive oceanic walls would instantly surge miles inland, wiping out coastlines in colossal megatsunamis.",
+      "caps": "Oceans form *miles-high | catastrophic | *megatsunamis"
+    },
+    {
+      "text": "When the planet restarted one second later, absolute devastation would blanket the globe.",
+      "caps": "One second later | global devastation | is *complete"
+    },
+    {
+      "text": "Thankfully, our planetary angular momentum keeps us safely spinning forever.",
+      "caps": "Planetary momentum | keeps us *spinning | safely!",
+      "gap": 0.3
+    }
+  ]
+}

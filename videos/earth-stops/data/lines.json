@@ -1,0 +1,49 @@
+{
+ "duration": 37.939,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What would happen if the Earth suddenly stopped spinning for just one second?",
+   "start": 0.35,
+   "end": 3.694
+  },
+  {
+   "i": 1,
+   "text": "At the equator, the surface of our planet whips around at roughly one thousand miles per hour.",
+   "start": 3.974,
+   "end": 8.687
+  },
+  {
+   "i": 2,
+   "text": "If the globe instantly froze, the atmosphere, oceans, and everything on the surface would keep moving due to inertia.",
+   "start": 8.967,
+   "end": 15.24
+  },
+  {
+   "i": 3,
+   "text": "Humans, cars, and entire cities would instantly become supersonic missiles flying through the sky.",
+   "start": 15.52,
+   "end": 21.03
+  },
+  {
+   "i": 4,
+   "text": "Massive oceanic walls would instantly surge miles inland, wiping out coastlines in colossal megatsunamis.",
+   "start": 21.31,
+   "end": 27.491
+  },
+  {
+   "i": 5,
+   "text": "When the planet restarted one second later, absolute devastation would blanket the globe.",
+   "start": 27.771,
+   "end": 32.268
+  },
+  {
+   "i": 6,
+   "text": "Thankfully, our planetary angular momentum keeps us safely spinning forever.",
+   "start": 32.548,
+   "end": 36.639
+  }
+ ]
+}

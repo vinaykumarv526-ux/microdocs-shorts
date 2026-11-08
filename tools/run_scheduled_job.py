@@ -20,6 +20,16 @@ from generate_topic_project import create_project_for_topic, render_project
 QUEUE_FILE = Path("queue.json")
 MIN_FUTURE_BUFFER = 4  # 4 slots = 2 full days ahead (morning + evening)
 
+# 6 Rotating Flagship Visual Styles for Daily A/B Testing
+STYLE_ROTATION = [
+    "deep-dive",    # Zack D. Films 3D anatomy simulation
+    "inside-out",   # Flat 2D X-Ray medical explainer
+    "night-file",   # 3D dark mystery dossier
+    "stick-story",  # 2D survival step cards
+    "paper-atlas",  # 2D historical cut-paper map
+    "tall-tale"     # 3D town diorama with 2D cartoon people
+]
+
 def get_next_slot(latest_str):
     if not latest_str:
         # Schedule 48 hours from right now
@@ -113,15 +123,17 @@ def main():
 
         target_slot = get_next_slot(latest_slot)
         for next_topic in available_topics:
+            assigned_style = next_topic.get("style", STYLE_ROTATION[len(queue) % len(STYLE_ROTATION)])
             print(f"\n==========================================")
             print(f"AUTONOMOUS GENERATION INITIATED ON GIT SERVER")
             print(f"Topic: {next_topic['title']} (ID: {next_topic['id']})")
+            print(f"Visual Style: {assigned_style.upper()} (Daily Rotation)")
             print(f"Scheduling Target Slot: {target_slot} (Rolling 2-Day Buffer)")
             print(f"==========================================\n")
 
             try:
-                # Create project files
-                project_dir = create_project_for_topic(next_topic)
+                # Create project files with assigned rotating style
+                project_dir = create_project_for_topic(next_topic, style=assigned_style)
 
                 # Render video
                 video_file = render_project(project_dir, next_topic["id"])
@@ -147,9 +159,10 @@ def main():
                     thumbnail_path=str(thumb_file) if thumb_file and thumb_file.exists() else None
                 )
 
-                # Record in queue.json
+                # Record in queue.json with style tag
                 queue_entry = {
                     "id": next_topic["id"],
+                    "style": assigned_style,
                     "folder": f"videos/{next_topic['id']}",
                     "video_file": f"videos/{next_topic['id']}/renders/{next_topic['id']}.mp4",
                     "thumbnail": f"videos/{next_topic['id']}/thumbnail.jpg" if thumb_file and thumb_file.exists() else None,

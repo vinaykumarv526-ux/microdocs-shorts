@@ -1,0 +1,49 @@
+{
+ "duration": 39.316,
+ "voice": "en-US-BrianNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What would human civilization look like if we evolved the ability to breathe underwater?",
+   "start": 0.35,
+   "end": 4.794
+  },
+  {
+   "i": 1,
+   "text": "If our lungs functioned like biological gills, we could freely inhabit over seventy percent of the planet.",
+   "start": 5.074,
+   "end": 10.672
+  },
+  {
+   "i": 2,
+   "text": "Massive underwater cities would flourish with glowing bioluminescent lighting and submerged transport tunnels.",
+   "start": 10.952,
+   "end": 16.73
+  },
+  {
+   "i": 3,
+   "text": "However, our biggest mortal threat would no longer be oxygen, but crushing hydrostatic pressure.",
+   "start": 17.01,
+   "end": 22.55
+  },
+  {
+   "i": 4,
+   "text": "Diving past two hundred feet without titanium suits would still crush our ribcages and boil dissolved gases.",
+   "start": 22.83,
+   "end": 28.625
+  },
+  {
+   "i": 5,
+   "text": "Plus, pitch black deep trenches would conceal gigantic predators we couldn't hear or outrun.",
+   "start": 28.905,
+   "end": 34.064
+  },
+  {
+   "i": 6,
+   "text": "Would you trade dry land for an apartment at the bottom of the Atlantic Ocean?",
+   "start": 34.344,
+   "end": 38.016
+  }
+ ]
+}

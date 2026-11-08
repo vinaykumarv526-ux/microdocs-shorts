@@ -212,5 +212,27 @@
     "youtube_url": "https://youtu.be/di5L75-TfYg",
     "publish_at": "2026-11-11T16:30:00Z",
     "uploaded_at": "2026-11-08T02:12:34.666677+00:00"
+  },
+  {
+    "id": "breathe-underwater",
+    "style": "tall-tale",
+    "folder": "videos/breathe-underwater",
+    "video_file": "videos/breathe-underwater/renders/breathe-underwater.mp4",
+    "thumbnail": "videos/breathe-underwater/thumbnail.jpg",
+    "title": "What If Humans Could Breathe Underwater? \ud83c\udf0a #Shorts",
+    "description": "What if humans could breathe underwater?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Ocean",
+      "Evolution",
+      "HumanBody",
+      "WhatIf",
+      "Biology",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/8Dzzz3QJZF4",
+    "publish_at": "2026-11-11T23:30:00Z",
+    "uploaded_at": "2026-11-08T20:30:02.045427+00:00"
   }
 ]

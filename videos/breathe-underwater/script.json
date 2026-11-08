@@ -1,0 +1,44 @@
+{
+  "title": "What if humans could breathe underwater?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Scripps Institution of Oceanography",
+    "Marine Biology Review"
+  ],
+  "lines": [
+    {
+      "text": "What would human civilization look like if we evolved the ability to breathe underwater?",
+      "caps": "What if humans | could breathe | *underwater?"
+    },
+    {
+      "text": "If our lungs functioned like biological gills, we could freely inhabit over seventy percent of the planet.",
+      "caps": "We could live across | 70% of the | *planet!"
+    },
+    {
+      "text": "Massive underwater cities would flourish with glowing bioluminescent lighting and submerged transport tunnels.",
+      "caps": "Underwater cities | would replace | *crowded land"
+    },
+    {
+      "text": "However, our biggest mortal threat would no longer be oxygen, but crushing hydrostatic pressure.",
+      "caps": "Our biggest *danger | would be crushing | *water pressure"
+    },
+    {
+      "text": "Diving past two hundred feet without titanium suits would still crush our ribcages and boil dissolved gases.",
+      "caps": "Deep dives would *crush | internal organs | instantly"
+    },
+    {
+      "text": "Plus, pitch black deep trenches would conceal gigantic predators we couldn't hear or outrun.",
+      "caps": "Deep abyss *predators | would rule the | *darkness"
+    },
+    {
+      "text": "Would you trade dry land for an apartment at the bottom of the Atlantic Ocean?",
+      "caps": "Would you move | to the *ocean floor? | Comment below!",
+      "gap": 0.3
+    }
+  ]
+}

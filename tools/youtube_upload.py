@@ -42,7 +42,7 @@ def get_authenticated_service():
 
     return googleapiclient.discovery.build('youtube', 'v3', credentials=creds)
 
-def upload_video(file_path, title, description, tags=None, privacy="public", publish_at=None, category_id="28"):
+def upload_video(file_path, title, description, tags=None, privacy="public", publish_at=None, category_id="28", thumbnail_path=None):
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Video file not found: {file_path}")
 
@@ -80,6 +80,19 @@ def upload_video(file_path, title, description, tags=None, privacy="public", pub
 
     video_id = response.get('id')
     print(f"Upload complete! Video URL: https://youtu.be/{video_id}")
+
+    if thumbnail_path and os.path.exists(thumbnail_path):
+        try:
+            print(f"Setting custom thumbnail from {thumbnail_path} for video {video_id}...")
+            thumb_media = MediaFileUpload(thumbnail_path, mimetype='image/jpeg')
+            youtube.thumbnails().set(
+                videoId=video_id,
+                media_body=thumb_media
+            ).execute()
+            print("Custom thumbnail set successfully on YouTube!")
+        except Exception as e:
+            print(f"Note: Could not set thumbnail via YouTube API: {e}")
+
     return video_id
 
 def main():

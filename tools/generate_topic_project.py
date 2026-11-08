@@ -338,5 +338,12 @@ def render_project(project_dir, topic_id):
     video_out.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run(["node", "tools/capture.mjs", "video", f"renders/{topic_id}.mp4"], cwd=str(project_dir), check=True)
 
+    print(f"--- 5. Generating high-impact thumbnail for {topic_id} ---")
+    try:
+        from generate_thumbnail import create_thumbnail_for_project
+        create_thumbnail_for_project(project_dir, topic_id, video_out)
+    except Exception as e:
+        print(f"Warning: Failed to generate thumbnail: {e}")
+
     print(f"Render complete: {video_out}")
     return video_out

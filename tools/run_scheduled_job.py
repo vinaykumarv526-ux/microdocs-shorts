@@ -55,6 +55,15 @@ def main():
         if not video_path.exists():
             folder = Path(ready_item["folder"])
             render_project(folder, ready_item["id"])
+        
+        thumb_file = folder / "thumbnail.jpg"
+        if not thumb_file.exists() and video_path.exists():
+            try:
+                from generate_thumbnail import create_thumbnail_for_project
+                thumb_file = create_thumbnail_for_project(folder, ready_item["id"], video_path)
+            except Exception as e:
+                print(f"Thumbnail generation warning: {e}")
+
         publish_at = ready_item.get("publish_at")
         video_id = upload_video(
             file_path=str(video_path),
@@ -62,11 +71,14 @@ def main():
             description=ready_item["description"],
             tags=ready_item.get("tags", []),
             privacy="private" if publish_at else "public",
-            publish_at=publish_at
+            publish_at=publish_at,
+            thumbnail_path=str(thumb_file) if thumb_file and thumb_file.exists() else None
         )
         ready_item["status"] = "scheduled" if publish_at else "uploaded"
         ready_item["uploaded_at"] = datetime.now(timezone.utc).isoformat()
         ready_item["youtube_url"] = f"https://youtu.be/{video_id}"
+        if thumb_file and thumb_file.exists():
+            ready_item["thumbnail"] = f"videos/{ready_item['id']}/thumbnail.jpg"
         with open(QUEUE_FILE, "w", encoding="utf-8") as f:
             json.dump(queue, f, indent=2)
         print(f"Successfully processed ready item -> https://youtu.be/{video_id}")
@@ -112,6 +124,15 @@ def main():
         # Render video
         video_file = render_project(project_dir, next_topic["id"])
 
+        # Locate or generate thumbnail
+        thumb_file = project_dir / "thumbnail.jpg"
+        if not thumb_file.exists():
+            try:
+                from generate_thumbnail import create_thumbnail_for_project
+                thumb_file = create_thumbnail_for_project(project_dir, next_topic["id"], video_file)
+            except Exception as e:
+                print(f"Thumbnail generation warning: {e}")
+
         # Upload and schedule on YouTube
         print(f"Uploading to YouTube and scheduling for {target_slot}...")
         video_id = upload_video(
@@ -120,7 +141,8 @@ def main():
             description=next_topic["description"],
             tags=next_topic["tags"],
             privacy="private",
-            publish_at=target_slot
+            publish_at=target_slot,
+            thumbnail_path=str(thumb_file) if thumb_file and thumb_file.exists() else None
         )
 
         # Record in queue.json
@@ -128,6 +150,7 @@ def main():
             "id": next_topic["id"],
             "folder": f"videos/{next_topic['id']}",
             "video_file": f"videos/{next_topic['id']}/renders/{next_topic['id']}.mp4",
+            "thumbnail": f"videos/{next_topic['id']}/thumbnail.jpg" if thumb_file and thumb_file.exists() else None,
             "title": next_topic["title"],
             "description": next_topic["description"],
             "tags": next_topic["tags"],

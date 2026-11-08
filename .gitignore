@@ -19,6 +19,7 @@ npm-debug.log*
 
 # Renders & raw media (YouTube hosts the final MP4)
 videos/**/renders/
+!videos/**/renders/thumbnail.jpg
 videos/**/data/*.wav
 videos/**/data/*.mp3
 videos/**/review/

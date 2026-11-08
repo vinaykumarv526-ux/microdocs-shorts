@@ -16,7 +16,8 @@
     ],
     "status": "published",
     "youtube_url": "https://youtu.be/5PoxChGVoBQ",
-    "published_at": "2026-11-06T06:29:36Z"
+    "published_at": "2026-11-06T06:29:36Z",
+    "thumbnail": "videos/7-days-no-sleep/thumbnail.jpg"
   },
   {
     "id": "elevator-freefall",
@@ -35,7 +36,8 @@
     ],
     "status": "scheduled",
     "youtube_url": "https://youtu.be/o6F3dxgEzQI",
-    "publish_at": "2026-11-06T23:30:00Z"
+    "publish_at": "2026-11-06T23:30:00Z",
+    "thumbnail": "videos/elevator-freefall/thumbnail.jpg"
   },
   {
     "id": "danger-triangle",
@@ -53,7 +55,8 @@
     ],
     "status": "scheduled",
     "youtube_url": "https://youtu.be/9Tx5gvMms28",
-    "publish_at": "2026-11-07T16:30:00Z"
+    "publish_at": "2026-11-07T16:30:00Z",
+    "thumbnail": "videos/danger-triangle/thumbnail.jpg"
   },
   {
     "id": "swallow-magnets",
@@ -71,7 +74,8 @@
     ],
     "status": "scheduled",
     "youtube_url": "https://youtu.be/gF3czjxkw_g",
-    "publish_at": "2026-11-07T23:30:00Z"
+    "publish_at": "2026-11-07T23:30:00Z",
+    "thumbnail": "videos/swallow-magnets/thumbnail.jpg"
   },
   {
     "id": "drink-lava",
@@ -89,7 +93,8 @@
     ],
     "status": "scheduled",
     "youtube_url": "https://youtu.be/3tW2d1DDOfk",
-    "publish_at": "2026-11-08T16:30:00Z"
+    "publish_at": "2026-11-08T16:30:00Z",
+    "thumbnail": "videos/drink-lava/thumbnail.jpg"
   },
   {
     "id": "hold-sneeze",
@@ -108,7 +113,8 @@
     "status": "scheduled",
     "youtube_url": "https://youtu.be/RqItru5N0i0",
     "publish_at": "2026-11-08T23:30:00Z",
-    "uploaded_at": "2026-11-06T19:30:10.540585+00:00"
+    "uploaded_at": "2026-11-06T19:30:10.540585+00:00",
+    "thumbnail": "videos/hold-sneeze/thumbnail.jpg"
   },
   {
     "id": "bullet-ant",

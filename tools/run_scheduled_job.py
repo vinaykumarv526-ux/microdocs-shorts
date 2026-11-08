@@ -105,66 +105,72 @@ def main():
     # create the next video and schedule it to keep the 2-day horizon
     if len(future_scheduled) < MIN_FUTURE_BUFFER or True:
         existing_ids = {x["id"] for x in queue}
-        next_topic = next((t for t in TOPICS if t["id"] not in existing_ids), None)
+        available_topics = [t for t in TOPICS if t["id"] not in existing_ids]
 
-        if not next_topic:
+        if not available_topics:
             print("All catalog topics have been produced! Please add more topics to catalog.py.")
             return
 
         target_slot = get_next_slot(latest_slot)
-        print(f"\n==========================================")
-        print(f"AUTONOMOUS GENERATION INITIATED ON GIT SERVER")
-        print(f"Topic: {next_topic['title']}")
-        print(f"Scheduling Target Slot: {target_slot} (Rolling 2-Day Buffer)")
-        print(f"==========================================\n")
+        for next_topic in available_topics:
+            print(f"\n==========================================")
+            print(f"AUTONOMOUS GENERATION INITIATED ON GIT SERVER")
+            print(f"Topic: {next_topic['title']} (ID: {next_topic['id']})")
+            print(f"Scheduling Target Slot: {target_slot} (Rolling 2-Day Buffer)")
+            print(f"==========================================\n")
 
-        # Create project files
-        project_dir = create_project_for_topic(next_topic)
-
-        # Render video
-        video_file = render_project(project_dir, next_topic["id"])
-
-        # Locate or generate thumbnail
-        thumb_file = project_dir / "thumbnail.jpg"
-        if not thumb_file.exists():
             try:
-                from generate_thumbnail import create_thumbnail_for_project
-                thumb_file = create_thumbnail_for_project(project_dir, next_topic["id"], video_file)
+                # Create project files
+                project_dir = create_project_for_topic(next_topic)
+
+                # Render video
+                video_file = render_project(project_dir, next_topic["id"])
+
+                # Locate or generate thumbnail
+                thumb_file = project_dir / "thumbnail.jpg"
+                if not thumb_file.exists():
+                    try:
+                        from generate_thumbnail import create_thumbnail_for_project
+                        thumb_file = create_thumbnail_for_project(project_dir, next_topic["id"], video_file)
+                    except Exception as e:
+                        print(f"Thumbnail generation warning: {e}")
+
+                # Upload and schedule on YouTube
+                print(f"Uploading to YouTube and scheduling for {target_slot}...")
+                video_id = upload_video(
+                    file_path=str(video_file),
+                    title=next_topic["title"],
+                    description=next_topic["description"],
+                    tags=next_topic["tags"],
+                    privacy="private",
+                    publish_at=target_slot,
+                    thumbnail_path=str(thumb_file) if thumb_file and thumb_file.exists() else None
+                )
+
+                # Record in queue.json
+                queue_entry = {
+                    "id": next_topic["id"],
+                    "folder": f"videos/{next_topic['id']}",
+                    "video_file": f"videos/{next_topic['id']}/renders/{next_topic['id']}.mp4",
+                    "thumbnail": f"videos/{next_topic['id']}/thumbnail.jpg" if thumb_file and thumb_file.exists() else None,
+                    "title": next_topic["title"],
+                    "description": next_topic["description"],
+                    "tags": next_topic["tags"],
+                    "status": "scheduled",
+                    "youtube_url": f"https://youtu.be/{video_id}",
+                    "publish_at": target_slot,
+                    "uploaded_at": datetime.now(timezone.utc).isoformat()
+                }
+                queue.append(queue_entry)
+
+                with open(QUEUE_FILE, "w", encoding="utf-8") as f:
+                    json.dump(queue, f, indent=2)
+
+                print(f"\nSUCCESS! Scheduled video on YouTube: https://youtu.be/{video_id} at {target_slot}\n")
+                break # Successfully scheduled next slot
             except Exception as e:
-                print(f"Thumbnail generation warning: {e}")
-
-        # Upload and schedule on YouTube
-        print(f"Uploading to YouTube and scheduling for {target_slot}...")
-        video_id = upload_video(
-            file_path=str(video_file),
-            title=next_topic["title"],
-            description=next_topic["description"],
-            tags=next_topic["tags"],
-            privacy="private",
-            publish_at=target_slot,
-            thumbnail_path=str(thumb_file) if thumb_file and thumb_file.exists() else None
-        )
-
-        # Record in queue.json
-        queue_entry = {
-            "id": next_topic["id"],
-            "folder": f"videos/{next_topic['id']}",
-            "video_file": f"videos/{next_topic['id']}/renders/{next_topic['id']}.mp4",
-            "thumbnail": f"videos/{next_topic['id']}/thumbnail.jpg" if thumb_file and thumb_file.exists() else None,
-            "title": next_topic["title"],
-            "description": next_topic["description"],
-            "tags": next_topic["tags"],
-            "status": "scheduled",
-            "youtube_url": f"https://youtu.be/{video_id}",
-            "publish_at": target_slot,
-            "uploaded_at": datetime.now(timezone.utc).isoformat()
-        }
-        queue.append(queue_entry)
-
-        with open(QUEUE_FILE, "w", encoding="utf-8") as f:
-            json.dump(queue, f, indent=2)
-
-        print(f"\nSUCCESS! Scheduled video on YouTube: https://youtu.be/{video_id} at {target_slot}\n")
+                print(f"[SKIP] Model/topic '{next_topic['id']}' not available or failed ({e}). Skipping to next...")
+                continue
 
 if __name__ == "__main__":
     main()

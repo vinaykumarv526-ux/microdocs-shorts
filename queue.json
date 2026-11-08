@@ -186,5 +186,25 @@
     "youtube_url": "https://youtu.be/qS8Yvs0cCWk",
     "publish_at": "2026-11-10T23:30:00Z",
     "uploaded_at": "2026-11-07T20:00:11.795407+00:00"
+  },
+  {
+    "id": "moon-disappears",
+    "folder": "videos/moon-disappears",
+    "video_file": "videos/moon-disappears/renders/moon-disappears.mp4",
+    "title": "What If the Moon Vanished Overnight? \ud83c\udf15 #Shorts",
+    "description": "What if the Moon suddenly disappeared?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Moon",
+      "Space",
+      "Astronomy",
+      "WhatIf",
+      "Science",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/di5L75-TfYg",
+    "publish_at": "2026-11-11T16:30:00Z",
+    "uploaded_at": "2026-11-08T02:12:34.666677+00:00"
   }
 ]

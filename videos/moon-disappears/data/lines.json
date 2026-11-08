@@ -1,0 +1,49 @@
+{
+ "duration": 37.269,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What would happen to planet Earth if the Moon suddenly vanished into thin air?",
+   "start": 0.35,
+   "end": 3.811
+  },
+  {
+   "i": 1,
+   "text": "Without the Moon's gravitational pull, our oceans would immediately lose over sixty percent of their tidal range.",
+   "start": 4.091,
+   "end": 9.786
+  },
+  {
+   "i": 2,
+   "text": "Global marine ecosystems would fall into chaos within days, disrupting oceanic food chains.",
+   "start": 10.066,
+   "end": 15.503
+  },
+  {
+   "i": 3,
+   "text": "More dangerously, the Moon acts as a cosmic stabilizer keeping Earth's rotational tilt steady at twenty-three degrees.",
+   "start": 15.783,
+   "end": 22.051
+  },
+  {
+   "i": 4,
+   "text": "Without it, our planet would violently wobble like a dying top, flipping climate zones unpredictably.",
+   "start": 22.331,
+   "end": 27.783
+  },
+  {
+   "i": 5,
+   "text": "The Sahara could become an icy tundra while Antarctica turns into a scorching desert.",
+   "start": 28.063,
+   "end": 32.24
+  },
+  {
+   "i": 6,
+   "text": "So every time you look at the Moon, thank it for keeping our world stable.",
+   "start": 32.52,
+   "end": 35.969
+  }
+ ]
+}

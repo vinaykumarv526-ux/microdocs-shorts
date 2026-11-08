@@ -1,0 +1,44 @@
+{
+  "title": "What if the Moon suddenly disappeared?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NASA Lunar Science Institute",
+    "Planetary Science Institute"
+  ],
+  "lines": [
+    {
+      "text": "What would happen to planet Earth if the Moon suddenly vanished into thin air?",
+      "caps": "What if the Moon | *vanished | overnight?"
+    },
+    {
+      "text": "Without the Moon's gravitational pull, our oceans would immediately lose over sixty percent of their tidal range.",
+      "caps": "Oceans immediately *lose | 60% of their | *tides"
+    },
+    {
+      "text": "Global marine ecosystems would fall into chaos within days, disrupting oceanic food chains.",
+      "caps": "Marine life collapses | into absolute | *chaos"
+    },
+    {
+      "text": "More dangerously, the Moon acts as a cosmic stabilizer keeping Earth's rotational tilt steady at twenty-three degrees.",
+      "caps": "The Moon *stabilizes | Earth's rotational | *tilt"
+    },
+    {
+      "text": "Without it, our planet would violently wobble like a dying top, flipping climate zones unpredictably.",
+      "caps": "Earth would *wobble | wildly, flipping | *climates"
+    },
+    {
+      "text": "The Sahara could become an icy tundra while Antarctica turns into a scorching desert.",
+      "caps": "Deserts freeze | and ice caps | *scorch!"
+    },
+    {
+      "text": "So every time you look at the Moon, thank it for keeping our world stable.",
+      "caps": "The Moon keeps our *world | alive and *stable!",
+      "gap": 0.3
+    }
+  ]
+}

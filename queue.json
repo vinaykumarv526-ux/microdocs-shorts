@@ -234,5 +234,27 @@
     "youtube_url": "https://youtu.be/8Dzzz3QJZF4",
     "publish_at": "2026-11-11T23:30:00Z",
     "uploaded_at": "2026-11-08T20:30:02.045427+00:00"
+  },
+  {
+    "id": "everyone-jump",
+    "style": "deep-dive",
+    "folder": "videos/everyone-jump",
+    "video_file": "videos/everyone-jump/renders/everyone-jump.mp4",
+    "thumbnail": "videos/everyone-jump/thumbnail.jpg",
+    "title": "What If 8 Billion People Jumped at Once? \ud83d\udca5 #Shorts",
+    "description": "What if everyone on Earth jumped at the same time?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Physics",
+      "Science",
+      "WhatIf",
+      "Earth",
+      "MythBusters",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/MDIM9x16--E",
+    "publish_at": "2026-11-12T16:30:00Z",
+    "uploaded_at": "2026-11-09T02:21:34.974804+00:00"
   }
 ]

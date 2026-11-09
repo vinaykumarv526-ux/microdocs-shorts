@@ -1,0 +1,44 @@
+{
+  "title": "What if everyone on Earth jumped at the same time?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "USGS Earthquake Science",
+    "PhysLink Classical Mechanics"
+  ],
+  "lines": [
+    {
+      "text": "What would happen if all eight billion people on Earth gathered and jumped simultaneously?",
+      "caps": "What if *everyone | on Earth jumped | at *once?"
+    },
+    {
+      "text": "Imagine crowding the entire human population into an area the size of Los Angeles.",
+      "caps": "Imagine 8 *billion people | packed into | one *city"
+    },
+    {
+      "text": "On the count of three, everyone jumps one foot into the air and slams back down together.",
+      "caps": "Everyone jumps | and slams down | *together!"
+    },
+    {
+      "text": "The impact would deliver a colossal kinetic shockwave of several petajoules into the ground.",
+      "caps": "Releases a *massive | kinetic energy | *shockwave"
+    },
+    {
+      "text": "Yet because the Earth weighs six sextillion tons, our combined jump wouldn't budge the planet by even the width of an atom.",
+      "caps": "The Earth weighs *six sextillion | tons and barely | *notices"
+    },
+    {
+      "text": "However, the thunderous sound wave of billions of landing feet would rupture millions of eardrums.",
+      "caps": "The thunderous *sound | would deafen | *everyone nearby"
+    },
+    {
+      "text": "Physics shows that against planetary mass, humanity is merely a speck of dust.",
+      "caps": "Against planet Earth | humanity is just | *stardust!",
+      "gap": 0.3
+    }
+  ]
+}

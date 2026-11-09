@@ -1,0 +1,49 @@
+{
+ "duration": 36.862,
+ "voice": "en-US-ChristopherNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What would happen if all eight billion people on Earth gathered and jumped simultaneously?",
+   "start": 0.35,
+   "end": 4.394
+  },
+  {
+   "i": 1,
+   "text": "Imagine crowding the entire human population into an area the size of Los Angeles.",
+   "start": 4.674,
+   "end": 9.418
+  },
+  {
+   "i": 2,
+   "text": "On the count of three, everyone jumps one foot into the air and slams back down together.",
+   "start": 9.698,
+   "end": 14.358
+  },
+  {
+   "i": 3,
+   "text": "The impact would deliver a colossal kinetic shockwave of several petajoules into the ground.",
+   "start": 14.638,
+   "end": 19.221
+  },
+  {
+   "i": 4,
+   "text": "Yet because the Earth weighs six sextillion tons, our combined jump wouldn't budge the planet by even the width of an atom.",
+   "start": 19.501,
+   "end": 25.619
+  },
+  {
+   "i": 5,
+   "text": "However, the thunderous sound wave of billions of landing feet would rupture millions of eardrums.",
+   "start": 25.899,
+   "end": 30.89
+  },
+  {
+   "i": 6,
+   "text": "Physics shows that against planetary mass, humanity is merely a speck of dust.",
+   "start": 31.17,
+   "end": 35.562
+  }
+ ]
+}

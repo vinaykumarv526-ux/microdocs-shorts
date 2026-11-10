@@ -1,0 +1,44 @@
+{
+  "title": "Why do airplane windows have tiny holes?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "FAA Aircraft Window Certification Standards",
+    "Boeing Commercial Airplanes Technical Notes"
+  ],
+  "lines": [
+    {
+      "text": "Have you ever noticed that tiny pinhole at the bottom of commercial airplane windows?",
+      "caps": "Why do airplane *windows | have a tiny *hole?"
+    },
+    {
+      "text": "It is not a manufacturing defect; that tiny hole is a critical lifesaving safety feature.",
+      "caps": "That tiny hole is a *lifesaving | safety *feature!"
+    },
+    {
+      "text": "Airplane passenger windows consist of three separate acrylic panes.",
+      "caps": "Consists of *three separate | acrylic *panes"
+    },
+    {
+      "text": "At thirty-five thousand feet, the air pressure outside is dramatically lower than inside the pressurized cabin.",
+      "caps": "Extreme pressure difference | between inside and *outside"
+    },
+    {
+      "text": "The tiny hole, called a bleed valve, balances air pressure between the middle pane and the outer pane.",
+      "caps": "The bleed hole *balances | pressure between the *panes"
+    },
+    {
+      "text": "This forces the tough outer pane to carry all cabin pressurization stress, keeping the inner pane safe.",
+      "caps": "Forces the thick *outer pane | to carry all the *stress"
+    },
+    {
+      "text": "It also vents moisture to prevent your window from frosting over during flight.",
+      "caps": "Vents *moisture | so your view doesn't *freeze!",
+      "gap": 0.3
+    }
+  ]
+}

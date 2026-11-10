@@ -1,0 +1,44 @@
+{
+  "title": "How do trees send signals to one another?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Nature Wood Wide Web Mycorrhizal Fungi",
+    "University of British Columbia Forest Ecology"
+  ],
+  "lines": [
+    {
+      "text": "Did you know that forests are not just silent trees, but an interconnected living biological internet?",
+      "caps": "Did you know trees *talk | to each other *underground?"
+    },
+    {
+      "text": "Ecologists call it the Wood Wide Web, and it operates beneath your feet.",
+      "caps": "Ecologists call it the *Wood Wide Web | beneath your *boots"
+    },
+    {
+      "text": "Trees connect their root tips to an expansive underground network of fungal threads called mycorrhizal fungi.",
+      "caps": "Roots connect to *fungal mycelium | spanning entire *forests"
+    },
+    {
+      "text": "Through these fungal internet cables, older mother trees nourish shaded saplings with sugars and carbon.",
+      "caps": "Mother trees send *carbon | and nutrients to baby *saplings"
+    },
+    {
+      "text": "When a tree is attacked by beetles, it sends chemical distress warning signals through the network.",
+      "caps": "Sends distress signals when *attacked | by insect *pests!"
+    },
+    {
+      "text": "Neighboring trees receive the warning and immediately ramp up protective tannins in their leaves.",
+      "caps": "Neighbors raise *defensive tannins | before bugs even *arrive"
+    },
+    {
+      "text": "A forest is not a competition; it is a collaborative superorganism.",
+      "caps": "A forest is a *living | cooperative *superorganism!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "What happens to a gift card when a business closes?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "U.S. Bankruptcy Court Claims Process",
+    "Federal Trade Commission Gift Card Rights"
+  ],
+  "lines": [
+    {
+      "text": "If you have an unused fifty-dollar gift card to a retail store that files for bankruptcy, is your money gone?",
+      "caps": "What happens to your *gift card | when a store goes *bankrupt?"
+    },
+    {
+      "text": "The brutal legal reality is that gift card holders are considered unsecured creditors.",
+      "caps": "You become an *unsecured creditor | at the back of the *line!"
+    },
+    {
+      "text": "When a company files Chapter 11 bankruptcy, federal courts freeze operations to pay major lenders first.",
+      "caps": "Courts freeze assets to pay *banks | and bondholders *first"
+    },
+    {
+      "text": "The retailer must request special permission from the bankruptcy judge to continue accepting gift cards.",
+      "caps": "The judge decides *if | gift cards will still be *honored"
+    },
+    {
+      "text": "If the company shifts to total liquidation, gift card redemptions are terminated instantly.",
+      "caps": "In liquidation, cards become *worthless | pieces of plastic *instantly!"
+    },
+    {
+      "text": "You can file a formal claim with the bankruptcy court, but cardholders typically receive only pennies on the dollar years later.",
+      "caps": "Court claims pay only *pennies | on the dollar years *later"
+    },
+    {
+      "text": "Always spend gift cards as soon as you receive them rather than stashing them in a drawer.",
+      "caps": "Spend your gift *cards fast | before they expire or *vanish!",
+      "gap": 0.3
+    }
+  ]
+}

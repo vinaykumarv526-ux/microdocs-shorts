@@ -1,0 +1,49 @@
+{
+ "duration": 36.215,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "How do noise-canceling headphones make roaring airplane jet engines vanish into pure silence?",
+   "start": 0.35,
+   "end": 4.722
+  },
+  {
+   "i": 1,
+   "text": "They don't just physically block sound; they fight sound waves with more sound waves.",
+   "start": 5.002,
+   "end": 8.71
+  },
+  {
+   "i": 2,
+   "text": "Tiny external microphones on the earcups listen to incoming ambient noise hundreds of times per second.",
+   "start": 8.99,
+   "end": 14.126
+  },
+  {
+   "i": 3,
+   "text": "An onboard digital processor instantly analyzes the exact sound wave's frequency and amplitude.",
+   "start": 14.405,
+   "end": 19.413
+  },
+  {
+   "i": 4,
+   "text": "The headphone speakers then generate an exact inverted sound wave, shifting the phase by one hundred and eighty degrees.",
+   "start": 19.692,
+   "end": 25.305
+  },
+  {
+   "i": 5,
+   "text": "When the peak of the background noise collides with the valley of the anti-noise wave, destructive interference deletes both.",
+   "start": 25.585,
+   "end": 31.261
+  },
+  {
+   "i": 6,
+   "text": "You are literally hearing silence created by mathematical physics.",
+   "start": 31.541,
+   "end": 34.915
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "What happens to a plastic bottle after you recycle it?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "EPA Municipal Solid Waste Recycling Report",
+    "Association of Plastic Recyclers"
+  ],
+  "lines": [
+    {
+      "text": "When you toss a plastic water bottle into the blue recycling bin, where does it actually go?",
+      "caps": "Where does your *recycled bottle | actually *go?"
+    },
+    {
+      "text": "A collection truck transports it to a Materials Recovery Facility packed with robotic conveyor belts.",
+      "caps": "Trucks deliver bottles to *high-tech | sorting *facilities"
+    },
+    {
+      "text": "Optical infrared scanners shoot light beams through the plastics, identifying PET plastic in milliseconds.",
+      "caps": "Infrared lasers identify *PET plastic | in *milliseconds"
+    },
+    {
+      "text": "High-pressure air jets shoot the bottle into designated bins, where it gets crushed into giant cubes.",
+      "caps": "Air jets blast the *bottle | into designated *bales"
+    },
+    {
+      "text": "The bales are shredded into microscopic plastic flakes, washed in hot caustic baths, and melted into pellets.",
+      "caps": "Shredded into *flakes | and melted into plastic *pellets"
+    },
+    {
+      "text": "Those pellets get spun into polyester yarn for fleece jackets, carpets, or molded into brand new bottles.",
+      "caps": "Spun into fleece *jackets | or molded into new *bottles!"
+    },
+    {
+      "text": "Recycling a single bottle saves enough energy to power a laptop for three straight hours.",
+      "caps": "One recycled bottle *powers | a laptop for *3 hours!",
+      "gap": 0.3
+    }
+  ]
+}

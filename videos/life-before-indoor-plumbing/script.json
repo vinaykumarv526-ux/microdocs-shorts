@@ -1,0 +1,44 @@
+{
+  "title": "What was daily life like before indoor plumbing?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "World Health Organization Sanitation History",
+    "Smithsonian National Museum of American History"
+  ],
+  "lines": [
+    {
+      "text": "What was daily life like in American cities just one hundred and fifty years ago before indoor plumbing?",
+      "caps": "What was life *really like | before indoor *plumbing?"
+    },
+    {
+      "text": "It was vastly dirtier and more perilous than anyone realizes.",
+      "caps": "Vastly *dirtier | and more dangerous than you *think!"
+    },
+    {
+      "text": "Every family kept porcelain chamber pots beneath their beds for nighttime calls of nature.",
+      "caps": "Chamber pots sat *under beds | for midnight *trips"
+    },
+    {
+      "text": "In the morning, people dumped the contents into wooden backyard outhouses or straight into city street gutters.",
+      "caps": "Contents were dumped *straight | into outdoor *gutters!"
+    },
+    {
+      "text": "Raw waste seeped into shallow well drinking water, sparking deadly cholera and typhoid fever epidemics.",
+      "caps": "Waste seeped into *wells | causing deadly *cholera outbreaks"
+    },
+    {
+      "text": "Baths were a luxury taken once a week, sharing the same heated kettle water among multiple family members.",
+      "caps": "Baths were a *weekly luxury | sharing the same tub of *water"
+    },
+    {
+      "text": "Indoor plumbing and sanitary sewer networks saved more human lives than almost any medical invention in history.",
+      "caps": "Modern sewers saved *more lives | than any modern *medicine!",
+      "gap": 0.3
+    }
+  ]
+}

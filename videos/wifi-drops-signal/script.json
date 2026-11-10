@@ -1,0 +1,44 @@
+{
+  "title": "What is actually happening when Wi-Fi drops?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "IEEE 802.11 Wireless LAN Working Group",
+    "Wi-Fi Alliance Certification Standards"
+  ],
+  "lines": [
+    {
+      "text": "What is actually happening in the air when your video call freezes and your Wi-Fi suddenly disconnects?",
+      "caps": "What happens in the *air | when your Wi-Fi *drops?"
+    },
+    {
+      "text": "Wi-Fi travels on invisible radio frequencies at two point four and five gigahertz.",
+      "caps": "Wi-Fi travels on invisible *radio | waves through the *air"
+    },
+    {
+      "text": "Your router and phone are constantly transmitting millions of packet bursts per second back and forth.",
+      "caps": "Transmits millions of *packets | back and *forth"
+    },
+    {
+      "text": "When physical barriers like concrete walls, metal ductwork, or a running microwave interfere, packets collide.",
+      "caps": "Microwaves and metal *walls | cause packet *collisions"
+    },
+    {
+      "text": "When too many data packets get corrupted, signal-to-noise ratio plummets below the receiver threshold.",
+      "caps": "Signal-to-noise ratio *drops | below connection *limits"
+    },
+    {
+      "text": "The device and router lose handshaking synchronization, forcing the link to reset and re-negotiate.",
+      "caps": "Forces router and phone to *reset | and re-negotiate *channels!"
+    },
+    {
+      "text": "Placing your router high on a central shelf eliminates sixty percent of common household dead zones.",
+      "caps": "Keep your router *high | and central to kill dead *zones!",
+      "gap": 0.3
+    }
+  ]
+}

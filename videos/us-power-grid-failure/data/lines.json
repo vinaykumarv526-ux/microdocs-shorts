@@ -1,0 +1,49 @@
+{
+ "duration": 36.013,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What would happen to the United States if a catastrophic event knocked out the power grid nationwide?",
+   "start": 0.35,
+   "end": 4.907
+  },
+  {
+   "i": 1,
+   "text": "Within seconds, three hundred and thirty million Americans would plunge into pitch black silence.",
+   "start": 5.187,
+   "end": 9.595
+  },
+  {
+   "i": 2,
+   "text": "Refrigeration fails instantly, spoiling millions of tons of food in grocery distribution warehouses.",
+   "start": 9.875,
+   "end": 15.008
+  },
+  {
+   "i": 3,
+   "text": "Within twenty-four hours, municipal water pumping stations lose backup diesel, running taps dry.",
+   "start": 15.288,
+   "end": 20.478
+  },
+  {
+   "i": 4,
+   "text": "Hospitals burn through emergency generator fuel while cell phone towers die one by one.",
+   "start": 20.758,
+   "end": 25.164
+  },
+  {
+   "i": 5,
+   "text": "Because massive custom high-voltage transformers take months to manufacture, recovery would take years.",
+   "start": 25.444,
+   "end": 30.463
+  },
+  {
+   "i": 6,
+   "text": "The electrical grid is the fragile heartbeat sustaining all modern American life.",
+   "start": 30.743,
+   "end": 34.713
+  }
+ ]
+}

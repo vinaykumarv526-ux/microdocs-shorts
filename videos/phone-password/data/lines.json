@@ -1,0 +1,49 @@
+{
+ "duration": 32.694,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "When was the last time you actually changed your smartphone passcode?",
+   "start": 0.35,
+   "end": 3.455
+  },
+  {
+   "i": 1,
+   "text": "Most people use the exact same four or six-digit PIN for years without thinking twice.",
+   "start": 3.735,
+   "end": 7.968
+  },
+  {
+   "i": 2,
+   "text": "Over months of daily swiping, your finger oils leave subtle smudge trails on the glass.",
+   "start": 8.248,
+   "end": 12.504
+  },
+  {
+   "i": 3,
+   "text": "Under angled light or thermal cameras, anyone standing behind you can easily reconstruct your code.",
+   "start": 12.784,
+   "end": 17.623
+  },
+  {
+   "i": 4,
+   "text": "Even worse, automated brute-force cracking tools test common combinations in seconds.",
+   "start": 17.903,
+   "end": 22.3
+  },
+  {
+   "i": 5,
+   "text": "Once someone has your device PIN, they can reset your Apple ID, passwords, and banking apps.",
+   "start": 22.58,
+   "end": 27.14
+  },
+  {
+   "i": 6,
+   "text": "Change your passcode to a strong six-digit mix today to keep your digital life safe.",
+   "start": 27.421,
+   "end": 31.393
+  }
+ ]
+}

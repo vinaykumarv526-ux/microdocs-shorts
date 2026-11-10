@@ -1,0 +1,44 @@
+{
+  "title": "Why do U.S. homes have those little doors near the floor?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Trust for Historic Preservation",
+    "Old House Journal Historical Architecture"
+  ],
+  "lines": [
+    {
+      "text": "Have you ever explored an older American house and spotted a mysterious tiny door near the floor?",
+      "caps": "Why do older US homes have *tiny | doors near the *floor?"
+    },
+    {
+      "text": "No, they weren't built for secret pets or tiny fairy visitors.",
+      "caps": "Not built for *secret pets | or fairy *visitors!"
+    },
+    {
+      "text": "In the early twentieth century, these small exterior-facing hatches were milk delivery doors.",
+      "caps": "In the early 1900s, these were *milk | delivery *hatches"
+    },
+    {
+      "text": "Every morning, local milkmen placed fresh glass bottles of cold milk into the insulated compartment from outside.",
+      "caps": "Milkmen placed fresh *bottles | inside from the *outside"
+    },
+    {
+      "text": "Families could open the interior latch from the kitchen without ever stepping outside into winter snow.",
+      "caps": "Homeowners retrieved milk *inside | without facing winter *snow!"
+    },
+    {
+      "text": "Other floor-level doors led to coal chutes or laundry chutes dropping straight into the basement furnace room.",
+      "caps": "Others were coal *chutes | feeding basement *furnaces"
+    },
+    {
+      "text": "These vintage doors are charming relics of everyday American life before modern grocery stores.",
+      "caps": "Charming relics from *before | modern *refrigerators!",
+      "gap": 0.3
+    }
+  ]
+}

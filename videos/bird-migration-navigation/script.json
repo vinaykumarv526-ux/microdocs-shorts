@@ -1,0 +1,44 @@
+{
+  "title": "How do birds know where to migrate?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Nature Magnetoreception in Migratory Birds",
+    "Audubon Society Migration Science"
+  ],
+  "lines": [
+    {
+      "text": "How can a tiny songbird fly five thousand miles across oceans and land in the exact same backyard tree every year?",
+      "caps": "How do birds *navigate | 5,000 miles without *GPS?"
+    },
+    {
+      "text": "Birds possess navigational abilities that surpass modern human military guidance systems.",
+      "caps": "They possess built-in *superhuman | guidance *systems!"
+    },
+    {
+      "text": "They use the position of the sun during the day, and memorized star constellations at night.",
+      "caps": "They navigate by the *sun | and nighttime star *constellations"
+    },
+    {
+      "text": "They even smell atmospheric odor gradients to track geographic river coastlines.",
+      "caps": "They smell *chemical scents | carried on ocean *winds"
+    },
+    {
+      "text": "Most mind-blowing of all, birds possess quantum compasses in their eyes.",
+      "caps": "They have *quantum compasses | built into their *eyes!"
+    },
+    {
+      "text": "Special proteins called cryptochromes allow birds to literally see Earth's invisible magnetic field lines as shades of light.",
+      "caps": "Cryptochromes let birds *see | magnetic field lines in the *sky!"
+    },
+    {
+      "text": "Birds navigate the globe using quantum physics built directly into their retinas.",
+      "caps": "Using quantum *physics | to cross the entire *globe!",
+      "gap": 0.3
+    }
+  ]
+}

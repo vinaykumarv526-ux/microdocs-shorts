@@ -1,0 +1,44 @@
+{
+  "title": "How does a microwave heat food?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "American Journal of Physics Dielectric Heating",
+    "FDA Microwave Oven Safety"
+  ],
+  "lines": [
+    {
+      "text": "Do microwaves heat food from the inside out like everyone always tells you?",
+      "caps": "Does a microwave heat | food from the *inside | *out?"
+    },
+    {
+      "text": "The answer is no, and the actual science is far more fascinating.",
+      "caps": "The truth is *no | and the science is *wild!"
+    },
+    {
+      "text": "Inside the oven, a component called a magnetron generates electromagnetic waves vibrating at two point four gigahertz.",
+      "caps": "A magnetron blasts *waves | at 2.4 *billion | cycles"
+    },
+    {
+      "text": "Water, sugar, and fat molecules inside your food are polar, meaning they have positive and negative ends.",
+      "caps": "Water molecules in *food | have positive and *negative poles"
+    },
+    {
+      "text": "As the electric field flips two point four billion times a second, the water molecules violently twist back and forth.",
+      "caps": "Molecules twist *billions | of times per *second"
+    },
+    {
+      "text": "This molecular friction creates intense thermal heat, warming your food from the outer layers inward.",
+      "caps": "Molecular friction *creates | blistering thermal | *heat!"
+    },
+    {
+      "text": "That is why thick burritos can be scalding hot outside and freezing in the center.",
+      "caps": "Why hot *pockets | are boiling outside and *frozen inside!",
+      "gap": 0.3
+    }
+  ]
+}

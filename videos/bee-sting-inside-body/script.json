@@ -1,0 +1,44 @@
+{
+  "title": "What happens inside your body after a bee sting?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Mayo Clinic Insect Sting Allergies",
+    "Journal of Allergy and Clinical Immunology Melittin"
+  ],
+  "lines": [
+    {
+      "text": "When a honeybee stings your skin, what microscopic war explodes inside your bloodstream?",
+      "caps": "What happens inside your *skin | after a *bee sting?"
+    },
+    {
+      "text": "The bee's barbed stinger tears out of its abdomen, continuing to pump venom automatically for minutes.",
+      "caps": "The barbed stinger *continues | pumping *venom"
+    },
+    {
+      "text": "The venom contains melittin, a powerful peptide that literally punches holes through cell membranes.",
+      "caps": "Melittin peptide *punches holes | through cell *membranes!"
+    },
+    {
+      "text": "Pain receptors fire emergency alarms to your spinal cord while mast cells release waves of histamine.",
+      "caps": "Mast cells flood tissue with *waves | of burning *histamine"
+    },
+    {
+      "text": "Blood vessels dilate to rush white blood cells to the scene, causing rapid swelling and fiery redness.",
+      "caps": "Capillaries dilate to rush *immune cells | causing *swelling"
+    },
+    {
+      "text": "White blood cells gobble up venom fragments over three days until the swelling recedes.",
+      "caps": "White blood cells *clean up | the venom over *3 days"
+    },
+    {
+      "text": "Scrape the stinger off immediately with a credit card to stop the venom pump early.",
+      "caps": "Scrape the stinger *off fast | to stop the *venom pump!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "How does a barcode tell a scanner what you bought?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "GS1 Barcode Architecture and Standards",
+    "Smithsonian National Museum of American History"
+  ],
+  "lines": [
+    {
+      "text": "When you scan an item at the supermarket checkout, what is the red laser actually reading?",
+      "caps": "What is the *red laser | actually reading on a *barcode?"
+    },
+    {
+      "text": "Most people think the scanner reads the black bars, but it is actually reading the white spaces.",
+      "caps": "The scanner reads the *white spaces | not the black *bars!"
+    },
+    {
+      "text": "A red laser sweeps across the code, and a light sensor measures reflected light intensity.",
+      "caps": "A red laser sweeps *across | measuring reflected *light"
+    },
+    {
+      "text": "Black bars absorb laser light while white spaces reflect it back as a pattern of ones and zeros.",
+      "caps": "White spaces *reflect light | as binary *code"
+    },
+    {
+      "text": "This binary sequence translates into a twelve-digit Universal Product Code number.",
+      "caps": "Translates into a *12-digit | product *number"
+    },
+    {
+      "text": "The register instantly looks up that code in the store database to pull up the product name and price.",
+      "caps": "Matches the code to the *price | in the *database!"
+    },
+    {
+      "text": "That simple pattern of stripes automated the entire global retail economy.",
+      "caps": "Stripes of ink that *power | the entire global *economy!",
+      "gap": 0.3
+    }
+  ]
+}

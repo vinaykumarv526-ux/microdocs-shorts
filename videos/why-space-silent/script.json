@@ -1,0 +1,44 @@
+{
+  "title": "Why is space silent?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NASA Sound in Space Educational Review",
+    "Acoustical Society of America"
+  ],
+  "lines": [
+    {
+      "text": "In Hollywood sci-fi movies, exploding starships make deafening roaring booms, but in real space, there is zero sound.",
+      "caps": "Why is outer space in *complete | absolute *silence?"
+    },
+    {
+      "text": "Sound cannot travel without a physical medium to carry its vibrations.",
+      "caps": "Sound requires *physical matter | to transmit *vibrations"
+    },
+    {
+      "text": "On Earth, sound travels when vibrating vocal cords or speaker cones bump neighboring air molecules together.",
+      "caps": "On Earth sound waves *push | neighboring air *molecules"
+    },
+    {
+      "text": "Deep space is a near-perfect vacuum containing only a handful of hydrogen atoms per cubic meter.",
+      "caps": "Space is a *near-vacuum | with virtually zero *matter"
+    },
+    {
+      "text": "With no atmospheric molecules to bump into each other, sound waves simply cannot propagate.",
+      "caps": "With no molecules to *vibrate | sound cannot *propagate!"
+    },
+    {
+      "text": "Even if a gigantic supernova exploded right next to your spaceship window, you would hear absolute dead silence.",
+      "caps": "Even a giant *supernova | explodes in total *silence"
+    },
+    {
+      "text": "In outer space, the famous tagline is true: no one can hear you scream.",
+      "caps": "In space, no one can *ever | hear you *scream!",
+      "gap": 0.3
+    }
+  ]
+}

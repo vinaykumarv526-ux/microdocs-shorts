@@ -1,0 +1,44 @@
+{
+  "title": "Why was the U.S. interstate highway system built?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Federal Highway Administration Interstate System History",
+    "Dwight D. Eisenhower Presidential Library"
+  ],
+  "lines": [
+    {
+      "text": "Why did President Eisenhower spend hundreds of billions of dollars constructing forty-eight thousand miles of interstate highways?",
+      "caps": "Why were US *highways | really *built?"
+    },
+    {
+      "text": "It wasn't just to make cross-country road trips scenic and convenient for families.",
+      "caps": "Not just for *family | cross-country road *trips!"
+    },
+    {
+      "text": "In nineteen nineteen, a young officer named Dwight Eisenhower crossed America with a military convoy, taking sixty-two grueling days over dirt tracks.",
+      "caps": "Young Eisenhower *took | 62 grueling days to cross *America"
+    },
+    {
+      "text": "During World War Two, he witnessed the sheer logistical speed of the German Autobahn.",
+      "caps": "Saw how Germany's *Autobahn | moved troops at lightning *speed"
+    },
+    {
+      "text": "In nineteen fifty-six, he signed the National Defense Highway Act to evacuate cities during nuclear attacks and move tanks nationwide in days.",
+      "caps": "Built to evacuate *cities | and move military *tanks rapidly!"
+    },
+    {
+      "text": "Overpasses were built with sixteen-foot clearances specifically to accommodate intercontinental ballistic missile convoys.",
+      "caps": "Overpasses were *measured | to fit military *missile carriers!"
+    },
+    {
+      "text": "The interstate highway system remains the largest public works project in American history.",
+      "caps": "The greatest *engineering | project in American *history!",
+      "gap": 0.3
+    }
+  ]
+}

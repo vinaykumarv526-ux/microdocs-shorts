@@ -1,0 +1,49 @@
+{
+ "duration": 33.791,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why does almost every country on Earth use red, yellow, and green for traffic signals?",
+   "start": 0.35,
+   "end": 4.506
+  },
+  {
+   "i": 1,
+   "text": "The system dates back to nineteenth-century British railway signals.",
+   "start": 4.786,
+   "end": 8.115
+  },
+  {
+   "i": 2,
+   "text": "Red has the longest wavelength of any visible light spectrum.",
+   "start": 8.395,
+   "end": 11.471
+  },
+  {
+   "i": 3,
+   "text": "This means red scatters the least in rain and dense fog, allowing drivers to spot danger from the farthest distance.",
+   "start": 11.751,
+   "end": 17.288
+  },
+  {
+   "i": 4,
+   "text": "Railroads originally used clear white light for 'go', but drivers mistook stars or streetlamps for signals.",
+   "start": 17.568,
+   "end": 22.823
+  },
+  {
+   "i": 5,
+   "text": "So engineers adopted green for safety, and later added bright yellow as a transition warning.",
+   "start": 23.103,
+   "end": 27.776
+  },
+  {
+   "i": 6,
+   "text": "That nineteenth-century railroad color code keeps hundreds of millions of drivers safe today.",
+   "start": 28.056,
+   "end": 32.491
+  }
+ ]
+}

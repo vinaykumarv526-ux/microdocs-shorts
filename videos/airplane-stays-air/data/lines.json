@@ -1,0 +1,49 @@
+{
+ "duration": 33.337,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "How does a massive commercial airliner weighing over five hundred tons stay airborne without falling?",
+   "start": 0.35,
+   "end": 4.786
+  },
+  {
+   "i": 1,
+   "text": "It all comes down to the curved aerodynamic shape of the wings, called an airfoil.",
+   "start": 5.066,
+   "end": 8.907
+  },
+  {
+   "i": 2,
+   "text": "Jet engines blast the aircraft forward, forcing air to rush over and under the wings.",
+   "start": 9.187,
+   "end": 13.294
+  },
+  {
+   "i": 3,
+   "text": "Air flowing over the curved top travels faster, creating an area of low pressure above the wing.",
+   "start": 13.574,
+   "end": 18.362
+  },
+  {
+   "i": 4,
+   "text": "Meanwhile, higher pressure beneath the wing physically pushes the entire aircraft upward.",
+   "start": 18.642,
+   "end": 22.778
+  },
+  {
+   "i": 5,
+   "text": "This aerodynamic upward force is called lift, and once it exceeds the airplane's weight, it flies.",
+   "start": 23.058,
+   "end": 27.842
+  },
+  {
+   "i": 6,
+   "text": "At five hundred miles per hour, air turns into a solid, invisible cushion.",
+   "start": 28.122,
+   "end": 32.037
+  }
+ ]
+}

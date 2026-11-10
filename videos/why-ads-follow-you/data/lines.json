@@ -1,0 +1,49 @@
+{
+ "duration": 36.641,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why does that pair of sneakers you looked at once on Amazon follow you onto Instagram, YouTube, and news sites?",
+   "start": 0.35,
+   "end": 5.707
+  },
+  {
+   "i": 1,
+   "text": "This marketing tactic is called retargeting, and it is powered by an invisible bidding auction.",
+   "start": 5.987,
+   "end": 10.485
+  },
+  {
+   "i": 2,
+   "text": "When you browse a product, the website drops a tracking pixel or first-party cookie in your browser.",
+   "start": 10.765,
+   "end": 15.437
+  },
+  {
+   "i": 3,
+   "text": "This pixel tags your browser with a unique anonymous user identifier.",
+   "start": 15.717,
+   "end": 19.307
+  },
+  {
+   "i": 4,
+   "text": "Whenever you visit an entirely different website, ad exchange networks recognize your tracking ID.",
+   "start": 19.587,
+   "end": 24.565
+  },
+  {
+   "i": 5,
+   "text": "In milliseconds, automated algorithms conduct a lightning auction, selling that ad banner to the sneaker brand for pennies.",
+   "start": 24.845,
+   "end": 30.923
+  },
+  {
+   "i": 6,
+   "text": "Clear your browser cache and cookies regularly to shake off the ad trackers following you.",
+   "start": 31.203,
+   "end": 35.341
+  }
+ ]
+}

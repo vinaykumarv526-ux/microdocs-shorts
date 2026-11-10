@@ -1,0 +1,49 @@
+{
+ "duration": 37.823,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "How can a self-driving car navigate bustling city streets without a human touching the wheel?",
+   "start": 0.35,
+   "end": 4.701
+  },
+  {
+   "i": 1,
+   "text": "Autonomous vehicles use a superhuman fusion of cameras, radar, and laser LiDAR sensors.",
+   "start": 4.981,
+   "end": 9.897
+  },
+  {
+   "i": 2,
+   "text": "Roof-mounted LiDAR units fire millions of invisible laser beams every second, bouncing off surroundings.",
+   "start": 10.177,
+   "end": 15.509
+  },
+  {
+   "i": 3,
+   "text": "This creates a real-time, millimeter-accurate 3D point cloud map of the entire environment.",
+   "start": 15.79,
+   "end": 20.513
+  },
+  {
+   "i": 4,
+   "text": "High-resolution AI neural networks classify every pixel into pedestrians, bicycles, lane lines, and stop signs.",
+   "start": 20.793,
+   "end": 26.904
+  },
+  {
+   "i": 5,
+   "text": "The computer predicts where every moving object will be five seconds in the future to choose the safest path.",
+   "start": 27.184,
+   "end": 32.165
+  },
+  {
+   "i": 6,
+   "text": "A self-driving car sees through darkness and rain far better than human eyes ever could.",
+   "start": 32.445,
+   "end": 36.523
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "duration": 36.904,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What was daily life like in American cities just one hundred and fifty years ago before indoor plumbing?",
+   "start": 0.35,
+   "end": 5.182
+  },
+  {
+   "i": 1,
+   "text": "It was vastly dirtier and more perilous than anyone realizes.",
+   "start": 5.462,
+   "end": 8.704
+  },
+  {
+   "i": 2,
+   "text": "Every family kept porcelain chamber pots beneath their beds for nighttime calls of nature.",
+   "start": 8.984,
+   "end": 13.192
+  },
+  {
+   "i": 3,
+   "text": "In the morning, people dumped the contents into wooden backyard outhouses or straight into city street gutters.",
+   "start": 13.472,
+   "end": 18.688
+  },
+  {
+   "i": 4,
+   "text": "Raw waste seeped into shallow well drinking water, sparking deadly cholera and typhoid fever epidemics.",
+   "start": 18.968,
+   "end": 24.185
+  },
+  {
+   "i": 5,
+   "text": "Baths were a luxury taken once a week, sharing the same heated kettle water among multiple family members.",
+   "start": 24.465,
+   "end": 29.819
+  },
+  {
+   "i": 6,
+   "text": "Indoor plumbing and sanitary sewer networks saved more human lives than almost any medical invention in history.",
+   "start": 30.099,
+   "end": 35.604
+  }
+ ]
+}

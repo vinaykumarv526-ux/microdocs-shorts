@@ -1,0 +1,44 @@
+{
+  "title": "What happens if you stop drinking soda for 30 days?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "American Journal of Clinical Nutrition",
+    "Harvard T.H. Chan School of Public Health"
+  ],
+  "lines": [
+    {
+      "text": "What happens inside your body if you replace all sodas with pure water for thirty days?",
+      "caps": "What happens if you | *quit soda | for *30 days?"
+    },
+    {
+      "text": "A single can of soda contains nearly ten teaspoons of liquid high fructose corn syrup.",
+      "caps": "One can packs *ten teaspoons | of liquid | *sugar"
+    },
+    {
+      "text": "During the first three days, you will likely experience caffeine withdrawal headaches and intense sugar cravings.",
+      "caps": "First 3 days bring | caffeine *headaches | and *cravings"
+    },
+    {
+      "text": "By day ten, your insulin sensitivity dramatically resets, stopping afternoon energy crashes.",
+      "caps": "By day ten | your insulin *resets | and energy *soars"
+    },
+    {
+      "text": "Your kidneys and liver stop processing massive acid loads, and your tooth enamel begins remineralizing.",
+      "caps": "Kidneys detox | and tooth *enamel | *rebuilds"
+    },
+    {
+      "text": "After thirty days, you can lose up to five pounds of visceral fat while lowering cardiovascular inflammation.",
+      "caps": "You lose *5 pounds | of dangerous | *belly fat!"
+    },
+    {
+      "text": "Try thirty days without soda and feel how much cleaner your body runs.",
+      "caps": "Take the *30-day challenge | starting *today!",
+      "gap": 0.3
+    }
+  ]
+}

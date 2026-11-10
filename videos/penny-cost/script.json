@@ -1,0 +1,44 @@
+{
+  "title": "Why are pennies still around if they cost more to make?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "United States Mint Annual Report",
+    "Federal Reserve System Cash Product Office"
+  ],
+  "lines": [
+    {
+      "text": "Did you know that the United States Mint loses tens of millions of dollars every single year making pennies?",
+      "caps": "It costs *three cents | to make a *one-cent penny!"
+    },
+    {
+      "text": "Due to soaring raw metal prices, a one-cent coin currently costs three point zero seven cents to produce.",
+      "caps": "Costs over *3 cents | to manufacture a single *coin"
+    },
+    {
+      "text": "Pennies haven't been solid copper since nineteen eighty-two; they are ninety-seven point five percent zinc with a thin copper plating.",
+      "caps": "Made of 97% *zinc | with a tiny copper *plating"
+    },
+    {
+      "text": "So why does the government keep minting billions of unprofitable coins?",
+      "caps": "Why does the *government | keep making *them?"
+    },
+    {
+      "text": "The answer is zinc industry lobbying, charity donation drives, and public fear of retail price rounding.",
+      "caps": "Lobbying, charities, and *fear | of price *rounding"
+    },
+    {
+      "text": "Countries like Canada and Australia abolished their one-cent coins years ago with huge financial savings.",
+      "caps": "Canada eliminated pennies years *ago | saving millions in *tax dollars!"
+    },
+    {
+      "text": "Would you support the United States finally retiring the penny for good?",
+      "caps": "Should the US *retire | the penny? Comment your *thoughts!",
+      "gap": 0.3
+    }
+  ]
+}

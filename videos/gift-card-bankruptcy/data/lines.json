@@ -1,0 +1,49 @@
+{
+ "duration": 38.046,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "If you have an unused fifty-dollar gift card to a retail store that files for bankruptcy, is your money gone?",
+   "start": 0.35,
+   "end": 5.567
+  },
+  {
+   "i": 1,
+   "text": "The brutal legal reality is that gift card holders are considered unsecured creditors.",
+   "start": 5.847,
+   "end": 10.177
+  },
+  {
+   "i": 2,
+   "text": "When a company files Chapter 11 bankruptcy, federal courts freeze operations to pay major lenders first.",
+   "start": 10.457,
+   "end": 15.937
+  },
+  {
+   "i": 3,
+   "text": "The retailer must request special permission from the bankruptcy judge to continue accepting gift cards.",
+   "start": 16.217,
+   "end": 21.227
+  },
+  {
+   "i": 4,
+   "text": "If the company shifts to total liquidation, gift card redemptions are terminated instantly.",
+   "start": 21.507,
+   "end": 26.14
+  },
+  {
+   "i": 5,
+   "text": "You can file a formal claim with the bankruptcy court, but cardholders typically receive only pennies on the dollar years later.",
+   "start": 26.42,
+   "end": 32.434
+  },
+  {
+   "i": 6,
+   "text": "Always spend gift cards as soon as you receive them rather than stashing them in a drawer.",
+   "start": 32.714,
+   "end": 36.746
+  }
+ ]
+}

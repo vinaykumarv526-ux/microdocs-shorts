@@ -1,0 +1,44 @@
+{
+  "title": "How does noise-canceling technology remove sound?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Audio Engineering Society Journal",
+    "Bose Acoustic Noise Cancelling Whitepaper"
+  ],
+  "lines": [
+    {
+      "text": "How do noise-canceling headphones make roaring airplane jet engines vanish into pure silence?",
+      "caps": "How do *headphones | make loud noise | *vanish?"
+    },
+    {
+      "text": "They don't just physically block sound; they fight sound waves with more sound waves.",
+      "caps": "They use *sound | to destroy *sound!"
+    },
+    {
+      "text": "Tiny external microphones on the earcups listen to incoming ambient noise hundreds of times per second.",
+      "caps": "Microphones listen to *outside | noise in *real time"
+    },
+    {
+      "text": "An onboard digital processor instantly analyzes the exact sound wave's frequency and amplitude.",
+      "caps": "Processors calculate the *incoming | sound *wavelength"
+    },
+    {
+      "text": "The headphone speakers then generate an exact inverted sound wave, shifting the phase by one hundred and eighty degrees.",
+      "caps": "Speakers play an *opposite | mirror-image *wave"
+    },
+    {
+      "text": "When the peak of the background noise collides with the valley of the anti-noise wave, destructive interference deletes both.",
+      "caps": "The waves *collide | and cancel each other out *completely!"
+    },
+    {
+      "text": "You are literally hearing silence created by mathematical physics.",
+      "caps": "Hearing pure *silence | created by *physics!",
+      "gap": 0.3
+    }
+  ]
+}

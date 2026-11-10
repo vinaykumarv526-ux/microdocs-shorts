@@ -1,0 +1,44 @@
+{
+  "title": "Why do some roads have rumble strips?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Federal Highway Administration Rumble Strip Overview",
+    "National Highway Traffic Safety Administration"
+  ],
+  "lines": [
+    {
+      "text": "Why do highways have those textured grooves cut into the shoulder that make a loud buzzing vibration?",
+      "caps": "Why do highway shoulders have *loud | buzzing *grooves?"
+    },
+    {
+      "text": "Those grooves are called rumble strips, and they are one of the most effective safety inventions on Earth.",
+      "caps": "They're called *rumble strips | and they save thousands of *lives!"
+    },
+    {
+      "text": "Fatigue and distraction cause thousands of drivers to unintentionally drift off the roadway.",
+      "caps": "Drowsy drivers often *drift | toward ditches and *guardrails"
+    },
+    {
+      "text": "When vehicle tires roll over the milled asphalt grooves, it creates intense tactile vibrations and a loud drone.",
+      "caps": "Tires hit grooves creating *intense | vibration and *sound"
+    },
+    {
+      "text": "This physical jolt instantly shocks drowsy or inattentive drivers awake before they crash into trees.",
+      "caps": "Shocks inattentive drivers *awake | before they *crash!"
+    },
+    {
+      "text": "Federal studies show rumble strips reduce fatal run-off-the-road crashes by over thirty-five percent.",
+      "caps": "Cuts fatal highway *crashes | by over *35%!"
+    },
+    {
+      "text": "Those humble grooves in the pavement silently save thousands of lives every single year.",
+      "caps": "Simple grooves keeping *drivers | alive every single *day!",
+      "gap": 0.3
+    }
+  ]
+}

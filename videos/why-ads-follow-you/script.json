@@ -1,0 +1,44 @@
+{
+  "title": "Why do ads seem to follow you around the internet?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Interactive Advertising Bureau Retargeting Guide",
+    "FTC Behavioral Advertising Reports"
+  ],
+  "lines": [
+    {
+      "text": "Why does that pair of sneakers you looked at once on Amazon follow you onto Instagram, YouTube, and news sites?",
+      "caps": "Why does that one *ad | follow you everywhere *online?"
+    },
+    {
+      "text": "This marketing tactic is called retargeting, and it is powered by an invisible bidding auction.",
+      "caps": "It's called *retargeting | powered by instant ad *auctions!"
+    },
+    {
+      "text": "When you browse a product, the website drops a tracking pixel or first-party cookie in your browser.",
+      "caps": "The site drops an *invisible | tracking pixel in your *browser"
+    },
+    {
+      "text": "This pixel tags your browser with a unique anonymous user identifier.",
+      "caps": "Tags your device with a *unique | anonymous *identity"
+    },
+    {
+      "text": "Whenever you visit an entirely different website, ad exchange networks recognize your tracking ID.",
+      "caps": "Other websites *recognize | your anonymous tracking *tag"
+    },
+    {
+      "text": "In milliseconds, automated algorithms conduct a lightning auction, selling that ad banner to the sneaker brand for pennies.",
+      "caps": "Automated auctions sell the *banner | to the sneaker store in *milliseconds!"
+    },
+    {
+      "text": "Clear your browser cache and cookies regularly to shake off the ad trackers following you.",
+      "caps": "Clear cookies to *shake off | the digital *trackers!",
+      "gap": 0.3
+    }
+  ]
+}

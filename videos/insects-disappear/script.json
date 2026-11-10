@@ -1,0 +1,44 @@
+{
+  "title": "What if all the world's insects disappeared?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Geographic Society, Insect Decline",
+    "UN Food and Agriculture Organization"
+  ],
+  "lines": [
+    {
+      "text": "No more annoying mosquitoes or buzzing flies sounds like paradise, right?",
+      "caps": "No more *mosquitoes | sounds like | *paradise, right?"
+    },
+    {
+      "text": "Think again. If every insect vanished, human civilization would collapse in less than a year.",
+      "caps": "Civilization would *collapse | in less than | a *year!"
+    },
+    {
+      "text": "Insects are the master pollinators of over eighty percent of all flowering plants and crops.",
+      "caps": "Insects pollinate *80% | of our food | *crops"
+    },
+    {
+      "text": "Without bees, beetles, and butterflies, apples, coffee, chocolate, and grains would vanish from grocery shelves.",
+      "caps": "Coffee, chocolate, and *fruit | vanish from | *shelves"
+    },
+    {
+      "text": "Dead leaves, animal carcasses, and waste would pile up endlessly without beetle decomposers.",
+      "caps": "Mountains of waste *pile up | with no | *decomposers"
+    },
+    {
+      "text": "Birds, reptiles, and amphibians would starve to death, toppling global food pyramids.",
+      "caps": "Wildlife starves | as the food chain | *collapses"
+    },
+    {
+      "text": "Those tiny six-legged creatures are the invisible foundation keeping our entire planet alive.",
+      "caps": "Insects keep our *planet | alive and | *fed!",
+      "gap": 0.3
+    }
+  ]
+}

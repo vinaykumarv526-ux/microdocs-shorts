@@ -1,0 +1,44 @@
+{
+  "title": "What if you could pause time\u2014but only for 10 seconds?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Stanford Encyclopedia of Philosophy, Time",
+    "MIT Department of Physics"
+  ],
+  "lines": [
+    {
+      "text": "Imagine having a magic stopwatch that could freeze the entire universe for ten seconds.",
+      "caps": "What if you could | *pause time | for *10 seconds?"
+    },
+    {
+      "text": "You might dream of dodging incoming danger or pulling harmless pranks on your friends.",
+      "caps": "You could dodge *danger | or pull wild | *pranks"
+    },
+    {
+      "text": "But real physics would make those ten seconds an absolute nightmare.",
+      "caps": "Real physics makes it | a terrifying | *nightmare!"
+    },
+    {
+      "text": "If time stopped, light particles called photons would also freeze in mid-air, rendering you completely blind.",
+      "caps": "Frozen *photons | mean your eyes | see *nothing"
+    },
+    {
+      "text": "Air molecules would lock solid, meaning you couldn't take a breath or even push your body forward.",
+      "caps": "Air locks *solid | so you can't even | *move!"
+    },
+    {
+      "text": "Sound waves wouldn't vibrate, trapping you in a suffocating, pitch-black void of absolute stillness.",
+      "caps": "Trapped in a *pitch-black | silent frozen | *void"
+    },
+    {
+      "text": "When the ten seconds ticked down, you'd collapse gasping for oxygen, thrilled that time flows again.",
+      "caps": "You'd be thrilled | when *time starts | flowing again!",
+      "gap": 0.3
+    }
+  ]
+}

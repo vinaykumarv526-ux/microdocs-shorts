@@ -1,0 +1,49 @@
+{
+ "duration": 33.104,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "How deep is the deepest, darkest point on our entire planet?",
+   "start": 0.35,
+   "end": 3.428
+  },
+  {
+   "i": 1,
+   "text": "The Challenger Deep in the Mariana Trench plunges nearly thirty-six thousand feet into the abyss.",
+   "start": 3.708,
+   "end": 8.256
+  },
+  {
+   "i": 2,
+   "text": "If you took Mount Everest and placed it at the bottom, its highest snowy peak would still be over a mile underwater.",
+   "start": 8.536,
+   "end": 13.737
+  },
+  {
+   "i": 3,
+   "text": "At this depth, water pressure reaches over sixteen thousand pounds per square inch.",
+   "start": 14.017,
+   "end": 18.162
+  },
+  {
+   "i": 4,
+   "text": "That is equivalent to having fifty jumbo jet airplanes stacked directly on your chest.",
+   "start": 18.442,
+   "end": 22.615
+  },
+  {
+   "i": 5,
+   "text": "Yet despite crushing pressure and absolute blackness, translucent ghost fish and amphipods thrive here.",
+   "start": 22.895,
+   "end": 27.931
+  },
+  {
+   "i": 6,
+   "text": "We know vastly more about the craters on the Moon than the floor of our own oceans.",
+   "start": 28.211,
+   "end": 31.804
+  }
+ ]
+}

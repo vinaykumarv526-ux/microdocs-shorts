@@ -1,0 +1,49 @@
+{
+ "duration": 35.996,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why does every single car on both sides of the road have to come to a complete stop for a school bus?",
+   "start": 0.35,
+   "end": 4.941
+  },
+  {
+   "i": 1,
+   "text": "In the United States, passing a stopped school bus with flashing red lights carries felony-level fines.",
+   "start": 5.221,
+   "end": 9.998
+  },
+  {
+   "i": 2,
+   "text": "American school buses feature a dual amber and red lighting system invented in the late nineteen-fifties.",
+   "start": 10.278,
+   "end": 15.16
+  },
+  {
+   "i": 3,
+   "text": "Amber lights flash to warn motorists that the bus is slowing down to drop off children.",
+   "start": 15.44,
+   "end": 19.551
+  },
+  {
+   "i": 4,
+   "text": "When the bus stops, the driver deploys a mechanical Stop-sign arm and flashes bright red lights.",
+   "start": 19.831,
+   "end": 24.354
+  },
+  {
+   "i": 5,
+   "text": "This creates an enforced pedestrian safety zone around the vehicle because children often run across blind traffic.",
+   "start": 24.634,
+   "end": 29.946
+  },
+  {
+   "i": 6,
+   "text": "School buses are legally the safest form of passenger transportation in the entire country.",
+   "start": 30.226,
+   "end": 34.696
+  }
+ ]
+}

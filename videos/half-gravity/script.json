@@ -1,0 +1,44 @@
+{
+  "title": "What if gravity became half as strong?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NASA Center for Gravitational Biology",
+    "European Space Agency"
+  ],
+  "lines": [
+    {
+      "text": "What would happen to your body and the world if gravity suddenly dropped by fifty percent?",
+      "caps": "What if gravity | dropped by *50% | right now?"
+    },
+    {
+      "text": "Instantly, every human on Earth would feel as light as a feather, leaping over rooftops with ease.",
+      "caps": "You could easily *leap | over cars and | *rooftops!"
+    },
+    {
+      "text": "High jump sports and basketball would transform into breathtaking aerial spectacles.",
+      "caps": "Sports turn into | wild *aerial | acrobatics"
+    },
+    {
+      "text": "However, the atmospheric consequences would quickly turn fatal.",
+      "caps": "The planetary impact | would quickly | turn *fatal"
+    },
+    {
+      "text": "With half the gravitational grip, Earth's atmospheric pressure would rapidly escape into deep space.",
+      "caps": "Our atmosphere | begins leaking | into *space"
+    },
+    {
+      "text": "Oceans would boil at lower temperatures while human muscle mass and bone density rapidly withered away.",
+      "caps": "Water boils *faster | while your bones | rapidly *weaken"
+    },
+    {
+      "text": "Be glad Earth's gravity is finely tuned to keep our feet on the ground and air in our lungs.",
+      "caps": "Standard gravity | keeps us *alive | and grounded!",
+      "gap": 0.3
+    }
+  ]
+}

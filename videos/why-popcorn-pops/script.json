@@ -1,0 +1,44 @@
+{
+  "title": "Why does popcorn pop?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Journal of Cereal Science",
+    "Purdue University Department of Food Science"
+  ],
+  "lines": [
+    {
+      "text": "Why does popcorn explode into fluffy white clouds when heated, while sweet corn just burns?",
+      "caps": "Why does *popcorn pop | while sweet corn *burns?"
+    },
+    {
+      "text": "Popcorn kernels have an extraordinarily tough, waterproof outer hull called the pericarp.",
+      "caps": "Popcorn has an *extra-tough | waterproof *hull"
+    },
+    {
+      "text": "Inside each kernel sits a tiny droplet of water surrounded by hard, dense starch.",
+      "caps": "Inside sits a *droplet of water | surrounded by *starch"
+    },
+    {
+      "text": "When you heat the kernel past four hundred degrees, that trapped water turns into high-pressure steam.",
+      "caps": "Trapped water turns into *high-pressure | superheated *steam"
+    },
+    {
+      "text": "The steam cooks the dense starch into a molten, gelatinous hot dough.",
+      "caps": "Cooks the starch into a *molten | gelatinous *dough"
+    },
+    {
+      "text": "When internal pressure reaches one hundred and thirty-five pounds per square inch, the hull violently explodes.",
+      "caps": "At 135 PSI the hull *explodes | turning inside *out!"
+    },
+    {
+      "text": "As it bursts, the molten starch instantly cools into the delicious crunchy snack you love.",
+      "caps": "Instant cooling creates the *crunchy snack | you *love!",
+      "gap": 0.3
+    }
+  ]
+}

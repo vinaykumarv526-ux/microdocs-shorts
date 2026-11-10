@@ -1,0 +1,44 @@
+{
+  "title": "What happens if you flush a toilet during a power outage?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "American Society of Plumbing Engineers",
+    "EPA Municipal Water Infrastructure"
+  ],
+  "lines": [
+    {
+      "text": "When the electricity suddenly goes out in your house, can you still safely flush your toilet?",
+      "caps": "Can you flush the *toilet | during a | *power outage?"
+    },
+    {
+      "text": "The surprising answer depends entirely on where your water comes from.",
+      "caps": "The answer depends | entirely on your *water | *system"
+    },
+    {
+      "text": "If you live in a city connected to municipal gravity water towers, your toilet will flush normally.",
+      "caps": "City water towers use *gravity | and flush *normally"
+    },
+    {
+      "text": "Standard gravity toilets rely on mechanical siphons, requiring zero electricity inside your home.",
+      "caps": "Mechanical *siphons | require zero *electricity | to *flush"
+    },
+    {
+      "text": "However, if your home relies on an electric well pump or basement sewage ejector, you have exactly one flush.",
+      "caps": "Well pumps and *septic pumps | stop working | *instantly"
+    },
+    {
+      "text": "Once the tank empties, it won't refill, and using it further risks backing up raw sewage.",
+      "caps": "Flushing again can *back up | sewage into your *home!"
+    },
+    {
+      "text": "In an extended blackout, keep buckets of water handy to manually pour flush your bowl.",
+      "caps": "Pour a bucket of *water | to manually flush!",
+      "gap": 0.3
+    }
+  ]
+}

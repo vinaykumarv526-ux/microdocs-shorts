@@ -1,0 +1,48 @@
+{
+  "title": "How do vending machines know which coin you inserted?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Automatic Merchandising Association",
+    "Coin Mechanism Inductive Sensor Patents"
+  ],
+  "lines": [
+    {
+      "text": "When you drop a quarter into a snack vending machine, how does it know it's not a metal washer or slug?",
+      "caps": "How does a vending machine *spot | fake coins in *0.5 seconds?"
+    },
+    {
+      "text": "It doesn't just check the coin's size; it tests its physical and electrical signature.",
+      "caps": "Tests the coin's physical *and | electrical *fingerprint!"
+    },
+    {
+      "text": "First, optical light beams measure the coin's precise diameter and thickness as it rolls down the ramp.",
+      "caps": "Optical sensors measure *diameter | and precise *thickness"
+    },
+    {
+      "text": "Next, the coin rolls past twin electromagnetic coils.",
+      "caps": "Rolls past twin *electromagnetic | sensor *coils"
+    },
+    {
+      "text": "The coin's metallic composition disrupts the magnetic field, generating unique eddy currents.",
+      "caps": "The metal creates *unique | eddy current *signatures"
+    },
+    {
+      "text": "Because a genuine U.S. quarter has a specific copper-nickel core, its magnetic signature is unmistakable.",
+      "caps": "Authentic coins have an *unmistakable | copper-nickel *frequency!"
+    },
+    {
+      "text": "If the coin is magnetic, too light, or made of cheap iron, a mechanical trapdoor flings it straight into the coin return.",
+      "caps": "Fake coins get *flung | straight into the *return slot!"
+    },
+    {
+      "text": "A tiny high-tech metal laboratory verifies your change in a fraction of a second.",
+      "caps": "A miniature metal *lab | checking your change in *seconds!",
+      "gap": 0.3
+    }
+  ]
+}

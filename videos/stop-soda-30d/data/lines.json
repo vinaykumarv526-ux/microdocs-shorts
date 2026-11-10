@@ -1,0 +1,49 @@
+{
+ "duration": 35.52,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What happens inside your body if you replace all sodas with pure water for thirty days?",
+   "start": 0.35,
+   "end": 4.478
+  },
+  {
+   "i": 1,
+   "text": "A single can of soda contains nearly ten teaspoons of liquid high fructose corn syrup.",
+   "start": 4.758,
+   "end": 8.99
+  },
+  {
+   "i": 2,
+   "text": "During the first three days, you will likely experience caffeine withdrawal headaches and intense sugar cravings.",
+   "start": 9.27,
+   "end": 14.337
+  },
+  {
+   "i": 3,
+   "text": "By day ten, your insulin sensitivity dramatically resets, stopping afternoon energy crashes.",
+   "start": 14.617,
+   "end": 19.776
+  },
+  {
+   "i": 4,
+   "text": "Your kidneys and liver stop processing massive acid loads, and your tooth enamel begins remineralizing.",
+   "start": 20.056,
+   "end": 25.074
+  },
+  {
+   "i": 5,
+   "text": "After thirty days, you can lose up to five pounds of visceral fat while lowering cardiovascular inflammation.",
+   "start": 25.354,
+   "end": 30.672
+  },
+  {
+   "i": 6,
+   "text": "Try thirty days without soda and feel how much cleaner your body runs.",
+   "start": 30.952,
+   "end": 34.22
+  }
+ ]
+}

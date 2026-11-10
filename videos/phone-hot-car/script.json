@@ -1,0 +1,44 @@
+{
+  "title": "What happens if you leave a phone in a hot car?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Highway Traffic Safety Administration",
+    "Battery University Lithium Degradation"
+  ],
+  "lines": [
+    {
+      "text": "Leaving your smartphone sitting on a car dashboard on a sunny day can permanently destroy it in minutes.",
+      "caps": "Never leave your *phone | in a *hot car!"
+    },
+    {
+      "text": "On an eighty-degree afternoon, the inside of a closed vehicle can easily spike past one hundred and forty degrees.",
+      "caps": "Car interiors reach | over *140 degrees | in *minutes"
+    },
+    {
+      "text": "Inside your phone, the lithium-ion battery operates with volatile liquid electrolytes.",
+      "caps": "Lithium batteries use | volatile liquid | *electrolytes"
+    },
+    {
+      "text": "Extreme heat causes the battery's internal separator film to degrade, triggering thermal runaway.",
+      "caps": "Excessive heat causes | permanent *cell | degradation"
+    },
+    {
+      "text": "The battery can swell up like a balloon, cracking the screen glass and risking a chemical fire.",
+      "caps": "The battery can *swell | and shatter the *glass!"
+    },
+    {
+      "text": "Even if it doesn't catch fire, permanent battery capacity drops by over twenty percent after one afternoon.",
+      "caps": "Loses 20% of its *capacity | in just *one day"
+    },
+    {
+      "text": "Always keep your phone in your pocket or out of direct sunlight.",
+      "caps": "Keep your device in the *shade | to stay *safe!",
+      "gap": 0.3
+    }
+  ]
+}

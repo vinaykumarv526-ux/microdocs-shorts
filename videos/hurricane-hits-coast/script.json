@@ -1,0 +1,44 @@
+{
+  "title": "What happens when a hurricane reaches the coast?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Hurricane Center Landfall Dynamics",
+    "NOAA Coastal Storm Surge Studies"
+  ],
+  "lines": [
+    {
+      "text": "When a Category 5 hurricane slams into the coast, what actually causes the most catastrophic damage?",
+      "caps": "What causes the most *damage | when a *hurricane hits?"
+    },
+    {
+      "text": "Most people fear the one hundred and fifty mile per hour winds, but wind isn't the primary killer.",
+      "caps": "Winds are scary, but *water | is the real *killer"
+    },
+    {
+      "text": "The storm's central low pressure and violent winds act like a giant bulldozer pushing the ocean forward.",
+      "caps": "Winds act like a *bulldozer | pushing the *ocean"
+    },
+    {
+      "text": "This creates a massive wall of seawater called a storm surge, rising over twenty feet above sea level.",
+      "caps": "Creates a *twenty-foot wall | of crushing storm *surge!"
+    },
+    {
+      "text": "A single cubic yard of water weighs nearly one ton, easily demolishing brick homes and concrete bridges.",
+      "caps": "One cubic yard of *water | weighs a full *ton"
+    },
+    {
+      "text": "Once over land, the hurricane loses warm ocean fuel, weakening into torrential inland rain deluges.",
+      "caps": "Over land, it *weakens | into torrential *flooding"
+    },
+    {
+      "text": "Storm surge causes nearly ninety percent of all direct hurricane fatalities.",
+      "caps": "Storm surge causes *90% | of all hurricane *deaths!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "What would happen if the power grid failed across the United States?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Department of Energy Grid Modernization",
+    "North American Electric Reliability Corporation"
+  ],
+  "lines": [
+    {
+      "text": "What would happen to the United States if a catastrophic event knocked out the power grid nationwide?",
+      "caps": "What if the entire *US grid | collapsed *nationwide?"
+    },
+    {
+      "text": "Within seconds, three hundred and thirty million Americans would plunge into pitch black silence.",
+      "caps": "Over 330 million people *plunge | into total *blackout"
+    },
+    {
+      "text": "Refrigeration fails instantly, spoiling millions of tons of food in grocery distribution warehouses.",
+      "caps": "Food warehouses *spoil | in just forty-eight *hours"
+    },
+    {
+      "text": "Within twenty-four hours, municipal water pumping stations lose backup diesel, running taps dry.",
+      "caps": "Taps run dry as *water pumps | run out of *diesel"
+    },
+    {
+      "text": "Hospitals burn through emergency generator fuel while cell phone towers die one by one.",
+      "caps": "Hospitals run out of *fuel | and cell towers go *silent"
+    },
+    {
+      "text": "Because massive custom high-voltage transformers take months to manufacture, recovery would take years.",
+      "caps": "Replacing giant *transformers | takes months to *years!"
+    },
+    {
+      "text": "The electrical grid is the fragile heartbeat sustaining all modern American life.",
+      "caps": "The electric grid is the *heartbeat | of modern *life!",
+      "gap": 0.3
+    }
+  ]
+}

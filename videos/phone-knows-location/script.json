@@ -1,0 +1,44 @@
+{
+  "title": "How does your phone know where you are?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "FCC Wireless E911 Location Technologies",
+    "IEEE Spectrum GPS Trilateration"
+  ],
+  "lines": [
+    {
+      "text": "How can a tiny smartphone in your pocket pinpoint your exact location down to a single foot?",
+      "caps": "How does your phone *pinpoint | your exact | *location?"
+    },
+    {
+      "text": "It doesn't rely on just one sensor; it combines three invisible global systems simultaneously.",
+      "caps": "Combines three *invisible | systems at | *once!"
+    },
+    {
+      "text": "First, a built-in GPS chip listens to atomic clocks ticking aboard thirty-one satellites in deep orbit.",
+      "caps": "Listens to *atomic clocks | on 31 orbiting | *satellites"
+    },
+    {
+      "text": "By calculating the nanosecond delays from four different satellites, it calculates your coordinates using trilateration.",
+      "caps": "Uses *trilateration | to calculate your | *coordinates"
+    },
+    {
+      "text": "When you step indoors where satellite signals fade, your phone scans surrounding Wi-Fi routers and cell towers.",
+      "caps": "Indoors, it scans *Wi-Fi | routers and cell | *towers"
+    },
+    {
+      "text": "It cross-references their signal strength against massive geographic databases to find your hallway.",
+      "caps": "Maps signal strength to *find | your exact | *room!"
+    },
+    {
+      "text": "You are constantly surrounded by an invisible matrix of navigation signals.",
+      "caps": "An invisible *grid of signals | follows you *everywhere!",
+      "gap": 0.3
+    }
+  ]
+}

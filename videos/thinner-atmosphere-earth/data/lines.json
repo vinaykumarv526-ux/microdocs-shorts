@@ -1,0 +1,49 @@
+{
+ "duration": 35.297,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What would happen to planet Earth if our atmosphere suddenly lost half of its air pressure?",
+   "start": 0.35,
+   "end": 4.241
+  },
+  {
+   "i": 1,
+   "text": "Instantly, sea level air would feel as thin as the death zone summit of Mount Everest.",
+   "start": 4.521,
+   "end": 8.55
+  },
+  {
+   "i": 2,
+   "text": "Every human on the planet would gasp for oxygen, losing consciousness within two minutes from acute hypoxia.",
+   "start": 8.83,
+   "end": 14.199
+  },
+  {
+   "i": 3,
+   "text": "Water would boil at just one hundred and fifty degrees Fahrenheit, making hot cooking impossible.",
+   "start": 14.479,
+   "end": 19.113
+  },
+  {
+   "i": 4,
+   "text": "With less atmospheric shielding, lethal ultraviolet solar radiation and meteors would bombard the ground unchecked.",
+   "start": 19.393,
+   "end": 24.973
+  },
+  {
+   "i": 5,
+   "text": "Sky color would darken from brilliant azure blue to an eerie dark indigo even at midday.",
+   "start": 25.253,
+   "end": 29.688
+  },
+  {
+   "i": 6,
+   "text": "Our thick blanket of air is the only shield protecting us from the hostile void of space.",
+   "start": 29.968,
+   "end": 33.997
+  }
+ ]
+}

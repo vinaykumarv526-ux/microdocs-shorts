@@ -1,0 +1,49 @@
+{
+ "duration": 41.871,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "The nineteen-oh-four Olympic marathon in St. Louis was so wildly disastrous, it felt like a slapstick comedy film.",
+   "start": 0.35,
+   "end": 5.972
+  },
+  {
+   "i": 1,
+   "text": "Runners raced twenty-five miles through ninety-degree heat over dusty unpaved roads choked with car exhaust.",
+   "start": 6.252,
+   "end": 11.194
+  },
+  {
+   "i": 2,
+   "text": "The race organizers intentionally provided only one single water station to test human dehydration limits.",
+   "start": 11.474,
+   "end": 17.034
+  },
+  {
+   "i": 3,
+   "text": "One runner hitched a ride in an automobile for eleven miles, crossed the finish line, and almost took the gold medal.",
+   "start": 17.314,
+   "end": 22.739
+  },
+  {
+   "i": 4,
+   "text": "Another runner ate rotten apples from an orchard, developed agonizing stomach cramps, and took an hour nap by the road.",
+   "start": 23.019,
+   "end": 28.858
+  },
+  {
+   "i": 5,
+   "text": "The actual winner was repeatedly injected with rat poison strychnine and raw egg whites as a stimulant, hallucinating across the finish line.",
+   "start": 29.138,
+   "end": 35.989
+  },
+  {
+   "i": 6,
+   "text": "It remains the most bizarre and chaotic athletic event ever staged in Olympic history.",
+   "start": 36.269,
+   "end": 40.571
+  }
+ ]
+}

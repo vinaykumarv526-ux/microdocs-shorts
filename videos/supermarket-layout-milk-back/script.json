@@ -1,0 +1,44 @@
+{
+  "title": "Why do stores put essentials at the back?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Food Marketing Institute Supermarket Layout Studies",
+    "Cornell University Food and Brand Lab"
+  ],
+  "lines": [
+    {
+      "text": "Why is the gallon of milk or loaf of bread always placed at the furthest back corner of the grocery store?",
+      "caps": "Why is the *milk | always hidden in the very *back?"
+    },
+    {
+      "text": "It is not an accident; it is a calculated psychological trap designed by retail architects.",
+      "caps": "A calculated *retail trap | designed to make you *spend!"
+    },
+    {
+      "text": "Milk and eggs are the most frequently purchased staples in American households.",
+      "caps": "Staples like milk and *eggs | are bought *most often"
+    },
+    {
+      "text": "To grab that one carton of milk, you are forced to walk past dozens of brightly packaged impulse items.",
+      "caps": "Forces you to *walk past | hundreds of impulse *snacks"
+    },
+    {
+      "text": "Endcaps, bakery aromas, and eye-level snack displays lure you into tossing items into your cart.",
+      "caps": "Fresh bakery *aromas | and displays lure your *cravings"
+    },
+    {
+      "text": "Retail studies show over sixty percent of items in a typical grocery cart were completely unplanned purchases.",
+      "caps": "Over 60% of grocery *items | were completely *unplanned!"
+    },
+    {
+      "text": "To save money, write a strict grocery list and stick to it without looking at the side displays.",
+      "caps": "Stick strictly to your *list | to beat supermarket *tricks!",
+      "gap": 0.3
+    }
+  ]
+}

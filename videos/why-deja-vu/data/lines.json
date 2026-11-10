@@ -1,0 +1,49 @@
+{
+ "duration": 36.041,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Have you ever walked into an unfamiliar room and felt an overwhelming certainty you've been there before?",
+   "start": 0.35,
+   "end": 5.055
+  },
+  {
+   "i": 1,
+   "text": "That eerie feeling is called d\u00e9j\u00e0 vu, and it is actually a temporary brain glitch.",
+   "start": 5.335,
+   "end": 9.304
+  },
+  {
+   "i": 2,
+   "text": "Normally, incoming sensory information enters your short-term memory before being cataloged into long-term storage.",
+   "start": 9.584,
+   "end": 15.107
+  },
+  {
+   "i": 3,
+   "text": "During d\u00e9j\u00e0 vu, a tiny neurological misfire routes the current experience straight into your long-term memory circuit.",
+   "start": 15.387,
+   "end": 21.217
+  },
+  {
+   "i": 4,
+   "text": "Your temporal lobe perceives a brand new moment as if it occurred years in the past.",
+   "start": 21.497,
+   "end": 25.268
+  },
+  {
+   "i": 5,
+   "text": "It is essentially your brain's memory filing system lagging by a fraction of a millisecond.",
+   "start": 25.548,
+   "end": 29.921
+  },
+  {
+   "i": 6,
+   "text": "Don't worry; experiencing d\u00e9j\u00e0 vu just means your brain's fact-checking system is healthy and active.",
+   "start": 30.201,
+   "end": 34.741
+  }
+ ]
+}

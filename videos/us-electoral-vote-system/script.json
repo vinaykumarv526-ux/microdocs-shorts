@@ -1,0 +1,44 @@
+{
+  "title": "How does the U.S. electoral vote system work?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Archives U.S. Electoral College",
+    "U.S. Constitution Article II Section 1"
+  ],
+  "lines": [
+    {
+      "text": "In American presidential elections, how can a candidate win the popular vote but still lose the presidency?",
+      "caps": "How can someone win the *popular vote | but lose the *White House?"
+    },
+    {
+      "text": "When American citizens vote for president, they aren't voting directly for the candidate.",
+      "caps": "Americans don't vote *directly | for the *president"
+    },
+    {
+      "text": "They are actually voting for a slate of state electors designated by political parties.",
+      "caps": "You vote for a slate of *electors | representing your *state"
+    },
+    {
+      "text": "Each state's electoral votes equal its total members of Congress: two senators plus House representatives based on population.",
+      "caps": "Votes equal House *reps | plus two *senators"
+    },
+    {
+      "text": "Out of five hundred and thirty-eight total electoral votes, the first candidate to reach two hundred and seventy wins.",
+      "caps": "The first candidate to hit *270 | wins the *presidency!"
+    },
+    {
+      "text": "In forty-eight states, the winner-take-all rule awards every single electoral vote to whoever wins that state.",
+      "caps": "Winner-take-all gives all *votes | to the state's *winner"
+    },
+    {
+      "text": "The Founders created this balance to prevent high-population cities from completely deciding national elections.",
+      "caps": "Designed to balance *power | across every single *state!",
+      "gap": 0.3
+    }
+  ]
+}

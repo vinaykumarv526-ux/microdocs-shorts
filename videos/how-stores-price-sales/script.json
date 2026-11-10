@@ -1,0 +1,44 @@
+{
+  "title": "How do stores decide what goes on sale?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Journal of Consumer Research Price Anchoring",
+    "Harvard Business Review Dynamic Pricing"
+  ],
+  "lines": [
+    {
+      "text": "When you see a fifty-dollar shirt discounted to twenty-five dollars, are you really getting a great deal?",
+      "caps": "Are retail store *sales | really saving you *money?"
+    },
+    {
+      "text": "Retailers use a psychological mind trick called price anchoring.",
+      "caps": "Retailers use a trick *called | price *anchoring!"
+    },
+    {
+      "text": "The company never intended to sell that shirt for fifty dollars in the first place.",
+      "caps": "They never *planned | to sell it at full *price"
+    },
+    {
+      "text": "By showing you a high original price, your brain anchors to fifty dollars, perceiving twenty-five as a massive win.",
+      "caps": "Your brain anchors to *50 | making 25 feel like a *steal!"
+    },
+    {
+      "text": "Department stores also slash prices to clear warehouse inventory for incoming seasonal collections.",
+      "caps": "Sales clear old *inventory | to make room for new *stock"
+    },
+    {
+      "text": "They often sell loss leaders\u2014like four-dollar rotisserie chickens\u2014at a financial loss just to get you walking past expensive items.",
+      "caps": "Loss leaders lure you *inside | to buy high-profit *items!"
+    },
+    {
+      "text": "Never buy something just because it is on sale; buy it only if you truly need it.",
+      "caps": "Don't buy the *discount | buy only what you *need!",
+      "gap": 0.3
+    }
+  ]
+}

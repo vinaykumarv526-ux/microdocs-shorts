@@ -1,0 +1,49 @@
+{
+ "duration": 34.237,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Have you ever noticed that tiny pinhole at the bottom of commercial airplane windows?",
+   "start": 0.35,
+   "end": 4.222
+  },
+  {
+   "i": 1,
+   "text": "It is not a manufacturing defect; that tiny hole is a critical lifesaving safety feature.",
+   "start": 4.502,
+   "end": 9.149
+  },
+  {
+   "i": 2,
+   "text": "Airplane passenger windows consist of three separate acrylic panes.",
+   "start": 9.429,
+   "end": 12.897
+  },
+  {
+   "i": 3,
+   "text": "At thirty-five thousand feet, the air pressure outside is dramatically lower than inside the pressurized cabin.",
+   "start": 13.177,
+   "end": 18.494
+  },
+  {
+   "i": 4,
+   "text": "The tiny hole, called a bleed valve, balances air pressure between the middle pane and the outer pane.",
+   "start": 18.774,
+   "end": 23.636
+  },
+  {
+   "i": 5,
+   "text": "This forces the tough outer pane to carry all cabin pressurization stress, keeping the inner pane safe.",
+   "start": 23.916,
+   "end": 28.97
+  },
+  {
+   "i": 6,
+   "text": "It also vents moisture to prevent your window from frosting over during flight.",
+   "start": 29.25,
+   "end": 32.937
+  }
+ ]
+}

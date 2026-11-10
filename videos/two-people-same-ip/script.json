@@ -1,0 +1,44 @@
+{
+  "title": "Can two people have the same IP address?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "IETF RFC 1918 Address Allocation for Private Internets",
+    "Network Address Translation Architecture"
+  ],
+  "lines": [
+    {
+      "text": "Every computer on the internet has an IP address, but can two different people share the exact same one?",
+      "caps": "Can two people *share | the exact same *IP address?"
+    },
+    {
+      "text": "The answer is yes, and millions of people do every single day.",
+      "caps": "The answer is *yes | and millions do every *day!"
+    },
+    {
+      "text": "Inside private local networks, almost every home router assigns devices addresses like 192.168.1.1.",
+      "caps": "Local routers use standard *private | internal IP *addresses"
+    },
+    {
+      "text": "Millions of people share those private internal IP addresses without conflict.",
+      "caps": "Millions share those *private | addresses without *conflict"
+    },
+    {
+      "text": "When heading onto the public internet, a process called Network Address Translation converts all your family's devices to one public IP.",
+      "caps": "Your router groups all *family | devices into one *public IP"
+    },
+    {
+      "text": "Mobile phone carriers also use Carrier-Grade NAT, bundling thousands of different cellular users under a single public IP address.",
+      "caps": "Cellular carriers bundle *thousands | of phones under *one IP!"
+    },
+    {
+      "text": "Your IP address is more like a shared apartment lobby than a single private bedroom.",
+      "caps": "An IP is like a shared *lobby | rather than a private *room!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "What happens if you never change your phone password?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Cybersecurity and Infrastructure Security Agency",
+    "Apple Security Whitepaper"
+  ],
+  "lines": [
+    {
+      "text": "When was the last time you actually changed your smartphone passcode?",
+      "caps": "When did you last | change your *passcode?"
+    },
+    {
+      "text": "Most people use the exact same four or six-digit PIN for years without thinking twice.",
+      "caps": "Most keep the *same PIN | for *years"
+    },
+    {
+      "text": "Over months of daily swiping, your finger oils leave subtle smudge trails on the glass.",
+      "caps": "Finger oils leave *smudge trails | across your *screen"
+    },
+    {
+      "text": "Under angled light or thermal cameras, anyone standing behind you can easily reconstruct your code.",
+      "caps": "Anyone behind you | can easily *see | your *code"
+    },
+    {
+      "text": "Even worse, automated brute-force cracking tools test common combinations in seconds.",
+      "caps": "Automated tools *guess | common pins in | *seconds"
+    },
+    {
+      "text": "Once someone has your device PIN, they can reset your Apple ID, passwords, and banking apps.",
+      "caps": "They can unlock | your *bank accounts | and *photos!"
+    },
+    {
+      "text": "Change your passcode to a strong six-digit mix today to keep your digital life safe.",
+      "caps": "Update your *passcode | today to *stay safe!",
+      "gap": 0.3
+    }
+  ]
+}

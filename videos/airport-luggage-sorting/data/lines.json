@@ -1,0 +1,49 @@
+{
+ "duration": 38.527,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "When you check your suitcase at an airport ticket counter, how does it navigate miles of tunnels to your plane?",
+   "start": 0.35,
+   "end": 5.354
+  },
+  {
+   "i": 1,
+   "text": "It rides a subterranean roller coaster network stretching dozens of miles beneath the airport terminal.",
+   "start": 5.634,
+   "end": 10.445
+  },
+  {
+   "i": 2,
+   "text": "When check-in tags your bag, a ten-digit barcode containing flight, passenger, and destination data is encoded.",
+   "start": 10.725,
+   "end": 16.27
+  },
+  {
+   "i": 3,
+   "text": "High-speed optical laser tunnels scan the barcode from all six angles as the bag zooms by at thirty miles an hour.",
+   "start": 16.55,
+   "end": 21.928
+  },
+  {
+   "i": 4,
+   "text": "Automated pusher arms kick the suitcase onto specific conveyor spurs heading toward automated explosive scanners.",
+   "start": 22.208,
+   "end": 27.841
+  },
+  {
+   "i": 5,
+   "text": "Robotic destination loaders drop the bag into the exact cart heading for your aircraft cargo hold.",
+   "start": 28.121,
+   "end": 32.937
+  },
+  {
+   "i": 6,
+   "text": "Over ninety-nine percent of airport baggage arrives smoothly at its final destination.",
+   "start": 33.217,
+   "end": 37.227
+  }
+ ]
+}

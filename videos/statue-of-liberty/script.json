@@ -1,0 +1,44 @@
+{
+  "title": "How did the Statue of Liberty get to New York?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Park Service Statue of Liberty History",
+    "Library of Congress French-American Alliance"
+  ],
+  "lines": [
+    {
+      "text": "How did a colossal three-hundred-foot copper statue built in Paris cross the stormy Atlantic Ocean to New York Harbor?",
+      "caps": "How did the Statue of *Liberty | cross the stormy *ocean?"
+    },
+    {
+      "text": "It arrived as the world's most epic jigsaw puzzle.",
+      "caps": "Arrived as the world's *most epic | giant jigsaw *puzzle!"
+    },
+    {
+      "text": "Designed by sculptor Bartholdi with an internal iron skeleton engineered by Gustave Eiffel, it was fully assembled in Paris first.",
+      "caps": "Engineered by Gustave *Eiffel | and built in *Paris first"
+    },
+    {
+      "text": "To transport it, workers painstakingly disassembled Lady Liberty into three hundred and fifty individual pieces.",
+      "caps": "Disassembled into *350 pieces | packed in 214 *crates"
+    },
+    {
+      "text": "The crates were loaded aboard a French navy steamship that nearly capsized in heavy oceanic gales.",
+      "caps": "A navy steamship *battled | giant oceanic *storms!"
+    },
+    {
+      "text": "When it reached New York in eighteen eighty-five, Americans reassembled the pieces around an iron truss skeleton over four months.",
+      "caps": "Reassembled in *New York | over four intense *months"
+    },
+    {
+      "text": "Originally shiny reddish bronze, copper oxidation turned her into the iconic green monument we cherish today.",
+      "caps": "Oxidation turned her *bronze | into iconic emerald *green!",
+      "gap": 0.3
+    }
+  ]
+}

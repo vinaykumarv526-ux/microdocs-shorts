@@ -1,0 +1,44 @@
+{
+  "title": "What happens if lightning hits a swimming pool?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Weather Service Lightning Safety",
+    "American Red Cross Aquatics"
+  ],
+  "lines": [
+    {
+      "text": "What would happen to you if lightning struck the swimming pool while you were taking a dip?",
+      "caps": "What if lightning *strikes | the pool while | you *swim?"
+    },
+    {
+      "text": "A typical lightning bolt carries over thirty thousand amperes and three hundred million volts of raw energy.",
+      "caps": "Carries *30,000 amps | and 300 million | *volts!"
+    },
+    {
+      "text": "While pure distilled water is an insulator, swimming pool water is packed with conductive chlorine salts and minerals.",
+      "caps": "Pool chemicals make the *water | an extreme | *conductor"
+    },
+    {
+      "text": "When lightning hits, the electrical current spreads out horizontally across the water's surface.",
+      "caps": "Current surges *horizontally | across the entire | *surface"
+    },
+    {
+      "text": "Anyone with their head or shoulders above water becomes the path of least resistance.",
+      "caps": "Swimmers become the *path | of least *resistance"
+    },
+    {
+      "text": "The shock causes immediate cardiac arrest, severe internal burns, and instant loss of consciousness.",
+      "caps": "Triggers immediate *cardiac arrest | and severe | *burns"
+    },
+    {
+      "text": "That is why lifeguards order everyone out of the pool the instant thunder rumbles.",
+      "caps": "When thunder roars, get *out | of the *water!",
+      "gap": 0.3
+    }
+  ]
+}

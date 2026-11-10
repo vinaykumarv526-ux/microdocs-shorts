@@ -1,0 +1,44 @@
+{
+  "title": "Can a website hear you through your microphone?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "W3C WebRTC Media Capture and Streams Security",
+    "Electronic Frontier Foundation Browser Privacy"
+  ],
+  "lines": [
+    {
+      "text": "Have you ever talked about buying hiking boots, and suddenly your phone shows ads for hiking boots everywhere?",
+      "caps": "Are websites *secretly | listening to your *microphone?"
+    },
+    {
+      "text": "It feels like your phone is eavesdropping on your vocal conversations.",
+      "caps": "Feels like your *phone | is spying on every *word"
+    },
+    {
+      "text": "Security researchers have thoroughly analyzed network packets and found apps rarely secretly stream your voice.",
+      "caps": "Researchers found apps *rarely | stream live *voice recordings"
+    },
+    {
+      "text": "Modern mobile operating systems strictly require explicit microphone permissions, displaying an orange privacy dot.",
+      "caps": "Operating systems show an *orange dot | whenever mic is *active"
+    },
+    {
+      "text": "The reality is far creepier: ad tracking networks don't need your microphone.",
+      "caps": "Ad networks don't *need | your *microphone!"
+    },
+    {
+      "text": "They predict your desires by combining your GPS location, browsing history, and what your nearby friends just purchased.",
+      "caps": "They combine *GPS data | shopping habits, and *friend activity"
+    },
+    {
+      "text": "The predictive data algorithms are simply so frighteningly accurate that they don't even need to listen.",
+      "caps": "Data algorithms *predict you | better than a *wiretap!",
+      "gap": 0.3
+    }
+  ]
+}

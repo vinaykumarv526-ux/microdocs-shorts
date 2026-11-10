@@ -1,0 +1,44 @@
+{
+  "title": "When does a smartphone become too old to receive updates?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Qualcomm Chipset Lifecycle Policy",
+    "Apple iOS Support Lifespan Analysis"
+  ],
+  "lines": [
+    {
+      "text": "Why do phone manufacturers suddenly stop sending software updates to perfectly working older phones?",
+      "caps": "Why do phones *stop | getting software *updates?"
+    },
+    {
+      "text": "It is not just a greedy plan to force you to buy a new device.",
+      "caps": "Not just a trick to make you *buy | a new *phone!"
+    },
+    {
+      "text": "The real bottleneck is the chipset manufacturer who built the processor inside your phone.",
+      "caps": "The bottleneck is the *chipmaker | who built the *processor"
+    },
+    {
+      "text": "Companies like Qualcomm only support driver patches for their microchips for four to five years.",
+      "caps": "Chipmakers stop writing *drivers | after five *years"
+    },
+    {
+      "text": "Newer operating systems require modern neural engines, larger RAM, and advanced GPU instruction sets.",
+      "caps": "New OS features need *advanced | neural hardware and *RAM"
+    },
+    {
+      "text": "Without chipmaker driver support, installing new updates would cause phones to lag, overheat, and crash.",
+      "caps": "Without drivers, new updates would *overheat | and brick the *phone!"
+    },
+    {
+      "text": "Once updates stop, unpatched security vulnerabilities make it time for a phone upgrade.",
+      "caps": "Upgrade when security *patches | officially *end!",
+      "gap": 0.3
+    }
+  ]
+}

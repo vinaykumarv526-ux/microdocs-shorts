@@ -1,0 +1,44 @@
+{
+  "title": "Why did people build castles with moats?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "English Heritage Medieval Castle Architecture",
+    "Royal Armouries Siege Warfare History"
+  ],
+  "lines": [
+    {
+      "text": "Movies always show castle moats filled with ferocious man-eating alligators, but why did medieval lords actually build them?",
+      "caps": "Why did castles *really | have giant water *moats?"
+    },
+    {
+      "text": "No, they weren't stocked with crocodiles; they were built to stop the deadliest siege tactic in history: mining.",
+      "caps": "Built to stop the *deadliest | weapon: underground *mining!"
+    },
+    {
+      "text": "Enemy armies didn't just scale walls with ladders; they dug subterranean tunnels straight under castle foundations.",
+      "caps": "Armies dug *tunnels | beneath castle stone *foundations"
+    },
+    {
+      "text": "They propped up the tunnels with timber, set them on fire, and collapsed giant stone towers from below.",
+      "caps": "Setting wooden beams on *fire | collapsed giant stone *towers!"
+    },
+    {
+      "text": "A deep moat flooded any underground tunnels with water, drowning enemy diggers instantly.",
+      "caps": "Moats flooded enemy *tunnels | with tons of *water!"
+    },
+    {
+      "text": "Moats also prevented heavy battering rams and rolling siege towers from reaching fortress walls.",
+      "caps": "Prevented heavy *battering rams | from reaching the *gates"
+    },
+    {
+      "text": "A simple ditch of murky water defeated the most advanced medieval siege tactics.",
+      "caps": "A ditch of murky *water | was the ultimate medieval *defense!",
+      "gap": 0.3
+    }
+  ]
+}

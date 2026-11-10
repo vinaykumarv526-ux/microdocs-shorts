@@ -1,0 +1,44 @@
+{
+  "title": "How does the 911 system find your location?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Emergency Number Association E9-1-1",
+    "FCC Enhanced 911 Location Accuracy"
+  ],
+  "lines": [
+    {
+      "text": "When you dial nine-one-one from your mobile phone in an emergency, how does the dispatcher pinpoint your location?",
+      "caps": "How does 911 find you if *you | don't know where you *are?"
+    },
+    {
+      "text": "Unlike landlines tied to fixed street addresses, mobile phones move constantly.",
+      "caps": "Mobile phones move constantly, so *911 | uses advanced *tech"
+    },
+    {
+      "text": "When you place the call, cell towers instantly initiate Enhanced 911 protocol.",
+      "caps": "Your phone activates *Enhanced 911 | emergency *mode"
+    },
+    {
+      "text": "Your carrier triangulates radio pings from neighboring towers to narrow down your area to a block.",
+      "caps": "Triangulates tower pings to *narrow | your general *block"
+    },
+    {
+      "text": "Simultaneously, modern smartphones activate high-accuracy GPS, Wi-Fi beacons, and barometric sensors.",
+      "caps": "Activates GPS, *Wi-Fi | and barometric altitude *sensors"
+    },
+    {
+      "text": "The barometric pressure sensor measures vertical elevation to tell dispatchers which floor of a high-rise building you are on.",
+      "caps": "Barometers even tell dispatchers *what | floor of a building you're *on!"
+    },
+    {
+      "text": "Always state your exact address first in any emergency to help responders arrive as fast as possible.",
+      "caps": "Always state your *address | first when dialing *911!",
+      "gap": 0.3
+    }
+  ]
+}

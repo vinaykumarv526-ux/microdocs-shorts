@@ -1,0 +1,44 @@
+{
+  "title": "How does a self-driving car see the road?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NHTSA Automated Vehicles Comprehensive Plan",
+    "Waymo Safety Report & Sensor Suite"
+  ],
+  "lines": [
+    {
+      "text": "How can a self-driving car navigate bustling city streets without a human touching the wheel?",
+      "caps": "How does an *autonomous | car see the *road?"
+    },
+    {
+      "text": "Autonomous vehicles use a superhuman fusion of cameras, radar, and laser LiDAR sensors.",
+      "caps": "Combines cameras, *radar | and laser *LiDAR"
+    },
+    {
+      "text": "Roof-mounted LiDAR units fire millions of invisible laser beams every second, bouncing off surroundings.",
+      "caps": "Fires millions of *laser beams | bouncing off every *object"
+    },
+    {
+      "text": "This creates a real-time, millimeter-accurate 3D point cloud map of the entire environment.",
+      "caps": "Builds an instant *3D point-cloud | of the *world"
+    },
+    {
+      "text": "High-resolution AI neural networks classify every pixel into pedestrians, bicycles, lane lines, and stop signs.",
+      "caps": "Neural networks *track | pedestrians and *cars"
+    },
+    {
+      "text": "The computer predicts where every moving object will be five seconds in the future to choose the safest path.",
+      "caps": "Predicts future *movement | five seconds *ahead"
+    },
+    {
+      "text": "A self-driving car sees through darkness and rain far better than human eyes ever could.",
+      "caps": "Sees through *darkness | and fog with ease!",
+      "gap": 0.3
+    }
+  ]
+}

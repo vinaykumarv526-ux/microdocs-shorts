@@ -1,0 +1,49 @@
+{
+ "duration": 38.185,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "GPS satellites orbit twelve thousand miles above Earth, yet guide you to a restaurant doorway.",
+   "start": 0.35,
+   "end": 5.007
+  },
+  {
+   "i": 1,
+   "text": "Each satellite simply broadcasts a radio message saying: this is who I am, and this is the exact time.",
+   "start": 5.287,
+   "end": 10.404
+  },
+  {
+   "i": 2,
+   "text": "Because radio waves travel at the speed of light, your phone calculates how long the signal took to arrive.",
+   "start": 10.684,
+   "end": 15.628
+  },
+  {
+   "i": 3,
+   "text": "Multiply that time by light speed, and your phone knows its exact distance from the satellite.",
+   "start": 15.908,
+   "end": 20.324
+  },
+  {
+   "i": 4,
+   "text": "Here is the crazy part: because satellites move fast in weaker gravity, their clocks tick faster than Earth clocks.",
+   "start": 20.604,
+   "end": 26.193
+  },
+  {
+   "i": 5,
+   "text": "Engineers must program Einstein's theory of general relativity into GPS software every day, or navigation would fail by six miles.",
+   "start": 26.473,
+   "end": 33.425
+  },
+  {
+   "i": 6,
+   "text": "Every GPS turn you make is living proof that Einstein was right.",
+   "start": 33.705,
+   "end": 36.885
+  }
+ ]
+}

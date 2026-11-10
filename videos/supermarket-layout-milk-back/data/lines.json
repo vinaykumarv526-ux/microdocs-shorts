@@ -1,0 +1,49 @@
+{
+ "duration": 36.396,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why is the gallon of milk or loaf of bread always placed at the furthest back corner of the grocery store?",
+   "start": 0.35,
+   "end": 5.16
+  },
+  {
+   "i": 1,
+   "text": "It is not an accident; it is a calculated psychological trap designed by retail architects.",
+   "start": 5.44,
+   "end": 10.384
+  },
+  {
+   "i": 2,
+   "text": "Milk and eggs are the most frequently purchased staples in American households.",
+   "start": 10.664,
+   "end": 14.396
+  },
+  {
+   "i": 3,
+   "text": "To grab that one carton of milk, you are forced to walk past dozens of brightly packaged impulse items.",
+   "start": 14.676,
+   "end": 19.755
+  },
+  {
+   "i": 4,
+   "text": "Endcaps, bakery aromas, and eye-level snack displays lure you into tossing items into your cart.",
+   "start": 20.035,
+   "end": 24.826
+  },
+  {
+   "i": 5,
+   "text": "Retail studies show over sixty percent of items in a typical grocery cart were completely unplanned purchases.",
+   "start": 25.106,
+   "end": 30.537
+  },
+  {
+   "i": 6,
+   "text": "To save money, write a strict grocery list and stick to it without looking at the side displays.",
+   "start": 30.817,
+   "end": 35.096
+  }
+ ]
+}

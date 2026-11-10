@@ -1,0 +1,49 @@
+{
+ "duration": 34.419,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What would happen if the Sun completely turned off for twenty-four hours?",
+   "start": 0.35,
+   "end": 3.627
+  },
+  {
+   "i": 1,
+   "text": "Because sunlight takes eight minutes to reach us, nobody on Earth would notice a thing for the first eight minutes.",
+   "start": 3.907,
+   "end": 8.72
+  },
+  {
+   "i": 2,
+   "text": "Then, pitch black darkness would engulf the daytime hemisphere in a terrifying instant.",
+   "start": 9.0,
+   "end": 13.159
+  },
+  {
+   "i": 3,
+   "text": "Global temperatures would drop noticeably by ten to fifteen degrees, frosting windshields everywhere.",
+   "start": 13.439,
+   "end": 18.268
+  },
+  {
+   "i": 4,
+   "text": "Photosynthesis would pause and birds would frantically roost thinking night arrived early.",
+   "start": 18.548,
+   "end": 22.409
+  },
+  {
+   "i": 5,
+   "text": "Yet because Earth's thick atmosphere retains geothermal heat, humanity would survive the short blackout.",
+   "start": 22.689,
+   "end": 27.857
+  },
+  {
+   "i": 6,
+   "text": "When the blazing light burst back twenty-four hours later, it would be the most celebrated sunrise in history.",
+   "start": 28.137,
+   "end": 33.119
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "duration": 38.287,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What happens to an entire metropolitan city when a critical suspension bridge suddenly shuts down at 5 PM?",
+   "start": 0.35,
+   "end": 5.913
+  },
+  {
+   "i": 1,
+   "text": "Modern highway networks function like complex hydraulic systems under extreme pressure.",
+   "start": 6.193,
+   "end": 10.524
+  },
+  {
+   "i": 2,
+   "text": "When a bridge carrying one hundred thousand cars daily closes, traffic doesn't just stop; it detonates backwards.",
+   "start": 10.804,
+   "end": 16.239
+  },
+  {
+   "i": 3,
+   "text": "GPS navigation algorithms frantically reroute tens of thousands of vehicles onto narrow suburban side streets.",
+   "start": 16.519,
+   "end": 22.167
+  },
+  {
+   "i": 4,
+   "text": "Neighborhood roads gridlock instantly, trapping emergency ambulances, fire trucks, and city buses.",
+   "start": 22.447,
+   "end": 27.71
+  },
+  {
+   "i": 5,
+   "text": "A single point of failure can paralyze an entire metro economy for twenty straight miles.",
+   "start": 27.99,
+   "end": 32.498
+  },
+  {
+   "i": 6,
+   "text": "It proves just how dependent our cities are on a handful of steel and concrete arteries.",
+   "start": 32.778,
+   "end": 36.987
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "What if the Sun went dark for one full day?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Harvard-Smithsonian Center for Astrophysics",
+    "NASA Solar Dynamics Observatory"
+  ],
+  "lines": [
+    {
+      "text": "What would happen if the Sun completely turned off for twenty-four hours?",
+      "caps": "What if the Sun | turned *black | for *24 hours?"
+    },
+    {
+      "text": "Because sunlight takes eight minutes to reach us, nobody on Earth would notice a thing for the first eight minutes.",
+      "caps": "We wouldn't notice | for the *first | eight *minutes"
+    },
+    {
+      "text": "Then, pitch black darkness would engulf the daytime hemisphere in a terrifying instant.",
+      "caps": "Sudden *darkness | blankets half the | *globe"
+    },
+    {
+      "text": "Global temperatures would drop noticeably by ten to fifteen degrees, frosting windshields everywhere.",
+      "caps": "Temperatures plummet | as *freezing cold | creeps in"
+    },
+    {
+      "text": "Photosynthesis would pause and birds would frantically roost thinking night arrived early.",
+      "caps": "Plants pause *growth | and wildlife falls | into *panic"
+    },
+    {
+      "text": "Yet because Earth's thick atmosphere retains geothermal heat, humanity would survive the short blackout.",
+      "caps": "Earth retains enough *heat | to survive | one day"
+    },
+    {
+      "text": "When the blazing light burst back twenty-four hours later, it would be the most celebrated sunrise in history.",
+      "caps": "The next *sunrise | would be the greatest | *celebration!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+ "duration": 37.18,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "In less than one tenth of a second, your brain can spot your best friend in a crowded stadium.",
+   "start": 0.35,
+   "end": 4.645
+  },
+  {
+   "i": 1,
+   "text": "Human brains have a dedicated biological supercomputer region called the fusiform face area.",
+   "start": 4.925,
+   "end": 9.852
+  },
+  {
+   "i": 2,
+   "text": "Instead of scanning features one by one, your brain processes the entire face holistically in parallel.",
+   "start": 10.132,
+   "end": 15.278
+  },
+  {
+   "i": 3,
+   "text": "It calculates microscopic spatial distances between pupils, nose tip, and jawline curvature.",
+   "start": 15.558,
+   "end": 20.696
+  },
+  {
+   "i": 4,
+   "text": "It matches this geometric matrix against tens of thousands of stored memory profiles.",
+   "start": 20.976,
+   "end": 25.209
+  },
+  {
+   "i": 5,
+   "text": "This system is so aggressive that it often sees human faces in clouds, electrical outlets, and car grilles.",
+   "start": 25.489,
+   "end": 30.919
+  },
+  {
+   "i": 6,
+   "text": "Face recognition is the evolutionary superpower that helped humans survive in social tribes.",
+   "start": 31.199,
+   "end": 35.88
+  }
+ ]
+}

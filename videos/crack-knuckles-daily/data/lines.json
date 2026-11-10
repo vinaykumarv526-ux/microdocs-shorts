@@ -1,0 +1,49 @@
+{
+ "duration": 34.247,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Does cracking your knuckles every single day really cause crippling arthritis like your parents claimed?",
+   "start": 0.35,
+   "end": 4.79
+  },
+  {
+   "i": 1,
+   "text": "Science has tested this extensively, and the answer is an absolute myth.",
+   "start": 5.07,
+   "end": 8.918
+  },
+  {
+   "i": 2,
+   "text": "Your finger joints are surrounded by a lubricating fluid called synovial fluid.",
+   "start": 9.198,
+   "end": 13.088
+  },
+  {
+   "i": 3,
+   "text": "When you stretch or bend the joint, you create sudden negative pressure inside the capsule.",
+   "start": 13.369,
+   "end": 17.596
+  },
+  {
+   "i": 4,
+   "text": "This vacuum causes dissolved nitrogen gas to form microscopic bubbles that instantly collapse with a loud pop.",
+   "start": 17.876,
+   "end": 23.254
+  },
+  {
+   "i": 5,
+   "text": "One famous doctor cracked only the knuckles on his left hand for sixty years, proving zero arthritis occurred.",
+   "start": 23.534,
+   "end": 28.938
+  },
+  {
+   "i": 6,
+   "text": "So crack your knuckles freely\u2014it might annoy your friends, but your joints are safe.",
+   "start": 29.218,
+   "end": 32.947
+  }
+ ]
+}

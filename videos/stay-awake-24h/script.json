@@ -1,0 +1,44 @@
+{
+  "title": "What happens if you stay awake for 24 hours?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "CDC Sleep and Sleep Disorders",
+    "Nature Neuroscience Sleep Deprivation"
+  ],
+  "lines": [
+    {
+      "text": "What actually happens inside your skull when you pull an all-nighter for twenty-four hours?",
+      "caps": "What happens after | *24 hours | with *no sleep?"
+    },
+    {
+      "text": "By hour sixteen, your brain's prefrontal cortex begins to power down non-essential functions.",
+      "caps": "Your prefrontal cortex | begins to *power down"
+    },
+    {
+      "text": "After twenty-four hours awake, your cognitive impairment equals a blood alcohol level of zero point one percent.",
+      "caps": "Equal to being *legally drunk | at *0.10% BAC!"
+    },
+    {
+      "text": "Toxic cellular metabolic waste like beta-amyloid builds up between your brain cells.",
+      "caps": "Toxic waste *accumulates | between brain *cells"
+    },
+    {
+      "text": "Your reaction times slow to a crawl, and your amygdala causes intense emotional mood swings.",
+      "caps": "Reaction speeds crawl | and mood *swings | spike"
+    },
+    {
+      "text": "Your brain will even force micro-sleeps, shutting off your conscious awareness for several seconds without warning.",
+      "caps": "Your brain forces *micro-sleeps | without your | *permission!"
+    },
+    {
+      "text": "Never drive while sleep deprived; getting a solid seven hours is essential for your brain.",
+      "caps": "Get your *7 hours | of sleep tonight!",
+      "gap": 0.3
+    }
+  ]
+}

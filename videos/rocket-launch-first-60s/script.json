@@ -1,0 +1,44 @@
+{
+  "title": "What happens in the first 60 seconds after a rocket launches?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NASA Kennedy Space Center Launch Trajectory",
+    "SpaceX Falcon 9 Launch Telemetry"
+  ],
+  "lines": [
+    {
+      "text": "What violent physics occurs in the first sixty seconds when a giant orbital rocket lifts off?",
+      "caps": "What happens in the *first | 60 seconds of a *launch?"
+    },
+    {
+      "text": "At liftoff, giant rocket engines consume thousands of gallons of liquid propellant every second.",
+      "caps": "Engines burn *thousands of gallons | of fuel every *second"
+    },
+    {
+      "text": "Giant water deluge trenches dump four hundred thousand gallons of water to dampen acoustic shockwaves.",
+      "caps": "Massive water trenches *suppress | acoustic shockwaves from *damage"
+    },
+    {
+      "text": "By second thirty, the rocket pushes past the speed of sound, creating a visible condensation shock cone.",
+      "caps": "Breaks the sound *barrier | at second *thirty!"
+    },
+    {
+      "text": "At second sixty, the rocket hits Max Q, the point of maximum aerodynamic stress on the vehicle's frame.",
+      "caps": "Hits Max Q: the most *violent | structural stress of *flight!"
+    },
+    {
+      "text": "Rushing through thick atmosphere at two thousand miles per hour, engines throttle down to prevent ripping apart.",
+      "caps": "Engines throttle *back | to avoid ripping *apart"
+    },
+    {
+      "text": "Surviving those first sixty seconds is the hardest physical hurdle of reaching outer space.",
+      "caps": "Surviving 60 seconds *clears | the path to *orbit!",
+      "gap": 0.3
+    }
+  ]
+}

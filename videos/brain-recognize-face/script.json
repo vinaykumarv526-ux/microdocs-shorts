@@ -1,0 +1,44 @@
+{
+  "title": "How does your brain recognize a face?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Nature Neuroscience Fusiform Face Area",
+    "MIT Department of Brain and Cognitive Sciences"
+  ],
+  "lines": [
+    {
+      "text": "In less than one tenth of a second, your brain can spot your best friend in a crowded stadium.",
+      "caps": "How does your brain *spot | a familiar *face | in 0.1s?"
+    },
+    {
+      "text": "Human brains have a dedicated biological supercomputer region called the fusiform face area.",
+      "caps": "Processed by the *fusiform | face area in | your *brain"
+    },
+    {
+      "text": "Instead of scanning features one by one, your brain processes the entire face holistically in parallel.",
+      "caps": "Scans eyes, nose, and *mouth | all at *once"
+    },
+    {
+      "text": "It calculates microscopic spatial distances between pupils, nose tip, and jawline curvature.",
+      "caps": "Measures precise *angles | between facial | *features"
+    },
+    {
+      "text": "It matches this geometric matrix against tens of thousands of stored memory profiles.",
+      "caps": "Compares against *thousands | of stored face | *memories"
+    },
+    {
+      "text": "This system is so aggressive that it often sees human faces in clouds, electrical outlets, and car grilles.",
+      "caps": "It's why you see *faces | in toast and car | *grilles!"
+    },
+    {
+      "text": "Face recognition is the evolutionary superpower that helped humans survive in social tribes.",
+      "caps": "Our ancient *superpower | that kept humanity *connected!",
+      "gap": 0.3
+    }
+  ]
+}

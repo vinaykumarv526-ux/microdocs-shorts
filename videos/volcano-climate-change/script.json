@@ -1,0 +1,44 @@
+{
+  "title": "Could a volcano change the world's climate?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "USGS Volcano Hazards Program Climate Effects",
+    "Smithsonian Global Volcanism Program"
+  ],
+  "lines": [
+    {
+      "text": "Can a single catastrophic volcanic eruption actually plunge the entire planet into an icy volcanic winter?",
+      "caps": "Could one volcano *freeze | the entire *planet?"
+    },
+    {
+      "text": "History has proven that the answer is an undeniable yes.",
+      "caps": "History proves that the *answer | is an undeniable *yes!"
+    },
+    {
+      "text": "When Indonesia's Mount Tambora erupted in eighteen fifteen, it blasted sixty million tons of sulfur dioxide into the stratosphere.",
+      "caps": "Blasted 60 million tons of *sulfur | high into the *stratosphere"
+    },
+    {
+      "text": "The sulfur reacted with water vapor to form a shimmering global blanket of sulfate aerosol droplets.",
+      "caps": "Formed a global *veil of aerosols | reflecting solar *radiation"
+    },
+    {
+      "text": "This volcanic veil reflected incoming sunlight back into space, cooling global temperatures for three straight years.",
+      "caps": "Cooled global temperatures *for | three straight *years!"
+    },
+    {
+      "text": "Eighteen sixteen became known as the 'Year Without a Summer', with blizzards hitting New England in July.",
+      "caps": "Snow fell in *New England | in the middle of *July"
+    },
+    {
+      "text": "Massive volcanic eruptions hold the raw power to rewrite global climate overnight.",
+      "caps": "Volcanoes have the *raw power | to rewrite Earth's *climate!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "What made the first transcontinental railroad so important?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Museum of American History Transcontinental Railroad",
+    "Library of Congress Promontory Summit"
+  ],
+  "lines": [
+    {
+      "text": "Before eighteen sixty-nine, traveling from New York to California meant six grueling months in a covered wagon.",
+      "caps": "Traveling to California *took | six agonizing *months"
+    },
+    {
+      "text": "Thousands died from cholera, starvation, and freezing blizzards crossing the wilderness.",
+      "caps": "Thousands perished from *disease | and freezing *blizzards"
+    },
+    {
+      "text": "Then, thousands of Chinese and Irish laborers blasted railroad tunnels through solid granite Sierra Nevada mountains with nitroglycerin.",
+      "caps": "Laborers blasted *tunnels | through solid granite with *nitroglycerin"
+    },
+    {
+      "text": "They laid nearly two thousand miles of iron track by hand, meeting at Promontory Summit, Utah, with the famous Golden Spike.",
+      "caps": "Connected the *nation | with the famous *Golden Spike!"
+    },
+    {
+      "text": "Instantly, a six-month deadly trek was transformed into a comfortable seven-day train ride for just sixty-five dollars.",
+      "caps": "Turned a 6-month *ordeal | into a 7-day train *ride!"
+    },
+    {
+      "text": "It united the American continent, created standard time zones, and launched America into an industrial superpower.",
+      "caps": "Created standard *time zones | and forged a *superpower!"
+    },
+    {
+      "text": "Those two ribbons of steel created the modern United States.",
+      "caps": "Ribbons of *steel | that unified an entire *nation!",
+      "gap": 0.3
+    }
+  ]
+}

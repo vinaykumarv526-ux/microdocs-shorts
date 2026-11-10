@@ -1,0 +1,49 @@
+{
+ "duration": 40.547,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Before eighteen sixty-nine, traveling from New York to California meant six grueling months in a covered wagon.",
+   "start": 0.35,
+   "end": 5.61
+  },
+  {
+   "i": 1,
+   "text": "Thousands died from cholera, starvation, and freezing blizzards crossing the wilderness.",
+   "start": 5.89,
+   "end": 10.157
+  },
+  {
+   "i": 2,
+   "text": "Then, thousands of Chinese and Irish laborers blasted railroad tunnels through solid granite Sierra Nevada mountains with nitroglycerin.",
+   "start": 10.437,
+   "end": 16.991
+  },
+  {
+   "i": 3,
+   "text": "They laid nearly two thousand miles of iron track by hand, meeting at Promontory Summit, Utah, with the famous Golden Spike.",
+   "start": 17.271,
+   "end": 23.39
+  },
+  {
+   "i": 4,
+   "text": "Instantly, a six-month deadly trek was transformed into a comfortable seven-day train ride for just sixty-five dollars.",
+   "start": 23.67,
+   "end": 29.364
+  },
+  {
+   "i": 5,
+   "text": "It united the American continent, created standard time zones, and launched America into an industrial superpower.",
+   "start": 29.644,
+   "end": 35.822
+  },
+  {
+   "i": 6,
+   "text": "Those two ribbons of steel created the modern United States.",
+   "start": 36.102,
+   "end": 39.247
+  }
+ ]
+}

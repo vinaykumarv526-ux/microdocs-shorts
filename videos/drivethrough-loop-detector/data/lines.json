@@ -1,0 +1,49 @@
+{
+ "duration": 37.488,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "The moment your front bumper pulls up to a fast-food ordering menu, a chime beeps inside the employee's headset.",
+   "start": 0.35,
+   "end": 5.656
+  },
+  {
+   "i": 1,
+   "text": "It is not a cashier staring out the window or a hidden camera triggering the chime.",
+   "start": 5.936,
+   "end": 9.829
+  },
+  {
+   "i": 2,
+   "text": "Buried beneath the asphalt pavement is an induction loop sensor made of insulated copper wire.",
+   "start": 10.109,
+   "end": 14.657
+  },
+  {
+   "i": 3,
+   "text": "An electrical current runs through the wire loop, creating an invisible electromagnetic field above the driveway.",
+   "start": 14.937,
+   "end": 20.656
+  },
+  {
+   "i": 4,
+   "text": "When thousands of pounds of steel in your car roll overhead, the metal disrupts the coil's magnetic inductance.",
+   "start": 20.936,
+   "end": 26.255
+  },
+  {
+   "i": 5,
+   "text": "The detector registers the frequency shift, triggering the headset chime and starting an automated order timer.",
+   "start": 26.535,
+   "end": 31.854
+  },
+  {
+   "i": 6,
+   "text": "That buried magnetic sensor keeps fast-food drive-through lines moving at lightning speed.",
+   "start": 32.134,
+   "end": 36.188
+  }
+ ]
+}

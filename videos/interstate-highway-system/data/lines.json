@@ -1,0 +1,49 @@
+{
+ "duration": 41.873,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why did President Eisenhower spend hundreds of billions of dollars constructing forty-eight thousand miles of interstate highways?",
+   "start": 0.35,
+   "end": 6.227
+  },
+  {
+   "i": 1,
+   "text": "It wasn't just to make cross-country road trips scenic and convenient for families.",
+   "start": 6.507,
+   "end": 10.286
+  },
+  {
+   "i": 2,
+   "text": "In nineteen nineteen, a young officer named Dwight Eisenhower crossed America with a military convoy, taking sixty-two grueling days over dirt tracks.",
+   "start": 10.566,
+   "end": 18.138
+  },
+  {
+   "i": 3,
+   "text": "During World War Two, he witnessed the sheer logistical speed of the German Autobahn.",
+   "start": 18.418,
+   "end": 22.584
+  },
+  {
+   "i": 4,
+   "text": "In nineteen fifty-six, he signed the National Defense Highway Act to evacuate cities during nuclear attacks and move tanks nationwide in days.",
+   "start": 22.864,
+   "end": 29.619
+  },
+  {
+   "i": 5,
+   "text": "Overpasses were built with sixteen-foot clearances specifically to accommodate intercontinental ballistic missile convoys.",
+   "start": 29.899,
+   "end": 35.873
+  },
+  {
+   "i": 6,
+   "text": "The interstate highway system remains the largest public works project in American history.",
+   "start": 36.153,
+   "end": 40.573
+  }
+ ]
+}

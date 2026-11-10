@@ -1,0 +1,44 @@
+{
+  "title": "Why do American school buses stop with flashing red lights?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Highway Traffic Safety Administration School Bus Safety",
+    "National School Transportation Association"
+  ],
+  "lines": [
+    {
+      "text": "Why does every single car on both sides of the road have to come to a complete stop for a school bus?",
+      "caps": "Why do all cars *stop | for yellow *school buses?"
+    },
+    {
+      "text": "In the United States, passing a stopped school bus with flashing red lights carries felony-level fines.",
+      "caps": "Passing a stopped bus brings *massive | fines and *points"
+    },
+    {
+      "text": "American school buses feature a dual amber and red lighting system invented in the late nineteen-fifties.",
+      "caps": "Features a dual *amber | and red warning *system"
+    },
+    {
+      "text": "Amber lights flash to warn motorists that the bus is slowing down to drop off children.",
+      "caps": "Amber lights warn that the *bus | is about to *stop"
+    },
+    {
+      "text": "When the bus stops, the driver deploys a mechanical Stop-sign arm and flashes bright red lights.",
+      "caps": "Red lights flash and a *mechanical | stop sign *extends!"
+    },
+    {
+      "text": "This creates an enforced pedestrian safety zone around the vehicle because children often run across blind traffic.",
+      "caps": "Protects young children *crossing | across busy *roads"
+    },
+    {
+      "text": "School buses are legally the safest form of passenger transportation in the entire country.",
+      "caps": "The safest passenger *transport | in the entire *country!",
+      "gap": 0.3
+    }
+  ]
+}

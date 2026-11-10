@@ -1,0 +1,49 @@
+{
+ "duration": 35.89,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "When you stop eating, how many hours does it take before your body actually starts burning body fat?",
+   "start": 0.35,
+   "end": 5.068
+  },
+  {
+   "i": 1,
+   "text": "For the first four hours after a meal, your cells run entirely on digested glucose from your bloodstream.",
+   "start": 5.348,
+   "end": 10.385
+  },
+  {
+   "i": 2,
+   "text": "Between hours four and twelve, insulin levels drop and your liver releases stored glycogen.",
+   "start": 10.665,
+   "end": 15.124
+  },
+  {
+   "i": 3,
+   "text": "Only after twelve to fourteen hours of fasting does your body exhaust easy glycogen reserves.",
+   "start": 15.404,
+   "end": 19.878
+  },
+  {
+   "i": 4,
+   "text": "Your metabolism flips the biological metabolic switch, breaking down adipose tissue into fatty acids.",
+   "start": 20.158,
+   "end": 25.571
+  },
+  {
+   "i": 5,
+   "text": "By hour sixteen, ketones flood your bloodstream to fuel your brain with razor-sharp focus.",
+   "start": 25.851,
+   "end": 30.275
+  },
+  {
+   "i": 6,
+   "text": "Intermittent fasting simply allows your ancient fat-burning engine time to turn on.",
+   "start": 30.555,
+   "end": 34.59
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Why do cats' eyes shine in the dark?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Veterinary Ophthalmology Tapetum Lucidum Review",
+    "Cornell University College of Veterinary Medicine"
+  ],
+  "lines": [
+    {
+      "text": "When headlights hit a cat at night, why do their eyes shine like glowing alien headlights?",
+      "caps": "Why do cats' eyes *glow | in the pitch *dark?"
+    },
+    {
+      "text": "Cats possess a biological night-vision mirror behind their retinas called the tapetum lucidum.",
+      "caps": "They have a mirror *behind | the retina called the *tapetum"
+    },
+    {
+      "text": "When light enters a human eye, photoreceptors absorb some and the rest is lost in darkness.",
+      "caps": "Humans lose most *light | in dark *environments"
+    },
+    {
+      "text": "In cats, unabsorbed light strikes this reflective layer of tissue and bounces back through the retina a second time.",
+      "caps": "Light bounces back through *photoreceptors | a *second time!"
+    },
+    {
+      "text": "This double exposure gives felines incredible night vision, letting them hunt in near total blackness.",
+      "caps": "Gives cats *superhuman | night-vision hunting *abilities"
+    },
+    {
+      "text": "The eerie glow you see is simply reflected flashlight rays bouncing back out of their eye mirrors.",
+      "caps": "The glow is *flashlights | bouncing off their eye *mirrors!"
+    },
+    {
+      "text": "Nature gave cats built-in night-vision goggles millions of years before humans invented them.",
+      "caps": "Built-in night *goggles | crafted by *evolution!",
+      "gap": 0.3
+    }
+  ]
+}

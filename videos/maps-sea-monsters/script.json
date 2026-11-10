@@ -1,0 +1,44 @@
+{
+  "title": "Why do some old maps show sea monsters?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "British Library Medieval Sea Monster Maps",
+    "Library of Congress Carta Marina Study"
+  ],
+  "lines": [
+    {
+      "text": "Why did Renaissance mapmakers cover uncharted ocean waters with drawings of giant sea serpents and kraken monsters?",
+      "caps": "Why did ancient *maps | draw giant sea *monsters?"
+    },
+    {
+      "text": "It wasn't just artistic decoration or mythological fantasy.",
+      "caps": "Not just creative *art | or fantasy *folklore!"
+    },
+    {
+      "text": "Early ocean sailors navigated treacherous waters without modern sonar or satellite weather forecasting.",
+      "caps": "Sailors navigated *without | sonar or weather *radars"
+    },
+    {
+      "text": "When sailors glimpsed giant squids, breaching sperm whales, or strange oarfish, terrified rumors spread.",
+      "caps": "Brief glimpses of giant *squids | fueled wild *legends"
+    },
+    {
+      "text": "Cartographers drew ferocious sea creatures to mark dangerous uncharted reefs, lethal vortex whirlpools, and shallow shoals.",
+      "caps": "Monsters warned *captains | of deadly shallow *reefs!"
+    },
+    {
+      "text": "They served as visual skull-and-crossbones hazard warnings for navigators sailing into the unknown.",
+      "caps": "A medieval *hazard sign | for uncharted deadly *waters"
+    },
+    {
+      "text": "The monsters on ancient maps were warnings of real oceanic perils disguised as mythical beasts.",
+      "caps": "Mythical beasts marking *real | and lethal oceanic *dangers!",
+      "gap": 0.3
+    }
+  ]
+}

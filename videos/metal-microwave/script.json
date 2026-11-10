@@ -1,0 +1,44 @@
+{
+  "title": "What happens if you put metal in a microwave?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "American Physical Society, Microwave Cavities",
+    "FDA Radiation-Emitting Products"
+  ],
+  "lines": [
+    {
+      "text": "Everyone knows you should never put metal in a microwave, but do you know why it sparks?",
+      "caps": "Why does *metal | spark in the | *microwave?"
+    },
+    {
+      "text": "Microwaves heat food by blasting electromagnetic radiation that makes water molecules vibrate wildly.",
+      "caps": "Microwaves make *water | molecules vibrate | *rapidly"
+    },
+    {
+      "text": "Thick metal walls reflect these waves harmlessly, which is why the microwave oven itself is made of steel.",
+      "caps": "Thick walls *reflect | the microwaves | safely"
+    },
+    {
+      "text": "However, thin metals like aluminum foil or fork prongs have billions of free electrons.",
+      "caps": "Thin metal has *billions | of free | *electrons"
+    },
+    {
+      "text": "The intense electric waves push these electrons into sharp corners, building massive electrical voltage.",
+      "caps": "Sharp corners concentrate | *intense electrical | *voltage"
+    },
+    {
+      "text": "When the voltage gets high enough, it rips through the air, creating explosive fiery plasma arcs.",
+      "caps": "Sparks *fiery plasma | arcs that can ignite a *fire"
+    },
+    {
+      "text": "So never put wrinkled foil or utensils in your microwave unless you want fireworks!",
+      "caps": "Keep all *foil and forks | out of your *microwave!",
+      "gap": 0.3
+    }
+  ]
+}

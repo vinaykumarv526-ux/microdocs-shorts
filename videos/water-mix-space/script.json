@@ -1,0 +1,44 @@
+{
+  "title": "What happens if you mix hot and cold water in space?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NASA Glenn Research Center Fluid Physics",
+    "International Space Station Science"
+  ],
+  "lines": [
+    {
+      "text": "What bizarre physics happens if you try mixing boiling hot water with ice cold water in zero gravity?",
+      "caps": "What happens mixing *hot | and cold water | in *space?"
+    },
+    {
+      "text": "On Earth, hot water naturally rises to the top because heat lowers density, driving convection currents.",
+      "caps": "On Earth, hot water *rises | due to natural | *convection"
+    },
+    {
+      "text": "In zero gravity aboard the space station, there is no up or down, meaning natural buoyancy completely disappears.",
+      "caps": "In zero gravity | buoyancy *does not | exist!"
+    },
+    {
+      "text": "When astronauts inject hot and cold water into a single floating sphere, the temperatures do not circulate.",
+      "caps": "Hot and cold water | form a single *floating | *sphere"
+    },
+    {
+      "text": "Instead of churning into warm water, heat can only transfer sluggishly through slow molecular diffusion.",
+      "caps": "Heat transfers *sluggishly | through slow molecular | *diffusion"
+    },
+    {
+      "text": "You end up with a single floating liquid orb that is scalding hot on one side and freezing on the other.",
+      "caps": "One side stays *scalding hot | while the other is *freezing!"
+    },
+    {
+      "text": "In space, even simple liquids behave like strange alien substances.",
+      "caps": "Microgravity turns ordinary *water | into alien *physics!",
+      "gap": 0.3
+    }
+  ]
+}

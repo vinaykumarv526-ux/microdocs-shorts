@@ -1,0 +1,49 @@
+{
+ "duration": 35.275,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why does hearing your own voice played back in a recording feel so completely cringe and unfamiliar?",
+   "start": 0.35,
+   "end": 4.848
+  },
+  {
+   "i": 1,
+   "text": "When you listen to yourself speak, you are actually hearing two completely different sound paths.",
+   "start": 5.128,
+   "end": 9.391
+  },
+  {
+   "i": 2,
+   "text": "You hear airborne sound waves entering your outer ears, just like everyone else does.",
+   "start": 9.671,
+   "end": 13.469
+  },
+  {
+   "i": 3,
+   "text": "Simultaneously, your vocal cord vibrations travel upward through your own facial bones and skull.",
+   "start": 13.749,
+   "end": 18.453
+  },
+  {
+   "i": 4,
+   "text": "Bone conduction deepens lower frequencies, making your voice sound richer and deeper in your own head.",
+   "start": 18.733,
+   "end": 23.488
+  },
+  {
+   "i": 5,
+   "text": "An audio recording captures only the airborne sound waves, revealing how your voice actually sounds to the world.",
+   "start": 23.768,
+   "end": 29.234
+  },
+  {
+   "i": 6,
+   "text": "Don't worry; everyone hates their recorded voice, but to others, it sounds completely normal.",
+   "start": 29.514,
+   "end": 33.975
+  }
+ ]
+}

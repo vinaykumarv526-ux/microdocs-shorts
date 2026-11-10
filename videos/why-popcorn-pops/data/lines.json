@@ -1,0 +1,49 @@
+{
+ "duration": 33.877,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why does popcorn explode into fluffy white clouds when heated, while sweet corn just burns?",
+   "start": 0.35,
+   "end": 4.707
+  },
+  {
+   "i": 1,
+   "text": "Popcorn kernels have an extraordinarily tough, waterproof outer hull called the pericarp.",
+   "start": 4.987,
+   "end": 9.505
+  },
+  {
+   "i": 2,
+   "text": "Inside each kernel sits a tiny droplet of water surrounded by hard, dense starch.",
+   "start": 9.785,
+   "end": 13.898
+  },
+  {
+   "i": 3,
+   "text": "When you heat the kernel past four hundred degrees, that trapped water turns into high-pressure steam.",
+   "start": 14.178,
+   "end": 18.785
+  },
+  {
+   "i": 4,
+   "text": "The steam cooks the dense starch into a molten, gelatinous hot dough.",
+   "start": 19.065,
+   "end": 22.366
+  },
+  {
+   "i": 5,
+   "text": "When internal pressure reaches one hundred and thirty-five pounds per square inch, the hull violently explodes.",
+   "start": 22.646,
+   "end": 27.806
+  },
+  {
+   "i": 6,
+   "text": "As it bursts, the molten starch instantly cools into the delicious crunchy snack you love.",
+   "start": 28.086,
+   "end": 32.577
+  }
+ ]
+}

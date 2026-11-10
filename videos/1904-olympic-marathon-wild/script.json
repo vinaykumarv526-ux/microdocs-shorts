@@ -1,0 +1,44 @@
+{
+  "title": "Why did the 1904 Olympic marathon become infamous?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "International Olympic Committee 1904 St. Louis Records",
+    "Smithsonian Magazine The 1904 Olympic Marathon Mayhem"
+  ],
+  "lines": [
+    {
+      "text": "The nineteen-oh-four Olympic marathon in St. Louis was so wildly disastrous, it felt like a slapstick comedy film.",
+      "caps": "The wildest Olympic *marathon | in human *history!"
+    },
+    {
+      "text": "Runners raced twenty-five miles through ninety-degree heat over dusty unpaved roads choked with car exhaust.",
+      "caps": "Runners choked on *dust clouds | in 90-degree summer *heat"
+    },
+    {
+      "text": "The race organizers intentionally provided only one single water station to test human dehydration limits.",
+      "caps": "Organizers provided only *one | water station for the entire *race!"
+    },
+    {
+      "text": "One runner hitched a ride in an automobile for eleven miles, crossed the finish line, and almost took the gold medal.",
+      "caps": "One runner rode in a *car | for 11 miles and nearly won *gold!"
+    },
+    {
+      "text": "Another runner ate rotten apples from an orchard, developed agonizing stomach cramps, and took an hour nap by the road.",
+      "caps": "Another took a *nap | by the road after eating rotten *apples"
+    },
+    {
+      "text": "The actual winner was repeatedly injected with rat poison strychnine and raw egg whites as a stimulant, hallucinating across the finish line.",
+      "caps": "The winner was *dosed with rat poison | as a performance *drug!"
+    },
+    {
+      "text": "It remains the most bizarre and chaotic athletic event ever staged in Olympic history.",
+      "caps": "The most chaotic athletic *event | ever staged on *Earth!",
+      "gap": 0.3
+    }
+  ]
+}

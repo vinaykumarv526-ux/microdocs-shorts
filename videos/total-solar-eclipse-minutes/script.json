@@ -1,0 +1,44 @@
+{
+  "title": "What happens during the first minutes of a total solar eclipse?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NASA Solar Eclipse Science",
+    "American Astronomical Society Eclipse Overview"
+  ],
+  "lines": [
+    {
+      "text": "What strange phenomena occur in the final seconds before the Moon completely swallows the Sun?",
+      "caps": "What happens right before a *total | solar *eclipse?"
+    },
+    {
+      "text": "As totality approaches, daylight dims into a ghostly, silvery twilight unlike any sunset on Earth.",
+      "caps": "Daylight dims into an *eerie | silvery *twilight"
+    },
+    {
+      "text": "Surrounding air temperatures drop by ten to fifteen degrees within minutes, kicking up sudden chilly breezes.",
+      "caps": "Temperatures plunge *ten degrees | in just a few *minutes"
+    },
+    {
+      "text": "Confused crickets start chirping, birds fall silent and roost, and flowers close their petals.",
+      "caps": "Wildlife falls *silent | thinking night arrived *early"
+    },
+    {
+      "text": "Right along the edge, brilliant pearls of sunlight called Baily's Beads shine through lunar valleys.",
+      "caps": "Baily's Beads sparkle *through | lunar *craters"
+    },
+    {
+      "text": "Then, totality hits: the Sun's ghostly white corona blooms across a pitch-black midday sky.",
+      "caps": "The solar corona *blooms | in a pitch-black *sky!"
+    },
+    {
+      "text": "Witnessing a total solar eclipse is a moment you will never forget.",
+      "caps": "A cosmic spectacle you will *never | forget in your *lifetime!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Why do we get brain freeze?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Wake Forest Baptist Medical Center Neuroscience",
+    "The FASEB Journal Sphenopalatine Ganglioneuralgia"
+  ],
+  "lines": [
+    {
+      "text": "Why does eating ice cream too fast trigger a stabbing headache behind your eyes?",
+      "caps": "Why does eating ice cream *fast | cause *brain freeze?"
+    },
+    {
+      "text": "The medical name is sphenopalatine ganglioneuralgia, and your brain isn't actually freezing at all.",
+      "caps": "Your brain isn't *freezing | at *all!"
+    },
+    {
+      "text": "When cold slush hits the roof of your mouth, it rapidly cools sensitive blood vessels at the palate.",
+      "caps": "Cold slush chills *blood vessels | in the roof of your *mouth"
+    },
+    {
+      "text": "To protect your brain from temperature shock, these arteries violently constrict and then flood with warm blood.",
+      "caps": "Arteries rapidly dilate to *flood | the area with warm *blood"
+    },
+    {
+      "text": "This sudden surge triggers pain receptors in the trigeminal nerve, which also senses facial pain.",
+      "caps": "Triggers pain in the *trigeminal | facial *nerve"
+    },
+    {
+      "text": "Your brain gets confused by the nerve signals, mistakenly feeling the pain in your forehead and eyes.",
+      "caps": "Your brain mistakes the *pain | as coming from your *forehead!"
+    },
+    {
+      "text": "To stop it instantly, press your warm tongue flat against the roof of your mouth.",
+      "caps": "Press your warm *tongue | to the roof of your *mouth!",
+      "gap": 0.3
+    }
+  ]
+}

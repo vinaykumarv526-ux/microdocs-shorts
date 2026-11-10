@@ -1,0 +1,49 @@
+{
+ "duration": 34.712,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Have you ever wondered why almost every sewer manhole cover on city streets is perfectly round?",
+   "start": 0.35,
+   "end": 4.951
+  },
+  {
+   "i": 1,
+   "text": "The answer is an ingenious geometric safety rule.",
+   "start": 5.231,
+   "end": 7.842
+  },
+  {
+   "i": 2,
+   "text": "A square cover can be turned diagonally, making its width shorter than the diagonal hole opening.",
+   "start": 8.122,
+   "end": 12.875
+  },
+  {
+   "i": 3,
+   "text": "If a heavy iron square cover slipped, it would plummet down and crush underground utility workers.",
+   "start": 13.155,
+   "end": 18.047
+  },
+  {
+   "i": 4,
+   "text": "Because a circle has a constant diameter from every single angle, a round cover can never fall into its own hole.",
+   "start": 18.327,
+   "end": 23.909
+  },
+  {
+   "i": 5,
+   "text": "Round covers are also vastly easier to move, allowing city crews to simply roll them across the asphalt.",
+   "start": 24.189,
+   "end": 29.409
+  },
+  {
+   "i": 6,
+   "text": "Geometry literally saves lives beneath our city streets every single day.",
+   "start": 29.689,
+   "end": 33.413
+  }
+ ]
+}

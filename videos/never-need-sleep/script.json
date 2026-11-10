@@ -1,0 +1,44 @@
+{
+  "title": "What if humans never needed sleep?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Sleep Research Society",
+    "Harvard Medical School Division of Sleep Medicine"
+  ],
+  "lines": [
+    {
+      "text": "Humans spend roughly one third of their entire lives unconscious in bed.",
+      "caps": "Humans spend *one-third | of their life | in *bed"
+    },
+    {
+      "text": "What if we were biologically engineered to operate twenty-four-seven without ever needing sleep?",
+      "caps": "What if you *never | needed sleep | *again?"
+    },
+    {
+      "text": "You would suddenly gain an extra eight hours of waking life every single day.",
+      "caps": "You gain *eight extra | hours every single | *day!"
+    },
+    {
+      "text": "Scientific discovery, arts, and personal hobbies could advance at twice the speed of human history.",
+      "caps": "Human innovation | accelerates at *double | the *speed"
+    },
+    {
+      "text": "However, corporate culture might immediately expand standard work days from eight hours to sixteen.",
+      "caps": "Companies would demand | *16-hour | work *shifts!"
+    },
+    {
+      "text": "Energy consumption would double, and the soothing mental reset of dreams would disappear forever.",
+      "caps": "Constant *mental exhaustion | would overwhelm | our *minds"
+    },
+    {
+      "text": "Would you give up sweet dreams and cozy blankets for eight extra working hours?",
+      "caps": "Would you trade *sleep | for extra hours? | Let us *know!",
+      "gap": 0.3
+    }
+  ]
+}

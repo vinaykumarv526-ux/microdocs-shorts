@@ -1,0 +1,44 @@
+{
+  "title": "How does facial recognition unlock a phone?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Apple Face ID Security Whitepaper",
+    "IEEE Biometrics Council"
+  ],
+  "lines": [
+    {
+      "text": "How can your smartphone instantly unlock using your face, even when you're sitting in pitch-black darkness?",
+      "caps": "How does Face ID *unlock | in total pitch *darkness?"
+    },
+    {
+      "text": "It doesn't use a normal visual selfie camera.",
+      "caps": "It doesn't use a *normal | visual *camera!"
+    },
+    {
+      "text": "Hidden in the notch is a flood illuminator and a microscopic vertical-cavity laser called a dot projector.",
+      "caps": "Fires an invisible *dot projector | and flood *illuminator"
+    },
+    {
+      "text": "The dot projector beams thirty thousand invisible infrared light dots directly onto your face.",
+      "caps": "Projects *30,000 dots | of invisible infrared *light!"
+    },
+    {
+      "text": "An infrared camera reads the reflected dot grid, capturing a precise three-dimensional mathematical contour of your face.",
+      "caps": "Infrared camera captures a *3D map | of your facial *depth"
+    },
+    {
+      "text": "A dedicated neural engine compares this depth map against enrolled biometric templates in under a tenth of a second.",
+      "caps": "Neural engine verifies *depth | so a flat photo cannot *fool it"
+    },
+    {
+      "text": "Because it reads true geometric depth with invisible infrared, photos or sleeping eyes can never unlock it.",
+      "caps": "Infrared depth makes it *impossible | for flat photos to *cheat!",
+      "gap": 0.3
+    }
+  ]
+}

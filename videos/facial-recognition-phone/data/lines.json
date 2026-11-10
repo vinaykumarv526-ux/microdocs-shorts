@@ -1,0 +1,49 @@
+{
+ "duration": 37.056,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "How can your smartphone instantly unlock using your face, even when you're sitting in pitch-black darkness?",
+   "start": 0.35,
+   "end": 5.157
+  },
+  {
+   "i": 1,
+   "text": "It doesn't use a normal visual selfie camera.",
+   "start": 5.437,
+   "end": 7.869
+  },
+  {
+   "i": 2,
+   "text": "Hidden in the notch is a flood illuminator and a microscopic vertical-cavity laser called a dot projector.",
+   "start": 8.149,
+   "end": 13.182
+  },
+  {
+   "i": 3,
+   "text": "The dot projector beams thirty thousand invisible infrared light dots directly onto your face.",
+   "start": 13.462,
+   "end": 18.01
+  },
+  {
+   "i": 4,
+   "text": "An infrared camera reads the reflected dot grid, capturing a precise three-dimensional mathematical contour of your face.",
+   "start": 18.29,
+   "end": 24.518
+  },
+  {
+   "i": 5,
+   "text": "A dedicated neural engine compares this depth map against enrolled biometric templates in under a tenth of a second.",
+   "start": 24.798,
+   "end": 30.353
+  },
+  {
+   "i": 6,
+   "text": "Because it reads true geometric depth with invisible infrared, photos or sleeping eyes can never unlock it.",
+   "start": 30.633,
+   "end": 35.756
+  }
+ ]
+}

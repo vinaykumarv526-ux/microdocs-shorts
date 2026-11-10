@@ -1,0 +1,44 @@
+{
+  "title": "Why are manhole covers usually round?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "American Society of Civil Engineers",
+    "Mathematical Association of America"
+  ],
+  "lines": [
+    {
+      "text": "Have you ever wondered why almost every sewer manhole cover on city streets is perfectly round?",
+      "caps": "Why are manhole *covers | always *round?"
+    },
+    {
+      "text": "The answer is an ingenious geometric safety rule.",
+      "caps": "An ingenious *geometric | safety *rule!"
+    },
+    {
+      "text": "A square cover can be turned diagonally, making its width shorter than the diagonal hole opening.",
+      "caps": "A square cover turned *sideways | easily drops through the *hole!"
+    },
+    {
+      "text": "If a heavy iron square cover slipped, it would plummet down and crush underground utility workers.",
+      "caps": "Would plummet down and *crush | workers *underground"
+    },
+    {
+      "text": "Because a circle has a constant diameter from every single angle, a round cover can never fall into its own hole.",
+      "caps": "A round cover can *never fall | into its own *opening!"
+    },
+    {
+      "text": "Round covers are also vastly easier to move, allowing city crews to simply roll them across the asphalt.",
+      "caps": "Crews can easily *roll them | instead of lifting 300 *pounds"
+    },
+    {
+      "text": "Geometry literally saves lives beneath our city streets every single day.",
+      "caps": "Simple geometry *saves lives | beneath our *streets!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "What would happen if Earth's atmosphere became thinner?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NASA Earth Atmosphere Density Profile",
+    "American Meteorological Society"
+  ],
+  "lines": [
+    {
+      "text": "What would happen to planet Earth if our atmosphere suddenly lost half of its air pressure?",
+      "caps": "What if our *atmosphere | became 50% *thinner?"
+    },
+    {
+      "text": "Instantly, sea level air would feel as thin as the death zone summit of Mount Everest.",
+      "caps": "Sea level air becomes as *thin | as the top of Mount *Everest!"
+    },
+    {
+      "text": "Every human on the planet would gasp for oxygen, losing consciousness within two minutes from acute hypoxia.",
+      "caps": "Humans lose *consciousness | within two *minutes"
+    },
+    {
+      "text": "Water would boil at just one hundred and fifty degrees Fahrenheit, making hot cooking impossible.",
+      "caps": "Water boils at *150 degrees | evaporating global *reservoirs"
+    },
+    {
+      "text": "With less atmospheric shielding, lethal ultraviolet solar radiation and meteors would bombard the ground unchecked.",
+      "caps": "Meteors and *radiation | bombard the ground *unchecked!"
+    },
+    {
+      "text": "Sky color would darken from brilliant azure blue to an eerie dark indigo even at midday.",
+      "caps": "The sky shifts into an *eerie | dark twilight *indigo"
+    },
+    {
+      "text": "Our thick blanket of air is the only shield protecting us from the hostile void of space.",
+      "caps": "Our atmosphere is the *fragile shield | keeping Earth *alive!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Why does your voice sound different in a recording?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "American Speech-Language-Hearing Association",
+    "Journal of the Acoustical Society of America"
+  ],
+  "lines": [
+    {
+      "text": "Why does hearing your own voice played back in a recording feel so completely cringe and unfamiliar?",
+      "caps": "Why does your voice sound *weird | in *recordings?"
+    },
+    {
+      "text": "When you listen to yourself speak, you are actually hearing two completely different sound paths.",
+      "caps": "You hear two *different | sound paths at *once"
+    },
+    {
+      "text": "You hear airborne sound waves entering your outer ears, just like everyone else does.",
+      "caps": "Air waves travel into your *ears | from the *outside"
+    },
+    {
+      "text": "Simultaneously, your vocal cord vibrations travel upward through your own facial bones and skull.",
+      "caps": "Vibrations travel *directly | through your skull *bones!"
+    },
+    {
+      "text": "Bone conduction deepens lower frequencies, making your voice sound richer and deeper in your own head.",
+      "caps": "Bone conduction adds *deep | bass tones inside your *head"
+    },
+    {
+      "text": "An audio recording captures only the airborne sound waves, revealing how your voice actually sounds to the world.",
+      "caps": "A microphone hears only the *air | revealing your *true voice!"
+    },
+    {
+      "text": "Don't worry; everyone hates their recorded voice, but to others, it sounds completely normal.",
+      "caps": "Everyone hates their *voice | but you sound *great!",
+      "gap": 0.3
+    }
+  ]
+}

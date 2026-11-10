@@ -1,0 +1,44 @@
+{
+  "title": "How deep is the deepest part of the ocean?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NOAA Ocean Exploration Challenger Deep",
+    "Woods Hole Oceanographic Institution Hadal Zone"
+  ],
+  "lines": [
+    {
+      "text": "How deep is the deepest, darkest point on our entire planet?",
+      "caps": "How deep is the *deepest point | on planet *Earth?"
+    },
+    {
+      "text": "The Challenger Deep in the Mariana Trench plunges nearly thirty-six thousand feet into the abyss.",
+      "caps": "Plunges nearly *36,000 feet | into the freezing *abyss"
+    },
+    {
+      "text": "If you took Mount Everest and placed it at the bottom, its highest snowy peak would still be over a mile underwater.",
+      "caps": "Mount Everest would be *over | a mile *underwater!"
+    },
+    {
+      "text": "At this depth, water pressure reaches over sixteen thousand pounds per square inch.",
+      "caps": "Water pressure exceeds *16,000 pounds | per *square inch"
+    },
+    {
+      "text": "That is equivalent to having fifty jumbo jet airplanes stacked directly on your chest.",
+      "caps": "Like 50 *jumbo jet airplanes | resting on your *chest"
+    },
+    {
+      "text": "Yet despite crushing pressure and absolute blackness, translucent ghost fish and amphipods thrive here.",
+      "caps": "Translucent ghost *fish thrive | in complete *darkness!"
+    },
+    {
+      "text": "We know vastly more about the craters on the Moon than the floor of our own oceans.",
+      "caps": "We know more about the *Moon | than our deep *oceans!",
+      "gap": 0.3
+    }
+  ]
+}

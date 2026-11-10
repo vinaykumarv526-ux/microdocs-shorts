@@ -1,0 +1,44 @@
+{
+  "title": "Why are most traffic lights red, yellow, and green?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Federal Highway Administration MUTCD History",
+    "Smithsonian Transportation History"
+  ],
+  "lines": [
+    {
+      "text": "Why does almost every country on Earth use red, yellow, and green for traffic signals?",
+      "caps": "Why are traffic *lights | red, yellow, and *green?"
+    },
+    {
+      "text": "The system dates back to nineteenth-century British railway signals.",
+      "caps": "Invented for *nineteenth-century | British *railways"
+    },
+    {
+      "text": "Red has the longest wavelength of any visible light spectrum.",
+      "caps": "Red has the *longest | wavelength of *visible light"
+    },
+    {
+      "text": "This means red scatters the least in rain and dense fog, allowing drivers to spot danger from the farthest distance.",
+      "caps": "Scatters least in *fog | so you spot *danger early"
+    },
+    {
+      "text": "Railroads originally used clear white light for 'go', but drivers mistook stars or streetlamps for signals.",
+      "caps": "White was used for *go | but caused disastrous *train crashes!"
+    },
+    {
+      "text": "So engineers adopted green for safety, and later added bright yellow as a transition warning.",
+      "caps": "Engineers picked *green | and added *yellow warning"
+    },
+    {
+      "text": "That nineteenth-century railroad color code keeps hundreds of millions of drivers safe today.",
+      "caps": "Railroad color code | keeping *millions safe | *every day!",
+      "gap": 0.3
+    }
+  ]
+}

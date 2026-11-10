@@ -1,0 +1,44 @@
+{
+  "title": "How did the first public libraries work?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "American Library Association History",
+    "Library of Congress Franklin Subscription Library"
+  ],
+  "lines": [
+    {
+      "text": "Today you can walk into a public library and borrow thousands of dollars in books completely free.",
+      "caps": "How did public *libraries | become totally *free?"
+    },
+    {
+      "text": "For centuries, books were rare luxury items owned exclusively by wealthy aristocrats and churches.",
+      "caps": "Books were rare *luxuries | owned only by the *super-rich"
+    },
+    {
+      "text": "In seventeen thirty-one, Benjamin Franklin and his friends pooled their money to launch America's first subscription lending library.",
+      "caps": "Benjamin Franklin launched *America's | first lending *library"
+    },
+    {
+      "text": "Members paid annual dues to share a communal collection of history, science, and philosophy books.",
+      "caps": "Members pooled money to *share | the cost of rare *books"
+    },
+    {
+      "text": "In the nineteenth century, cities introduced tax-supported free libraries open to all citizens regardless of wealth.",
+      "caps": "Cities voted for *free libraries | open to every *citizen!"
+    },
+    {
+      "text": "Steel magnate Andrew Carnegie personally funded over twenty-five hundred free public libraries across the globe.",
+      "caps": "Andrew Carnegie funded *2,500 free | libraries worldwide with steel *wealth"
+    },
+    {
+      "text": "Public libraries remain one of the purest sanctuaries of free knowledge in human history.",
+      "caps": "Sanctuaries of free *knowledge | open to anyone with *curiosity!",
+      "gap": 0.3
+    }
+  ]
+}

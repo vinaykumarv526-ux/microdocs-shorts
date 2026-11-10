@@ -1,0 +1,49 @@
+{
+ "duration": 35.058,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Have you ever explored an older American house and spotted a mysterious tiny door near the floor?",
+   "start": 0.35,
+   "end": 4.968
+  },
+  {
+   "i": 1,
+   "text": "No, they weren't built for secret pets or tiny fairy visitors.",
+   "start": 5.248,
+   "end": 8.534
+  },
+  {
+   "i": 2,
+   "text": "In the early twentieth century, these small exterior-facing hatches were milk delivery doors.",
+   "start": 8.814,
+   "end": 13.392
+  },
+  {
+   "i": 3,
+   "text": "Every morning, local milkmen placed fresh glass bottles of cold milk into the insulated compartment from outside.",
+   "start": 13.672,
+   "end": 19.204
+  },
+  {
+   "i": 4,
+   "text": "Families could open the interior latch from the kitchen without ever stepping outside into winter snow.",
+   "start": 19.484,
+   "end": 24.038
+  },
+  {
+   "i": 5,
+   "text": "Other floor-level doors led to coal chutes or laundry chutes dropping straight into the basement furnace room.",
+   "start": 24.318,
+   "end": 29.103
+  },
+  {
+   "i": 6,
+   "text": "These vintage doors are charming relics of everyday American life before modern grocery stores.",
+   "start": 29.383,
+   "end": 33.758
+  }
+ ]
+}

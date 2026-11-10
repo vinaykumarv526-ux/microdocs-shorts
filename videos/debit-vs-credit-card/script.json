@@ -1,0 +1,44 @@
+{
+  "title": "What is the difference between a debit card and a credit card?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Consumer Financial Protection Bureau Regulation E vs Z",
+    "Federal Reserve Consumer Credit Guide"
+  ],
+  "lines": [
+    {
+      "text": "Both cards swipe the exact same way at registers, but using a debit card carries vastly higher financial danger.",
+      "caps": "Why wealthy people *never | swipe a *debit card"
+    },
+    {
+      "text": "When you swipe a debit card, money is pulled instantly straight out of your personal checking account.",
+      "caps": "Debit pulls cash *straight | from your checking *account!"
+    },
+    {
+      "text": "If a gas pump skimmer steals your debit card info, a hacker drains your actual rent money before dinner.",
+      "caps": "A skimmer drains your *real | rent money in *seconds"
+    },
+    {
+      "text": "Federal regulations give you only limited liability protection if you don't report debit fraud immediately.",
+      "caps": "Debit fraud disputes can take *weeks | to recover your *cash"
+    },
+    {
+      "text": "With a credit card, you are spending the bank's money, not your own.",
+      "caps": "With credit, you spend the *bank's money | not your *own!"
+    },
+    {
+      "text": "If fraudulent charges occur, federal law caps your liability at zero dollars, and the bank fights to recover its funds.",
+      "caps": "Zero liability means *fraud | never touches your *savings"
+    },
+    {
+      "text": "Use credit cards for safety and rewards, but always pay off the balance in full every single month.",
+      "caps": "Use credit for *protection | and pay the balance *in full!",
+      "gap": 0.3
+    }
+  ]
+}

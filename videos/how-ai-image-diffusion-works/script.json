@@ -1,0 +1,44 @@
+{
+  "title": "How can AI create a realistic image from a sentence?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "OpenAI DALL-E Research"
+  ],
+  "lines": [
+    {
+      "text": "How can artificial intelligence take a single written sentence and generate a photo-realistic painting in ten seconds?",
+      "caps": "How does AI turn *words | into realistic *images?"
+    },
+    {
+      "text": "Modern image generators don't cut and paste pieces from Google Images.",
+      "caps": "AI does not *copy | and paste existing *photos!"
+    },
+    {
+      "text": "They use an advanced process called latent diffusion, inspired by non-equilibrium thermodynamics.",
+      "caps": "Uses an advanced *process | called *diffusion"
+    },
+    {
+      "text": "During training, the AI learns by taking millions of pictures and slowly destroying them with static pixel noise.",
+      "caps": "Learned by adding *static noise | to millions of *pictures"
+    },
+    {
+      "text": "It learns to mathematically reverse the degradation, reconstructing clean pictures from pure fuzz.",
+      "caps": "Learns to reverse the *noise | back into crisp *details"
+    },
+    {
+      "text": "When you type a prompt, the AI starts with a canvas of random television static, carving out shapes based on your words.",
+      "caps": "Starts with random *static | and sculpts details step by *step!"
+    },
+    {
+      "text": "It essentially dreams an image out of mathematical static noise.",
+      "caps": "AI literally dreams *reality | out of pure mathematical *noise!",
+      "gap": 0.3
+    }
+  ]
+}

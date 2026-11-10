@@ -1,0 +1,49 @@
+{
+ "duration": 35.685,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "When the electricity suddenly goes out in your house, can you still safely flush your toilet?",
+   "start": 0.35,
+   "end": 4.681
+  },
+  {
+   "i": 1,
+   "text": "The surprising answer depends entirely on where your water comes from.",
+   "start": 4.961,
+   "end": 8.406
+  },
+  {
+   "i": 2,
+   "text": "If you live in a city connected to municipal gravity water towers, your toilet will flush normally.",
+   "start": 8.686,
+   "end": 13.497
+  },
+  {
+   "i": 3,
+   "text": "Standard gravity toilets rely on mechanical siphons, requiring zero electricity inside your home.",
+   "start": 13.777,
+   "end": 19.26
+  },
+  {
+   "i": 4,
+   "text": "However, if your home relies on an electric well pump or basement sewage ejector, you have exactly one flush.",
+   "start": 19.54,
+   "end": 24.868
+  },
+  {
+   "i": 5,
+   "text": "Once the tank empties, it won't refill, and using it further risks backing up raw sewage.",
+   "start": 25.148,
+   "end": 29.795
+  },
+  {
+   "i": 6,
+   "text": "In an extended blackout, keep buckets of water handy to manually pour flush your bowl.",
+   "start": 30.075,
+   "end": 34.385
+  }
+ ]
+}

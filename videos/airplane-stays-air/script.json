@@ -1,0 +1,44 @@
+{
+  "title": "How does an airplane stay in the air?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NASA Glenn Research Center Aeronautics",
+    "FAA Pilot's Handbook of Aeronautical Knowledge"
+  ],
+  "lines": [
+    {
+      "text": "How does a massive commercial airliner weighing over five hundred tons stay airborne without falling?",
+      "caps": "How does a *500-ton plane | stay in the | *air?"
+    },
+    {
+      "text": "It all comes down to the curved aerodynamic shape of the wings, called an airfoil.",
+      "caps": "The secret is the *curved | wing called an | *airfoil"
+    },
+    {
+      "text": "Jet engines blast the aircraft forward, forcing air to rush over and under the wings.",
+      "caps": "Engines thrust the *plane | forward at high | *speed"
+    },
+    {
+      "text": "Air flowing over the curved top travels faster, creating an area of low pressure above the wing.",
+      "caps": "Air moves *faster on top | creating low | *pressure"
+    },
+    {
+      "text": "Meanwhile, higher pressure beneath the wing physically pushes the entire aircraft upward.",
+      "caps": "Higher pressure below *pushes | the plane | *skyward"
+    },
+    {
+      "text": "This aerodynamic upward force is called lift, and once it exceeds the airplane's weight, it flies.",
+      "caps": "This upward force is *lift | overcoming total | *weight!"
+    },
+    {
+      "text": "At five hundred miles per hour, air turns into a solid, invisible cushion.",
+      "caps": "Air turns into an *invisible | cushion of solid *support!",
+      "gap": 0.3
+    }
+  ]
+}

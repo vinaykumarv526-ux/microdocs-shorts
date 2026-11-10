@@ -1,0 +1,44 @@
+{
+  "title": "What did people use before refrigerators?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Smithsonian Institution History of Home Refrigeration",
+    "American Society of Heating, Refrigerating Engineers"
+  ],
+  "lines": [
+    {
+      "text": "Before electric refrigerators were invented in the nineteen-twenties, how did families keep their milk and meat from spoiling?",
+      "caps": "How did people keep *food cold | before *refrigerators?"
+    },
+    {
+      "text": "Every household relied on a wooden cabinet lined with tin or zinc, called an icebox.",
+      "caps": "Every kitchen relied on a *wooden | insulated *icebox"
+    },
+    {
+      "text": "During freezing winters, commercial ice harvesters sawed millions of tons of natural ice blocks from frozen northern lakes.",
+      "caps": "Harvesters sawed *giant ice blocks | from frozen northern *lakes!"
+    },
+    {
+      "text": "The giant blocks were packed in sawdust insulation and stored in massive icehouses until hot summer months.",
+      "caps": "Packed in sawdust to *keep ice frozen | all through the *summer"
+    },
+    {
+      "text": "Every week, the local iceman delivered twenty-five pound ice blocks with iron tongs straight into home kitchens.",
+      "caps": "The iceman carried *25-pound blocks | straight into your *kitchen!"
+    },
+    {
+      "text": "Families placed the melting ice in the top compartment, allowing dense cold air to sink over meat and butter.",
+      "caps": "Cold air sank *naturally | over butter, milk, and *meat"
+    },
+    {
+      "text": "Electric refrigeration transformed global nutrition, food safety, and modern civilization forever.",
+      "caps": "Electric cooling changed *food safety | and human health *forever!",
+      "gap": 0.3
+    }
+  ]
+}

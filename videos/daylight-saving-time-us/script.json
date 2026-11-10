@@ -1,0 +1,44 @@
+{
+  "title": "Why do some U.S. states change clocks while others don't?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Department of Transportation Uniform Time Act",
+    "Congressional Research Service Daylight Saving Time"
+  ],
+  "lines": [
+    {
+      "text": "Every March and November, Americans scramble to change their clocks, except in two entire states.",
+      "caps": "Why do some US states *never | change their *clocks?"
+    },
+    {
+      "text": "Hawaii and almost all of Arizona refuse to observe Daylight Saving Time.",
+      "caps": "Hawaii and *Arizona | completely opt *out!"
+    },
+    {
+      "text": "The federal Uniform Time Act of nineteen sixty-six allows states to opt out of moving clocks forward.",
+      "caps": "Federal law allows states to *opt out | of springing *forward"
+    },
+    {
+      "text": "Hawaii sits close to the equator, where day length barely changes throughout the four seasons anyway.",
+      "caps": "Hawaii has identical day *length | all year *round"
+    },
+    {
+      "text": "In scorching Arizona, adding an extra hour of blistering sunlight in the hot evening is the last thing residents want.",
+      "caps": "Arizona doesn't want *extra | boiling sun in the *evening!"
+    },
+    {
+      "text": "Extra daylight in Phoenix means blasting expensive air conditioning an extra hour during summer heatwaves.",
+      "caps": "Extra sun means *more expensive | electricity and air *conditioning"
+    },
+    {
+      "text": "Would you prefer year-round permanent daylight time, or should we keep changing the clocks?",
+      "caps": "Should we end *clock changes | forever? Let us *know!",
+      "gap": 0.3
+    }
+  ]
+}

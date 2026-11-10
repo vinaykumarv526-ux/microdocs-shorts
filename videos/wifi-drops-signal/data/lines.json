@@ -1,0 +1,49 @@
+{
+ "duration": 37.143,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What is actually happening in the air when your video call freezes and your Wi-Fi suddenly disconnects?",
+   "start": 0.35,
+   "end": 5.077
+  },
+  {
+   "i": 1,
+   "text": "Wi-Fi travels on invisible radio frequencies at two point four and five gigahertz.",
+   "start": 5.357,
+   "end": 9.51
+  },
+  {
+   "i": 2,
+   "text": "Your router and phone are constantly transmitting millions of packet bursts per second back and forth.",
+   "start": 9.79,
+   "end": 14.524
+  },
+  {
+   "i": 3,
+   "text": "When physical barriers like concrete walls, metal ductwork, or a running microwave interfere, packets collide.",
+   "start": 14.804,
+   "end": 20.463
+  },
+  {
+   "i": 4,
+   "text": "When too many data packets get corrupted, signal-to-noise ratio plummets below the receiver threshold.",
+   "start": 20.743,
+   "end": 25.727
+  },
+  {
+   "i": 5,
+   "text": "The device and router lose handshaking synchronization, forcing the link to reset and re-negotiate.",
+   "start": 26.007,
+   "end": 30.916
+  },
+  {
+   "i": 6,
+   "text": "Placing your router high on a central shelf eliminates sixty percent of common household dead zones.",
+   "start": 31.197,
+   "end": 35.843
+  }
+ ]
+}

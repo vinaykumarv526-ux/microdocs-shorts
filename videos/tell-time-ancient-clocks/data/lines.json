@@ -1,0 +1,49 @@
+{
+ "duration": 38.519,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Before wristwatches and smartphones existed, how did ancient humans know what time it was?",
+   "start": 0.35,
+   "end": 4.867
+  },
+  {
+   "i": 1,
+   "text": "Ancient Egyptians tracked shadows cast by giant stone obelisks, creating the world's first sundials.",
+   "start": 5.147,
+   "end": 10.43
+  },
+  {
+   "i": 2,
+   "text": "On cloudy days and at night, Greeks and Romans relied on water clocks called clepsydras.",
+   "start": 10.71,
+   "end": 15.083
+  },
+  {
+   "i": 3,
+   "text": "Water dripped steadily out of a calibrated stone vessel, marking passing hours on internal indicator lines.",
+   "start": 15.363,
+   "end": 20.747
+  },
+  {
+   "i": 4,
+   "text": "In ancient China, people burned incense coils with small brass weights that clattered into copper bowls every hour.",
+   "start": 21.027,
+   "end": 26.264
+  },
+  {
+   "i": 5,
+   "text": "Monasteries eventually built mechanical pendulum and gear clocktowers to chime daily prayer bells.",
+   "start": 26.544,
+   "end": 31.238
+  },
+  {
+   "i": 6,
+   "text": "Measuring time transformed humanity from wandering hunter-gatherers into coordinated industrial civilizations.",
+   "start": 31.518,
+   "end": 37.219
+  }
+ ]
+}

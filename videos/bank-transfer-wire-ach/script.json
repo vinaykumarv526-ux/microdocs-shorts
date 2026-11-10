@@ -1,0 +1,44 @@
+{
+  "title": "What happens when a bank transfer is sent?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Federal Reserve Fedwire Operations",
+    "Nacha Automated Clearing House Operating Rules"
+  ],
+  "lines": [
+    {
+      "text": "Why does sending a message to the other side of the planet take one second, but a bank transfer takes three business days?",
+      "caps": "Why do bank *transfers | take three full *days?"
+    },
+    {
+      "text": "It is not because the computers are slow; it is due to a fifty-year-old banking architecture called ACH.",
+      "caps": "Due to a *50-year-old | system called *ACH"
+    },
+    {
+      "text": "The Automated Clearing House was designed in the nineteen-seventies to replace physical paper checks.",
+      "caps": "Created in the 1970s to *replace | physical paper *checks"
+    },
+    {
+      "text": "Instead of settling transactions instantly, banks bundle transfers into giant batches processed only a few times a day.",
+      "caps": "Banks bundle transfers into *giant | batches a few times *daily"
+    },
+    {
+      "text": "Transfers flow to the Federal Reserve, which verifies reserve funds and settles debits overnight.",
+      "caps": "The Federal Reserve *clears | and settles balances *overnight"
+    },
+    {
+      "text": "The three-day lag also allows banks to catch fraudulent overdrafts, while earning interest on funds in transit.",
+      "caps": "The lag lets banks check *fraud | and earn interest on *float!"
+    },
+    {
+      "text": "New real-time networks like FedNow are finally bringing instant transfers into the modern age.",
+      "caps": "Real-time payment *rails | are finally making money *instant!",
+      "gap": 0.3
+    }
+  ]
+}

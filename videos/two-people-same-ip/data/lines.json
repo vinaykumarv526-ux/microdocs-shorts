@@ -1,0 +1,49 @@
+{
+ "duration": 39.692,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Every computer on the internet has an IP address, but can two different people share the exact same one?",
+   "start": 0.35,
+   "end": 5.543
+  },
+  {
+   "i": 1,
+   "text": "The answer is yes, and millions of people do every single day.",
+   "start": 5.823,
+   "end": 8.943
+  },
+  {
+   "i": 2,
+   "text": "Inside private local networks, almost every home router assigns devices addresses like 192.168.1.1.",
+   "start": 9.223,
+   "end": 15.971
+  },
+  {
+   "i": 3,
+   "text": "Millions of people share those private internal IP addresses without conflict.",
+   "start": 16.251,
+   "end": 20.112
+  },
+  {
+   "i": 4,
+   "text": "When heading onto the public internet, a process called Network Address Translation converts all your family's devices to one public IP.",
+   "start": 20.392,
+   "end": 27.086
+  },
+  {
+   "i": 5,
+   "text": "Mobile phone carriers also use Carrier-Grade NAT, bundling thousands of different cellular users under a single public IP address.",
+   "start": 27.366,
+   "end": 34.273
+  },
+  {
+   "i": 6,
+   "text": "Your IP address is more like a shared apartment lobby than a single private bedroom.",
+   "start": 34.553,
+   "end": 38.392
+  }
+ ]
+}

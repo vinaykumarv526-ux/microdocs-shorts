@@ -1,0 +1,44 @@
+{
+  "title": "What if every internet connection stopped for 24 hours?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Pew Research Center, Digital Dependency",
+    "Brookings Institution Tech Tank"
+  ],
+  "lines": [
+    {
+      "text": "What would happen to modern civilization if every internet connection died for twenty-four hours?",
+      "caps": "What if the *internet | vanished for | *24 hours?"
+    },
+    {
+      "text": "Immediately, five billion smartphone users would tap their screens in bewildered frustration.",
+      "caps": "Five billion *smartphones | instantly go | *dead"
+    },
+    {
+      "text": "Financial transactions would freeze, rendering credit cards, ATMs, and stock exchanges useless.",
+      "caps": "Credit cards and *ATMs | completely stop | *working"
+    },
+    {
+      "text": "Air traffic control systems would revert to manual backup procedures, causing colossal flight groundings.",
+      "caps": "Airports ground *thousands | of flights | *worldwide"
+    },
+    {
+      "text": "Hospitals and emergency responders would scramble as cloud-hosted patient databases disconnect.",
+      "caps": "Hospitals scramble | without *cloud patient | records"
+    },
+    {
+      "text": "Yet communities would suddenly step outside, talking face-to-face and noticing the blue sky again.",
+      "caps": "People step *outside | and talk to neighbors | *again!"
+    },
+    {
+      "text": "The global economy would lose over fifty billion dollars, reminding us how fragile our digital world really is.",
+      "caps": "Proving how *fragile | our connected world | really *is!",
+      "gap": 0.3
+    }
+  ]
+}

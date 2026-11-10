@@ -1,0 +1,49 @@
+{
+ "duration": 38.028,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Both cards swipe the exact same way at registers, but using a debit card carries vastly higher financial danger.",
+   "start": 0.35,
+   "end": 5.942
+  },
+  {
+   "i": 1,
+   "text": "When you swipe a debit card, money is pulled instantly straight out of your personal checking account.",
+   "start": 6.222,
+   "end": 10.745
+  },
+  {
+   "i": 2,
+   "text": "If a gas pump skimmer steals your debit card info, a hacker drains your actual rent money before dinner.",
+   "start": 11.026,
+   "end": 15.987
+  },
+  {
+   "i": 3,
+   "text": "Federal regulations give you only limited liability protection if you don't report debit fraud immediately.",
+   "start": 16.267,
+   "end": 21.62
+  },
+  {
+   "i": 4,
+   "text": "With a credit card, you are spending the bank's money, not your own.",
+   "start": 21.9,
+   "end": 25.131
+  },
+  {
+   "i": 5,
+   "text": "If fraudulent charges occur, federal law caps your liability at zero dollars, and the bank fights to recover its funds.",
+   "start": 25.411,
+   "end": 31.527
+  },
+  {
+   "i": 6,
+   "text": "Use credit cards for safety and rewards, but always pay off the balance in full every single month.",
+   "start": 31.807,
+   "end": 36.728
+  }
+ ]
+}

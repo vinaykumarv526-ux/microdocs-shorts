@@ -1,0 +1,44 @@
+{
+  "title": "Why are U.S. highway exit numbers sometimes not consecutive?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Federal Highway Administration Manual on Uniform Traffic Control Devices",
+    "AASHTO Interstate Guidelines"
+  ],
+  "lines": [
+    {
+      "text": "Have you ever noticed how highway exit numbers skip from Exit twelve straight to Exit twenty-five?",
+      "caps": "Why do US highway *exits | skip *numbers?"
+    },
+    {
+      "text": "It is not because the department of transportation forgot how to count.",
+      "caps": "Not because engineers *forgot | how to *count!"
+    },
+    {
+      "text": "In the United States, most interstate highway exit numbers correspond directly to mile markers, not exit counts.",
+      "caps": "Exit numbers match *mile markers | not exit *counts!"
+    },
+    {
+      "text": "Exit twenty-five means you are exactly twenty-five miles away from the state border or highway beginning.",
+      "caps": "Exit 25 means you are *25 miles | from the state *line"
+    },
+    {
+      "text": "This mile-post system allows drivers to instantly calculate how many miles remain until their turn.",
+      "caps": "Drivers instantly calculate *miles | remaining to their *turn"
+    },
+    {
+      "text": "It also lets road engineers build brand new exits between existing ones without renumbering hundreds of signs.",
+      "caps": "New exits can be added *without | renumbering every *sign!"
+    },
+    {
+      "text": "The mile-marker system turns every highway into a giant built-in odometer for road trippers.",
+      "caps": "A built-in *ruler | spanning thousands of highway *miles!",
+      "gap": 0.3
+    }
+  ]
+}

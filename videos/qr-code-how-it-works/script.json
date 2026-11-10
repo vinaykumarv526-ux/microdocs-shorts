@@ -1,0 +1,44 @@
+{
+  "title": "How do QR codes store information?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "ISO/IEC 18004 QR Code Specification",
+    "Denso Wave Invention of QR Code"
+  ],
+  "lines": [
+    {
+      "text": "How can a tiny square of random black and white pixels beam a website link to your camera in half a second?",
+      "caps": "How does a *QR code | store data in black and *white?"
+    },
+    {
+      "text": "Invented in nineteen ninety-four to track auto parts in Japan, QR stands for Quick Response.",
+      "caps": "Invented by Toyota to track *parts | at lightning *speed"
+    },
+    {
+      "text": "Those three large squares in the corners are position markers that tell your phone camera orientation and angle.",
+      "caps": "Three corner squares tell *cameras | the exact orientation and *tilt"
+    },
+    {
+      "text": "The smaller square near the bottom right aligns the image to correct distortion.",
+      "caps": "Smaller square *corrects | perspective *distortion"
+    },
+    {
+      "text": "The remaining grid of pixels encodes characters into binary ones and zeros.",
+      "caps": "The pixel grid encodes *characters | into binary ones and *zeros"
+    },
+    {
+      "text": "Even better, QR codes feature Reed-Solomon error correction, meaning they scan perfectly even if thirty percent is ripped or dirty.",
+      "caps": "Scans perfectly even if *30% | is ripped or *dirty!"
+    },
+    {
+      "text": "A simple two-dimensional barcode connects the physical world to the digital universe.",
+      "caps": "Connecting the physical *world | to the internet in a *snap!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "How does a submarine stay underwater without sinking forever?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Naval Sea Systems Command Submarine Fundamentals",
+    "Archimedes' Principle of Buoyancy"
+  ],
+  "lines": [
+    {
+      "text": "How does a massive submarine weighing thousands of tons dive into the abyss and come back up safely?",
+      "caps": "How does a *submarine | dive without sinking *forever?"
+    },
+    {
+      "text": "Submarines master Archimedes' principle of buoyancy using giant chambers called ballast tanks.",
+      "caps": "Controls buoyancy using *massive | ballast *tanks"
+    },
+    {
+      "text": "On the surface, the ballast tanks are filled with air, making the submarine lighter than displaced water.",
+      "caps": "Tanks filled with *air | keep it floating on *top"
+    },
+    {
+      "text": "To submerge, large vents open at the bottom, flooding the tanks with heavy seawater until the sub sinks.",
+      "caps": "Vents open and *seawater | floods the *tanks"
+    },
+    {
+      "text": "To hover at a fixed depth, operators balance water and air to achieve neutral buoyancy.",
+      "caps": "Balances air and *water | to hover *weightlessly"
+    },
+    {
+      "text": "To surface, high-pressure compressed air blasts all the seawater out, shooting the vessel back upward.",
+      "caps": "Compressed air blasts the *water out | shooting it *upward!"
+    },
+    {
+      "text": "It is pure mechanical physics operating deep beneath the ocean waves.",
+      "caps": "Mastering *physics | deep beneath the *waves!",
+      "gap": 0.3
+    }
+  ]
+}

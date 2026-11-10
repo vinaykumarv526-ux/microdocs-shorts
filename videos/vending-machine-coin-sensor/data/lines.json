@@ -1,0 +1,55 @@
+{
+ "duration": 40.316,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "When you drop a quarter into a snack vending machine, how does it know it's not a metal washer or slug?",
+   "start": 0.35,
+   "end": 5.048
+  },
+  {
+   "i": 1,
+   "text": "It doesn't just check the coin's size; it tests its physical and electrical signature.",
+   "start": 5.328,
+   "end": 9.37
+  },
+  {
+   "i": 2,
+   "text": "First, optical light beams measure the coin's precise diameter and thickness as it rolls down the ramp.",
+   "start": 9.65,
+   "end": 14.343
+  },
+  {
+   "i": 3,
+   "text": "Next, the coin rolls past twin electromagnetic coils.",
+   "start": 14.623,
+   "end": 17.712
+  },
+  {
+   "i": 4,
+   "text": "The coin's metallic composition disrupts the magnetic field, generating unique eddy currents.",
+   "start": 17.992,
+   "end": 22.683
+  },
+  {
+   "i": 5,
+   "text": "Because a genuine U.S. quarter has a specific copper-nickel core, its magnetic signature is unmistakable.",
+   "start": 22.963,
+   "end": 28.545
+  },
+  {
+   "i": 6,
+   "text": "If the coin is magnetic, too light, or made of cheap iron, a mechanical trapdoor flings it straight into the coin return.",
+   "start": 28.825,
+   "end": 34.776
+  },
+  {
+   "i": 7,
+   "text": "A tiny high-tech metal laboratory verifies your change in a fraction of a second.",
+   "start": 35.056,
+   "end": 39.016
+  }
+ ]
+}

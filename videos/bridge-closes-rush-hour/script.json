@@ -1,0 +1,44 @@
+{
+  "title": "What would happen if a major bridge closed during rush hour?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Federal Highway Administration Traffic Flow Theory",
+    "Texas A&M Transportation Institute"
+  ],
+  "lines": [
+    {
+      "text": "What happens to an entire metropolitan city when a critical suspension bridge suddenly shuts down at 5 PM?",
+      "caps": "What happens when a *bridge | shuts down in rush *hour?"
+    },
+    {
+      "text": "Modern highway networks function like complex hydraulic systems under extreme pressure.",
+      "caps": "Highways act like *pressurized | hydraulic *pipelines"
+    },
+    {
+      "text": "When a bridge carrying one hundred thousand cars daily closes, traffic doesn't just stop; it detonates backwards.",
+      "caps": "Closing a bridge *detonates | traffic backwards for *miles!"
+    },
+    {
+      "text": "GPS navigation algorithms frantically reroute tens of thousands of vehicles onto narrow suburban side streets.",
+      "caps": "GPS reroutes *thousands of cars | into narrow *neighborhoods"
+    },
+    {
+      "text": "Neighborhood roads gridlock instantly, trapping emergency ambulances, fire trucks, and city buses.",
+      "caps": "Gridlock traps *ambulances | and first *responders"
+    },
+    {
+      "text": "A single point of failure can paralyze an entire metro economy for twenty straight miles.",
+      "caps": "One closed bridge *paralyzes | 20 miles of *traffic!"
+    },
+    {
+      "text": "It proves just how dependent our cities are on a handful of steel and concrete arteries.",
+      "caps": "Cities rely on a *few critical | concrete *arteries!",
+      "gap": 0.3
+    }
+  ]
+}

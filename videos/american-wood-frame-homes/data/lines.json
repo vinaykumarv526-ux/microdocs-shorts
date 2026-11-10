@@ -1,0 +1,49 @@
+{
+ "duration": 36.693,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why are most homes across the United States built out of wood instead of brick or concrete?",
+   "start": 0.35,
+   "end": 4.456
+  },
+  {
+   "i": 1,
+   "text": "It is not because of cheap construction; it comes down to geography, efficiency, and engineering.",
+   "start": 4.736,
+   "end": 9.57
+  },
+  {
+   "i": 2,
+   "text": "North America is home to vast sustainable forests, making structural lumber abundant and renewable.",
+   "start": 9.85,
+   "end": 15.081
+  },
+  {
+   "i": 3,
+   "text": "Light-frame wood construction allows a crew to frame an entire house in just a few days.",
+   "start": 15.361,
+   "end": 19.325
+  },
+  {
+   "i": 4,
+   "text": "Wood also offers incredible thermal insulation and flexibility, making it far safer in earthquake zones.",
+   "start": 19.605,
+   "end": 24.897
+  },
+  {
+   "i": 5,
+   "text": "Modifying walls to run modern plumbing, electrical wiring, and HVAC ducts is infinitely easier in wood.",
+   "start": 25.177,
+   "end": 30.752
+  },
+  {
+   "i": 6,
+   "text": "Wood framing made spacious, affordable housing possible for millions of American families.",
+   "start": 31.032,
+   "end": 35.393
+  }
+ ]
+}

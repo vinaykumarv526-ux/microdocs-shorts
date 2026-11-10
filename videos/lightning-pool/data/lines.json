@@ -1,0 +1,49 @@
+{
+ "duration": 34.904,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What would happen to you if lightning struck the swimming pool while you were taking a dip?",
+   "start": 0.35,
+   "end": 3.931
+  },
+  {
+   "i": 1,
+   "text": "A typical lightning bolt carries over thirty thousand amperes and three hundred million volts of raw energy.",
+   "start": 4.211,
+   "end": 9.047
+  },
+  {
+   "i": 2,
+   "text": "While pure distilled water is an insulator, swimming pool water is packed with conductive chlorine salts and minerals.",
+   "start": 9.327,
+   "end": 14.871
+  },
+  {
+   "i": 3,
+   "text": "When lightning hits, the electrical current spreads out horizontally across the water's surface.",
+   "start": 15.151,
+   "end": 19.823
+  },
+  {
+   "i": 4,
+   "text": "Anyone with their head or shoulders above water becomes the path of least resistance.",
+   "start": 20.103,
+   "end": 24.17
+  },
+  {
+   "i": 5,
+   "text": "The shock causes immediate cardiac arrest, severe internal burns, and instant loss of consciousness.",
+   "start": 24.45,
+   "end": 29.659
+  },
+  {
+   "i": 6,
+   "text": "That is why lifeguards order everyone out of the pool the instant thunder rumbles.",
+   "start": 29.939,
+   "end": 33.604
+  }
+ ]
+}

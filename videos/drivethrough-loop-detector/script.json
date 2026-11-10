@@ -1,0 +1,44 @@
+{
+  "title": "How does a drive-through know when your car arrives?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "QSR Magazine Drive-Thru Operations",
+    "Sensys Networks Inductive Loop Technology"
+  ],
+  "lines": [
+    {
+      "text": "The moment your front bumper pulls up to a fast-food ordering menu, a chime beeps inside the employee's headset.",
+      "caps": "How does a drive-through *know | the second you pull *up?"
+    },
+    {
+      "text": "It is not a cashier staring out the window or a hidden camera triggering the chime.",
+      "caps": "Not a camera or *employee | watching the *window!"
+    },
+    {
+      "text": "Buried beneath the asphalt pavement is an induction loop sensor made of insulated copper wire.",
+      "caps": "Buried under the pavement is an *inductive | copper wire *loop"
+    },
+    {
+      "text": "An electrical current runs through the wire loop, creating an invisible electromagnetic field above the driveway.",
+      "caps": "Creates an invisible *electromagnetic | field above the *ground"
+    },
+    {
+      "text": "When thousands of pounds of steel in your car roll overhead, the metal disrupts the coil's magnetic inductance.",
+      "caps": "Your car's steel *disrupts | the magnetic field's *frequency"
+    },
+    {
+      "text": "The detector registers the frequency shift, triggering the headset chime and starting an automated order timer.",
+      "caps": "Triggers the headset *chime | and starts a customer *timer!"
+    },
+    {
+      "text": "That buried magnetic sensor keeps fast-food drive-through lines moving at lightning speed.",
+      "caps": "Buried magnetic loops *powering | millions of fast-food *orders!",
+      "gap": 0.3
+    }
+  ]
+}

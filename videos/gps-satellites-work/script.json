@@ -1,0 +1,44 @@
+{
+  "title": "How does GPS work when satellites are so far away?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "U.S. Space Force GPS Directorate",
+    "Einstein's Theory of General Relativity in GPS"
+  ],
+  "lines": [
+    {
+      "text": "GPS satellites orbit twelve thousand miles above Earth, yet guide you to a restaurant doorway.",
+      "caps": "How does *GPS work | from 12,000 miles | *away?"
+    },
+    {
+      "text": "Each satellite simply broadcasts a radio message saying: this is who I am, and this is the exact time.",
+      "caps": "Satellites broadcast *time stamps | from atomic | *clocks"
+    },
+    {
+      "text": "Because radio waves travel at the speed of light, your phone calculates how long the signal took to arrive.",
+      "caps": "Your phone measures *nanosecond | delays in the | *signal"
+    },
+    {
+      "text": "Multiply that time by light speed, and your phone knows its exact distance from the satellite.",
+      "caps": "Calculates exact *distance | from four orbiting | *birds"
+    },
+    {
+      "text": "Here is the crazy part: because satellites move fast in weaker gravity, their clocks tick faster than Earth clocks.",
+      "caps": "Satellite clocks tick *faster | due to Einstein's | *relativity!"
+    },
+    {
+      "text": "Engineers must program Einstein's theory of general relativity into GPS software every day, or navigation would fail by six miles.",
+      "caps": "Without relativity, *maps | would fail by | *6 miles!"
+    },
+    {
+      "text": "Every GPS turn you make is living proof that Einstein was right.",
+      "caps": "Every GPS turn *proves | Einstein was *right!",
+      "gap": 0.3
+    }
+  ]
+}

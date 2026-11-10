@@ -1,0 +1,48 @@
+{
+  "title": "What would happen if you stood on Venus?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "NASA Venus Planetary Fact Sheet",
+    "Soviet Venera Probe Mission Logs"
+  ],
+  "lines": [
+    {
+      "text": "If you stepped out of a spaceship onto the surface of Venus, how long could your body survive?",
+      "caps": "How long could you *survive | on the surface of *Venus?"
+    },
+    {
+      "text": "The terrifying answer is less than one single second.",
+      "caps": "The terrifying answer is *less | than one *second!"
+    },
+    {
+      "text": "Venus is trapped under a runaway greenhouse effect of ninety-six percent carbon dioxide.",
+      "caps": "Trapped under a runaway *greenhouse | effect of carbon *dioxide"
+    },
+    {
+      "text": "Surface temperatures reach a blistering nine hundred degrees Fahrenheit, hot enough to melt solid lead.",
+      "caps": "Temperatures reach *900 degrees | hot enough to melt *lead!"
+    },
+    {
+      "text": "The atmospheric pressure is ninety times heavier than Earth's, equivalent to being three thousand feet underwater.",
+      "caps": "Atmospheric pressure is equal to *3,000 feet | deep in the *ocean"
+    },
+    {
+      "text": "Your skull and ribcage would be crushed flat like an aluminum soda can instantly.",
+      "caps": "Your body would be *crushed flat | like an empty soda *can"
+    },
+    {
+      "text": "Thick clouds above rain corrosive sulfuric acid that evaporates before touching the scorched basalt ground.",
+      "caps": "Clouds rain corrosive *sulfuric acid | over volcanic *rock!"
+    },
+    {
+      "text": "Venus is the absolute closest thing to a literal hell in our solar system.",
+      "caps": "Venus is a literal *hell | inside our solar *system!",
+      "gap": 0.3
+    }
+  ]
+}

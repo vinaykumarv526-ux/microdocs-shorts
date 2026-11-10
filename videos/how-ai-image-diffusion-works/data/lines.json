@@ -1,0 +1,49 @@
+{
+ "duration": 36.753,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "How can artificial intelligence take a single written sentence and generate a photo-realistic painting in ten seconds?",
+   "start": 0.35,
+   "end": 5.857
+  },
+  {
+   "i": 1,
+   "text": "Modern image generators don't cut and paste pieces from Google Images.",
+   "start": 6.137,
+   "end": 9.608
+  },
+  {
+   "i": 2,
+   "text": "They use an advanced process called latent diffusion, inspired by non-equilibrium thermodynamics.",
+   "start": 9.888,
+   "end": 14.868
+  },
+  {
+   "i": 3,
+   "text": "During training, the AI learns by taking millions of pictures and slowly destroying them with static pixel noise.",
+   "start": 15.148,
+   "end": 20.538
+  },
+  {
+   "i": 4,
+   "text": "It learns to mathematically reverse the degradation, reconstructing clean pictures from pure fuzz.",
+   "start": 20.818,
+   "end": 25.711
+  },
+  {
+   "i": 5,
+   "text": "When you type a prompt, the AI starts with a canvas of random television static, carving out shapes based on your words.",
+   "start": 25.991,
+   "end": 31.967
+  },
+  {
+   "i": 6,
+   "text": "It essentially dreams an image out of mathematical static noise.",
+   "start": 32.247,
+   "end": 35.453
+  }
+ ]
+}

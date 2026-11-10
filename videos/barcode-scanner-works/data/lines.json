@@ -1,0 +1,49 @@
+{
+ "duration": 33.644,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "When you scan an item at the supermarket checkout, what is the red laser actually reading?",
+   "start": 0.35,
+   "end": 4.651
+  },
+  {
+   "i": 1,
+   "text": "Most people think the scanner reads the black bars, but it is actually reading the white spaces.",
+   "start": 4.931,
+   "end": 9.529
+  },
+  {
+   "i": 2,
+   "text": "A red laser sweeps across the code, and a light sensor measures reflected light intensity.",
+   "start": 9.809,
+   "end": 14.178
+  },
+  {
+   "i": 3,
+   "text": "Black bars absorb laser light while white spaces reflect it back as a pattern of ones and zeros.",
+   "start": 14.458,
+   "end": 18.984
+  },
+  {
+   "i": 4,
+   "text": "This binary sequence translates into a twelve-digit Universal Product Code number.",
+   "start": 19.264,
+   "end": 23.417
+  },
+  {
+   "i": 5,
+   "text": "The register instantly looks up that code in the store database to pull up the product name and price.",
+   "start": 23.697,
+   "end": 28.29
+  },
+  {
+   "i": 6,
+   "text": "That simple pattern of stripes automated the entire global retail economy.",
+   "start": 28.57,
+   "end": 32.344
+  }
+ ]
+}

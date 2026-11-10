@@ -1,0 +1,44 @@
+{
+  "title": "What happens when a data center loses power?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Uptime Institute Data Center Tier Standard",
+    "IEEE Industry Applications Data Center Reliability"
+  ],
+  "lines": [
+    {
+      "text": "What prevents the internet from crashing when a massive hurricane knocks out power to cloud data centers?",
+      "caps": "What happens when a cloud *data center | loses *electricity?"
+    },
+    {
+      "text": "Massive facilities housing hundreds of thousands of servers are built like impenetrable digital fortresses.",
+      "caps": "Built like impenetrable *digital | fortresses of *steel"
+    },
+    {
+      "text": "The instant city utility power flickers, giant Flywheel or battery Uninterruptible Power Supply systems take over instantly.",
+      "caps": "Massive battery banks *kick in | within zero *milliseconds!"
+    },
+    {
+      "text": "They bridge the gap without losing a single watt of electricity to server racks.",
+      "caps": "Prevents servers from *losing | even a single *millisecond"
+    },
+    {
+      "text": "Within fifteen seconds, enormous two-megawatt locomotive diesel generators roar to life outside.",
+      "caps": "Locomotive diesel *generators | roar to life in 15 *seconds"
+    },
+    {
+      "text": "These generators have enough on-site underground fuel reserves to power a small city for days.",
+      "caps": "Stores enough diesel to *power | a small city for *days!"
+    },
+    {
+      "text": "The cloud stays online because data centers refuse to let electricity ever die.",
+      "caps": "Redundant engineering keeps the *internet | alive *24/7!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Why do prices rise even when a product stays the same?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Bureau of Labor Statistics Consumer Price Index",
+    "Federal Reserve Monetary Policy Review"
+  ],
+  "lines": [
+    {
+      "text": "Why did a McDonald's hamburger cost fifteen cents in the nineteen-fifties, but costs several dollars today?",
+      "caps": "Why does everything get *more | expensive over *time?"
+    },
+    {
+      "text": "The burger didn't get ten times bigger or more delicious; the value of your dollar shrank.",
+      "caps": "The product didn't change; your *dollar | lost purchasing *power!"
+    },
+    {
+      "text": "This steady price increase is called inflation, and it happens when money supply outpaces real goods.",
+      "caps": "Inflation occurs when *money supply | outpaces available *goods"
+    },
+    {
+      "text": "When central banks expand money and credit, more dollars compete for the same supply of eggs, oil, and homes.",
+      "caps": "More dollars *competing | for the exact same *goods"
+    },
+    {
+      "text": "Producers face rising wages and shipping costs, passing those expenses directly to grocery shelf price tags.",
+      "caps": "Producers pass higher *costs | directly to consumer *shelves"
+    },
+    {
+      "text": "A healthy economy targets two percent annual inflation to encourage people to invest and spend rather than hoard cash.",
+      "caps": "Targeting 2% *inflation | encourages investment and *growth"
+    },
+    {
+      "text": "To beat inflation, always invest your savings in assets that grow faster than the money supply.",
+      "caps": "Invest your money to *beat | inflation's silent *tax!",
+      "gap": 0.3
+    }
+  ]
+}

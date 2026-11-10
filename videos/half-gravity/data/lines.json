@@ -1,0 +1,49 @@
+{
+ "duration": 33.11,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What would happen to your body and the world if gravity suddenly dropped by fifty percent?",
+   "start": 0.35,
+   "end": 4.384
+  },
+  {
+   "i": 1,
+   "text": "Instantly, every human on Earth would feel as light as a feather, leaping over rooftops with ease.",
+   "start": 4.664,
+   "end": 9.323
+  },
+  {
+   "i": 2,
+   "text": "High jump sports and basketball would transform into breathtaking aerial spectacles.",
+   "start": 9.603,
+   "end": 13.602
+  },
+  {
+   "i": 3,
+   "text": "However, the atmospheric consequences would quickly turn fatal.",
+   "start": 13.882,
+   "end": 17.171
+  },
+  {
+   "i": 4,
+   "text": "With half the gravitational grip, Earth's atmospheric pressure would rapidly escape into deep space.",
+   "start": 17.451,
+   "end": 22.356
+  },
+  {
+   "i": 5,
+   "text": "Oceans would boil at lower temperatures while human muscle mass and bone density rapidly withered away.",
+   "start": 22.636,
+   "end": 27.564
+  },
+  {
+   "i": 6,
+   "text": "Be glad Earth's gravity is finely tuned to keep our feet on the ground and air in our lungs.",
+   "start": 27.844,
+   "end": 31.81
+  }
+ ]
+}

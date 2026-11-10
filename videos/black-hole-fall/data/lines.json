@@ -1,0 +1,49 @@
+{
+ "duration": 31.796,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What would actually happen to your body if you fell into a cosmic supermassive black hole?",
+   "start": 0.35,
+   "end": 4.529
+  },
+  {
+   "i": 1,
+   "text": "As you drift toward the event horizon, extreme gravitational tidal forces begin stretching space.",
+   "start": 4.809,
+   "end": 9.819
+  },
+  {
+   "i": 2,
+   "text": "The pull on your feet would be vastly stronger than the pull on your head.",
+   "start": 10.099,
+   "end": 13.299
+  },
+  {
+   "i": 3,
+   "text": "Your body would be vertically stretched and horizontally compressed like a string of dough.",
+   "start": 13.579,
+   "end": 17.499
+  },
+  {
+   "i": 4,
+   "text": "Astrophysicists call this gruesome cosmic phenomenon spaghettification.",
+   "start": 17.779,
+   "end": 21.59
+  },
+  {
+   "i": 5,
+   "text": "To an outside observer, you would appear to slow down and freeze at the event horizon forever.",
+   "start": 21.87,
+   "end": 26.104
+  },
+  {
+   "i": 6,
+   "text": "Crossing the threshold of a black hole is a one-way trip beyond the edge of physics itself.",
+   "start": 26.384,
+   "end": 30.496
+  }
+ ]
+}

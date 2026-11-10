@@ -1,0 +1,44 @@
+{
+  "title": "How did people tell time before modern clocks?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Smithsonian Clocks and Watches Historical Survey",
+    "British Museum Ancient Horology"
+  ],
+  "lines": [
+    {
+      "text": "Before wristwatches and smartphones existed, how did ancient humans know what time it was?",
+      "caps": "How did people *tell time | before clocks existed?"
+    },
+    {
+      "text": "Ancient Egyptians tracked shadows cast by giant stone obelisks, creating the world's first sundials.",
+      "caps": "Egyptians used stone *obelisks | as giant solar *sundials"
+    },
+    {
+      "text": "On cloudy days and at night, Greeks and Romans relied on water clocks called clepsydras.",
+      "caps": "Greeks used *clepsydra | water dripping *vessels"
+    },
+    {
+      "text": "Water dripped steadily out of a calibrated stone vessel, marking passing hours on internal indicator lines.",
+      "caps": "Dripping water marked *passing hours | like an hourglass!"
+    },
+    {
+      "text": "In ancient China, people burned incense coils with small brass weights that clattered into copper bowls every hour.",
+      "caps": "Incense clocks *dropped | brass weights every *hour"
+    },
+    {
+      "text": "Monasteries eventually built mechanical pendulum and gear clocktowers to chime daily prayer bells.",
+      "caps": "Mechanical *clocktowers | chimed town prayer *bells"
+    },
+    {
+      "text": "Measuring time transformed humanity from wandering hunter-gatherers into coordinated industrial civilizations.",
+      "caps": "Timekeeping transformed *humanity | into coordinated *civilization!",
+      "gap": 0.3
+    }
+  ]
+}

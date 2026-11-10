@@ -1,0 +1,44 @@
+{
+  "title": "What lives in the deepest ocean?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Woods Hole Oceanographic Institution Hadal Organisms",
+    "Journal of Deep-Sea Research"
+  ],
+  "lines": [
+    {
+      "text": "In the Mariana Trench, where pressure would crush a steel submarine, what bizarre creatures actually survive?",
+      "caps": "What alien *creatures live | five miles *underwater?"
+    },
+    {
+      "text": "Under crushing pressure and freezing darkness, life has adapted in terrifying ways.",
+      "caps": "Life adapts in *mind-blowing | and terrifying *ways"
+    },
+    {
+      "text": "The Mariana snailfish lives five miles deep, having completely scaleless gelatinous tissue to resist pressure.",
+      "caps": "The snailfish has *gelatinous skin | and soft flexible *bones"
+    },
+    {
+      "text": "Giant amphipods grow to the size of dinner plates, feeding on dead whale carcasses sinking from above.",
+      "caps": "Giant amphipods *grow | to the size of *dinner plates!"
+    },
+    {
+      "text": "Deep sea anglerfish illuminate pitch black waters with glowing bioluminescent bacterial lures on their foreheads.",
+      "caps": "Anglerfish use *bioluminescent lures | to bait unsuspecting *prey"
+    },
+    {
+      "text": "Many deep-sea animals don't have eyes at all, navigating by sensing water pressure vibrations.",
+      "caps": "Many creatures have *no eyes | relying purely on vibration *sensors"
+    },
+    {
+      "text": "The bottom of our ocean feels closer to another planet than planet Earth.",
+      "caps": "The deep abyss feels *closer | to an alien *planet!",
+      "gap": 0.3
+    }
+  ]
+}

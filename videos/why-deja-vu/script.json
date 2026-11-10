@@ -1,0 +1,44 @@
+{
+  "title": "Why do we get d\u00e9j\u00e0 vu?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Cognitive Neuropsychology, Temporal Lobe Mapping",
+    "Nature Reviews Neuroscience"
+  ],
+  "lines": [
+    {
+      "text": "Have you ever walked into an unfamiliar room and felt an overwhelming certainty you've been there before?",
+      "caps": "Why do you *suddenly | get *d\u00e9j\u00e0 vu?"
+    },
+    {
+      "text": "That eerie feeling is called d\u00e9j\u00e0 vu, and it is actually a temporary brain glitch.",
+      "caps": "It's an eerie *glitch | inside your *brain!"
+    },
+    {
+      "text": "Normally, incoming sensory information enters your short-term memory before being cataloged into long-term storage.",
+      "caps": "Normally sensory data goes to *short-term | memory *first"
+    },
+    {
+      "text": "During d\u00e9j\u00e0 vu, a tiny neurological misfire routes the current experience straight into your long-term memory circuit.",
+      "caps": "A misfire routes *current sight | straight into *long-term memory!"
+    },
+    {
+      "text": "Your temporal lobe perceives a brand new moment as if it occurred years in the past.",
+      "caps": "Your brain thinks a *new moment | is an ancient *memory"
+    },
+    {
+      "text": "It is essentially your brain's memory filing system lagging by a fraction of a millisecond.",
+      "caps": "Your brain's memory *buffer | lagged for a *millisecond"
+    },
+    {
+      "text": "Don't worry; experiencing d\u00e9j\u00e0 vu just means your brain's fact-checking system is healthy and active.",
+      "caps": "Just proof your *brain's | fact-checker is *working!",
+      "gap": 0.3
+    }
+  ]
+}

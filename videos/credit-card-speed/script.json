@@ -1,0 +1,44 @@
+{
+  "title": "How does a credit card payment happen in seconds?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Visa Global Transaction Processing Overview",
+    "Federal Reserve Payments Study"
+  ],
+  "lines": [
+    {
+      "text": "When you tap your credit card at a store register, the payment approves in under two seconds.",
+      "caps": "What happens when | you *tap your | *credit card?"
+    },
+    {
+      "text": "In those two seconds, your data embarks on a worldwide journey across thousands of miles of fiber optics.",
+      "caps": "Your data races *thousands | of miles across | *undersea fiber"
+    },
+    {
+      "text": "The card's microchip generates a one-time cryptographic token to prevent fraud.",
+      "caps": "Generates a *unique | cryptographic *token"
+    },
+    {
+      "text": "The terminal beams this token to the merchant's bank, which routes it through Visa or Mastercard's global network.",
+      "caps": "Beams data to *Visa | or Mastercard's global | *supercomputers"
+    },
+    {
+      "text": "Their supercomputers check for fraud algorithms, then ping your personal bank to verify your funds.",
+      "caps": "Pings your *bank | to check funds and *fraud"
+    },
+    {
+      "text": "Your bank approves the charge, transmits the confirmation code back, and the register beeps approved.",
+      "caps": "Sends approval back | and the *terminal | *beeps!"
+    },
+    {
+      "text": "All of that happened in less time than it took you to blink twice.",
+      "caps": "Happened in *less time | than a single *blink!",
+      "gap": 0.3
+    }
+  ]
+}

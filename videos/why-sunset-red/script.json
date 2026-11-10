@@ -1,0 +1,44 @@
+{
+  "title": "Why does the sky look red at sunset?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Rayleigh Scattering Physics Journal",
+    "NOAA National Weather Service Optical Phenomena"
+  ],
+  "lines": [
+    {
+      "text": "Why is the sky brilliant blue at noon, but shifts into fiery crimson and orange as the sun sets?",
+      "caps": "Why do sunsets turn *fiery red | while noon is *blue?"
+    },
+    {
+      "text": "The answer is an optical phenomenon called Rayleigh scattering.",
+      "caps": "Caused by an optical *law | called Rayleigh *scattering"
+    },
+    {
+      "text": "Sunlight looks white, but it contains all the colors of the visible rainbow.",
+      "caps": "Sunlight contains *all colors | of the visible *rainbow"
+    },
+    {
+      "text": "Blue light has short, choppy wavelengths that easily scatter in every direction off nitrogen gas molecules at midday.",
+      "caps": "Short blue wavelengths *scatter | everywhere during *midday"
+    },
+    {
+      "text": "At sunset, the Sun sits low on the horizon, forcing its rays to travel through ten times more atmosphere to reach your eyes.",
+      "caps": "At dusk, rays travel *through | ten times more *atmosphere!"
+    },
+    {
+      "text": "Most blue and violet light gets scattered away long before reaching you, leaving only long red and orange wavelengths.",
+      "caps": "Blue scatters away leaving *only | long red and orange *waves"
+    },
+    {
+      "text": "You are seeing the longest light wavelengths making it through the atmosphere's marathon run.",
+      "caps": "The sunset is the *marathon winner | of visible *light!",
+      "gap": 0.3
+    }
+  ]
+}

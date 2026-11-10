@@ -1,0 +1,44 @@
+{
+  "title": "Why do American homes often use wooden frames?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Association of Home Builders",
+    "U.S. Forest Service Timber Economics"
+  ],
+  "lines": [
+    {
+      "text": "Why are most homes across the United States built out of wood instead of brick or concrete?",
+      "caps": "Why are US *houses | built out of *wood?"
+    },
+    {
+      "text": "It is not because of cheap construction; it comes down to geography, efficiency, and engineering.",
+      "caps": "Comes down to *forests | efficiency, and *engineering"
+    },
+    {
+      "text": "North America is home to vast sustainable forests, making structural lumber abundant and renewable.",
+      "caps": "America has *millions | of acres of fast-growing *pine"
+    },
+    {
+      "text": "Light-frame wood construction allows a crew to frame an entire house in just a few days.",
+      "caps": "A crew can frame a *house | in just a few *days!"
+    },
+    {
+      "text": "Wood also offers incredible thermal insulation and flexibility, making it far safer in earthquake zones.",
+      "caps": "Wood flexes during *earthquakes | preventing catastrophic *collapse"
+    },
+    {
+      "text": "Modifying walls to run modern plumbing, electrical wiring, and HVAC ducts is infinitely easier in wood.",
+      "caps": "Running *pipes and wires | is quick and *affordable"
+    },
+    {
+      "text": "Wood framing made spacious, affordable housing possible for millions of American families.",
+      "caps": "Made homeownership *accessible | for millions of *families!",
+      "gap": 0.3
+    }
+  ]
+}

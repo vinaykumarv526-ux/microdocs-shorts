@@ -1,0 +1,44 @@
+{
+  "title": "When does your body start using stored energy?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "American Journal of Physiology Endocrinology",
+    "Harvard Health Glycogen Depletion"
+  ],
+  "lines": [
+    {
+      "text": "When you stop eating, how many hours does it take before your body actually starts burning body fat?",
+      "caps": "When does your body *finally | start burning *fat?"
+    },
+    {
+      "text": "For the first four hours after a meal, your cells run entirely on digested glucose from your bloodstream.",
+      "caps": "First 4 hours run on *glucose | circulating in your *blood"
+    },
+    {
+      "text": "Between hours four and twelve, insulin levels drop and your liver releases stored glycogen.",
+      "caps": "Liver releases stored *glycogen | for easy *fuel"
+    },
+    {
+      "text": "Only after twelve to fourteen hours of fasting does your body exhaust easy glycogen reserves.",
+      "caps": "After 12 hours, easy *sugar | is completely *empty"
+    },
+    {
+      "text": "Your metabolism flips the biological metabolic switch, breaking down adipose tissue into fatty acids.",
+      "caps": "Metabolic switch flips to *burn | stored body *fat!"
+    },
+    {
+      "text": "By hour sixteen, ketones flood your bloodstream to fuel your brain with razor-sharp focus.",
+      "caps": "Ketones fuel your *brain | with clean, steady *energy"
+    },
+    {
+      "text": "Intermittent fasting simply allows your ancient fat-burning engine time to turn on.",
+      "caps": "Give your body *time | to burn its *reserves!",
+      "gap": 0.3
+    }
+  ]
+}

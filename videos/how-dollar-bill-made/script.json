@@ -1,0 +1,44 @@
+{
+  "title": "How does a dollar bill get made?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Bureau of Engraving and Printing Currency Production",
+    "Federal Reserve Board Currency Quality"
+  ],
+  "lines": [
+    {
+      "text": "Did you know that American dollar bills are not actually made out of paper?",
+      "caps": "Dollar bills are *not | made out of *paper!"
+    },
+    {
+      "text": "If they were made of wood pulp paper, a single accidental trip through the laundry washing machine would turn them into mush.",
+      "caps": "Wood paper would turn to *mush | in your *washing machine"
+    },
+    {
+      "text": "U.S. currency is printed on a unique blend of seventy-five percent cotton and twenty-five percent linen.",
+      "caps": "Made from 75% *cotton | and 25% *linen"
+    },
+    {
+      "text": "Tiny red and blue synthetic fibers are woven directly into the fabric to defeat counterfeiters.",
+      "caps": "Tiny red and blue *threads | are woven into the *fabric"
+    },
+    {
+      "text": "Giant intaglio printing presses stamp sheets under twenty tons of pressure, creating raised ink textures you can feel with your fingernail.",
+      "caps": "Intaglio presses apply *20 tons | of pressure for raised *ink"
+    },
+    {
+      "text": "Color-shifting bells and 3D security ribbons turn bills into high-tech security sheets.",
+      "caps": "High-tech security *ribbons | prevent digital *counterfeiting!"
+    },
+    {
+      "text": "A dollar bill can be folded over four thousand times before it finally tears.",
+      "caps": "Can be folded *4,000 times | before ever *ripping!",
+      "gap": 0.3
+    }
+  ]
+}

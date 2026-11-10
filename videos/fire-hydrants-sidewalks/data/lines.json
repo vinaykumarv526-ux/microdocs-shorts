@@ -1,0 +1,49 @@
+{
+ "duration": 36.997,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why are cast-iron fire hydrants positioned every few hundred feet along American sidewalks?",
+   "start": 0.35,
+   "end": 4.822
+  },
+  {
+   "i": 1,
+   "text": "What you see above ground is just the tip of an iceberg.",
+   "start": 5.102,
+   "end": 7.615
+  },
+  {
+   "i": 2,
+   "text": "Beneath the pavement sits a massive dry barrel tube extending eight feet down into the earth.",
+   "start": 7.895,
+   "end": 11.965
+  },
+  {
+   "i": 3,
+   "text": "In cold northern states, water is kept below the frost line to prevent freezing and bursting during freezing winters.",
+   "start": 12.245,
+   "end": 17.554
+  },
+  {
+   "i": 4,
+   "text": "When firefighters crank open the top nut, a valve opens at the bottom, releasing pressurized water at thousands of gallons per minute.",
+   "start": 17.834,
+   "end": 24.502
+  },
+  {
+   "i": 5,
+   "text": "Hydrants are color-coded: blue tops pump the highest flow over fifteen hundred gallons, while red pumps under five hundred.",
+   "start": 24.782,
+   "end": 30.678
+  },
+  {
+   "i": 6,
+   "text": "That humble curb fixture provides instant life-saving firefighting power when every second counts.",
+   "start": 30.958,
+   "end": 35.697
+  }
+ ]
+}

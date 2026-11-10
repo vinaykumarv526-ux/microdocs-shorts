@@ -1,0 +1,44 @@
+{
+  "title": "How do airport luggage systems sort thousands of bags?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "International Air Transport Association Baggage Handling",
+    "FAA Airport Baggage Screening Infrastructure"
+  ],
+  "lines": [
+    {
+      "text": "When you check your suitcase at an airport ticket counter, how does it navigate miles of tunnels to your plane?",
+      "caps": "Where does your bag go after | you *drop it at the *counter?"
+    },
+    {
+      "text": "It rides a subterranean roller coaster network stretching dozens of miles beneath the airport terminal.",
+      "caps": "Rides miles of subterranean *roller coasters | under the *terminal"
+    },
+    {
+      "text": "When check-in tags your bag, a ten-digit barcode containing flight, passenger, and destination data is encoded.",
+      "caps": "Printed barcodes encode your *flight | and passenger *identity"
+    },
+    {
+      "text": "High-speed optical laser tunnels scan the barcode from all six angles as the bag zooms by at thirty miles an hour.",
+      "caps": "360-degree lasers scan the *tag | at thirty miles per *hour!"
+    },
+    {
+      "text": "Automated pusher arms kick the suitcase onto specific conveyor spurs heading toward automated explosive scanners.",
+      "caps": "Automated arms kick bags into *advanced | explosive *scanners"
+    },
+    {
+      "text": "Robotic destination loaders drop the bag into the exact cart heading for your aircraft cargo hold.",
+      "caps": "Robots direct luggage to your *exact | airplane cargo *bay"
+    },
+    {
+      "text": "Over ninety-nine percent of airport baggage arrives smoothly at its final destination.",
+      "caps": "Over 99% of checked *bags | arrive right on *time!",
+      "gap": 0.3
+    }
+  ]
+}

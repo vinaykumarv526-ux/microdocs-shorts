@@ -1,0 +1,49 @@
+{
+ "duration": 37.889,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Why did Renaissance mapmakers cover uncharted ocean waters with drawings of giant sea serpents and kraken monsters?",
+   "start": 0.35,
+   "end": 5.903
+  },
+  {
+   "i": 1,
+   "text": "It wasn't just artistic decoration or mythological fantasy.",
+   "start": 6.183,
+   "end": 9.464
+  },
+  {
+   "i": 2,
+   "text": "Early ocean sailors navigated treacherous waters without modern sonar or satellite weather forecasting.",
+   "start": 9.744,
+   "end": 14.832
+  },
+  {
+   "i": 3,
+   "text": "When sailors glimpsed giant squids, breaching sperm whales, or strange oarfish, terrified rumors spread.",
+   "start": 15.112,
+   "end": 20.304
+  },
+  {
+   "i": 4,
+   "text": "Cartographers drew ferocious sea creatures to mark dangerous uncharted reefs, lethal vortex whirlpools, and shallow shoals.",
+   "start": 20.584,
+   "end": 26.567
+  },
+  {
+   "i": 5,
+   "text": "They served as visual skull-and-crossbones hazard warnings for navigators sailing into the unknown.",
+   "start": 26.847,
+   "end": 31.52
+  },
+  {
+   "i": 6,
+   "text": "The monsters on ancient maps were warnings of real oceanic perils disguised as mythical beasts.",
+   "start": 31.8,
+   "end": 36.589
+  }
+ ]
+}

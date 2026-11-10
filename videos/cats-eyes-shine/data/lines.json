@@ -1,0 +1,49 @@
+{
+ "duration": 35.028,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "When headlights hit a cat at night, why do their eyes shine like glowing alien headlights?",
+   "start": 0.35,
+   "end": 4.166
+  },
+  {
+   "i": 1,
+   "text": "Cats possess a biological night-vision mirror behind their retinas called the tapetum lucidum.",
+   "start": 4.446,
+   "end": 9.052
+  },
+  {
+   "i": 2,
+   "text": "When light enters a human eye, photoreceptors absorb some and the rest is lost in darkness.",
+   "start": 9.332,
+   "end": 13.778
+  },
+  {
+   "i": 3,
+   "text": "In cats, unabsorbed light strikes this reflective layer of tissue and bounces back through the retina a second time.",
+   "start": 14.058,
+   "end": 19.473
+  },
+  {
+   "i": 4,
+   "text": "This double exposure gives felines incredible night vision, letting them hunt in near total blackness.",
+   "start": 19.753,
+   "end": 24.565
+  },
+  {
+   "i": 5,
+   "text": "The eerie glow you see is simply reflected flashlight rays bouncing back out of their eye mirrors.",
+   "start": 24.845,
+   "end": 29.085
+  },
+  {
+   "i": 6,
+   "text": "Nature gave cats built-in night-vision goggles millions of years before humans invented them.",
+   "start": 29.365,
+   "end": 33.728
+  }
+ ]
+}

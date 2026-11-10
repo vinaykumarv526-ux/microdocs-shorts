@@ -1,0 +1,44 @@
+{
+  "title": "Why do airlines charge different prices for the same seat?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "MIT International Center for Air Transportation Revenue Management",
+    "FAA Airline Deregulation Review"
+  ],
+  "lines": [
+    {
+      "text": "On a commercial flight, the passenger sitting directly next to you in economy might have paid half your ticket price.",
+      "caps": "Why does the person *next to you | pay half your *flight?"
+    },
+    {
+      "text": "Airlines pioneered dynamic yield management algorithms to squeeze maximum revenue from every single seat.",
+      "caps": "Airlines use complex *revenue | yield management *algorithms"
+    },
+    {
+      "text": "A flight's seats are divided into invisible pricing tiers called fare buckets.",
+      "caps": "Seats are divided into *invisible | fare pricing *buckets"
+    },
+    {
+      "text": "Early leisure travelers book cheap bucket seats months ahead of time.",
+      "caps": "Early vacationers *snag | the cheapest initial *seats"
+    },
+    {
+      "text": "As departure day nears, remaining seats shift into corporate business buckets priced three times higher.",
+      "caps": "Last-minute seats shift to *expensive | corporate *business tiers!"
+    },
+    {
+      "text": "Algorithms update prices thousands of times a day based on route searches, fuel prices, and competitor inventory.",
+      "caps": "Algorithms adjust fares *thousands | of times per *day"
+    },
+    {
+      "text": "The best sweet spot for domestic flight prices is typically one to three months before takeoff.",
+      "caps": "Book 1 to 3 months *ahead | for the lowest airfare *prices!",
+      "gap": 0.3
+    }
+  ]
+}

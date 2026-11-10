@@ -1,0 +1,44 @@
+{
+  "title": "Why do many U.S. neighborhoods have fire hydrants on the sidewalk?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "National Fire Protection Association Standards 291",
+    "American Water Works Association Hydrant Manual"
+  ],
+  "lines": [
+    {
+      "text": "Why are cast-iron fire hydrants positioned every few hundred feet along American sidewalks?",
+      "caps": "Why are fire *hydrants | placed on every *sidewalk?"
+    },
+    {
+      "text": "What you see above ground is just the tip of an iceberg.",
+      "caps": "What you see is just the *tip | of an underground *iceberg!"
+    },
+    {
+      "text": "Beneath the pavement sits a massive dry barrel tube extending eight feet down into the earth.",
+      "caps": "A dry barrel tube extends *eight feet | down into the *earth"
+    },
+    {
+      "text": "In cold northern states, water is kept below the frost line to prevent freezing and bursting during freezing winters.",
+      "caps": "Keeps water below the *frost line | so pipes never *freeze"
+    },
+    {
+      "text": "When firefighters crank open the top nut, a valve opens at the bottom, releasing pressurized water at thousands of gallons per minute.",
+      "caps": "Opening the nut releases *thousands | of gallons per *minute!"
+    },
+    {
+      "text": "Hydrants are color-coded: blue tops pump the highest flow over fifteen hundred gallons, while red pumps under five hundred.",
+      "caps": "Color-coded tops show *firefighters | the exact water *pressure"
+    },
+    {
+      "text": "That humble curb fixture provides instant life-saving firefighting power when every second counts.",
+      "caps": "Guarantees instant *water | when every second *counts!",
+      "gap": 0.3
+    }
+  ]
+}

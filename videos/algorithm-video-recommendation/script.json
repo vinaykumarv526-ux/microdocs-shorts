@@ -1,0 +1,44 @@
+{
+  "title": "How does an app know which videos you might watch?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Deep Neural Networks for YouTube Recommendations",
+    "ACM Conference on Recommender Systems"
+  ],
+  "lines": [
+    {
+      "text": "How does an app like YouTube or TikTok know exactly what video you want to watch before you even search for it?",
+      "caps": "How does an algorithm *read | your exact *mind?"
+    },
+    {
+      "text": "It doesn't just look at what videos you like; it tracks your behavior down to the millisecond.",
+      "caps": "Tracks your *behavior | down to the *millisecond!"
+    },
+    {
+      "text": "Machine learning models measure watch time, how fast you scroll, rewatches, and where you pause.",
+      "caps": "Measures watch time, *scroll speed | and where you *pause"
+    },
+    {
+      "text": "It groups your viewing patterns with millions of similar users into high-dimensional mathematical clusters.",
+      "caps": "Groups your taste with *millions | of similar *viewers"
+    },
+    {
+      "text": "Candidate generation algorithms filter hundreds of thousands of candidate videos down to a top hundred.",
+      "caps": "Filters millions of *videos | down to the top *hundred"
+    },
+    {
+      "text": "A deep ranking neural network scores each video on the probability that you will finish and share it.",
+      "caps": "Scores videos on the *chance | you watch to the *end!"
+    },
+    {
+      "text": "The algorithm doesn't read your mind; it simply predicts your habits with superhuman precision.",
+      "caps": "Predicts your *habits | with mathematical *precision!",
+      "gap": 0.3
+    }
+  ]
+}

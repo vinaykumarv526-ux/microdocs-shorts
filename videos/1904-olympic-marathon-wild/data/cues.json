@@ -1,0 +1,61 @@
+{
+ "duration": 41.871,
+ "cues": [
+  {
+   "t": 0,
+   "type": "whoosh"
+  },
+  {
+   "t": 0.3,
+   "type": "pop"
+  },
+  {
+   "t": 6.172,
+   "type": "whoosh"
+  },
+  {
+   "t": 6.472,
+   "type": "slam"
+  },
+  {
+   "t": 11.394,
+   "type": "whoosh"
+  },
+  {
+   "t": 11.644,
+   "type": "pop"
+  },
+  {
+   "t": 17.234,
+   "type": "whoosh"
+  },
+  {
+   "t": 17.534,
+   "type": "slam"
+  },
+  {
+   "t": 22.939,
+   "type": "whoosh"
+  },
+  {
+   "t": 23.189,
+   "type": "pop"
+  },
+  {
+   "t": 29.058,
+   "type": "whoosh"
+  },
+  {
+   "t": 29.358,
+   "type": "slam"
+  },
+  {
+   "t": 36.189,
+   "type": "whoosh"
+  },
+  {
+   "t": 36.489,
+   "type": "ding"
+  }
+ ]
+}

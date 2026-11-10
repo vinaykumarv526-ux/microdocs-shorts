@@ -1,0 +1,44 @@
+{
+  "title": "What would happen if you fell into a black hole?",
+  "voice": "en-US-ChristopherNeural",
+  "speed": 1.0,
+  "lead": 0.35,
+  "outro": 1.0,
+  "gap": 0.28,
+  "music": "tension",
+  "sources": [
+    "Stephen Hawking A Brief History of Time",
+    "Caltech Theoretical Astrophysics"
+  ],
+  "lines": [
+    {
+      "text": "What would actually happen to your body if you fell into a cosmic supermassive black hole?",
+      "caps": "What happens if | you fall into | a *black hole?"
+    },
+    {
+      "text": "As you drift toward the event horizon, extreme gravitational tidal forces begin stretching space.",
+      "caps": "Gravitational tides *stretch | the fabric of *space"
+    },
+    {
+      "text": "The pull on your feet would be vastly stronger than the pull on your head.",
+      "caps": "Gravity on your *feet | is vastly stronger than your *head!"
+    },
+    {
+      "text": "Your body would be vertically stretched and horizontally compressed like a string of dough.",
+      "caps": "Your body gets *stretched | into a noodle of *atoms"
+    },
+    {
+      "text": "Astrophysicists call this gruesome cosmic phenomenon spaghettification.",
+      "caps": "Physicists call this *nightmare | *spaghettification!"
+    },
+    {
+      "text": "To an outside observer, you would appear to slow down and freeze at the event horizon forever.",
+      "caps": "To outsiders you *freeze | at the event horizon *forever"
+    },
+    {
+      "text": "Crossing the threshold of a black hole is a one-way trip beyond the edge of physics itself.",
+      "caps": "A one-way journey *beyond | the laws of *physics!",
+      "gap": 0.3
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+ "duration": 37.59,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "If you stepped out of a spaceship onto the surface of Venus, how long could your body survive?",
+   "start": 0.35,
+   "end": 4.614
+  },
+  {
+   "i": 1,
+   "text": "The terrifying answer is less than one single second.",
+   "start": 4.894,
+   "end": 7.57
+  },
+  {
+   "i": 2,
+   "text": "Venus is trapped under a runaway greenhouse effect of ninety-six percent carbon dioxide.",
+   "start": 7.85,
+   "end": 12.323
+  },
+  {
+   "i": 3,
+   "text": "Surface temperatures reach a blistering nine hundred degrees Fahrenheit, hot enough to melt solid lead.",
+   "start": 12.603,
+   "end": 17.427
+  },
+  {
+   "i": 4,
+   "text": "The atmospheric pressure is ninety times heavier than Earth's, equivalent to being three thousand feet underwater.",
+   "start": 17.707,
+   "end": 23.053
+  },
+  {
+   "i": 5,
+   "text": "Your skull and ribcage would be crushed flat like an aluminum soda can instantly.",
+   "start": 23.333,
+   "end": 27.028
+  },
+  {
+   "i": 6,
+   "text": "Thick clouds above rain corrosive sulfuric acid that evaporates before touching the scorched basalt ground.",
+   "start": 27.308,
+   "end": 32.353
+  },
+  {
+   "i": 7,
+   "text": "Venus is the absolute closest thing to a literal hell in our solar system.",
+   "start": 32.633,
+   "end": 36.29
+  }
+ ]
+}

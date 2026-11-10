@@ -1,5 +1,5 @@
 {
- "duration": 36.509,
+ "duration": 36.499,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "If they were made of wood pulp paper, a single accidental trip through the laundry washing machine would turn them into mush.",
    "start": 4.034,
-   "end": 9.59
+   "end": 9.579
   },
   {
    "i": 2,
    "text": "U.S. currency is printed on a unique blend of seventy-five percent cotton and twenty-five percent linen.",
-   "start": 9.87,
-   "end": 14.801
+   "start": 9.859,
+   "end": 14.791
   },
   {
    "i": 3,
    "text": "Tiny red and blue synthetic fibers are woven directly into the fabric to defeat counterfeiters.",
-   "start": 15.081,
-   "end": 19.613
+   "start": 15.071,
+   "end": 19.602
   },
   {
    "i": 4,
    "text": "Giant intaglio printing presses stamp sheets under twenty tons of pressure, creating raised ink textures you can feel with your fingernail.",
-   "start": 19.893,
-   "end": 26.373
+   "start": 19.882,
+   "end": 26.363
   },
   {
    "i": 5,
    "text": "Color-shifting bells and 3D security ribbons turn bills into high-tech security sheets.",
-   "start": 26.654,
-   "end": 31.135
+   "start": 26.643,
+   "end": 31.125
   },
   {
    "i": 6,
    "text": "A dollar bill can be folded over four thousand times before it finally tears.",
-   "start": 31.415,
-   "end": 35.209
+   "start": 31.405,
+   "end": 35.199
   }
  ]
 }

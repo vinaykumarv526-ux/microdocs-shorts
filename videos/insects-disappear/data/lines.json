@@ -1,5 +1,5 @@
 {
- "duration": 35.392,
+ "duration": 35.39,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "Without bees, beetles, and butterflies, apples, coffee, chocolate, and grains would vanish from grocery shelves.",
    "start": 14.532,
-   "end": 20.105
+   "end": 20.103
   },
   {
    "i": 4,
    "text": "Dead leaves, animal carcasses, and waste would pile up endlessly without beetle decomposers.",
-   "start": 20.385,
-   "end": 24.843
+   "start": 20.383,
+   "end": 24.841
   },
   {
    "i": 5,
    "text": "Birds, reptiles, and amphibians would starve to death, toppling global food pyramids.",
-   "start": 25.123,
-   "end": 29.307
+   "start": 25.121,
+   "end": 29.305
   },
   {
    "i": 6,
    "text": "Those tiny six-legged creatures are the invisible foundation keeping our entire planet alive.",
-   "start": 29.587,
-   "end": 34.092
+   "start": 29.585,
+   "end": 34.09
   }
  ]
 }

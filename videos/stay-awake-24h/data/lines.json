@@ -1,5 +1,5 @@
 {
- "duration": 35.517,
+ "duration": 35.52,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "After twenty-four hours awake, your cognitive impairment equals a blood alcohol level of zero point one percent.",
    "start": 9.559,
-   "end": 15.082
+   "end": 15.086
   },
   {
    "i": 3,
    "text": "Toxic cellular metabolic waste like beta-amyloid builds up between your brain cells.",
-   "start": 15.362,
-   "end": 19.599
+   "start": 15.366,
+   "end": 19.603
   },
   {
    "i": 4,
    "text": "Your reaction times slow to a crawl, and your amygdala causes intense emotional mood swings.",
-   "start": 19.879,
-   "end": 24.261
+   "start": 19.883,
+   "end": 24.264
   },
   {
    "i": 5,
    "text": "Your brain will even force micro-sleeps, shutting off your conscious awareness for several seconds without warning.",
-   "start": 24.541,
-   "end": 29.578
+   "start": 24.544,
+   "end": 29.582
   },
   {
    "i": 6,
    "text": "Never drive while sleep deprived; getting a solid seven hours is essential for your brain.",
-   "start": 29.858,
-   "end": 34.217
+   "start": 29.861,
+   "end": 34.22
   }
  ]
 }

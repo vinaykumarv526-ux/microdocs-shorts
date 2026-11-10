@@ -1,5 +1,5 @@
 {
- "duration": 36.226,
+ "duration": 36.224,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "The binary data of your photo remains magnetically retrievable until new app downloads or 4K videos overwrite it.",
    "start": 24.459,
-   "end": 30.222
+   "end": 30.22
   },
   {
    "i": 6,
    "text": "Specialized forensic tools can recover deleted photos months after you thought they were gone.",
-   "start": 30.502,
-   "end": 34.926
+   "start": 30.5,
+   "end": 34.924
   }
  ]
 }

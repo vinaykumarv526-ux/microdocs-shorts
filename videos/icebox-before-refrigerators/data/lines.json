@@ -1,5 +1,5 @@
 {
- "duration": 39.31,
+ "duration": 39.307,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Every week, the local iceman delivered twenty-five pound ice blocks with iron tongs straight into home kitchens.",
    "start": 22.127,
-   "end": 27.306
+   "end": 27.308
   },
   {
    "i": 5,
    "text": "Families placed the melting ice in the top compartment, allowing dense cold air to sink over meat and butter.",
-   "start": 27.586,
-   "end": 32.41
+   "start": 27.588,
+   "end": 32.412
   },
   {
    "i": 6,
    "text": "Electric refrigeration transformed global nutrition, food safety, and modern civilization forever.",
-   "start": 32.69,
-   "end": 38.01
+   "start": 32.692,
+   "end": 38.007
   }
  ]
 }

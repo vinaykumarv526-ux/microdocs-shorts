@@ -1,5 +1,5 @@
 {
- "duration": 36.892,
+ "duration": 36.899,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "How does an app like YouTube or TikTok know exactly what video you want to watch before you even search for it?",
    "start": 0.35,
-   "end": 5.296
+   "end": 5.304
   },
   {
    "i": 1,
    "text": "It doesn't just look at what videos you like; it tracks your behavior down to the millisecond.",
-   "start": 5.576,
-   "end": 9.923
+   "start": 5.584,
+   "end": 9.93
   },
   {
    "i": 2,
    "text": "Machine learning models measure watch time, how fast you scroll, rewatches, and where you pause.",
-   "start": 10.203,
-   "end": 14.82
+   "start": 10.21,
+   "end": 14.828
   },
   {
    "i": 3,
    "text": "It groups your viewing patterns with millions of similar users into high-dimensional mathematical clusters.",
-   "start": 15.1,
-   "end": 20.258
+   "start": 15.108,
+   "end": 20.266
   },
   {
    "i": 4,
    "text": "Candidate generation algorithms filter hundreds of thousands of candidate videos down to a top hundred.",
-   "start": 20.538,
-   "end": 25.704
+   "start": 20.546,
+   "end": 25.712
   },
   {
    "i": 5,
    "text": "A deep ranking neural network scores each video on the probability that you will finish and share it.",
-   "start": 25.984,
-   "end": 30.562
+   "start": 25.992,
+   "end": 30.569
   },
   {
    "i": 6,
    "text": "The algorithm doesn't read your mind; it simply predicts your habits with superhuman precision.",
-   "start": 30.842,
-   "end": 35.592
+   "start": 30.849,
+   "end": 35.599
   }
  ]
 }

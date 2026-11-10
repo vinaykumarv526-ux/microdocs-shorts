@@ -1,5 +1,5 @@
 {
- "duration": 35.616,
+ "duration": 35.615,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "On the surface, the ballast tanks are filled with air, making the submarine lighter than displaced water.",
    "start": 10.418,
-   "end": 15.36
+   "end": 15.359
   },
   {
    "i": 3,
    "text": "To submerge, large vents open at the bottom, flooding the tanks with heavy seawater until the sub sinks.",
-   "start": 15.64,
+   "start": 15.639,
    "end": 20.831
   },
   {
    "i": 4,
    "text": "To hover at a fixed depth, operators balance water and air to achieve neutral buoyancy.",
    "start": 21.111,
-   "end": 25.494
+   "end": 25.493
   },
   {
    "i": 5,
    "text": "To surface, high-pressure compressed air blasts all the seawater out, shooting the vessel back upward.",
-   "start": 25.774,
+   "start": 25.773,
    "end": 30.648
   },
   {
    "i": 6,
    "text": "It is pure mechanical physics operating deep beneath the ocean waves.",
    "start": 30.928,
-   "end": 34.316
+   "end": 34.315
   }
  ]
 }

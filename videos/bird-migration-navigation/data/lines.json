@@ -1,5 +1,5 @@
 {
- "duration": 35.059,
+ "duration": 35.061,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "How can a tiny songbird fly five thousand miles across oceans and land in the exact same backyard tree every year?",
    "start": 0.35,
-   "end": 5.747
+   "end": 5.748
   },
   {
    "i": 1,
    "text": "Birds possess navigational abilities that surpass modern human military guidance systems.",
-   "start": 6.027,
-   "end": 10.634
+   "start": 6.029,
+   "end": 10.636
   },
   {
    "i": 2,
    "text": "They use the position of the sun during the day, and memorized star constellations at night.",
-   "start": 10.914,
-   "end": 15.279
+   "start": 10.916,
+   "end": 15.281
   },
   {
    "i": 3,
    "text": "They even smell atmospheric odor gradients to track geographic river coastlines.",
-   "start": 15.559,
-   "end": 19.667
+   "start": 15.561,
+   "end": 19.669
   },
   {
    "i": 4,
    "text": "Most mind-blowing of all, birds possess quantum compasses in their eyes.",
-   "start": 19.947,
-   "end": 23.441
+   "start": 19.949,
+   "end": 23.443
   },
   {
    "i": 5,
    "text": "Special proteins called cryptochromes allow birds to literally see Earth's invisible magnetic field lines as shades of light.",
-   "start": 23.721,
-   "end": 29.667
+   "start": 23.723,
+   "end": 29.669
   },
   {
    "i": 6,
    "text": "Birds navigate the globe using quantum physics built directly into their retinas.",
-   "start": 29.947,
-   "end": 33.759
+   "start": 29.949,
+   "end": 33.761
   }
  ]
 }

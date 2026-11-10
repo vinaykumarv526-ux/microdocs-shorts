@@ -1,5 +1,5 @@
 {
- "duration": 37.18,
+ "duration": 37.179,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "Instead of scanning features one by one, your brain processes the entire face holistically in parallel.",
    "start": 10.132,
-   "end": 15.278
+   "end": 15.277
   },
   {
    "i": 3,
    "text": "It calculates microscopic spatial distances between pupils, nose tip, and jawline curvature.",
-   "start": 15.558,
-   "end": 20.696
+   "start": 15.557,
+   "end": 20.695
   },
   {
    "i": 4,
    "text": "It matches this geometric matrix against tens of thousands of stored memory profiles.",
-   "start": 20.976,
-   "end": 25.209
+   "start": 20.975,
+   "end": 25.208
   },
   {
    "i": 5,
    "text": "This system is so aggressive that it often sees human faces in clouds, electrical outlets, and car grilles.",
-   "start": 25.489,
-   "end": 30.919
+   "start": 25.488,
+   "end": 30.918
   },
   {
    "i": 6,
    "text": "Face recognition is the evolutionary superpower that helped humans survive in social tribes.",
-   "start": 31.199,
-   "end": 35.88
+   "start": 31.198,
+   "end": 35.879
   }
  ]
 }

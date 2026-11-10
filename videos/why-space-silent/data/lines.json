@@ -1,5 +1,5 @@
 {
- "duration": 36.571,
+ "duration": 36.574,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "In Hollywood sci-fi movies, exploding starships make deafening roaring booms, but in real space, there is zero sound.",
    "start": 0.35,
-   "end": 6.001
+   "end": 6.0
   },
   {
    "i": 1,
    "text": "Sound cannot travel without a physical medium to carry its vibrations.",
-   "start": 6.281,
+   "start": 6.28,
    "end": 9.798
   },
   {
    "i": 2,
    "text": "On Earth, sound travels when vibrating vocal cords or speaker cones bump neighboring air molecules together.",
    "start": 10.078,
-   "end": 15.43
+   "end": 15.429
   },
   {
    "i": 3,
    "text": "Deep space is a near-perfect vacuum containing only a handful of hydrogen atoms per cubic meter.",
-   "start": 15.71,
+   "start": 15.709,
    "end": 20.567
   },
   {
    "i": 4,
    "text": "With no atmospheric molecules to bump into each other, sound waves simply cannot propagate.",
-   "start": 20.847,
+   "start": 20.846,
    "end": 25.378
   },
   {
    "i": 5,
    "text": "Even if a gigantic supernova exploded right next to your spaceship window, you would hear absolute dead silence.",
    "start": 25.658,
-   "end": 31.216
+   "end": 31.219
   },
   {
    "i": 6,
    "text": "In outer space, the famous tagline is true: no one can hear you scream.",
-   "start": 31.496,
-   "end": 35.271
+   "start": 31.499,
+   "end": 35.274
   }
  ]
 }

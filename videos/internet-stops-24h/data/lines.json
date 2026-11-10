@@ -1,5 +1,5 @@
 {
- "duration": 37.701,
+ "duration": 37.676,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -43,7 +43,7 @@
    "i": 6,
    "text": "The global economy would lose over fifty billion dollars, reminding us how fragile our digital world really is.",
    "start": 30.845,
-   "end": 36.401
+   "end": 36.376
   }
  ]
 }

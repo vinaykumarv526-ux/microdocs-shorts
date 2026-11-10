@@ -1,5 +1,5 @@
 {
- "duration": 38.523,
+ "duration": 38.535,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "It rides a subterranean roller coaster network stretching dozens of miles beneath the airport terminal.",
    "start": 5.634,
-   "end": 10.444
+   "end": 10.445
   },
   {
    "i": 2,
    "text": "When check-in tags your bag, a ten-digit barcode containing flight, passenger, and destination data is encoded.",
-   "start": 10.724,
-   "end": 16.269
+   "start": 10.725,
+   "end": 16.27
   },
   {
    "i": 3,
    "text": "High-speed optical laser tunnels scan the barcode from all six angles as the bag zooms by at thirty miles an hour.",
-   "start": 16.549,
+   "start": 16.55,
    "end": 21.936
   },
   {
    "i": 4,
    "text": "Automated pusher arms kick the suitcase onto specific conveyor spurs heading toward automated explosive scanners.",
    "start": 22.216,
-   "end": 27.837
+   "end": 27.848
   },
   {
    "i": 5,
    "text": "Robotic destination loaders drop the bag into the exact cart heading for your aircraft cargo hold.",
-   "start": 28.117,
-   "end": 32.933
+   "start": 28.128,
+   "end": 32.945
   },
   {
    "i": 6,
    "text": "Over ninety-nine percent of airport baggage arrives smoothly at its final destination.",
-   "start": 33.213,
-   "end": 37.223
+   "start": 33.225,
+   "end": 37.235
   }
  ]
 }

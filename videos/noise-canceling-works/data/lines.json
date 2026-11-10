@@ -1,5 +1,5 @@
 {
- "duration": 36.219,
+ "duration": 36.216,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "Tiny external microphones on the earcups listen to incoming ambient noise hundreds of times per second.",
    "start": 8.99,
-   "end": 14.126
+   "end": 14.128
   },
   {
    "i": 3,
    "text": "An onboard digital processor instantly analyzes the exact sound wave's frequency and amplitude.",
-   "start": 14.406,
+   "start": 14.408,
    "end": 19.413
   },
   {
    "i": 4,
    "text": "The headphone speakers then generate an exact inverted sound wave, shifting the phase by one hundred and eighty degrees.",
-   "start": 19.693,
-   "end": 25.309
+   "start": 19.694,
+   "end": 25.306
   },
   {
    "i": 5,
    "text": "When the peak of the background noise collides with the valley of the anti-noise wave, destructive interference deletes both.",
-   "start": 25.589,
-   "end": 31.265
+   "start": 25.586,
+   "end": 31.262
   },
   {
    "i": 6,
    "text": "You are literally hearing silence created by mathematical physics.",
-   "start": 31.545,
-   "end": 34.919
+   "start": 31.542,
+   "end": 34.916
   }
  ]
 }

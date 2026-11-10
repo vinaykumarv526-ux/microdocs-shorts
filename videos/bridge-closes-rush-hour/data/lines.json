@@ -1,5 +1,5 @@
 {
- "duration": 38.292,
+ "duration": 38.318,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -12,7 +12,7 @@
   {
    "i": 1,
    "text": "Modern highway networks function like complex hydraulic systems under extreme pressure.",
-   "start": 6.193,
+   "start": 6.194,
    "end": 10.524
   },
   {
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "GPS navigation algorithms frantically reroute tens of thousands of vehicles onto narrow suburban side streets.",
    "start": 16.519,
-   "end": 22.169
+   "end": 22.178
   },
   {
    "i": 4,
    "text": "Neighborhood roads gridlock instantly, trapping emergency ambulances, fire trucks, and city buses.",
-   "start": 22.449,
-   "end": 27.714
+   "start": 22.458,
+   "end": 27.741
   },
   {
    "i": 5,
    "text": "A single point of failure can paralyze an entire metro economy for twenty straight miles.",
-   "start": 27.994,
-   "end": 32.503
+   "start": 28.021,
+   "end": 32.529
   },
   {
    "i": 6,
    "text": "It proves just how dependent our cities are on a handful of steel and concrete arteries.",
-   "start": 32.783,
-   "end": 36.992
+   "start": 32.809,
+   "end": 37.018
   }
  ]
 }

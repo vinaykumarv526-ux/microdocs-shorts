@@ -1,5 +1,5 @@
 {
- "duration": 36.916,
+ "duration": 36.914,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Raw waste seeped into shallow well drinking water, sparking deadly cholera and typhoid fever epidemics.",
    "start": 18.976,
-   "end": 24.193
+   "end": 24.191
   },
   {
    "i": 5,
    "text": "Baths were a luxury taken once a week, sharing the same heated kettle water among multiple family members.",
-   "start": 24.473,
-   "end": 29.831
+   "start": 24.471,
+   "end": 29.83
   },
   {
    "i": 6,
    "text": "Indoor plumbing and sanitary sewer networks saved more human lives than almost any medical invention in history.",
-   "start": 30.111,
-   "end": 35.616
+   "start": 30.11,
+   "end": 35.614
   }
  ]
 }

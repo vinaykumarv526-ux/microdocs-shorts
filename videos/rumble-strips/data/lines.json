@@ -1,5 +1,5 @@
 {
- "duration": 35.729,
+ "duration": 35.724,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "When vehicle tires roll over the milled asphalt grooves, it creates intense tactile vibrations and a loud drone.",
    "start": 14.398,
-   "end": 19.86
+   "end": 19.855
   },
   {
    "i": 4,
    "text": "This physical jolt instantly shocks drowsy or inattentive drivers awake before they crash into trees.",
-   "start": 20.14,
-   "end": 24.99
+   "start": 20.135,
+   "end": 24.985
   },
   {
    "i": 5,
    "text": "Federal studies show rumble strips reduce fatal run-off-the-road crashes by over thirty-five percent.",
-   "start": 25.27,
-   "end": 30.055
+   "start": 25.265,
+   "end": 30.049
   },
   {
    "i": 6,
    "text": "Those humble grooves in the pavement silently save thousands of lives every single year.",
-   "start": 30.335,
-   "end": 34.429
+   "start": 30.329,
+   "end": 34.424
   }
  ]
 }

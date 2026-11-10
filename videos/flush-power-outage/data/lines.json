@@ -1,5 +1,5 @@
 {
- "duration": 35.686,
+ "duration": 35.685,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -43,7 +43,7 @@
    "i": 6,
    "text": "In an extended blackout, keep buckets of water handy to manually pour flush your bowl.",
    "start": 30.076,
-   "end": 34.386
+   "end": 34.385
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 36.951,
+ "duration": 36.949,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "Security researchers have thoroughly analyzed network packets and found apps rarely secretly stream your voice.",
    "start": 8.985,
-   "end": 14.303
+   "end": 14.301
   },
   {
    "i": 3,
    "text": "Modern mobile operating systems strictly require explicit microphone permissions, displaying an orange privacy dot.",
-   "start": 14.583,
-   "end": 20.545
+   "start": 14.581,
+   "end": 20.543
   },
   {
    "i": 4,
    "text": "The reality is far creepier: ad tracking networks don't need your microphone.",
-   "start": 20.825,
-   "end": 24.525
+   "start": 20.823,
+   "end": 24.523
   },
   {
    "i": 5,
    "text": "They predict your desires by combining your GPS location, browsing history, and what your nearby friends just purchased.",
-   "start": 24.805,
-   "end": 30.675
+   "start": 24.803,
+   "end": 30.673
   },
   {
    "i": 6,
    "text": "The predictive data algorithms are simply so frighteningly accurate that they don't even need to listen.",
-   "start": 30.955,
-   "end": 35.651
+   "start": 30.953,
+   "end": 35.649
   }
  ]
 }

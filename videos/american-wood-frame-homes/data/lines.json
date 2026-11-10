@@ -1,5 +1,5 @@
 {
- "duration": 36.687,
+ "duration": 36.686,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Wood also offers incredible thermal insulation and flexibility, making it far safer in earthquake zones.",
    "start": 19.605,
-   "end": 24.893
+   "end": 24.892
   },
   {
    "i": 5,
    "text": "Modifying walls to run modern plumbing, electrical wiring, and HVAC ducts is infinitely easier in wood.",
-   "start": 25.173,
-   "end": 30.746
+   "start": 25.172,
+   "end": 30.745
   },
   {
    "i": 6,
    "text": "Wood framing made spacious, affordable housing possible for millions of American families.",
-   "start": 31.026,
-   "end": 35.387
+   "start": 31.025,
+   "end": 35.386
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 34.905,
+ "duration": 34.904,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "The shock causes immediate cardiac arrest, severe internal burns, and instant loss of consciousness.",
    "start": 24.45,
-   "end": 29.659
+   "end": 29.658
   },
   {
    "i": 6,
    "text": "That is why lifeguards order everyone out of the pool the instant thunder rumbles.",
-   "start": 29.939,
-   "end": 33.605
+   "start": 29.938,
+   "end": 33.604
   }
  ]
 }

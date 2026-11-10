@@ -1,5 +1,5 @@
 {
- "duration": 31.794,
+ "duration": 31.795,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "Your body would be vertically stretched and horizontally compressed like a string of dough.",
    "start": 13.578,
-   "end": 17.499
+   "end": 17.498
   },
   {
    "i": 4,
    "text": "Astrophysicists call this gruesome cosmic phenomenon spaghettification.",
-   "start": 17.779,
-   "end": 21.59
+   "start": 17.778,
+   "end": 21.589
   },
   {
    "i": 5,
    "text": "To an outside observer, you would appear to slow down and freeze at the event horizon forever.",
-   "start": 21.87,
+   "start": 21.869,
    "end": 26.103
   },
   {
    "i": 6,
    "text": "Crossing the threshold of a black hole is a one-way trip beyond the edge of physics itself.",
    "start": 26.383,
-   "end": 30.494
+   "end": 30.495
   }
  ]
 }

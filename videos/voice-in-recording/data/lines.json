@@ -1,5 +1,5 @@
 {
- "duration": 35.275,
+ "duration": 35.274,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "An audio recording captures only the airborne sound waves, revealing how your voice actually sounds to the world.",
    "start": 23.768,
-   "end": 29.234
+   "end": 29.233
   },
   {
    "i": 6,
    "text": "Don't worry; everyone hates their recorded voice, but to others, it sounds completely normal.",
-   "start": 29.514,
-   "end": 33.975
+   "start": 29.513,
+   "end": 33.974
   }
  ]
 }

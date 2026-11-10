@@ -1,5 +1,5 @@
 {
- "duration": 38.042,
+ "duration": 38.054,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "When a company files Chapter 11 bankruptcy, federal courts freeze operations to pay major lenders first.",
    "start": 10.456,
-   "end": 15.936
+   "end": 15.944
   },
   {
    "i": 3,
    "text": "The retailer must request special permission from the bankruptcy judge to continue accepting gift cards.",
-   "start": 16.216,
-   "end": 21.223
+   "start": 16.224,
+   "end": 21.235
   },
   {
    "i": 4,
    "text": "If the company shifts to total liquidation, gift card redemptions are terminated instantly.",
-   "start": 21.503,
-   "end": 26.136
+   "start": 21.515,
+   "end": 26.147
   },
   {
    "i": 5,
    "text": "You can file a formal claim with the bankruptcy court, but cardholders typically receive only pennies on the dollar years later.",
-   "start": 26.416,
-   "end": 32.43
+   "start": 26.427,
+   "end": 32.441
   },
   {
    "i": 6,
    "text": "Always spend gift cards as soon as you receive them rather than stashing them in a drawer.",
-   "start": 32.71,
-   "end": 36.742
+   "start": 32.721,
+   "end": 36.754
   }
  ]
 }

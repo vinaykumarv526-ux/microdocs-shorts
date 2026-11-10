@@ -1,5 +1,5 @@
 {
- "duration": 41.873,
+ "duration": 41.876,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "In nineteen fifty-six, he signed the National Defense Highway Act to evacuate cities during nuclear attacks and move tanks nationwide in days.",
    "start": 22.864,
-   "end": 29.619
+   "end": 29.622
   },
   {
    "i": 5,
    "text": "Overpasses were built with sixteen-foot clearances specifically to accommodate intercontinental ballistic missile convoys.",
-   "start": 29.899,
-   "end": 35.873
+   "start": 29.902,
+   "end": 35.875
   },
   {
    "i": 6,
    "text": "The interstate highway system remains the largest public works project in American history.",
-   "start": 36.153,
-   "end": 40.573
+   "start": 36.155,
+   "end": 40.576
   }
  ]
 }

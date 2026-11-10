@@ -1,5 +1,5 @@
 {
- "duration": 37.591,
+ "duration": 37.592,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,25 +31,25 @@
    "i": 4,
    "text": "The atmospheric pressure is ninety times heavier than Earth's, equivalent to being three thousand feet underwater.",
    "start": 17.707,
-   "end": 23.053
+   "end": 23.054
   },
   {
    "i": 5,
    "text": "Your skull and ribcage would be crushed flat like an aluminum soda can instantly.",
-   "start": 23.333,
-   "end": 27.028
+   "start": 23.334,
+   "end": 27.029
   },
   {
    "i": 6,
    "text": "Thick clouds above rain corrosive sulfuric acid that evaporates before touching the scorched basalt ground.",
-   "start": 27.308,
-   "end": 32.354
+   "start": 27.309,
+   "end": 32.355
   },
   {
    "i": 7,
    "text": "Venus is the absolute closest thing to a literal hell in our solar system.",
-   "start": 32.634,
-   "end": 36.291
+   "start": 32.635,
+   "end": 36.292
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 38.185,
+ "duration": 38.187,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Here is the crazy part: because satellites move fast in weaker gravity, their clocks tick faster than Earth clocks.",
    "start": 20.604,
-   "end": 26.193
+   "end": 26.195
   },
   {
    "i": 5,
    "text": "Engineers must program Einstein's theory of general relativity into GPS software every day, or navigation would fail by six miles.",
-   "start": 26.473,
-   "end": 33.425
+   "start": 26.475,
+   "end": 33.427
   },
   {
    "i": 6,
    "text": "Every GPS turn you make is living proof that Einstein was right.",
-   "start": 33.705,
-   "end": 36.885
+   "start": 33.707,
+   "end": 36.887
   }
  ]
 }

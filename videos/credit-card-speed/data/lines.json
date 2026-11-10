@@ -1,5 +1,5 @@
 {
- "duration": 34.899,
+ "duration": 34.898,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,12 +37,12 @@
    "i": 5,
    "text": "Your bank approves the charge, transmits the confirmation code back, and the register beeps approved.",
    "start": 25.619,
-   "end": 30.561
+   "end": 30.56
   },
   {
    "i": 6,
    "text": "All of that happened in less time than it took you to blink twice.",
-   "start": 30.841,
+   "start": 30.84,
    "end": 33.599
   }
  ]

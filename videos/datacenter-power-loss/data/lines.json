@@ -1,5 +1,5 @@
 {
- "duration": 37.428,
+ "duration": 37.444,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "Massive facilities housing hundreds of thousands of servers are built like impenetrable digital fortresses.",
    "start": 5.325,
-   "end": 10.473
+   "end": 10.489
   },
   {
    "i": 2,
    "text": "The instant city utility power flickers, giant Flywheel or battery Uninterruptible Power Supply systems take over instantly.",
-   "start": 10.753,
-   "end": 17.306
+   "start": 10.769,
+   "end": 17.321
   },
   {
    "i": 3,
    "text": "They bridge the gap without losing a single watt of electricity to server racks.",
-   "start": 17.585,
-   "end": 21.491
+   "start": 17.601,
+   "end": 21.507
   },
   {
    "i": 4,
    "text": "Within fifteen seconds, enormous two-megawatt locomotive diesel generators roar to life outside.",
-   "start": 21.771,
-   "end": 26.858
+   "start": 21.787,
+   "end": 26.874
   },
   {
    "i": 5,
    "text": "These generators have enough on-site underground fuel reserves to power a small city for days.",
-   "start": 27.138,
-   "end": 31.683
+   "start": 27.154,
+   "end": 31.699
   },
   {
    "i": 6,
    "text": "The cloud stays online because data centers refuse to let electricity ever die.",
-   "start": 31.963,
-   "end": 36.128
+   "start": 31.979,
+   "end": 36.144
   }
  ]
 }

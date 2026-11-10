@@ -1,5 +1,5 @@
 {
- "duration": 35.585,
+ "duration": 35.616,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "Submarines master Archimedes' principle of buoyancy using giant chambers called ballast tanks.",
    "start": 5.197,
-   "end": 10.125
+   "end": 10.138
   },
   {
    "i": 2,
    "text": "On the surface, the ballast tanks are filled with air, making the submarine lighter than displaced water.",
-   "start": 10.405,
-   "end": 15.347
+   "start": 10.418,
+   "end": 15.36
   },
   {
    "i": 3,
    "text": "To submerge, large vents open at the bottom, flooding the tanks with heavy seawater until the sub sinks.",
-   "start": 15.627,
-   "end": 20.8
+   "start": 15.64,
+   "end": 20.831
   },
   {
    "i": 4,
    "text": "To hover at a fixed depth, operators balance water and air to achieve neutral buoyancy.",
-   "start": 21.081,
-   "end": 25.463
+   "start": 21.111,
+   "end": 25.494
   },
   {
    "i": 5,
    "text": "To surface, high-pressure compressed air blasts all the seawater out, shooting the vessel back upward.",
-   "start": 25.743,
-   "end": 30.618
+   "start": 25.774,
+   "end": 30.648
   },
   {
    "i": 6,
    "text": "It is pure mechanical physics operating deep beneath the ocean waves.",
-   "start": 30.898,
-   "end": 34.285
+   "start": 30.928,
+   "end": 34.316
   }
  ]
 }

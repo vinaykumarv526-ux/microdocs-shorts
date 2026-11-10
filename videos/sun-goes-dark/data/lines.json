@@ -1,5 +1,5 @@
 {
- "duration": 34.419,
+ "duration": 34.413,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "Yet because Earth's thick atmosphere retains geothermal heat, humanity would survive the short blackout.",
    "start": 22.689,
-   "end": 27.857
+   "end": 27.859
   },
   {
    "i": 6,
    "text": "When the blazing light burst back twenty-four hours later, it would be the most celebrated sunrise in history.",
-   "start": 28.137,
-   "end": 33.119
+   "start": 28.139,
+   "end": 33.113
   }
  ]
 }

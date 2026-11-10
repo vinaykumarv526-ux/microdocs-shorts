@@ -1,0 +1,49 @@
+{
+ "duration": 37.822,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Can a single catastrophic volcanic eruption actually plunge the entire planet into an icy volcanic winter?",
+   "start": 0.35,
+   "end": 5.821
+  },
+  {
+   "i": 1,
+   "text": "History has proven that the answer is an undeniable yes.",
+   "start": 6.101,
+   "end": 9.085
+  },
+  {
+   "i": 2,
+   "text": "When Indonesia's Mount Tambora erupted in eighteen fifteen, it blasted sixty million tons of sulfur dioxide into the stratosphere.",
+   "start": 9.365,
+   "end": 15.932
+  },
+  {
+   "i": 3,
+   "text": "The sulfur reacted with water vapor to form a shimmering global blanket of sulfate aerosol droplets.",
+   "start": 16.212,
+   "end": 21.071
+  },
+  {
+   "i": 4,
+   "text": "This volcanic veil reflected incoming sunlight back into space, cooling global temperatures for three straight years.",
+   "start": 21.351,
+   "end": 27.006
+  },
+  {
+   "i": 5,
+   "text": "Eighteen sixteen became known as the 'Year Without a Summer', with blizzards hitting New England in July.",
+   "start": 27.285,
+   "end": 32.131
+  },
+  {
+   "i": 6,
+   "text": "Massive volcanic eruptions hold the raw power to rewrite global climate overnight.",
+   "start": 32.411,
+   "end": 36.522
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "duration": 35.391,
+ "duration": 35.392,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Dead leaves, animal carcasses, and waste would pile up endlessly without beetle decomposers.",
    "start": 20.385,
-   "end": 24.842
+   "end": 24.843
   },
   {
    "i": 5,
    "text": "Birds, reptiles, and amphibians would starve to death, toppling global food pyramids.",
-   "start": 25.122,
-   "end": 29.306
+   "start": 25.123,
+   "end": 29.307
   },
   {
    "i": 6,
    "text": "Those tiny six-legged creatures are the invisible foundation keeping our entire planet alive.",
-   "start": 29.586,
-   "end": 34.091
+   "start": 29.587,
+   "end": 34.092
   }
  ]
 }

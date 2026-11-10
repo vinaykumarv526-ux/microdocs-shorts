@@ -1,5 +1,5 @@
 {
- "duration": 37.488,
+ "duration": 37.48,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "An electrical current runs through the wire loop, creating an invisible electromagnetic field above the driveway.",
    "start": 14.937,
-   "end": 20.656
+   "end": 20.642
   },
   {
    "i": 4,
    "text": "When thousands of pounds of steel in your car roll overhead, the metal disrupts the coil's magnetic inductance.",
-   "start": 20.936,
-   "end": 26.255
+   "start": 20.922,
+   "end": 26.242
   },
   {
    "i": 5,
    "text": "The detector registers the frequency shift, triggering the headset chime and starting an automated order timer.",
-   "start": 26.535,
-   "end": 31.854
+   "start": 26.521,
+   "end": 31.846
   },
   {
    "i": 6,
    "text": "That buried magnetic sensor keeps fast-food drive-through lines moving at lightning speed.",
-   "start": 32.134,
-   "end": 36.188
+   "start": 32.126,
+   "end": 36.18
   }
  ]
 }

@@ -1,0 +1,49 @@
+{
+ "duration": 34.313,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Did you know that forests are not just silent trees, but an interconnected living biological internet?",
+   "start": 0.35,
+   "end": 5.258
+  },
+  {
+   "i": 1,
+   "text": "Ecologists call it the Wood Wide Web, and it operates beneath your feet.",
+   "start": 5.538,
+   "end": 9.167
+  },
+  {
+   "i": 2,
+   "text": "Trees connect their root tips to an expansive underground network of fungal threads called mycorrhizal fungi.",
+   "start": 9.447,
+   "end": 14.568
+  },
+  {
+   "i": 3,
+   "text": "Through these fungal internet cables, older mother trees nourish shaded saplings with sugars and carbon.",
+   "start": 14.848,
+   "end": 19.667
+  },
+  {
+   "i": 4,
+   "text": "When a tree is attacked by beetles, it sends chemical distress warning signals through the network.",
+   "start": 19.947,
+   "end": 24.404
+  },
+  {
+   "i": 5,
+   "text": "Neighboring trees receive the warning and immediately ramp up protective tannins in their leaves.",
+   "start": 24.684,
+   "end": 29.019
+  },
+  {
+   "i": 6,
+   "text": "A forest is not a competition; it is a collaborative superorganism.",
+   "start": 29.299,
+   "end": 33.013
+  }
+ ]
+}

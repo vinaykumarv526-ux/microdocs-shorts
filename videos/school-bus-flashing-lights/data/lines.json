@@ -1,5 +1,5 @@
 {
- "duration": 35.996,
+ "duration": 36.007,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "This creates an enforced pedestrian safety zone around the vehicle because children often run across blind traffic.",
    "start": 24.634,
-   "end": 29.946
+   "end": 29.957
   },
   {
    "i": 6,
    "text": "School buses are legally the safest form of passenger transportation in the entire country.",
-   "start": 30.226,
-   "end": 34.696
+   "start": 30.237,
+   "end": 34.707
   }
  ]
 }

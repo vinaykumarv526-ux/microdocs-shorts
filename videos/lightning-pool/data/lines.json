@@ -1,5 +1,5 @@
 {
- "duration": 34.904,
+ "duration": 34.905,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -43,7 +43,7 @@
    "i": 6,
    "text": "That is why lifeguards order everyone out of the pool the instant thunder rumbles.",
    "start": 29.939,
-   "end": 33.604
+   "end": 33.605
   }
  ]
 }

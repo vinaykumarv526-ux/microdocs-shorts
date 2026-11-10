@@ -1,5 +1,5 @@
 {
- "duration": 36.215,
+ "duration": 36.219,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -24,26 +24,26 @@
   {
    "i": 3,
    "text": "An onboard digital processor instantly analyzes the exact sound wave's frequency and amplitude.",
-   "start": 14.405,
+   "start": 14.406,
    "end": 19.413
   },
   {
    "i": 4,
    "text": "The headphone speakers then generate an exact inverted sound wave, shifting the phase by one hundred and eighty degrees.",
-   "start": 19.692,
-   "end": 25.305
+   "start": 19.693,
+   "end": 25.309
   },
   {
    "i": 5,
    "text": "When the peak of the background noise collides with the valley of the anti-noise wave, destructive interference deletes both.",
-   "start": 25.585,
-   "end": 31.261
+   "start": 25.589,
+   "end": 31.265
   },
   {
    "i": 6,
    "text": "You are literally hearing silence created by mathematical physics.",
-   "start": 31.541,
-   "end": 34.915
+   "start": 31.545,
+   "end": 34.919
   }
  ]
 }

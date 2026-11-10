@@ -1,5 +1,5 @@
 {
- "duration": 34.237,
+ "duration": 34.238,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "The tiny hole, called a bleed valve, balances air pressure between the middle pane and the outer pane.",
    "start": 18.774,
-   "end": 23.636
+   "end": 23.637
   },
   {
    "i": 5,
    "text": "This forces the tough outer pane to carry all cabin pressurization stress, keeping the inner pane safe.",
-   "start": 23.916,
-   "end": 28.97
+   "start": 23.917,
+   "end": 28.971
   },
   {
    "i": 6,
    "text": "It also vents moisture to prevent your window from frosting over during flight.",
-   "start": 29.25,
-   "end": 32.937
+   "start": 29.251,
+   "end": 32.938
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 35.413,
+ "duration": 35.407,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "On an eighty-degree afternoon, the inside of a closed vehicle can easily spike past one hundred and forty degrees.",
    "start": 5.416,
-   "end": 10.755
+   "end": 10.756
   },
   {
    "i": 2,
    "text": "Inside your phone, the lithium-ion battery operates with volatile liquid electrolytes.",
-   "start": 11.035,
-   "end": 15.277
+   "start": 11.036,
+   "end": 15.278
   },
   {
    "i": 3,
    "text": "Extreme heat causes the battery's internal separator film to degrade, triggering thermal runaway.",
-   "start": 15.557,
-   "end": 20.564
+   "start": 15.558,
+   "end": 20.565
   },
   {
    "i": 4,
    "text": "The battery can swell up like a balloon, cracking the screen glass and risking a chemical fire.",
-   "start": 20.844,
-   "end": 25.239
+   "start": 20.845,
+   "end": 25.241
   },
   {
    "i": 5,
    "text": "Even if it doesn't catch fire, permanent battery capacity drops by over twenty percent after one afternoon.",
-   "start": 25.519,
-   "end": 30.984
+   "start": 25.521,
+   "end": 30.978
   },
   {
    "i": 6,
    "text": "Always keep your phone in your pocket or out of direct sunlight.",
-   "start": 31.264,
-   "end": 34.113
+   "start": 31.258,
+   "end": 34.107
   }
  ]
 }

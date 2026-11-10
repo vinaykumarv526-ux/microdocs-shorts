@@ -1,5 +1,5 @@
 {
- "duration": 37.59,
+ "duration": 37.591,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -43,13 +43,13 @@
    "i": 6,
    "text": "Thick clouds above rain corrosive sulfuric acid that evaporates before touching the scorched basalt ground.",
    "start": 27.308,
-   "end": 32.353
+   "end": 32.354
   },
   {
    "i": 7,
    "text": "Venus is the absolute closest thing to a literal hell in our solar system.",
-   "start": 32.633,
-   "end": 36.29
+   "start": 32.634,
+   "end": 36.291
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 39.727,
+ "duration": 39.73,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "For centuries, books were rare luxury items owned exclusively by wealthy aristocrats and churches.",
    "start": 5.392,
-   "end": 10.457
+   "end": 10.46
   },
   {
    "i": 2,
    "text": "In seventeen thirty-one, Benjamin Franklin and his friends pooled their money to launch America's first subscription lending library.",
-   "start": 10.737,
-   "end": 16.901
+   "start": 10.74,
+   "end": 16.904
   },
   {
    "i": 3,
    "text": "Members paid annual dues to share a communal collection of history, science, and philosophy books.",
-   "start": 17.181,
-   "end": 22.068
+   "start": 17.184,
+   "end": 22.071
   },
   {
    "i": 4,
    "text": "In the nineteenth century, cities introduced tax-supported free libraries open to all citizens regardless of wealth.",
-   "start": 22.348,
-   "end": 28.115
+   "start": 22.351,
+   "end": 28.118
   },
   {
    "i": 5,
    "text": "Steel magnate Andrew Carnegie personally funded over twenty-five hundred free public libraries across the globe.",
-   "start": 28.395,
-   "end": 33.831
+   "start": 28.398,
+   "end": 33.834
   },
   {
    "i": 6,
    "text": "Public libraries remain one of the purest sanctuaries of free knowledge in human history.",
-   "start": 34.111,
-   "end": 38.427
+   "start": 34.114,
+   "end": 38.43
   }
  ]
 }

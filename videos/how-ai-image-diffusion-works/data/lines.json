@@ -1,5 +1,5 @@
 {
- "duration": 36.753,
+ "duration": 36.741,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "They use an advanced process called latent diffusion, inspired by non-equilibrium thermodynamics.",
    "start": 9.888,
-   "end": 14.868
+   "end": 14.856
   },
   {
    "i": 3,
    "text": "During training, the AI learns by taking millions of pictures and slowly destroying them with static pixel noise.",
-   "start": 15.148,
-   "end": 20.538
+   "start": 15.136,
+   "end": 20.526
   },
   {
    "i": 4,
    "text": "It learns to mathematically reverse the degradation, reconstructing clean pictures from pure fuzz.",
-   "start": 20.818,
-   "end": 25.711
+   "start": 20.806,
+   "end": 25.699
   },
   {
    "i": 5,
    "text": "When you type a prompt, the AI starts with a canvas of random television static, carving out shapes based on your words.",
-   "start": 25.991,
-   "end": 31.967
+   "start": 25.979,
+   "end": 31.955
   },
   {
    "i": 6,
    "text": "It essentially dreams an image out of mathematical static noise.",
-   "start": 32.247,
-   "end": 35.453
+   "start": 32.235,
+   "end": 35.441
   }
  ]
 }

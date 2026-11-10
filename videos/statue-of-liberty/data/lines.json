@@ -1,5 +1,5 @@
 {
- "duration": 39.788,
+ "duration": 39.787,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "It arrived as the world's most epic jigsaw puzzle.",
    "start": 6.056,
-   "end": 8.558
+   "end": 8.557
   },
   {
    "i": 2,
    "text": "Designed by sculptor Bartholdi with an internal iron skeleton engineered by Gustave Eiffel, it was fully assembled in Paris first.",
-   "start": 8.838,
-   "end": 15.208
+   "start": 8.837,
+   "end": 15.207
   },
   {
    "i": 3,
    "text": "To transport it, workers painstakingly disassembled Lady Liberty into three hundred and fifty individual pieces.",
-   "start": 15.488,
-   "end": 21.245
+   "start": 15.487,
+   "end": 21.244
   },
   {
    "i": 4,
    "text": "The crates were loaded aboard a French navy steamship that nearly capsized in heavy oceanic gales.",
-   "start": 21.525,
-   "end": 26.274
+   "start": 21.524,
+   "end": 26.273
   },
   {
    "i": 5,
    "text": "When it reached New York in eighteen eighty-five, Americans reassembled the pieces around an iron truss skeleton over four months.",
-   "start": 26.554,
-   "end": 32.607
+   "start": 26.553,
+   "end": 32.606
   },
   {
    "i": 6,
    "text": "Originally shiny reddish bronze, copper oxidation turned her into the iconic green monument we cherish today.",
-   "start": 32.887,
-   "end": 38.488
+   "start": 32.886,
+   "end": 38.487
   }
  ]
 }

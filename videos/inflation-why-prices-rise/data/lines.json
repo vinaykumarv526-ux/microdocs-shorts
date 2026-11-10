@@ -1,5 +1,5 @@
 {
- "duration": 38.795,
+ "duration": 38.808,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "Why did a McDonald's hamburger cost fifteen cents in the nineteen-fifties, but costs several dollars today?",
    "start": 0.35,
-   "end": 5.637
+   "end": 5.636
   },
   {
    "i": 1,
    "text": "The burger didn't get ten times bigger or more delicious; the value of your dollar shrank.",
-   "start": 5.917,
+   "start": 5.916,
    "end": 10.206
   },
   {
    "i": 2,
    "text": "This steady price increase is called inflation, and it happens when money supply outpaces real goods.",
    "start": 10.486,
-   "end": 15.3
+   "end": 15.299
   },
   {
    "i": 3,
    "text": "When central banks expand money and credit, more dollars compete for the same supply of eggs, oil, and homes.",
-   "start": 15.58,
-   "end": 21.016
+   "start": 15.579,
+   "end": 21.012
   },
   {
    "i": 4,
    "text": "Producers face rising wages and shipping costs, passing those expenses directly to grocery shelf price tags.",
-   "start": 21.296,
-   "end": 26.751
+   "start": 21.292,
+   "end": 26.765
   },
   {
    "i": 5,
    "text": "A healthy economy targets two percent annual inflation to encourage people to invest and spend rather than hoard cash.",
-   "start": 27.031,
-   "end": 32.641
+   "start": 27.045,
+   "end": 32.653
   },
   {
    "i": 6,
    "text": "To beat inflation, always invest your savings in assets that grow faster than the money supply.",
-   "start": 32.921,
-   "end": 37.495
+   "start": 32.933,
+   "end": 37.508
   }
  ]
 }

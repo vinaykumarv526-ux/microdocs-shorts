@@ -1,5 +1,5 @@
 {
- "duration": 38.185,
+ "duration": 38.188,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "Giant water deluge trenches dump four hundred thousand gallons of water to dampen acoustic shockwaves.",
    "start": 10.25,
-   "end": 15.297
+   "end": 15.299
   },
   {
    "i": 3,
    "text": "By second thirty, the rocket pushes past the speed of sound, creating a visible condensation shock cone.",
-   "start": 15.577,
-   "end": 20.958
+   "start": 15.579,
+   "end": 20.96
   },
   {
    "i": 4,
    "text": "At second sixty, the rocket hits Max Q, the point of maximum aerodynamic stress on the vehicle's frame.",
-   "start": 21.238,
-   "end": 26.786
+   "start": 21.24,
+   "end": 26.787
   },
   {
    "i": 5,
    "text": "Rushing through thick atmosphere at two thousand miles per hour, engines throttle down to prevent ripping apart.",
-   "start": 27.066,
-   "end": 32.214
+   "start": 27.067,
+   "end": 32.217
   },
   {
    "i": 6,
    "text": "Surviving those first sixty seconds is the hardest physical hurdle of reaching outer space.",
-   "start": 32.494,
-   "end": 36.885
+   "start": 32.497,
+   "end": 36.888
   }
  ]
 }

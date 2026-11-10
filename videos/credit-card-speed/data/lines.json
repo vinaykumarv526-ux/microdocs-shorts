@@ -37,12 +37,12 @@
    "i": 5,
    "text": "Your bank approves the charge, transmits the confirmation code back, and the register beeps approved.",
    "start": 25.619,
-   "end": 30.56
+   "end": 30.561
   },
   {
    "i": 6,
    "text": "All of that happened in less time than it took you to blink twice.",
-   "start": 30.84,
+   "start": 30.841,
    "end": 33.599
   }
  ]

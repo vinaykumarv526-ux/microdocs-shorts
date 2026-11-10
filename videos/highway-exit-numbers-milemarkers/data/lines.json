@@ -1,5 +1,5 @@
 {
- "duration": 36.706,
+ "duration": 36.699,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "It also lets road engineers build brand new exits between existing ones without renumbering hundreds of signs.",
    "start": 25.139,
-   "end": 30.647
+   "end": 30.639
   },
   {
    "i": 6,
    "text": "The mile-marker system turns every highway into a giant built-in odometer for road trippers.",
-   "start": 30.927,
-   "end": 35.406
+   "start": 30.919,
+   "end": 35.399
   }
  ]
 }

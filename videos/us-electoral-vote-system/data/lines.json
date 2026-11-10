@@ -1,5 +1,5 @@
 {
- "duration": 39.184,
+ "duration": 39.187,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "In American presidential elections, how can a candidate win the popular vote but still lose the presidency?",
    "start": 0.35,
-   "end": 5.704
+   "end": 5.705
   },
   {
    "i": 1,
    "text": "When American citizens vote for president, they aren't voting directly for the candidate.",
-   "start": 5.984,
-   "end": 10.26
+   "start": 5.985,
+   "end": 10.261
   },
   {
    "i": 2,
    "text": "They are actually voting for a slate of state electors designated by political parties.",
-   "start": 10.54,
-   "end": 14.669
+   "start": 10.541,
+   "end": 14.67
   },
   {
    "i": 3,
    "text": "Each state's electoral votes equal its total members of Congress: two senators plus House representatives based on population.",
-   "start": 14.949,
-   "end": 21.237
+   "start": 14.95,
+   "end": 21.238
   },
   {
    "i": 4,
    "text": "Out of five hundred and thirty-eight total electoral votes, the first candidate to reach two hundred and seventy wins.",
-   "start": 21.517,
-   "end": 26.895
+   "start": 21.518,
+   "end": 26.898
   },
   {
    "i": 5,
    "text": "In forty-eight states, the winner-take-all rule awards every single electoral vote to whoever wins that state.",
-   "start": 27.175,
-   "end": 32.29
+   "start": 27.178,
+   "end": 32.293
   },
   {
    "i": 6,
    "text": "The Founders created this balance to prevent high-population cities from completely deciding national elections.",
-   "start": 32.57,
-   "end": 37.884
+   "start": 32.573,
+   "end": 37.887
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 36.5,
+ "duration": 36.499,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "Thick metal walls reflect these waves harmlessly, which is why the microwave oven itself is made of steel.",
    "start": 10.407,
-   "end": 15.548
+   "end": 15.547
   },
   {
    "i": 3,
    "text": "However, thin metals like aluminum foil or fork prongs have billions of free electrons.",
-   "start": 15.828,
+   "start": 15.827,
    "end": 20.227
   },
   {
    "i": 4,
    "text": "The intense electric waves push these electrons into sharp corners, building massive electrical voltage.",
    "start": 20.507,
-   "end": 25.679
+   "end": 25.677
   },
   {
    "i": 5,
    "text": "When the voltage gets high enough, it rips through the air, creating explosive fiery plasma arcs.",
-   "start": 25.959,
-   "end": 30.791
+   "start": 25.957,
+   "end": 30.79
   },
   {
    "i": 6,
    "text": "So never put wrinkled foil or utensils in your microwave unless you want fireworks!",
-   "start": 31.071,
-   "end": 35.2
+   "start": 31.07,
+   "end": 35.199
   }
  ]
 }

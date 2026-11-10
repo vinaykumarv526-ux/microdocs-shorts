@@ -1,5 +1,5 @@
 {
- "duration": 40.547,
+ "duration": 40.553,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Instantly, a six-month deadly trek was transformed into a comfortable seven-day train ride for just sixty-five dollars.",
    "start": 23.67,
-   "end": 29.364
+   "end": 29.37
   },
   {
    "i": 5,
    "text": "It united the American continent, created standard time zones, and launched America into an industrial superpower.",
-   "start": 29.644,
-   "end": 35.822
+   "start": 29.65,
+   "end": 35.828
   },
   {
    "i": 6,
    "text": "Those two ribbons of steel created the modern United States.",
-   "start": 36.102,
-   "end": 39.247
+   "start": 36.108,
+   "end": 39.253
   }
  ]
 }

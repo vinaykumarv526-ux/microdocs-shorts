@@ -1,0 +1,49 @@
+{
+ "duration": 37.455,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "What makes the night sky in the Arctic glow with dancing green and purple ribbons of light?",
+   "start": 0.35,
+   "end": 4.379
+  },
+  {
+   "i": 1,
+   "text": "You are looking at a cosmic battle between the Sun and Earth's magnetic shield.",
+   "start": 4.659,
+   "end": 8.329
+  },
+  {
+   "i": 2,
+   "text": "The Sun constantly ejects a blistering stream of charged solar plasma called the solar wind.",
+   "start": 8.609,
+   "end": 13.038
+  },
+  {
+   "i": 3,
+   "text": "When this solar wind hits Earth, our planet's magnetic field funnels the charged particles toward the magnetic poles.",
+   "start": 13.318,
+   "end": 18.865
+  },
+  {
+   "i": 4,
+   "text": "These energetic particles slam into atmospheric oxygen and nitrogen atoms seventy miles above ground.",
+   "start": 19.145,
+   "end": 24.366
+  },
+  {
+   "i": 5,
+   "text": "The atoms get excited and release excess energy as breathtaking photons: oxygen glows emerald green, while nitrogen shines royal violet.",
+   "start": 24.646,
+   "end": 31.526
+  },
+  {
+   "i": 6,
+   "text": "The auroras are proof that Earth's magnetic force field is keeping us safe from solar storms.",
+   "start": 31.805,
+   "end": 36.155
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "duration": 36.396,
+ "duration": 36.403,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "It is not an accident; it is a calculated psychological trap designed by retail architects.",
    "start": 5.44,
-   "end": 10.384
+   "end": 10.393
   },
   {
    "i": 2,
    "text": "Milk and eggs are the most frequently purchased staples in American households.",
-   "start": 10.664,
-   "end": 14.396
+   "start": 10.673,
+   "end": 14.404
   },
   {
    "i": 3,
    "text": "To grab that one carton of milk, you are forced to walk past dozens of brightly packaged impulse items.",
-   "start": 14.676,
-   "end": 19.755
+   "start": 14.684,
+   "end": 19.761
   },
   {
    "i": 4,
    "text": "Endcaps, bakery aromas, and eye-level snack displays lure you into tossing items into your cart.",
-   "start": 20.035,
-   "end": 24.826
+   "start": 20.041,
+   "end": 24.832
   },
   {
    "i": 5,
    "text": "Retail studies show over sixty percent of items in a typical grocery cart were completely unplanned purchases.",
-   "start": 25.106,
-   "end": 30.537
+   "start": 25.112,
+   "end": 30.544
   },
   {
    "i": 6,
    "text": "To save money, write a strict grocery list and stick to it without looking at the side displays.",
-   "start": 30.817,
-   "end": 35.096
+   "start": 30.824,
+   "end": 35.103
   }
  ]
 }

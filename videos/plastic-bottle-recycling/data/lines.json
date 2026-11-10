@@ -1,5 +1,5 @@
 {
- "duration": 37.923,
+ "duration": 37.944,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "High-pressure air jets shoot the bottle into designated bins, where it gets crushed into giant cubes.",
    "start": 15.963,
-   "end": 20.738
+   "end": 20.737
   },
   {
    "i": 4,
    "text": "The bales are shredded into microscopic plastic flakes, washed in hot caustic baths, and melted into pellets.",
-   "start": 21.018,
+   "start": 21.017,
    "end": 26.428
   },
   {
    "i": 5,
    "text": "Those pellets get spun into polyester yarn for fleece jackets, carpets, or molded into brand new bottles.",
    "start": 26.708,
-   "end": 32.051
+   "end": 32.072
   },
   {
    "i": 6,
    "text": "Recycling a single bottle saves enough energy to power a laptop for three straight hours.",
-   "start": 32.331,
-   "end": 36.623
+   "start": 32.352,
+   "end": 36.644
   }
  ]
 }

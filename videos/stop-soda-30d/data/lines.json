@@ -1,5 +1,5 @@
 {
- "duration": 35.52,
+ "duration": 35.518,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Your kidneys and liver stop processing massive acid loads, and your tooth enamel begins remineralizing.",
    "start": 20.056,
-   "end": 25.074
+   "end": 25.072
   },
   {
    "i": 5,
    "text": "After thirty days, you can lose up to five pounds of visceral fat while lowering cardiovascular inflammation.",
-   "start": 25.354,
-   "end": 30.672
+   "start": 25.352,
+   "end": 30.67
   },
   {
    "i": 6,
    "text": "Try thirty days without soda and feel how much cleaner your body runs.",
-   "start": 30.952,
-   "end": 34.22
+   "start": 30.95,
+   "end": 34.218
   }
  ]
 }

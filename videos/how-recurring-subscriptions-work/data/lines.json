@@ -1,5 +1,5 @@
 {
- "duration": 39.326,
+ "duration": 39.32,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "Why is signing up for a streaming subscription a single click, but canceling feels like solving an ancient labyrinth?",
    "start": 0.35,
-   "end": 5.869
+   "end": 5.851
   },
   {
    "i": 1,
    "text": "Companies deliberately deploy manipulative website user interfaces called dark patterns.",
-   "start": 6.149,
-   "end": 10.636
+   "start": 6.131,
+   "end": 10.618
   },
   {
    "i": 2,
    "text": "They hide cancellation buttons in tiny gray text behind five layers of warning menus.",
-   "start": 10.916,
-   "end": 15.119
+   "start": 10.898,
+   "end": 15.101
   },
   {
    "i": 3,
    "text": "Behind the scenes, when you enter payment details, you authorize a recurring merchant billing agreement.",
-   "start": 15.399,
-   "end": 20.354
+   "start": 15.381,
+   "end": 20.334
   },
   {
    "i": 4,
    "text": "Even if your physical debit card expires or is replaced, Visa and Mastercard Account Updater services automatically link your new card.",
-   "start": 20.634,
-   "end": 27.452
+   "start": 20.614,
+   "end": 27.432
   },
   {
    "i": 5,
    "text": "The subscription model relies on break-even breakage: millions of customers forgetting they are billed ten dollars a month.",
-   "start": 27.732,
-   "end": 33.39
+   "start": 27.712,
+   "end": 33.384
   },
   {
    "i": 6,
    "text": "Audit your bank statements monthly to eliminate vampire subscriptions draining your wallet.",
-   "start": 33.67,
-   "end": 38.026
+   "start": 33.664,
+   "end": 38.02
   }
  ]
 }

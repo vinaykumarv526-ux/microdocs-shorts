@@ -1,5 +1,5 @@
 {
- "duration": 35.478,
+ "duration": 35.48,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "Blue light has short, choppy wavelengths that easily scatter in every direction off nitrogen gas molecules at midday.",
    "start": 12.584,
-   "end": 18.055
+   "end": 18.057
   },
   {
    "i": 4,
    "text": "At sunset, the Sun sits low on the horizon, forcing its rays to travel through ten times more atmosphere to reach your eyes.",
-   "start": 18.335,
-   "end": 24.122
+   "start": 18.337,
+   "end": 24.124
   },
   {
    "i": 5,
    "text": "Most blue and violet light gets scattered away long before reaching you, leaving only long red and orange wavelengths.",
-   "start": 24.402,
-   "end": 29.837
+   "start": 24.404,
+   "end": 29.839
   },
   {
    "i": 6,
    "text": "You are seeing the longest light wavelengths making it through the atmosphere's marathon run.",
-   "start": 30.117,
-   "end": 34.178
+   "start": 30.119,
+   "end": 34.18
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 36.574,
+ "duration": 36.575,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "Even if a gigantic supernova exploded right next to your spaceship window, you would hear absolute dead silence.",
    "start": 25.658,
-   "end": 31.219
+   "end": 31.22
   },
   {
    "i": 6,
    "text": "In outer space, the famous tagline is true: no one can hear you scream.",
-   "start": 31.499,
-   "end": 35.274
+   "start": 31.5,
+   "end": 35.275
   }
  ]
 }

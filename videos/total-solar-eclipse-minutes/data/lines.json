@@ -1,5 +1,5 @@
 {
- "duration": 31.228,
+ "duration": 35.485,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "Then, totality hits: the Sun's ghostly white corona blooms across a pitch-black midday sky.",
    "start": 25.773,
-   "end": 26.315
+   "end": 30.572
   },
   {
    "i": 6,
    "text": "Witnessing a total solar eclipse is a moment you will never forget.",
-   "start": 26.595,
-   "end": 29.928
+   "start": 30.852,
+   "end": 34.185
   }
  ]
 }

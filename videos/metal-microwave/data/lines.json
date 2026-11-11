@@ -1,5 +1,5 @@
 {
- "duration": 36.499,
+ "duration": 36.5,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "The intense electric waves push these electrons into sharp corners, building massive electrical voltage.",
    "start": 20.507,
-   "end": 25.678
+   "end": 25.679
   },
   {
    "i": 5,
    "text": "When the voltage gets high enough, it rips through the air, creating explosive fiery plasma arcs.",
-   "start": 25.958,
-   "end": 30.79
+   "start": 25.959,
+   "end": 30.791
   },
   {
    "i": 6,
    "text": "So never put wrinkled foil or utensils in your microwave unless you want fireworks!",
-   "start": 31.07,
-   "end": 35.199
+   "start": 31.071,
+   "end": 35.2
   }
  ]
 }

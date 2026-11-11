@@ -1,5 +1,5 @@
 {
- "duration": 37.944,
+ "duration": 37.941,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,12 +13,12 @@
    "i": 1,
    "text": "A collection truck transports it to a Materials Recovery Facility packed with robotic conveyor belts.",
    "start": 5.132,
-   "end": 10.191
+   "end": 10.19
   },
   {
    "i": 2,
    "text": "Optical infrared scanners shoot light beams through the plastics, identifying PET plastic in milliseconds.",
-   "start": 10.471,
+   "start": 10.47,
    "end": 15.683
   },
   {
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "The bales are shredded into microscopic plastic flakes, washed in hot caustic baths, and melted into pellets.",
    "start": 21.018,
-   "end": 26.427
+   "end": 26.425
   },
   {
    "i": 5,
    "text": "Those pellets get spun into polyester yarn for fleece jackets, carpets, or molded into brand new bottles.",
-   "start": 26.707,
-   "end": 32.072
+   "start": 26.705,
+   "end": 32.069
   },
   {
    "i": 6,
    "text": "Recycling a single bottle saves enough energy to power a laptop for three straight hours.",
-   "start": 32.352,
-   "end": 36.644
+   "start": 32.349,
+   "end": 36.641
   }
  ]
 }

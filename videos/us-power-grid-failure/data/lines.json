@@ -1,5 +1,5 @@
 {
- "duration": 36.034,
+ "duration": 36.01,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "Refrigeration fails instantly, spoiling millions of tons of food in grocery distribution warehouses.",
    "start": 9.875,
-   "end": 15.029
+   "end": 15.005
   },
   {
    "i": 3,
    "text": "Within twenty-four hours, municipal water pumping stations lose backup diesel, running taps dry.",
-   "start": 15.309,
-   "end": 20.498
+   "start": 15.285,
+   "end": 20.475
   },
   {
    "i": 4,
    "text": "Hospitals burn through emergency generator fuel while cell phone towers die one by one.",
-   "start": 20.778,
-   "end": 25.185
+   "start": 20.755,
+   "end": 25.161
   },
   {
    "i": 5,
    "text": "Because massive custom high-voltage transformers take months to manufacture, recovery would take years.",
-   "start": 25.465,
-   "end": 30.483
+   "start": 25.441,
+   "end": 30.46
   },
   {
    "i": 6,
    "text": "The electrical grid is the fragile heartbeat sustaining all modern American life.",
-   "start": 30.763,
-   "end": 34.734
+   "start": 30.74,
+   "end": 34.71
   }
  ]
 }

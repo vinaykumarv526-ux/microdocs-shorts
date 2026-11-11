@@ -1,5 +1,5 @@
 {
- "duration": 35.102,
+ "duration": 35.103,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "Pain receptors fire emergency alarms to your spinal cord while mast cells release waves of histamine.",
    "start": 15.194,
-   "end": 20.241
+   "end": 20.242
   },
   {
    "i": 4,
    "text": "Blood vessels dilate to rush white blood cells to the scene, causing rapid swelling and fiery redness.",
-   "start": 20.521,
+   "start": 20.522,
    "end": 25.37
   },
   {
    "i": 5,
    "text": "White blood cells gobble up venom fragments over three days until the swelling recedes.",
-   "start": 25.649,
-   "end": 29.781
+   "start": 25.651,
+   "end": 29.782
   },
   {
    "i": 6,
    "text": "Scrape the stinger off immediately with a credit card to stop the venom pump early.",
-   "start": 30.061,
-   "end": 33.802
+   "start": 30.062,
+   "end": 33.803
   }
  ]
 }

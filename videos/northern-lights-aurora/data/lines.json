@@ -1,5 +1,5 @@
 {
- "duration": 37.456,
+ "duration": 37.457,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "These energetic particles slam into atmospheric oxygen and nitrogen atoms seventy miles above ground.",
    "start": 19.145,
-   "end": 24.367
+   "end": 24.368
   },
   {
    "i": 5,
    "text": "The atoms get excited and release excess energy as breathtaking photons: oxygen glows emerald green, while nitrogen shines royal violet.",
-   "start": 24.647,
-   "end": 31.527
+   "start": 24.648,
+   "end": 31.528
   },
   {
    "i": 6,
    "text": "The auroras are proof that Earth's magnetic force field is keeping us safe from solar storms.",
-   "start": 31.807,
-   "end": 36.156
+   "start": 31.808,
+   "end": 36.157
   }
  ]
 }

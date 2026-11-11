@@ -1,5 +1,5 @@
 {
- "duration": 36.914,
+ "duration": 36.915,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "Baths were a luxury taken once a week, sharing the same heated kettle water among multiple family members.",
    "start": 24.471,
-   "end": 29.83
+   "end": 29.829
   },
   {
    "i": 6,
    "text": "Indoor plumbing and sanitary sewer networks saved more human lives than almost any medical invention in history.",
-   "start": 30.11,
-   "end": 35.614
+   "start": 30.109,
+   "end": 35.615
   }
  ]
 }

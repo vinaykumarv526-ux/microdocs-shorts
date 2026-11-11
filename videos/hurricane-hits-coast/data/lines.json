@@ -1,5 +1,5 @@
 {
- "duration": 37.438,
+ "duration": 37.432,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "When a Category 5 hurricane slams into the coast, what actually causes the most catastrophic damage?",
    "start": 0.35,
-   "end": 5.578
+   "end": 5.576
   },
   {
    "i": 1,
    "text": "Most people fear the one hundred and fifty mile per hour winds, but wind isn't the primary killer.",
-   "start": 5.858,
-   "end": 10.462
+   "start": 5.856,
+   "end": 10.461
   },
   {
    "i": 2,
    "text": "The storm's central low pressure and violent winds act like a giant bulldozer pushing the ocean forward.",
-   "start": 10.742,
-   "end": 15.492
+   "start": 10.741,
+   "end": 15.491
   },
   {
    "i": 3,
    "text": "This creates a massive wall of seawater called a storm surge, rising over twenty feet above sea level.",
-   "start": 15.772,
-   "end": 20.682
+   "start": 15.771,
+   "end": 20.681
   },
   {
    "i": 4,
    "text": "A single cubic yard of water weighs nearly one ton, easily demolishing brick homes and concrete bridges.",
-   "start": 20.962,
-   "end": 26.22
+   "start": 20.961,
+   "end": 26.218
   },
   {
    "i": 5,
    "text": "Once over land, the hurricane loses warm ocean fuel, weakening into torrential inland rain deluges.",
-   "start": 26.5,
-   "end": 31.838
+   "start": 26.498,
+   "end": 31.832
   },
   {
    "i": 6,
    "text": "Storm surge causes nearly ninety percent of all direct hurricane fatalities.",
-   "start": 32.118,
-   "end": 36.138
+   "start": 32.112,
+   "end": 36.132
   }
  ]
 }

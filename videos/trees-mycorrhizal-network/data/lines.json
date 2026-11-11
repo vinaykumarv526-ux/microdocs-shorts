@@ -1,5 +1,5 @@
 {
- "duration": 34.33,
+ "duration": 34.312,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "Trees connect their root tips to an expansive underground network of fungal threads called mycorrhizal fungi.",
    "start": 9.447,
-   "end": 14.584
+   "end": 14.567
   },
   {
    "i": 3,
    "text": "Through these fungal internet cables, older mother trees nourish shaded saplings with sugars and carbon.",
-   "start": 14.864,
-   "end": 19.683
+   "start": 14.847,
+   "end": 19.666
   },
   {
    "i": 4,
    "text": "When a tree is attacked by beetles, it sends chemical distress warning signals through the network.",
-   "start": 19.963,
-   "end": 24.421
+   "start": 19.946,
+   "end": 24.404
   },
   {
    "i": 5,
    "text": "Neighboring trees receive the warning and immediately ramp up protective tannins in their leaves.",
-   "start": 24.701,
-   "end": 29.036
+   "start": 24.684,
+   "end": 29.019
   },
   {
    "i": 6,
    "text": "A forest is not a competition; it is a collaborative superorganism.",
-   "start": 29.316,
-   "end": 33.03
+   "start": 29.299,
+   "end": 33.013
   }
  ]
 }

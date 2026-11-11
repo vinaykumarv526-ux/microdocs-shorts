@@ -1,5 +1,5 @@
 {
- "duration": 37.143,
+ "duration": 37.147,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "When too many data packets get corrupted, signal-to-noise ratio plummets below the receiver threshold.",
    "start": 20.743,
-   "end": 25.727
+   "end": 25.731
   },
   {
    "i": 5,
    "text": "The device and router lose handshaking synchronization, forcing the link to reset and re-negotiate.",
-   "start": 26.007,
-   "end": 30.916
+   "start": 26.011,
+   "end": 30.921
   },
   {
    "i": 6,
    "text": "Placing your router high on a central shelf eliminates sixty percent of common household dead zones.",
-   "start": 31.197,
-   "end": 35.843
+   "start": 31.201,
+   "end": 35.847
   }
  ]
 }

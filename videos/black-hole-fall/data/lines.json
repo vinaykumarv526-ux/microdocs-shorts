@@ -1,5 +1,5 @@
 {
- "duration": 31.795,
+ "duration": 31.793,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -43,7 +43,7 @@
    "i": 6,
    "text": "Crossing the threshold of a black hole is a one-way trip beyond the edge of physics itself.",
    "start": 26.383,
-   "end": 30.495
+   "end": 30.493
   }
  ]
 }

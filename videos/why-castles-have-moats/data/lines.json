@@ -1,5 +1,5 @@
 {
- "duration": 37.935,
+ "duration": 37.933,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "No, they weren't stocked with crocodiles; they were built to stop the deadliest siege tactic in history: mining.",
    "start": 6.495,
-   "end": 11.739
+   "end": 11.74
   },
   {
    "i": 2,
    "text": "Enemy armies didn't just scale walls with ladders; they dug subterranean tunnels straight under castle foundations.",
-   "start": 12.019,
-   "end": 17.635
+   "start": 12.02,
+   "end": 17.633
   },
   {
    "i": 3,
    "text": "They propped up the tunnels with timber, set them on fire, and collapsed giant stone towers from below.",
-   "start": 17.915,
-   "end": 22.895
+   "start": 17.913,
+   "end": 22.893
   },
   {
    "i": 4,
    "text": "A deep moat flooded any underground tunnels with water, drowning enemy diggers instantly.",
-   "start": 23.175,
-   "end": 27.551
+   "start": 23.173,
+   "end": 27.549
   },
   {
    "i": 5,
    "text": "Moats also prevented heavy battering rams and rolling siege towers from reaching fortress walls.",
-   "start": 27.831,
-   "end": 32.375
+   "start": 27.829,
+   "end": 32.373
   },
   {
    "i": 6,
    "text": "A simple ditch of murky water defeated the most advanced medieval siege tactics.",
-   "start": 32.655,
-   "end": 36.635
+   "start": 32.653,
+   "end": 36.633
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 39.307,
+ "duration": 39.311,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -43,7 +43,7 @@
    "i": 6,
    "text": "Electric refrigeration transformed global nutrition, food safety, and modern civilization forever.",
    "start": 32.692,
-   "end": 38.007
+   "end": 38.011
   }
  ]
 }

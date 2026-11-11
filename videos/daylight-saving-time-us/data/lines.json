@@ -1,5 +1,5 @@
 {
- "duration": 36.124,
+ "duration": 36.128,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "In scorching Arizona, adding an extra hour of blistering sunlight in the hot evening is the last thing residents want.",
    "start": 19.626,
-   "end": 25.118
+   "end": 25.122
   },
   {
    "i": 5,
    "text": "Extra daylight in Phoenix means blasting expensive air conditioning an extra hour during summer heatwaves.",
-   "start": 25.398,
-   "end": 30.513
+   "start": 25.402,
+   "end": 30.517
   },
   {
    "i": 6,
    "text": "Would you prefer year-round permanent daylight time, or should we keep changing the clocks?",
-   "start": 30.793,
-   "end": 34.824
+   "start": 30.797,
+   "end": 34.828
   }
  ]
 }

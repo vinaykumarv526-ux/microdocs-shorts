@@ -1,5 +1,5 @@
 {
- "duration": 37.889,
+ "duration": 37.893,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "When sailors glimpsed giant squids, breaching sperm whales, or strange oarfish, terrified rumors spread.",
    "start": 15.112,
-   "end": 20.304
+   "end": 20.308
   },
   {
    "i": 4,
    "text": "Cartographers drew ferocious sea creatures to mark dangerous uncharted reefs, lethal vortex whirlpools, and shallow shoals.",
-   "start": 20.584,
-   "end": 26.567
+   "start": 20.588,
+   "end": 26.571
   },
   {
    "i": 5,
    "text": "They served as visual skull-and-crossbones hazard warnings for navigators sailing into the unknown.",
-   "start": 26.847,
-   "end": 31.52
+   "start": 26.851,
+   "end": 31.524
   },
   {
    "i": 6,
    "text": "The monsters on ancient maps were warnings of real oceanic perils disguised as mythical beasts.",
-   "start": 31.8,
-   "end": 36.589
+   "start": 31.804,
+   "end": 36.593
   }
  ]
 }

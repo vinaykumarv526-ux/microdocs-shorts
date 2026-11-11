@@ -1,5 +1,5 @@
 {
- "duration": 36.02,
+ "duration": 36.023,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "As the electric field flips two point four billion times a second, the water molecules violently twist back and forth.",
    "start": 19.598,
-   "end": 25.454
+   "end": 25.456
   },
   {
    "i": 5,
    "text": "This molecular friction creates intense thermal heat, warming your food from the outer layers inward.",
-   "start": 25.734,
-   "end": 30.716
+   "start": 25.736,
+   "end": 30.719
   },
   {
    "i": 6,
    "text": "That is why thick burritos can be scalding hot outside and freezing in the center.",
-   "start": 30.996,
-   "end": 34.72
+   "start": 30.999,
+   "end": 34.723
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 37.064,
+ "duration": 37.057,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "A dedicated neural engine compares this depth map against enrolled biometric templates in under a tenth of a second.",
    "start": 24.798,
-   "end": 30.352
+   "end": 30.353
   },
   {
    "i": 6,
    "text": "Because it reads true geometric depth with invisible infrared, photos or sleeping eyes can never unlock it.",
-   "start": 30.632,
-   "end": 35.764
+   "start": 30.633,
+   "end": 35.757
   }
  ]
 }

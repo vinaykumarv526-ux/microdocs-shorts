@@ -1,5 +1,5 @@
 {
- "duration": 35.868,
+ "duration": 35.881,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "Airlines pioneered dynamic yield management algorithms to squeeze maximum revenue from every single seat.",
    "start": 5.987,
-   "end": 11.229
+   "end": 11.233
   },
   {
    "i": 2,
    "text": "A flight's seats are divided into invisible pricing tiers called fare buckets.",
-   "start": 11.509,
-   "end": 15.204
+   "start": 11.513,
+   "end": 15.208
   },
   {
    "i": 3,
    "text": "Early leisure travelers book cheap bucket seats months ahead of time.",
-   "start": 15.484,
-   "end": 18.65
+   "start": 15.488,
+   "end": 18.653
   },
   {
    "i": 4,
    "text": "As departure day nears, remaining seats shift into corporate business buckets priced three times higher.",
-   "start": 18.93,
-   "end": 23.862
+   "start": 18.933,
+   "end": 23.865
   },
   {
    "i": 5,
    "text": "Algorithms update prices thousands of times a day based on route searches, fuel prices, and competitor inventory.",
-   "start": 24.142,
-   "end": 29.913
+   "start": 24.145,
+   "end": 29.926
   },
   {
    "i": 6,
    "text": "The best sweet spot for domestic flight prices is typically one to three months before takeoff.",
-   "start": 30.193,
-   "end": 34.568
+   "start": 30.206,
+   "end": 34.581
   }
  ]
 }

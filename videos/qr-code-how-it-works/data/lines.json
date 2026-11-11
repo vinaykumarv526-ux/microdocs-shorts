@@ -1,5 +1,5 @@
 {
- "duration": 36.225,
+ "duration": 36.219,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "How can a tiny square of random black and white pixels beam a website link to your camera in half a second?",
    "start": 0.35,
-   "end": 5.319
+   "end": 5.317
   },
   {
    "i": 1,
    "text": "Invented in nineteen ninety-four to track auto parts in Japan, QR stands for Quick Response.",
-   "start": 5.599,
-   "end": 10.355
+   "start": 5.597,
+   "end": 10.354
   },
   {
    "i": 2,
    "text": "Those three large squares in the corners are position markers that tell your phone camera orientation and angle.",
-   "start": 10.635,
-   "end": 15.704
+   "start": 10.634,
+   "end": 15.698
   },
   {
    "i": 3,
    "text": "The smaller square near the bottom right aligns the image to correct distortion.",
-   "start": 15.984,
-   "end": 19.494
+   "start": 15.978,
+   "end": 19.488
   },
   {
    "i": 4,
    "text": "The remaining grid of pixels encodes characters into binary ones and zeros.",
-   "start": 19.774,
-   "end": 23.644
+   "start": 19.768,
+   "end": 23.638
   },
   {
    "i": 5,
    "text": "Even better, QR codes feature Reed-Solomon error correction, meaning they scan perfectly even if thirty percent is ripped or dirty.",
-   "start": 23.924,
-   "end": 30.507
+   "start": 23.918,
+   "end": 30.501
   },
   {
    "i": 6,
    "text": "A simple two-dimensional barcode connects the physical world to the digital universe.",
-   "start": 30.787,
-   "end": 34.925
+   "start": 30.781,
+   "end": 34.919
   }
  ]
 }

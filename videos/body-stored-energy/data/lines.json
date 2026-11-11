@@ -1,5 +1,5 @@
 {
- "duration": 35.894,
+ "duration": 35.89,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Your metabolism flips the biological metabolic switch, breaking down adipose tissue into fatty acids.",
    "start": 20.158,
-   "end": 25.575
+   "end": 25.57
   },
   {
    "i": 5,
    "text": "By hour sixteen, ketones flood your bloodstream to fuel your brain with razor-sharp focus.",
-   "start": 25.855,
-   "end": 30.279
+   "start": 25.85,
+   "end": 30.274
   },
   {
    "i": 6,
    "text": "Intermittent fasting simply allows your ancient fat-burning engine time to turn on.",
-   "start": 30.559,
-   "end": 34.594
+   "start": 30.554,
+   "end": 34.59
   }
  ]
 }

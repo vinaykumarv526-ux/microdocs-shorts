@@ -1,5 +1,5 @@
 {
- "duration": 34.788,
+ "duration": 34.777,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "The medical name is sphenopalatine ganglioneuralgia, and your brain isn't actually freezing at all.",
    "start": 4.119,
-   "end": 9.058
+   "end": 9.053
   },
   {
    "i": 2,
    "text": "When cold slush hits the roof of your mouth, it rapidly cools sensitive blood vessels at the palate.",
-   "start": 9.338,
-   "end": 14.068
+   "start": 9.333,
+   "end": 14.064
   },
   {
    "i": 3,
    "text": "To protect your brain from temperature shock, these arteries violently constrict and then flood with warm blood.",
-   "start": 14.348,
-   "end": 19.375
+   "start": 14.344,
+   "end": 19.364
   },
   {
    "i": 4,
    "text": "This sudden surge triggers pain receptors in the trigeminal nerve, which also senses facial pain.",
-   "start": 19.655,
-   "end": 24.62
+   "start": 19.644,
+   "end": 24.609
   },
   {
    "i": 5,
    "text": "Your brain gets confused by the nerve signals, mistakenly feeling the pain in your forehead and eyes.",
-   "start": 24.9,
-   "end": 29.56
+   "start": 24.889,
+   "end": 29.549
   },
   {
    "i": 6,
    "text": "To stop it instantly, press your warm tongue flat against the roof of your mouth.",
-   "start": 29.84,
-   "end": 33.488
+   "start": 29.829,
+   "end": 33.477
   }
  ]
 }

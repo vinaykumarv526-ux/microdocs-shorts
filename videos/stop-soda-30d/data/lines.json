@@ -1,5 +1,5 @@
 {
- "duration": 35.518,
+ "duration": 35.523,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "After thirty days, you can lose up to five pounds of visceral fat while lowering cardiovascular inflammation.",
    "start": 25.352,
-   "end": 30.67
+   "end": 30.675
   },
   {
    "i": 6,
    "text": "Try thirty days without soda and feel how much cleaner your body runs.",
-   "start": 30.95,
-   "end": 34.218
+   "start": 30.955,
+   "end": 34.223
   }
  ]
 }

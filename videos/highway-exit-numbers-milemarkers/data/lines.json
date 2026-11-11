@@ -1,5 +1,5 @@
 {
- "duration": 36.706,
+ "duration": 36.707,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "In the United States, most interstate highway exit numbers correspond directly to mile markers, not exit counts.",
    "start": 8.702,
-   "end": 14.447
+   "end": 14.448
   },
   {
    "i": 3,
    "text": "Exit twenty-five means you are exactly twenty-five miles away from the state border or highway beginning.",
-   "start": 14.727,
-   "end": 19.77
+   "start": 14.728,
+   "end": 19.771
   },
   {
    "i": 4,
    "text": "This mile-post system allows drivers to instantly calculate how many miles remain until their turn.",
-   "start": 20.05,
-   "end": 24.859
+   "start": 20.051,
+   "end": 24.86
   },
   {
    "i": 5,
    "text": "It also lets road engineers build brand new exits between existing ones without renumbering hundreds of signs.",
-   "start": 25.139,
-   "end": 30.647
+   "start": 25.14,
+   "end": 30.648
   },
   {
    "i": 6,
    "text": "The mile-marker system turns every highway into a giant built-in odometer for road trippers.",
-   "start": 30.927,
-   "end": 35.406
+   "start": 30.928,
+   "end": 35.407
   }
  ]
 }

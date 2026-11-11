@@ -1,5 +1,5 @@
 {
- "duration": 39.311,
+ "duration": 39.301,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "The giant blocks were packed in sawdust insulation and stored in massive icehouses until hot summer months.",
    "start": 16.943,
-   "end": 21.847
+   "end": 21.848
   },
   {
    "i": 4,
    "text": "Every week, the local iceman delivered twenty-five pound ice blocks with iron tongs straight into home kitchens.",
-   "start": 22.127,
-   "end": 27.308
+   "start": 22.128,
+   "end": 27.303
   },
   {
    "i": 5,
    "text": "Families placed the melting ice in the top compartment, allowing dense cold air to sink over meat and butter.",
-   "start": 27.588,
-   "end": 32.412
+   "start": 27.583,
+   "end": 32.407
   },
   {
    "i": 6,
    "text": "Electric refrigeration transformed global nutrition, food safety, and modern civilization forever.",
-   "start": 32.692,
-   "end": 38.011
+   "start": 32.687,
+   "end": 38.001
   }
  ]
 }

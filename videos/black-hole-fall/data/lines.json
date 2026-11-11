@@ -1,5 +1,5 @@
 {
- "duration": 31.793,
+ "duration": 31.8,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "As you drift toward the event horizon, extreme gravitational tidal forces begin stretching space.",
    "start": 4.809,
-   "end": 9.818
+   "end": 9.822
   },
   {
    "i": 2,
    "text": "The pull on your feet would be vastly stronger than the pull on your head.",
-   "start": 10.098,
-   "end": 13.298
+   "start": 10.102,
+   "end": 13.302
   },
   {
    "i": 3,
    "text": "Your body would be vertically stretched and horizontally compressed like a string of dough.",
-   "start": 13.578,
-   "end": 17.498
+   "start": 13.582,
+   "end": 17.503
   },
   {
    "i": 4,
    "text": "Astrophysicists call this gruesome cosmic phenomenon spaghettification.",
-   "start": 17.778,
-   "end": 21.589
+   "start": 17.783,
+   "end": 21.594
   },
   {
    "i": 5,
    "text": "To an outside observer, you would appear to slow down and freeze at the event horizon forever.",
-   "start": 21.869,
-   "end": 26.103
+   "start": 21.874,
+   "end": 26.107
   },
   {
    "i": 6,
    "text": "Crossing the threshold of a black hole is a one-way trip beyond the edge of physics itself.",
-   "start": 26.383,
-   "end": 30.493
+   "start": 26.387,
+   "end": 30.5
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 34.713,
+ "duration": 34.711,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "Round covers are also vastly easier to move, allowing city crews to simply roll them across the asphalt.",
    "start": 24.189,
-   "end": 29.409
+   "end": 29.407
   },
   {
    "i": 6,
    "text": "Geometry literally saves lives beneath our city streets every single day.",
-   "start": 29.689,
-   "end": 33.413
+   "start": 29.687,
+   "end": 33.411
   }
  ]
 }

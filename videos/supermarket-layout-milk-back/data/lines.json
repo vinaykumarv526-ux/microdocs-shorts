@@ -1,5 +1,5 @@
 {
- "duration": 36.404,
+ "duration": 36.421,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "To grab that one carton of milk, you are forced to walk past dozens of brightly packaged impulse items.",
    "start": 14.684,
-   "end": 19.763
+   "end": 19.78
   },
   {
    "i": 4,
    "text": "Endcaps, bakery aromas, and eye-level snack displays lure you into tossing items into your cart.",
-   "start": 20.043,
-   "end": 24.834
+   "start": 20.06,
+   "end": 24.851
   },
   {
    "i": 5,
    "text": "Retail studies show over sixty percent of items in a typical grocery cart were completely unplanned purchases.",
-   "start": 25.114,
-   "end": 30.546
+   "start": 25.131,
+   "end": 30.563
   },
   {
    "i": 6,
    "text": "To save money, write a strict grocery list and stick to it without looking at the side displays.",
-   "start": 30.826,
-   "end": 35.104
+   "start": 30.843,
+   "end": 35.121
   }
  ]
 }

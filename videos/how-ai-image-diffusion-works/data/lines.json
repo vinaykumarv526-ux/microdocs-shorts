@@ -1,5 +1,5 @@
 {
- "duration": 36.753,
+ "duration": 36.754,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "It learns to mathematically reverse the degradation, reconstructing clean pictures from pure fuzz.",
    "start": 20.818,
-   "end": 25.711
+   "end": 25.712
   },
   {
    "i": 5,
    "text": "When you type a prompt, the AI starts with a canvas of random television static, carving out shapes based on your words.",
-   "start": 25.991,
-   "end": 31.967
+   "start": 25.992,
+   "end": 31.968
   },
   {
    "i": 6,
    "text": "It essentially dreams an image out of mathematical static noise.",
-   "start": 32.247,
-   "end": 35.453
+   "start": 32.248,
+   "end": 35.454
   }
  ]
 }

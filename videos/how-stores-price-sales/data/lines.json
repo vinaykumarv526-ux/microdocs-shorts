@@ -1,5 +1,5 @@
 {
- "duration": 35.502,
+ "duration": 35.507,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "By showing you a high original price, your brain anchors to fifty dollars, perceiving twenty-five as a massive win.",
    "start": 12.892,
-   "end": 18.466
+   "end": 18.471
   },
   {
    "i": 4,
    "text": "Department stores also slash prices to clear warehouse inventory for incoming seasonal collections.",
-   "start": 18.746,
-   "end": 23.625
+   "start": 18.751,
+   "end": 23.629
   },
   {
    "i": 5,
    "text": "They often sell loss leaders\u2014like four-dollar rotisserie chickens\u2014at a financial loss just to get you walking past expensive items.",
-   "start": 23.905,
-   "end": 30.004
+   "start": 23.909,
+   "end": 30.008
   },
   {
    "i": 6,
    "text": "Never buy something just because it is on sale; buy it only if you truly need it.",
-   "start": 30.284,
-   "end": 34.202
+   "start": 30.288,
+   "end": 34.207
   }
  ]
 }

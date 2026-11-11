@@ -1,5 +1,5 @@
 {
- "duration": 37.666,
+ "duration": 37.676,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "Air traffic control systems would revert to manual backup procedures, causing colossal flight groundings.",
    "start": 15.313,
-   "end": 20.496
+   "end": 20.504
   },
   {
    "i": 4,
    "text": "Hospitals and emergency responders would scramble as cloud-hosted patient databases disconnect.",
-   "start": 20.776,
-   "end": 25.555
+   "start": 20.784,
+   "end": 25.563
   },
   {
    "i": 5,
    "text": "Yet communities would suddenly step outside, talking face-to-face and noticing the blue sky again.",
-   "start": 25.835,
-   "end": 30.552
+   "start": 25.843,
+   "end": 30.56
   },
   {
    "i": 6,
    "text": "The global economy would lose over fifty billion dollars, reminding us how fragile our digital world really is.",
-   "start": 30.832,
-   "end": 36.366
+   "start": 30.84,
+   "end": 36.376
   }
  ]
 }

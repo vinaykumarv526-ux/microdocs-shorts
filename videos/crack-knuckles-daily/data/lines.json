@@ -1,5 +1,5 @@
 {
- "duration": 34.247,
+ "duration": 34.253,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "This vacuum causes dissolved nitrogen gas to form microscopic bubbles that instantly collapse with a loud pop.",
    "start": 17.876,
-   "end": 23.254
+   "end": 23.255
   },
   {
    "i": 5,
    "text": "One famous doctor cracked only the knuckles on his left hand for sixty years, proving zero arthritis occurred.",
-   "start": 23.534,
+   "start": 23.535,
    "end": 28.938
   },
   {
    "i": 6,
    "text": "So crack your knuckles freely\u2014it might annoy your friends, but your joints are safe.",
    "start": 29.218,
-   "end": 32.947
+   "end": 32.953
   }
  ]
 }

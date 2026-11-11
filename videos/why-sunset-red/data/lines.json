@@ -1,5 +1,5 @@
 {
- "duration": 35.48,
+ "duration": 35.482,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "Most blue and violet light gets scattered away long before reaching you, leaving only long red and orange wavelengths.",
    "start": 24.404,
-   "end": 29.839
+   "end": 29.841
   },
   {
    "i": 6,
    "text": "You are seeing the longest light wavelengths making it through the atmosphere's marathon run.",
-   "start": 30.119,
-   "end": 34.18
+   "start": 30.121,
+   "end": 34.182
   }
  ]
 }

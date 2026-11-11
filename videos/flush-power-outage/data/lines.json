@@ -1,5 +1,5 @@
 {
- "duration": 35.685,
+ "duration": 35.684,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "However, if your home relies on an electric well pump or basement sewage ejector, you have exactly one flush.",
    "start": 19.54,
-   "end": 24.868
+   "end": 24.867
   },
   {
    "i": 5,
    "text": "Once the tank empties, it won't refill, and using it further risks backing up raw sewage.",
-   "start": 25.148,
-   "end": 29.796
+   "start": 25.147,
+   "end": 29.794
   },
   {
    "i": 6,
    "text": "In an extended blackout, keep buckets of water handy to manually pour flush your bowl.",
-   "start": 30.076,
-   "end": 34.385
+   "start": 30.075,
+   "end": 34.384
   }
  ]
 }

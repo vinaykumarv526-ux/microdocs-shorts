@@ -1,5 +1,5 @@
 {
- "duration": 39.692,
+ "duration": 39.691,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "Millions of people share those private internal IP addresses without conflict.",
    "start": 16.251,
-   "end": 20.112
+   "end": 20.111
   },
   {
    "i": 4,
    "text": "When heading onto the public internet, a process called Network Address Translation converts all your family's devices to one public IP.",
-   "start": 20.392,
+   "start": 20.391,
    "end": 27.086
   },
   {
    "i": 5,
    "text": "Mobile phone carriers also use Carrier-Grade NAT, bundling thousands of different cellular users under a single public IP address.",
    "start": 27.366,
-   "end": 34.273
+   "end": 34.272
   },
   {
    "i": 6,
    "text": "Your IP address is more like a shared apartment lobby than a single private bedroom.",
-   "start": 34.553,
-   "end": 38.392
+   "start": 34.552,
+   "end": 38.391
   }
  ]
 }

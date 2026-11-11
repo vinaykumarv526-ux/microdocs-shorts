@@ -1,5 +1,5 @@
 {
- "duration": 35.058,
+ "duration": 35.056,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "Every morning, local milkmen placed fresh glass bottles of cold milk into the insulated compartment from outside.",
    "start": 13.672,
-   "end": 19.204
+   "end": 19.202
   },
   {
    "i": 4,
    "text": "Families could open the interior latch from the kitchen without ever stepping outside into winter snow.",
-   "start": 19.484,
-   "end": 24.038
+   "start": 19.482,
+   "end": 24.036
   },
   {
    "i": 5,
    "text": "Other floor-level doors led to coal chutes or laundry chutes dropping straight into the basement furnace room.",
-   "start": 24.318,
-   "end": 29.103
+   "start": 24.316,
+   "end": 29.101
   },
   {
    "i": 6,
    "text": "These vintage doors are charming relics of everyday American life before modern grocery stores.",
-   "start": 29.383,
-   "end": 33.758
+   "start": 29.381,
+   "end": 33.756
   }
  ]
 }

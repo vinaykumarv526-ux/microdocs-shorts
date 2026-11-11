@@ -1,5 +1,5 @@
 {
- "duration": 36.947,
+ "duration": 36.946,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -43,7 +43,7 @@
    "i": 6,
    "text": "The bottom of our ocean feels closer to another planet than planet Earth.",
    "start": 32.271,
-   "end": 35.647
+   "end": 35.646
   }
  ]
 }

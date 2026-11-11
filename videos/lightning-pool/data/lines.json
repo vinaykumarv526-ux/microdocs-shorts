@@ -1,5 +1,5 @@
 {
- "duration": 34.904,
+ "duration": 34.899,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "While pure distilled water is an insulator, swimming pool water is packed with conductive chlorine salts and minerals.",
    "start": 9.327,
-   "end": 14.871
+   "end": 14.866
   },
   {
    "i": 3,
    "text": "When lightning hits, the electrical current spreads out horizontally across the water's surface.",
-   "start": 15.151,
-   "end": 19.823
+   "start": 15.146,
+   "end": 19.818
   },
   {
    "i": 4,
    "text": "Anyone with their head or shoulders above water becomes the path of least resistance.",
-   "start": 20.103,
-   "end": 24.17
+   "start": 20.098,
+   "end": 24.166
   },
   {
    "i": 5,
    "text": "The shock causes immediate cardiac arrest, severe internal burns, and instant loss of consciousness.",
-   "start": 24.45,
-   "end": 29.658
+   "start": 24.446,
+   "end": 29.653
   },
   {
    "i": 6,
    "text": "That is why lifeguards order everyone out of the pool the instant thunder rumbles.",
-   "start": 29.938,
-   "end": 33.604
+   "start": 29.933,
+   "end": 33.599
   }
  ]
 }

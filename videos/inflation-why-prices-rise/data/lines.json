@@ -1,5 +1,5 @@
 {
- "duration": 38.781,
+ "duration": 38.791,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Producers face rising wages and shipping costs, passing those expenses directly to grocery shelf price tags.",
    "start": 21.292,
-   "end": 26.74
+   "end": 26.748
   },
   {
    "i": 5,
    "text": "A healthy economy targets two percent annual inflation to encourage people to invest and spend rather than hoard cash.",
-   "start": 27.02,
-   "end": 32.626
+   "start": 27.028,
+   "end": 32.636
   },
   {
    "i": 6,
    "text": "To beat inflation, always invest your savings in assets that grow faster than the money supply.",
-   "start": 32.906,
-   "end": 37.481
+   "start": 32.916,
+   "end": 37.491
   }
  ]
 }

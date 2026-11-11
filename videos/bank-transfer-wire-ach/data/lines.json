@@ -1,5 +1,5 @@
 {
- "duration": 39.13,
+ "duration": 39.131,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,12 +13,12 @@
    "i": 1,
    "text": "It is not because the computers are slow; it is due to a fifty-year-old banking architecture called ACH.",
    "start": 6.18,
-   "end": 11.385
+   "end": 11.384
   },
   {
    "i": 2,
    "text": "The Automated Clearing House was designed in the nineteen-seventies to replace physical paper checks.",
-   "start": 11.665,
+   "start": 11.664,
    "end": 16.247
   },
   {
@@ -36,14 +36,14 @@
   {
    "i": 5,
    "text": "The three-day lag also allows banks to catch fraudulent overdrafts, while earning interest on funds in transit.",
-   "start": 27.915,
-   "end": 33.068
+   "start": 27.914,
+   "end": 33.069
   },
   {
    "i": 6,
    "text": "New real-time networks like FedNow are finally bringing instant transfers into the modern age.",
-   "start": 33.348,
-   "end": 37.83
+   "start": 33.349,
+   "end": 37.831
   }
  ]
 }

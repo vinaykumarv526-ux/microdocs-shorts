@@ -278,5 +278,69 @@
     "youtube_url": "https://youtu.be/4bMou_4hfHE",
     "publish_at": "2026-11-12T23:30:00Z",
     "uploaded_at": "2026-11-12T03:50:13.329428+00:00"
+  },
+  {
+    "id": "sun-goes-dark",
+    "style": "deep-dive",
+    "folder": "videos/sun-goes-dark",
+    "video_file": "videos/sun-goes-dark/renders/sun-goes-dark.mp4",
+    "thumbnail": "videos/sun-goes-dark/thumbnail.jpg",
+    "title": "What If the Sun Turned Off for 24 Hours? \ud83c\udf11 #Shorts",
+    "description": "What if the Sun went dark for one full day?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Sun",
+      "Space",
+      "Astronomy",
+      "SolarSystem",
+      "WhatIf",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/RpXyRQmgys0",
+    "publish_at": "2026-11-13T16:30:00Z",
+    "uploaded_at": "2026-11-12T03:56:36.453411+00:00"
+  },
+  {
+    "id": "pause-time-10s",
+    "style": "deep-dive",
+    "folder": "videos/pause-time-10s",
+    "video_file": "videos/pause-time-10s/renders/pause-time-10s.mp4",
+    "thumbnail": "videos/pause-time-10s/thumbnail.jpg",
+    "title": "What If You Could Pause Time for 10 Seconds? \u23f1\ufe0f #Shorts",
+    "description": "What if you could pause time\u2014but only for 10 seconds?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "TimeTravel",
+      "Physics",
+      "ThoughtExperiment",
+      "WhatIf",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/sAd47aoE73s",
+    "publish_at": "2026-11-13T23:30:00Z",
+    "uploaded_at": "2026-11-12T03:59:18.309200+00:00"
+  },
+  {
+    "id": "internet-stops-24h",
+    "style": "deep-dive",
+    "folder": "videos/internet-stops-24h",
+    "video_file": "videos/internet-stops-24h/renders/internet-stops-24h.mp4",
+    "thumbnail": "videos/internet-stops-24h/thumbnail.jpg",
+    "title": "What If the Internet Vanished for 24 Hours? \ud83c\udf10 #Shorts",
+    "description": "What if every internet connection stopped for 24 hours?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Internet",
+      "Technology",
+      "CyberSecurity",
+      "WhatIf",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/lNnnqaUMkfs",
+    "publish_at": "2026-11-14T16:30:00Z",
+    "uploaded_at": "2026-11-12T04:02:16.313677+00:00"
   }
 ]

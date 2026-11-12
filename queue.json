@@ -256,5 +256,27 @@
     "youtube_url": "https://youtu.be/MDIM9x16--E",
     "publish_at": "2026-11-12T16:30:00Z",
     "uploaded_at": "2026-11-09T02:21:34.974804+00:00"
+  },
+  {
+    "id": "half-gravity",
+    "style": "inside-out",
+    "folder": "videos/half-gravity",
+    "video_file": "videos/half-gravity/renders/half-gravity.mp4",
+    "thumbnail": "videos/half-gravity/thumbnail.jpg",
+    "title": "What If Gravity Was Cut in Half? \ud83e\udeb6 #Shorts",
+    "description": "What if gravity became half as strong?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Gravity",
+      "Physics",
+      "Space",
+      "WhatIf",
+      "Science",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/4bMou_4hfHE",
+    "publish_at": "2026-11-12T23:30:00Z",
+    "uploaded_at": "2026-11-12T03:50:13.329428+00:00"
   }
 ]

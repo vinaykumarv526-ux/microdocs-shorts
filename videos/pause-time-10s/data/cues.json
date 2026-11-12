@@ -1,61 +1,68 @@
 {
- "duration": 34.299,
+ "duration": 36.648,
  "cues": [
   {
    "t": 0,
    "type": "whoosh"
   },
   {
-   "t": 0.3,
-   "type": "pop"
+   "t": 0.45,
+   "type": "pop",
+   "gain": 0.8
   },
   {
-   "t": 4.863,
+   "t": 5.116,
    "type": "whoosh"
   },
   {
-   "t": 5.163,
-   "type": "slam"
+   "t": 5.466,
+   "type": "slam",
+   "gain": 0.6
   },
   {
-   "t": 9.199,
+   "t": 9.566,
    "type": "whoosh"
   },
   {
-   "t": 9.449,
-   "type": "pop"
+   "t": 9.866,
+   "type": "pop",
+   "gain": 0.5
   },
   {
-   "t": 12.651,
+   "t": 13.155,
    "type": "whoosh"
   },
   {
-   "t": 12.951,
-   "type": "slam"
+   "t": 13.505,
+   "type": "slam",
+   "gain": 0.6
   },
   {
-   "t": 18.061,
+   "t": 19.355,
    "type": "whoosh"
   },
   {
-   "t": 18.311,
-   "type": "pop"
+   "t": 19.655,
+   "type": "pop",
+   "gain": 0.5
   },
   {
-   "t": 22.998,
+   "t": 24.37,
    "type": "whoosh"
   },
   {
-   "t": 23.298,
-   "type": "slam"
+   "t": 24.72,
+   "type": "slam",
+   "gain": 0.6
   },
   {
-   "t": 28.163,
+   "t": 30.044,
    "type": "whoosh"
   },
   {
-   "t": 28.463,
-   "type": "ding"
+   "t": 30.444,
+   "type": "pop",
+   "gain": 0.6
   }
  ]
 }

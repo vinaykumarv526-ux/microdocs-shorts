@@ -1,49 +1,49 @@
 {
- "duration": 34.299,
- "voice": "en-US-GuyNeural",
+ "duration": 36.648,
+ "voice": "en-US-ChristopherNeural",
  "speed": 1.0,
  "lines": [
   {
    "i": 0,
    "text": "Imagine having a magic stopwatch that could freeze the entire universe for ten seconds.",
    "start": 0.35,
-   "end": 4.663
+   "end": 4.916
   },
   {
    "i": 1,
    "text": "You might dream of dodging incoming danger or pulling harmless pranks on your friends.",
-   "start": 4.943,
-   "end": 8.999
+   "start": 5.196,
+   "end": 9.366
   },
   {
    "i": 2,
    "text": "But real physics would make those ten seconds an absolute nightmare.",
-   "start": 9.279,
-   "end": 12.451
+   "start": 9.646,
+   "end": 12.955
   },
   {
    "i": 3,
    "text": "If time stopped, light particles called photons would also freeze in mid-air, rendering you completely blind.",
-   "start": 12.731,
-   "end": 17.861
+   "start": 13.235,
+   "end": 19.155
   },
   {
    "i": 4,
    "text": "Air molecules would lock solid, meaning you couldn't take a breath or even push your body forward.",
-   "start": 18.141,
-   "end": 22.798
+   "start": 19.435,
+   "end": 24.17
   },
   {
    "i": 5,
    "text": "Sound waves wouldn't vibrate, trapping you in a suffocating, pitch-black void of absolute stillness.",
-   "start": 23.078,
-   "end": 27.963
+   "start": 24.45,
+   "end": 29.844
   },
   {
    "i": 6,
    "text": "When the ten seconds ticked down, you'd collapse gasping for oxygen, thrilled that time flows again.",
-   "start": 28.243,
-   "end": 32.999
+   "start": 30.124,
+   "end": 35.348
   }
  ]
 }

@@ -343,3 +343,12 @@ export function foodAt(u) {
   const P = FOOD_PATH, n = P.length - 1, k = clamp(u) * n, i = Math.min(n - 1, Math.floor(k)), f = k - i;
   return [lerp(P[i][0], P[i + 1][0], f), lerp(P[i][1], P[i + 1][1], f)];
 }
+
+export function badge(x, y, text, color = '#EF4444', sc = 1) {
+  pill(text, x, y, 64, color, '#FFFFFF', sc);
+}
+
+export function xrayBody(x, y, s = 1.2, color = '#06B6D4') {
+  man({ x, y, s, xray: true, mouth: 'o', eyes: 'wide' });
+}
+

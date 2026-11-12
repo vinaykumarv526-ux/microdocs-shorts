@@ -14,11 +14,26 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const FPS = +(process.env.FPS || 30);
-const CHROME = [process.env.CHROME, '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', '/Applications/Chromium.app/Contents/MacOS/Chromium',
-  '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge', '/usr/bin/google-chrome', '/usr/bin/google-chrome-stable', '/usr/bin/chromium',
-  '/usr/bin/chromium-browser', '/snap/bin/chromium', 'C:/Program Files/Google/Chrome/Application/chrome.exe',
-  'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe'].find((p) => p && fs.existsSync(p));
+const FPS = +(process.env.FPS || 24);
+const linuxPlaywright = fs.existsSync('/root/.cache/ms-playwright') ? fs.readdirSync('/root/.cache/ms-playwright').map(d => path.join('/root/.cache/ms-playwright', d, 'chrome-linux/chrome')).find(f => fs.existsSync(f)) : null;
+const userPlaywright = (process.env.HOME && fs.existsSync(path.join(process.env.HOME, '.cache/ms-playwright'))) ? 
+  fs.readdirSync(path.join(process.env.HOME, '.cache/ms-playwright')).map(d => path.join(process.env.HOME, '.cache/ms-playwright', d, 'chrome-linux/chrome')).find(f => fs.existsSync(f)) : null;
+
+const CHROME = [
+  process.env.CHROME,
+  '/usr/bin/google-chrome',
+  '/usr/bin/google-chrome-stable',
+  '/usr/bin/chromium',
+  '/usr/bin/chromium-browser',
+  '/snap/bin/chromium',
+  linuxPlaywright,
+  userPlaywright,
+  '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+  '/Applications/Chromium.app/Contents/MacOS/Chromium',
+  '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge',
+  'C:/Program Files/Google/Chrome/Application/chrome.exe',
+  'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe'
+].find((p) => p && fs.existsSync(p));
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const args = process.argv.slice(2), flags = new Set(args.filter((a) => a.startsWith('--')));
 const [mode, ...rest] = args.filter((a) => !a.startsWith('--'));
@@ -40,8 +55,23 @@ function serve(port = 0) {
 async function openPage(port) {
   if (!CHROME) throw new Error('Chrome not found: install Google Chrome or set CHROME=/path/to/chrome');
   const prof = fs.mkdtempSync(path.join(os.tmpdir(), 'fs-chrome-'));
-  const chrome = spawn(CHROME, ['--headless=new', '--remote-debugging-port=0', `--user-data-dir=${prof}`, '--no-first-run', '--no-default-browser-check',
-    '--hide-scrollbars', '--window-size=1080,1920', '--ignore-gpu-blocklist', '--enable-unsafe-swiftshader', ...(process.env.SOFTWARE_GL ? ['--use-angle=swiftshader'] : []), ...(process.getuid?.() === 0 ? ['--no-sandbox'] : []), '--disable-background-timer-throttling', '--disable-renderer-backgrounding', 'about:blank'], { stdio: 'ignore' });
+  const isLinux = process.platform === 'linux';
+  const chrome = spawn(CHROME, [
+    '--headless=new',
+    '--remote-debugging-port=0',
+    `--user-data-dir=${prof}`,
+    '--no-first-run',
+    '--no-default-browser-check',
+    '--hide-scrollbars',
+    '--window-size=1080,1920',
+    '--ignore-gpu-blocklist',
+    '--enable-unsafe-swiftshader',
+    ...(process.env.SOFTWARE_GL ? ['--use-angle=swiftshader'] : []),
+    ...(isLinux ? ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'] : []),
+    '--disable-background-timer-throttling',
+    '--disable-renderer-backgrounding',
+    'about:blank'
+  ], { stdio: 'ignore' });
   let dbg;
   for (let i = 0; i < 200 && !dbg; i++) { try { dbg = fs.readFileSync(path.join(prof, 'DevToolsActivePort'), 'utf8').split('\n')[0].trim(); } catch { await sleep(100); } }
   if (!dbg) throw new Error('Chrome did not start');
@@ -111,12 +141,12 @@ else {
         '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out], { stdio: ['pipe', 'inherit', 'inherit'] });
       const t0 = Date.now();
       for (let i = 0; i < n; i++) {
-        const b = jpg(await P.ev(FRAME(a0 + i / FPS, flags.has('--draft') ? 0.8 : 0.93)));
+        const b = jpg(await P.ev(FRAME(a0 + i / FPS, flags.has('--draft') ? 0.8 : 0.88)));
         if (!ff.stdin.write(b)) await new Promise((r) => ff.stdin.once('drain', r));
-        if (i % 150 === 0) process.stdout.write(`\r${i}/${n} frames`);
+        if (i % 50 === 0 || i === n - 1) console.log(`  [render] ${i + 1}/${n} frames (${Math.round(((i + 1)/n)*100)}%)`);
       }
       ff.stdin.end(); await new Promise((r) => ff.on('close', r));
-      console.log(`\r${out} (${n} frames, ${hasMix ? 'with data/mix.wav' : 'SILENT: no data/mix.wav'}, ${((Date.now() - t0) / 1000).toFixed(0)} s)`);
+      console.log(`\n${out} (${n} frames, ${hasMix ? 'with data/mix.wav' : 'SILENT: no data/mix.wav'}, ${((Date.now() - t0) / 1000).toFixed(0)} s)`);
     } else console.log('modes: check · cues · sheet · frames · video · preview');
-  } finally { P.close(); srv.close(); }
+  } finally { P.close(); srv.close(); process.exit(0); }
 }

@@ -1,49 +1,49 @@
 {
- "duration": 35.391,
- "voice": "en-US-GuyNeural",
+ "duration": 40.09,
+ "voice": "en-US-ChristopherNeural",
  "speed": 1.0,
  "lines": [
   {
    "i": 0,
    "text": "No more annoying mosquitoes or buzzing flies sounds like paradise, right?",
    "start": 0.35,
-   "end": 3.924
+   "end": 4.288
   },
   {
    "i": 1,
    "text": "Think again. If every insect vanished, human civilization would collapse in less than a year.",
-   "start": 4.204,
-   "end": 9.694
+   "start": 4.568,
+   "end": 10.309
   },
   {
    "i": 2,
    "text": "Insects are the master pollinators of over eighty percent of all flowering plants and crops.",
-   "start": 9.974,
-   "end": 14.252
+   "start": 10.589,
+   "end": 15.217
   },
   {
    "i": 3,
    "text": "Without bees, beetles, and butterflies, apples, coffee, chocolate, and grains would vanish from grocery shelves.",
-   "start": 14.532,
-   "end": 20.105
+   "start": 15.497,
+   "end": 22.673
   },
   {
    "i": 4,
    "text": "Dead leaves, animal carcasses, and waste would pile up endlessly without beetle decomposers.",
-   "start": 20.385,
-   "end": 24.842
+   "start": 22.953,
+   "end": 28.248
   },
   {
    "i": 5,
    "text": "Birds, reptiles, and amphibians would starve to death, toppling global food pyramids.",
-   "start": 25.122,
-   "end": 29.306
+   "start": 28.529,
+   "end": 33.647
   },
   {
    "i": 6,
    "text": "Those tiny six-legged creatures are the invisible foundation keeping our entire planet alive.",
-   "start": 29.586,
-   "end": 34.091
+   "start": 33.927,
+   "end": 38.79
   }
  ]
 }

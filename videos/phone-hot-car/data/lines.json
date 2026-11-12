@@ -1,5 +1,5 @@
 {
- "duration": 35.414,
+ "duration": 35.407,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "Even if it doesn't catch fire, permanent battery capacity drops by over twenty percent after one afternoon.",
    "start": 25.521,
-   "end": 30.985
+   "end": 30.978
   },
   {
    "i": 6,
    "text": "Always keep your phone in your pocket or out of direct sunlight.",
-   "start": 31.265,
-   "end": 34.114
+   "start": 31.258,
+   "end": 34.107
   }
  ]
 }

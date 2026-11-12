@@ -1,5 +1,5 @@
 {
- "duration": 34.711,
+ "duration": 34.716,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Because a circle has a constant diameter from every single angle, a round cover can never fall into its own hole.",
    "start": 18.327,
-   "end": 23.909
+   "end": 23.91
   },
   {
    "i": 5,
    "text": "Round covers are also vastly easier to move, allowing city crews to simply roll them across the asphalt.",
-   "start": 24.189,
-   "end": 29.407
+   "start": 24.19,
+   "end": 29.413
   },
   {
    "i": 6,
    "text": "Geometry literally saves lives beneath our city streets every single day.",
-   "start": 29.687,
-   "end": 33.411
+   "start": 29.693,
+   "end": 33.416
   }
  ]
 }

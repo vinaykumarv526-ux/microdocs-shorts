@@ -1,5 +1,5 @@
 {
- "duration": 38.515,
+ "duration": 38.517,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "Water dripped steadily out of a calibrated stone vessel, marking passing hours on internal indicator lines.",
    "start": 15.363,
-   "end": 20.747
+   "end": 20.748
   },
   {
    "i": 4,
    "text": "In ancient China, people burned incense coils with small brass weights that clattered into copper bowls every hour.",
-   "start": 21.027,
-   "end": 26.264
+   "start": 21.028,
+   "end": 26.265
   },
   {
    "i": 5,
    "text": "Monasteries eventually built mechanical pendulum and gear clocktowers to chime daily prayer bells.",
-   "start": 26.544,
-   "end": 31.238
+   "start": 26.545,
+   "end": 31.239
   },
   {
    "i": 6,
    "text": "Measuring time transformed humanity from wandering hunter-gatherers into coordinated industrial civilizations.",
-   "start": 31.518,
-   "end": 37.215
+   "start": 31.519,
+   "end": 37.217
   }
  ]
 }

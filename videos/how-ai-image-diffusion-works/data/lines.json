@@ -1,5 +1,5 @@
 {
- "duration": 36.754,
+ "duration": 36.753,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "During training, the AI learns by taking millions of pictures and slowly destroying them with static pixel noise.",
    "start": 15.148,
-   "end": 20.538
+   "end": 20.537
   },
   {
    "i": 4,
    "text": "It learns to mathematically reverse the degradation, reconstructing clean pictures from pure fuzz.",
-   "start": 20.818,
-   "end": 25.712
+   "start": 20.817,
+   "end": 25.711
   },
   {
    "i": 5,
    "text": "When you type a prompt, the AI starts with a canvas of random television static, carving out shapes based on your words.",
-   "start": 25.992,
-   "end": 31.968
+   "start": 25.991,
+   "end": 31.967
   },
   {
    "i": 6,
    "text": "It essentially dreams an image out of mathematical static noise.",
-   "start": 32.248,
-   "end": 35.454
+   "start": 32.247,
+   "end": 35.453
   }
  ]
 }

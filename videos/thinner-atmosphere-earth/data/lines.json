@@ -1,5 +1,5 @@
 {
- "duration": 35.302,
+ "duration": 35.298,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "Every human on the planet would gasp for oxygen, losing consciousness within two minutes from acute hypoxia.",
    "start": 8.83,
-   "end": 14.2
+   "end": 14.199
   },
   {
    "i": 3,
    "text": "Water would boil at just one hundred and fifty degrees Fahrenheit, making hot cooking impossible.",
-   "start": 14.48,
+   "start": 14.479,
    "end": 19.113
   },
   {
    "i": 4,
    "text": "With less atmospheric shielding, lethal ultraviolet solar radiation and meteors would bombard the ground unchecked.",
    "start": 19.393,
-   "end": 24.979
+   "end": 24.974
   },
   {
    "i": 5,
    "text": "Sky color would darken from brilliant azure blue to an eerie dark indigo even at midday.",
-   "start": 25.259,
-   "end": 29.694
+   "start": 25.254,
+   "end": 29.689
   },
   {
    "i": 6,
    "text": "Our thick blanket of air is the only shield protecting us from the hostile void of space.",
-   "start": 29.974,
-   "end": 34.002
+   "start": 29.969,
+   "end": 33.998
   }
  ]
 }

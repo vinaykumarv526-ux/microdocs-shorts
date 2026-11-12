@@ -1,5 +1,5 @@
 {
- "duration": 36.688,
+ "duration": 36.689,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "Modifying walls to run modern plumbing, electrical wiring, and HVAC ducts is infinitely easier in wood.",
    "start": 25.173,
-   "end": 30.748
+   "end": 30.749
   },
   {
    "i": 6,
    "text": "Wood framing made spacious, affordable housing possible for millions of American families.",
-   "start": 31.028,
-   "end": 35.388
+   "start": 31.029,
+   "end": 35.389
   }
  ]
 }

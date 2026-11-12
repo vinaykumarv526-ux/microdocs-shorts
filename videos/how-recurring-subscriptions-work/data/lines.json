@@ -1,5 +1,5 @@
 {
- "duration": 39.341,
+ "duration": 39.328,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -31,19 +31,19 @@
    "i": 4,
    "text": "Even if your physical debit card expires or is replaced, Visa and Mastercard Account Updater services automatically link your new card.",
    "start": 20.634,
-   "end": 27.452
+   "end": 27.451
   },
   {
    "i": 5,
    "text": "The subscription model relies on break-even breakage: millions of customers forgetting they are billed ten dollars a month.",
-   "start": 27.732,
-   "end": 33.404
+   "start": 27.731,
+   "end": 33.392
   },
   {
    "i": 6,
    "text": "Audit your bank statements monthly to eliminate vampire subscriptions draining your wallet.",
-   "start": 33.684,
-   "end": 38.041
+   "start": 33.672,
+   "end": 38.028
   }
  ]
 }

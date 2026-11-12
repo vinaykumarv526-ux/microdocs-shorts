@@ -1,5 +1,5 @@
 {
- "duration": 37.536,
+ "duration": 37.528,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "On Earth, hot water naturally rises to the top because heat lowers density, driving convection currents.",
    "start": 5.522,
-   "end": 10.761
+   "end": 10.76
   },
   {
    "i": 2,
    "text": "In zero gravity aboard the space station, there is no up or down, meaning natural buoyancy completely disappears.",
-   "start": 11.041,
-   "end": 16.748
+   "start": 11.04,
+   "end": 16.744
   },
   {
    "i": 3,
    "text": "When astronauts inject hot and cold water into a single floating sphere, the temperatures do not circulate.",
-   "start": 17.028,
-   "end": 22.27
+   "start": 17.024,
+   "end": 22.262
   },
   {
    "i": 4,
    "text": "Instead of churning into warm water, heat can only transfer sluggishly through slow molecular diffusion.",
-   "start": 22.55,
-   "end": 27.373
+   "start": 22.542,
+   "end": 27.365
   },
   {
    "i": 5,
    "text": "You end up with a single floating liquid orb that is scalding hot on one side and freezing on the other.",
-   "start": 27.653,
-   "end": 32.241
+   "start": 27.645,
+   "end": 32.232
   },
   {
    "i": 6,
    "text": "In space, even simple liquids behave like strange alien substances.",
-   "start": 32.521,
-   "end": 36.236
+   "start": 32.512,
+   "end": 36.228
   }
  ]
 }

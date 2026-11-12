@@ -1,5 +1,5 @@
 {
- "duration": 33.104,
+ "duration": 33.106,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "Yet despite crushing pressure and absolute blackness, translucent ghost fish and amphipods thrive here.",
    "start": 22.895,
-   "end": 27.931
+   "end": 27.933
   },
   {
    "i": 6,
    "text": "We know vastly more about the craters on the Moon than the floor of our own oceans.",
-   "start": 28.211,
-   "end": 31.804
+   "start": 28.213,
+   "end": 31.806
   }
  ]
 }

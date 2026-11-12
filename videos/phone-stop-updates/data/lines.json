@@ -1,5 +1,5 @@
 {
- "duration": 35.564,
+ "duration": 35.55,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "Why do phone manufacturers suddenly stop sending software updates to perfectly working older phones?",
    "start": 0.35,
-   "end": 5.414
+   "end": 5.404
   },
   {
    "i": 1,
    "text": "It is not just a greedy plan to force you to buy a new device.",
-   "start": 5.694,
-   "end": 8.613
+   "start": 5.684,
+   "end": 8.603
   },
   {
    "i": 2,
    "text": "The real bottleneck is the chipset manufacturer who built the processor inside your phone.",
-   "start": 8.893,
-   "end": 13.192
+   "start": 8.883,
+   "end": 13.182
   },
   {
    "i": 3,
    "text": "Companies like Qualcomm only support driver patches for their microchips for four to five years.",
-   "start": 13.472,
-   "end": 17.959
+   "start": 13.462,
+   "end": 17.948
   },
   {
    "i": 4,
    "text": "Newer operating systems require modern neural engines, larger RAM, and advanced GPU instruction sets.",
-   "start": 18.239,
-   "end": 24.009
+   "start": 18.228,
+   "end": 23.999
   },
   {
    "i": 5,
    "text": "Without chipmaker driver support, installing new updates would cause phones to lag, overheat, and crash.",
-   "start": 24.289,
-   "end": 29.524
+   "start": 24.279,
+   "end": 29.509
   },
   {
    "i": 6,
    "text": "Once updates stop, unpatched security vulnerabilities make it time for a phone upgrade.",
-   "start": 29.804,
-   "end": 34.264
+   "start": 29.789,
+   "end": 34.25
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 37.608,
+ "duration": 37.609,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "When you place the call, cell towers instantly initiate Enhanced 911 protocol.",
    "start": 10.111,
-   "end": 14.389
+   "end": 14.388
   },
   {
    "i": 3,
    "text": "Your carrier triangulates radio pings from neighboring towers to narrow down your area to a block.",
-   "start": 14.669,
+   "start": 14.668,
    "end": 19.283
   },
   {
    "i": 4,
    "text": "Simultaneously, modern smartphones activate high-accuracy GPS, Wi-Fi beacons, and barometric sensors.",
    "start": 19.563,
-   "end": 25.212
+   "end": 25.213
   },
   {
    "i": 5,
    "text": "The barometric pressure sensor measures vertical elevation to tell dispatchers which floor of a high-rise building you are on.",
-   "start": 25.492,
-   "end": 31.138
+   "start": 25.493,
+   "end": 31.139
   },
   {
    "i": 6,
    "text": "Always state your exact address first in any emergency to help responders arrive as fast as possible.",
-   "start": 31.418,
-   "end": 36.308
+   "start": 31.419,
+   "end": 36.309
   }
  ]
 }

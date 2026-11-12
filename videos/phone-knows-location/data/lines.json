@@ -1,5 +1,5 @@
 {
- "duration": 37.57,
+ "duration": 37.558,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "First, a built-in GPS chip listens to atomic clocks ticking aboard thirty-one satellites in deep orbit.",
    "start": 10.198,
-   "end": 15.327
+   "end": 15.325
   },
   {
    "i": 3,
    "text": "By calculating the nanosecond delays from four different satellites, it calculates your coordinates using trilateration.",
-   "start": 15.607,
-   "end": 21.665
+   "start": 15.605,
+   "end": 21.662
   },
   {
    "i": 4,
    "text": "When you step indoors where satellite signals fade, your phone scans surrounding Wi-Fi routers and cell towers.",
-   "start": 21.945,
-   "end": 27.158
+   "start": 21.942,
+   "end": 27.146
   },
   {
    "i": 5,
    "text": "It cross-references their signal strength against massive geographic databases to find your hallway.",
-   "start": 27.438,
-   "end": 32.202
+   "start": 27.426,
+   "end": 32.19
   },
   {
    "i": 6,
    "text": "You are constantly surrounded by an invisible matrix of navigation signals.",
-   "start": 32.482,
-   "end": 36.27
+   "start": 32.47,
+   "end": 36.258
   }
  ]
 }

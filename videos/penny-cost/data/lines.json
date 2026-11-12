@@ -1,5 +1,5 @@
 {
- "duration": 36.305,
+ "duration": 36.327,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -37,13 +37,13 @@
    "i": 5,
    "text": "Countries like Canada and Australia abolished their one-cent coins years ago with huge financial savings.",
    "start": 26.512,
-   "end": 31.442
+   "end": 31.464
   },
   {
    "i": 6,
    "text": "Would you support the United States finally retiring the penny for good?",
-   "start": 31.722,
-   "end": 35.005
+   "start": 31.744,
+   "end": 35.027
   }
  ]
 }

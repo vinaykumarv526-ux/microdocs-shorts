@@ -1,5 +1,5 @@
 {
- "duration": 36.211,
+ "duration": 36.224,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -25,25 +25,25 @@
    "i": 3,
    "text": "Even after thirty days or when you empty the trash, flash memory chips do not overwrite the raw data bytes.",
    "start": 12.843,
-   "end": 17.843
+   "end": 17.856
   },
   {
    "i": 4,
    "text": "Instead, the operating system simply deletes the file index pointer, marking that flash memory block as available space.",
-   "start": 18.123,
-   "end": 24.166
+   "start": 18.136,
+   "end": 24.179
   },
   {
    "i": 5,
    "text": "The binary data of your photo remains magnetically retrievable until new app downloads or 4K videos overwrite it.",
-   "start": 24.446,
-   "end": 30.207
+   "start": 24.459,
+   "end": 30.22
   },
   {
    "i": 6,
    "text": "Specialized forensic tools can recover deleted photos months after you thought they were gone.",
-   "start": 30.487,
-   "end": 34.911
+   "start": 30.5,
+   "end": 34.924
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "duration": 37.891,
+ "duration": 37.892,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "Early ocean sailors navigated treacherous waters without modern sonar or satellite weather forecasting.",
    "start": 9.744,
-   "end": 14.833
+   "end": 14.835
   },
   {
    "i": 3,
    "text": "When sailors glimpsed giant squids, breaching sperm whales, or strange oarfish, terrified rumors spread.",
-   "start": 15.113,
-   "end": 20.305
+   "start": 15.115,
+   "end": 20.307
   },
   {
    "i": 4,
    "text": "Cartographers drew ferocious sea creatures to mark dangerous uncharted reefs, lethal vortex whirlpools, and shallow shoals.",
-   "start": 20.585,
-   "end": 26.569
+   "start": 20.587,
+   "end": 26.57
   },
   {
    "i": 5,
    "text": "They served as visual skull-and-crossbones hazard warnings for navigators sailing into the unknown.",
-   "start": 26.849,
-   "end": 31.522
+   "start": 26.85,
+   "end": 31.523
   },
   {
    "i": 6,
    "text": "The monsters on ancient maps were warnings of real oceanic perils disguised as mythical beasts.",
-   "start": 31.802,
-   "end": 36.591
+   "start": 31.803,
+   "end": 36.592
   }
  ]
 }

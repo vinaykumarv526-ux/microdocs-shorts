@@ -1,5 +1,5 @@
 {
- "duration": 34.901,
+ "duration": 34.899,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -13,37 +13,37 @@
    "i": 1,
    "text": "In those two seconds, your data embarks on a worldwide journey across thousands of miles of fiber optics.",
    "start": 5.002,
-   "end": 10.277
+   "end": 10.279
   },
   {
    "i": 2,
    "text": "The card's microchip generates a one-time cryptographic token to prevent fraud.",
-   "start": 10.557,
-   "end": 14.549
+   "start": 10.559,
+   "end": 14.551
   },
   {
    "i": 3,
    "text": "The terminal beams this token to the merchant's bank, which routes it through Visa or Mastercard's global network.",
-   "start": 14.829,
-   "end": 20.234
+   "start": 14.831,
+   "end": 20.232
   },
   {
    "i": 4,
    "text": "Their supercomputers check for fraud algorithms, then ping your personal bank to verify your funds.",
-   "start": 20.514,
-   "end": 25.341
+   "start": 20.512,
+   "end": 25.339
   },
   {
    "i": 5,
    "text": "Your bank approves the charge, transmits the confirmation code back, and the register beeps approved.",
-   "start": 25.621,
-   "end": 30.563
+   "start": 25.619,
+   "end": 30.56
   },
   {
    "i": 6,
    "text": "All of that happened in less time than it took you to blink twice.",
-   "start": 30.843,
-   "end": 33.601
+   "start": 30.84,
+   "end": 33.599
   }
  ]
 }

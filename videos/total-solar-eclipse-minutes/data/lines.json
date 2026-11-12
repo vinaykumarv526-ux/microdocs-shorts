@@ -1,5 +1,5 @@
 {
- "duration": 35.488,
+ "duration": 35.485,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "Surrounding air temperatures drop by ten to fifteen degrees within minutes, kicking up sudden chilly breezes.",
    "start": 10.564,
-   "end": 15.651
+   "end": 15.648
   },
   {
    "i": 3,
    "text": "Confused crickets start chirping, birds fall silent and roost, and flowers close their petals.",
-   "start": 15.931,
-   "end": 20.574
+   "start": 15.928,
+   "end": 20.57
   },
   {
    "i": 4,
    "text": "Right along the edge, brilliant pearls of sunlight called Baily's Beads shine through lunar valleys.",
-   "start": 20.854,
-   "end": 25.497
+   "start": 20.85,
+   "end": 25.493
   },
   {
    "i": 5,
    "text": "Then, totality hits: the Sun's ghostly white corona blooms across a pitch-black midday sky.",
-   "start": 25.777,
-   "end": 30.576
+   "start": 25.773,
+   "end": 30.572
   },
   {
    "i": 6,
    "text": "Witnessing a total solar eclipse is a moment you will never forget.",
-   "start": 30.856,
-   "end": 34.188
+   "start": 30.852,
+   "end": 34.185
   }
  ]
 }

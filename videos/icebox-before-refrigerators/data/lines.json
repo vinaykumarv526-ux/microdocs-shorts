@@ -1,5 +1,5 @@
 {
- "duration": 39.301,
+ "duration": 39.299,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "Before electric refrigerators were invented in the nineteen-twenties, how did families keep their milk and meat from spoiling?",
    "start": 0.35,
-   "end": 6.095
+   "end": 6.093
   },
   {
    "i": 1,
    "text": "Every household relied on a wooden cabinet lined with tin or zinc, called an icebox.",
-   "start": 6.375,
-   "end": 10.614
+   "start": 6.373,
+   "end": 10.611
   },
   {
    "i": 2,
    "text": "During freezing winters, commercial ice harvesters sawed millions of tons of natural ice blocks from frozen northern lakes.",
-   "start": 10.894,
-   "end": 16.663
+   "start": 10.891,
+   "end": 16.66
   },
   {
    "i": 3,
    "text": "The giant blocks were packed in sawdust insulation and stored in massive icehouses until hot summer months.",
-   "start": 16.943,
-   "end": 21.848
+   "start": 16.94,
+   "end": 21.845
   },
   {
    "i": 4,
    "text": "Every week, the local iceman delivered twenty-five pound ice blocks with iron tongs straight into home kitchens.",
-   "start": 22.128,
-   "end": 27.303
+   "start": 22.125,
+   "end": 27.299
   },
   {
    "i": 5,
    "text": "Families placed the melting ice in the top compartment, allowing dense cold air to sink over meat and butter.",
-   "start": 27.583,
-   "end": 32.407
+   "start": 27.579,
+   "end": 32.403
   },
   {
    "i": 6,
    "text": "Electric refrigeration transformed global nutrition, food safety, and modern civilization forever.",
-   "start": 32.687,
-   "end": 38.001
+   "start": 32.683,
+   "end": 37.999
   }
  ]
 }

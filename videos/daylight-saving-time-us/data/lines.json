@@ -1,5 +1,5 @@
 {
- "duration": 36.128,
+ "duration": 36.126,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -19,31 +19,31 @@
    "i": 2,
    "text": "The federal Uniform Time Act of nineteen sixty-six allows states to opt out of moving clocks forward.",
    "start": 9.424,
-   "end": 14.404
+   "end": 14.405
   },
   {
    "i": 3,
    "text": "Hawaii sits close to the equator, where day length barely changes throughout the four seasons anyway.",
-   "start": 14.684,
-   "end": 19.346
+   "start": 14.686,
+   "end": 19.348
   },
   {
    "i": 4,
    "text": "In scorching Arizona, adding an extra hour of blistering sunlight in the hot evening is the last thing residents want.",
-   "start": 19.626,
-   "end": 25.122
+   "start": 19.628,
+   "end": 25.12
   },
   {
    "i": 5,
    "text": "Extra daylight in Phoenix means blasting expensive air conditioning an extra hour during summer heatwaves.",
-   "start": 25.402,
-   "end": 30.517
+   "start": 25.4,
+   "end": 30.515
   },
   {
    "i": 6,
    "text": "Would you prefer year-round permanent daylight time, or should we keep changing the clocks?",
-   "start": 30.797,
-   "end": 34.828
+   "start": 30.795,
+   "end": 34.826
   }
  ]
 }

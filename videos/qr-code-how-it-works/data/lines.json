@@ -1,5 +1,5 @@
 {
- "duration": 36.219,
+ "duration": 36.22,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -43,7 +43,7 @@
    "i": 6,
    "text": "A simple two-dimensional barcode connects the physical world to the digital universe.",
    "start": 30.781,
-   "end": 34.919
+   "end": 34.92
   }
  ]
 }

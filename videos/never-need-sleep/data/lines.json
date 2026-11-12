@@ -1,49 +1,49 @@
 {
- "duration": 32.869,
- "voice": "en-US-GuyNeural",
+ "duration": 34.043,
+ "voice": "en-US-ChristopherNeural",
  "speed": 1.0,
  "lines": [
   {
    "i": 0,
    "text": "Humans spend roughly one third of their entire lives unconscious in bed.",
    "start": 0.35,
-   "end": 3.991
+   "end": 4.229
   },
   {
    "i": 1,
    "text": "What if we were biologically engineered to operate twenty-four-seven without ever needing sleep?",
-   "start": 4.271,
-   "end": 8.686
+   "start": 4.509,
+   "end": 8.952
   },
   {
    "i": 2,
    "text": "You would suddenly gain an extra eight hours of waking life every single day.",
-   "start": 8.966,
-   "end": 12.509
+   "start": 9.232,
+   "end": 13.019
   },
   {
    "i": 3,
    "text": "Scientific discovery, arts, and personal hobbies could advance at twice the speed of human history.",
-   "start": 12.789,
-   "end": 17.684
+   "start": 13.299,
+   "end": 18.417
   },
   {
    "i": 4,
    "text": "However, corporate culture might immediately expand standard work days from eight hours to sixteen.",
-   "start": 17.964,
-   "end": 22.831
+   "start": 18.697,
+   "end": 23.714
   },
   {
    "i": 5,
    "text": "Energy consumption would double, and the soothing mental reset of dreams would disappear forever.",
-   "start": 23.111,
-   "end": 27.667
+   "start": 23.994,
+   "end": 28.628
   },
   {
    "i": 6,
    "text": "Would you give up sweet dreams and cozy blankets for eight extra working hours?",
-   "start": 27.947,
-   "end": 31.569
+   "start": 28.908,
+   "end": 32.743
   }
  ]
 }

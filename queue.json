@@ -342,5 +342,27 @@
     "youtube_url": "https://youtu.be/lNnnqaUMkfs",
     "publish_at": "2026-11-14T16:30:00Z",
     "uploaded_at": "2026-11-12T04:02:16.313677+00:00"
+  },
+  {
+    "id": "insects-disappear",
+    "style": "deep-dive",
+    "folder": "videos/insects-disappear",
+    "video_file": "videos/insects-disappear/renders/insects-disappear.mp4",
+    "thumbnail": "videos/insects-disappear/thumbnail.jpg",
+    "title": "What If All Insects Vanished Tomorrow? \ud83d\udc1d #Shorts",
+    "description": "What if all the world's insects disappeared?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Insects",
+      "Ecosystem",
+      "Biology",
+      "Nature",
+      "WhatIf",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/-8ahzyVHpzs",
+    "publish_at": "2026-11-14T23:30:00Z",
+    "uploaded_at": "2026-11-12T04:06:26.562795+00:00"
   }
 ]

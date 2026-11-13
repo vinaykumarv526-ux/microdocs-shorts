@@ -386,5 +386,26 @@
     "youtube_url": "https://youtu.be/reNT5WWX3bA",
     "publish_at": "2026-11-15T16:30:00Z",
     "uploaded_at": "2026-11-12T22:18:51.434108+00:00"
+  },
+  {
+    "id": "phone-password",
+    "style": "inside-out",
+    "folder": "videos/phone-password",
+    "video_file": "videos/phone-password/renders/phone-password.mp4",
+    "thumbnail": "videos/phone-password/thumbnail.jpg",
+    "title": "Why You NEVER Change Your Phone Passcode? \ud83d\udcf1 #Shorts",
+    "description": "What happens if you never change your phone password?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Smartphone",
+      "CyberSecurity",
+      "Privacy",
+      "Tech",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/QGdCQbdgQ2c",
+    "publish_at": "2026-11-15T23:30:00Z",
+    "uploaded_at": "2026-11-13T02:54:05.197937+00:00"
   }
 ]

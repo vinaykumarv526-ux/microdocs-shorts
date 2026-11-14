@@ -84,8 +84,6 @@ export function buildShots(E) {{
         cam.lookAt(FACE);
         E.render(K.scene, cam, {{ ...KLOOK, focus: cam.position.distanceTo(FACE), bloom: 0.5 }});
         blit();
-        pill('{pill_text}', 540, 300, eob(seg(lt, 0.1, 0.45)), '{pill_color}', 'rgba(25,10,10,0.95)', 68);
-        warning(540, 520, eob(seg(lt, 0.5, 0.9)));
       }}
     }});
     cue(st, 'whoosh'); cue(st + 0.45, 'pop', {{ gain: 0.8 }});
@@ -105,8 +103,6 @@ export function buildShots(E) {{
         cam.lookAt(FACE);
         E.render(K.scene, cam, {{ ...KLOOK, focus: cam.position.distanceTo(FACE) }});
         blit();
-        pill('SCIENCE VERDICT', 540, 300, eob(seg(lt, 0, 0.35)), '#10B981', 'rgba(10,25,15,0.92)', 64);
-        warning(540, 520, eob(seg(lt, 0.4, 0.8)));
       }}
     }});
     cue(st, 'whoosh'); cue(st + 0.4, 'pop', {{ gain: 0.6 }});
@@ -127,9 +123,6 @@ export function buildShots(E) {{
         cam.lookAt(0.1, 1.52, 0);
         E.render(X.scene, cam, {{ ...XLOOK, focus: cam.position.distanceTo(V3(0.1, 1.52, 0)) }});
         blit();
-        pill('CRITICAL REACTION', 540, 300, eob(seg(lt, 0, 0.35)), '#FF2836', 'rgba(25,10,10,0.92)', 64);
-        const [px, py] = screen(V3(0.1, 1.55, 0.1), cam);
-        label('ANATOMY ZONE', 720, 500, px, py, eob(seg(lt, 0.3, 0.7)));
       }}
     }});
     cue(st, 'whoosh'); cue(st + 0.35, 'slam', {{ gain: 0.6 }});
@@ -149,9 +142,6 @@ export function buildShots(E) {{
         cam.lookAt(FACE);
         E.render(K.scene, cam, {{ ...KLOOK, focus: cam.position.distanceTo(FACE) }});
         blit();
-        pill('ESCALATION', 540, 300, eob(seg(lt, 0, 0.35)), '#FFB020', 'rgba(25,20,10,0.92)', 64);
-        const [fx, fy] = screen(FACE, cam);
-        label('ACTIVE STAGE', 720, 480, fx, fy, eob(seg(lt, 0.3, 0.7)));
       }}
     }});
     cue(st, 'whoosh'); cue(st + 0.3, 'pop', {{ gain: 0.5 }});
@@ -475,7 +465,7 @@ STYLE_GENERATORS = {
 }
 
 VOICE_MAP = {
-    "deep-dive": "en-US-ChristopherNeural",
+    "deep-dive": "en-US-GuyNeural",
     "inside-out": "en-US-GuyNeural",
     "night-file": "en-US-RogerNeural",
     "stick-story": "en-US-EricNeural",
@@ -528,7 +518,8 @@ import soundfile as sf
 import soxr
 
 VOICE = "{voice_name}"
-RATE = "+6%"
+RATE = "+12%"
+PITCH = "+3Hz"
 
 PROJECT_DIR = Path(".")
 SCRIPT_FILE = PROJECT_DIR / "script.json"
@@ -555,7 +546,7 @@ async def generate():
         mp3_path = DATA_DIR / f"line_{{idx}}.mp3"
         wav_path = DATA_DIR / f"line_{{idx}}.wav"
 
-        comm = edge_tts.Communicate(text, VOICE, rate=RATE)
+        comm = edge_tts.Communicate(text, VOICE, rate=RATE, pitch=PITCH)
         await comm.save(str(mp3_path))
 
         data, sr = sf.read(str(mp3_path))

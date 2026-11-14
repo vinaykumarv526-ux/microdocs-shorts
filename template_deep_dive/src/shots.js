@@ -1,11 +1,10 @@
-// WHAT HAPPENS IF YOU DRINK LAVA? : 3D Deep Dive Short
+// WHAT HAPPENS IF YOU DRINK LAVA? : 3D Deep Dive Short (Clean Zack D. Films Style)
 import * as THREE from 'three';
 import { ctx, W, H, clamp, lerp, seg, eo, eio, eob } from './core/lib.js';
 import { L, Wd, T } from './core/timing.js';
 import { camera } from './core/engine.js';
 import { Human } from './core/human.js';
 import * as SETS from './core/sets.js';
-import { label, pill, warning, blackout } from './core/look2d.js';
 
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 const lerpV = (a, b, k) => a.clone().lerp(b, k);
@@ -63,9 +62,6 @@ export function buildShots(E) {
         cam.lookAt(FACE);
         E.render(K.scene, cam, { ...KLOOK, focus: cam.position.distanceTo(FACE), bloom: 0.5 });
         blit();
-
-        pill('DRINKING MOLTEN LAVA', 540, 300, eob(seg(lt, 0.1, 0.45)), '#FF5500', 'rgba(30,10,5,0.95)', 68);
-        warning(540, 520, eob(seg(lt, 0.5, 0.9)));
       }
     });
     cue(st, 'whoosh'); cue(st + 0.5, 'pop', { gain: 0.8 });
@@ -82,10 +78,6 @@ export function buildShots(E) {
         cam.lookAt(FACE);
         E.render(K.scene, cam, { ...KLOOK, focus: 0.7 });
         blit();
-
-        pill('LIQUID ROCK: 2,000°F', 540, 300, eob(seg(lt, 0, 0.35)), '#FF3B30', 'rgba(30,8,8,0.95)', 66);
-        const [fx, fy] = screen(V3(0.1, 1.68, -0.6), cam);
-        label('1,100°C MOLTEN BASALT', 720, 520, fx, fy, eob(seg(lt, 0.4, 0.8)));
       }
     });
     cue(st, 'whoosh'); cue(st + 0.4, 'pop', { gain: 0.6 });
@@ -109,10 +101,6 @@ export function buildShots(E) {
         cam.lookAt(FACE);
         E.render(K.scene, cam, { ...KLOOK, focus: 0.25, vignette: 0.6 });
         blit();
-
-        pill('RADIANT HEAT BLISTERS FACE', 540, 280, eob(seg(lt, 0, 0.35)), '#FF5500', 'rgba(30,10,5,0.95)', 64);
-        warning(540, 500, eob(seg(lt, 0.3, 0.7)));
-        pill('AIRWAY FLASH-BURNS', 540, 1180, eob(seg(lt, 0.6, 1.0)), '#FF3B30', 'rgba(30,5,5,0.92)', 60);
       }
     });
     cue(st, 'whoosh'); cue(st + 0.3, 'pop', { gain: 0.7 });
@@ -131,10 +119,6 @@ export function buildShots(E) {
         cam.lookAt(0.1, 1.45, 0);
         E.render(X.scene, cam, { ...XLOOK, focus: 0.75 });
         blit();
-
-        pill('ESOPHAGUS INCINERATION', 540, 280, eob(seg(lt, 0, 0.35)), '#FF3B30', 'rgba(30,5,5,0.95)', 66);
-        const [tx, ty] = screen(V3(0.1, 1.52, 0.05), cam);
-        label('INSTANT THERMAL DESTRUCTION', 720, 500, tx, ty, eob(seg(lt, 0.3, 0.7)));
       }
     });
     cue(st, 'whoosh'); cue(st + 0.3, 'pop', { gain: 0.8 });
@@ -155,9 +139,6 @@ export function buildShots(E) {
         cam.lookAt(0, 1.25, 0);
         E.render(X.scene, cam, { ...XLOOK, focus: 0.8, bloom: 0.85 });
         blit();
-
-        pill('WATER FLASH-BOILS TO STEAM', 540, 280, eob(seg(lt, 0, 0.35)), '#FFFFFF', 'rgba(30,10,5,0.95)', 64);
-        pill('1,700× VOLUME EXPANSION', 540, 1180, eob(seg(lt, 0.5, 0.9)), '#FFD43B', 'rgba(30,20,5,0.92)', 66);
       }
     });
     cue(st, 'whoosh'); cue(st + 0.4, 'pop', { gain: 0.9 });
@@ -177,10 +158,6 @@ export function buildShots(E) {
         cam.lookAt(0, 1.2, 0);
         E.render(X.scene, cam, { ...XLOOK, focus: 0.75, vignette: 0.7 });
         blit();
-
-        pill('INTERNAL STEAM EXPLOSION', 540, 280, eob(seg(lt, 0, 0.35)), '#FF3B30', 'rgba(30,5,5,0.95)', 66);
-        warning(540, 500, eob(seg(lt, 0.3, 0.7)));
-        pill('STOMACH WALL RUPTURE', 540, 1180, eob(seg(lt, 0.6, 1.0)), '#FFFFFF', 'rgba(180,20,20,0.95)', 64);
       }
     });
     cue(st, 'whoosh'); cue(st + 0.3, 'pop', { gain: 1.0 });
@@ -198,10 +175,6 @@ export function buildShots(E) {
         cam.lookAt(0, 1.2, 0);
         E.render(X.scene, cam, { ...XLOOK, focus: 0.9 });
         blit();
-
-        pill('SOLIDIFIES INTO OBSIDIAN', 540, 280, eob(seg(lt, 0, 0.35)), '#FFD43B', 'rgba(15,18,24,0.95)', 66);
-        const [ox, oy] = screen(V3(0.04, 1.25, 0.05), cam);
-        label('SHARP VOLCANIC GLASS IN CHEST', 720, 520, ox, oy, eob(seg(lt, 0.4, 0.8)));
       }
     });
     cue(st, 'whoosh'); cue(st + 0.4, 'pop', { gain: 0.6 });
@@ -218,9 +191,6 @@ export function buildShots(E) {
         cam.lookAt(0, 1.25, 0);
         E.render(X.scene, cam, { ...XLOOK, focus: 1.2 });
         blit();
-
-        blackout(0.4 + 0.3 * Math.sin(lt * 4));
-        pill('FATAL WITHIN SECONDS', 540, 600, eob(seg(lt, 0.1, 0.5)), '#FF3B30', 'rgba(30,5,5,0.95)', 70);
       }
     });
     cue(st, 'whoosh');
@@ -243,8 +213,6 @@ export function buildShots(E) {
         cam.lookAt(FACE);
         E.render(K.scene, cam, { ...KLOOK, focus: cam.position.distanceTo(FACE) });
         blit();
-
-        pill('LAVA IS LIQUID ROCK', 540, 1180, eob(seg(lt, 0.2, 0.7)), '#FF5500', 'rgba(15,18,24,0.95)', 72);
       }
     });
     cue(st, 'whoosh');

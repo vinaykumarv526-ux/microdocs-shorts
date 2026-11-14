@@ -20,14 +20,10 @@ from generate_topic_project import create_project_for_topic, render_project
 QUEUE_FILE = Path("queue.json")
 MIN_FUTURE_BUFFER = 4  # 4 slots = 2 full days ahead (morning + evening)
 
-# 6 Rotating Flagship Visual Styles for Daily A/B Testing
+# 2 Proven, Highly-Reliable Flagship Styles (3D Deep Dive & 2D Inside Out)
 STYLE_ROTATION = [
-    "deep-dive",    # Zack D. Films 3D anatomy simulation
-    "inside-out",   # Flat 2D X-Ray medical explainer
-    "night-file",   # 3D dark mystery dossier
-    "stick-story",  # 2D survival step cards
-    "paper-atlas",  # 2D historical cut-paper map
-    "tall-tale"     # 3D town diorama with 2D cartoon people
+    "deep-dive",    # Zack D. Films 3D anatomy simulation (100% stable)
+    "inside-out",   # Flat 2D X-Ray medical explainer (100% stable & fast)
 ]
 
 def get_next_slot(latest_str):
@@ -122,6 +118,7 @@ def main():
             return
 
         target_slot = get_next_slot(latest_slot)
+        retry_count = 0
         for next_topic in available_topics:
             assigned_style = next_topic.get("style", STYLE_ROTATION[len(queue) % len(STYLE_ROTATION)])
             print(f"\n==========================================")
@@ -183,6 +180,10 @@ def main():
                 break # Successfully scheduled next slot
             except Exception as e:
                 print(f"[SKIP] Model/topic '{next_topic['id']}' not available or failed ({e}). Skipping to next...")
+                retry_count += 1
+                if retry_count >= 2:
+                    print("Reached maximum retry attempts for this scheduled run. Exiting to avoid timeout.")
+                    raise e
                 continue
 
 if __name__ == "__main__":

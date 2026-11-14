@@ -5,7 +5,7 @@ import numpy as np
 import soundfile as sf
 import soxr
 
-VOICE = "en-US-GuyNeural"
+VOICE = "en-US-ChristopherNeural"
 RATE = "+6%"
 
 PROJECT_DIR = Path(".")

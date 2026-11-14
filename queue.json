@@ -407,5 +407,26 @@
     "youtube_url": "https://youtu.be/QGdCQbdgQ2c",
     "publish_at": "2026-11-15T23:30:00Z",
     "uploaded_at": "2026-11-13T02:54:05.197937+00:00"
+  },
+  {
+    "id": "metal-microwave",
+    "style": "deep-dive",
+    "folder": "videos/metal-microwave",
+    "video_file": "videos/metal-microwave/renders/metal-microwave.mp4",
+    "thumbnail": "videos/metal-microwave/thumbnail.jpg",
+    "title": "What REALLY Happens If You Microwave Metal? \u26a1 #Shorts",
+    "description": "What happens if you put metal in a microwave?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Microwave",
+      "Physics",
+      "Science",
+      "EverydayCuriosity",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/JbphJtDdzz4",
+    "publish_at": "2026-11-16T16:30:00Z",
+    "uploaded_at": "2026-11-14T09:46:11.233893+00:00"
   }
 ]

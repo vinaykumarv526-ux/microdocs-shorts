@@ -428,5 +428,26 @@
     "youtube_url": "https://youtu.be/JbphJtDdzz4",
     "publish_at": "2026-11-16T16:30:00Z",
     "uploaded_at": "2026-11-14T09:46:11.233893+00:00"
+  },
+  {
+    "id": "stay-awake-24h",
+    "style": "inside-out",
+    "folder": "videos/stay-awake-24h",
+    "video_file": "videos/stay-awake-24h/renders/stay-awake-24h.mp4",
+    "thumbnail": "videos/stay-awake-24h/thumbnail.jpg",
+    "title": "What Happens to Your Brain After 24 Hours Awake? \ud83e\udde0 #Shorts",
+    "description": "What happens if you stay awake for 24 hours?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "SleepDeprivation",
+      "Health",
+      "Brain",
+      "HumanBody",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/uc23QZGl6s0",
+    "publish_at": "2026-11-16T23:30:00Z",
+    "uploaded_at": "2026-11-14T20:03:07.924074+00:00"
   }
 ]

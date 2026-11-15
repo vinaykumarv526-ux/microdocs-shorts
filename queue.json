@@ -470,5 +470,26 @@
     "youtube_url": "https://youtu.be/pJuCIvUi1lc",
     "publish_at": "2026-11-17T16:30:00Z",
     "uploaded_at": "2026-11-15T02:21:09.814154+00:00"
+  },
+  {
+    "id": "phone-hot-car",
+    "style": "inside-out",
+    "folder": "videos/phone-hot-car",
+    "video_file": "videos/phone-hot-car/renders/phone-hot-car.mp4",
+    "thumbnail": "videos/phone-hot-car/thumbnail.jpg",
+    "title": "Why You NEVER Leave Your Phone in a Hot Car \u2600\ufe0f #Shorts",
+    "description": "What happens if you leave a phone in a hot car?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Smartphone",
+      "Battery",
+      "Science",
+      "TechTips",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/XW8v1K8EtuQ",
+    "publish_at": "2026-11-17T23:30:00Z",
+    "uploaded_at": "2026-11-15T20:30:13.777650+00:00"
   }
 ]

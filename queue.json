@@ -512,5 +512,26 @@
     "youtube_url": "https://youtu.be/Olfh4el4YYw",
     "publish_at": "2026-11-18T16:30:00Z",
     "uploaded_at": "2026-11-16T02:36:45.473079+00:00"
+  },
+  {
+    "id": "lightning-pool",
+    "style": "inside-out",
+    "folder": "videos/lightning-pool",
+    "video_file": "videos/lightning-pool/renders/lightning-pool.mp4",
+    "thumbnail": "videos/lightning-pool/thumbnail.jpg",
+    "title": "What If Lightning Hits a Swimming Pool? \u26a1\ud83c\udfca #Shorts",
+    "description": "What happens if lightning hits a swimming pool?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Lightning",
+      "SwimmingPool",
+      "Physics",
+      "Survival",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/XJBM0k9d0gs",
+    "publish_at": "2026-11-18T23:30:00Z",
+    "uploaded_at": "2026-11-16T23:50:51.377488+00:00"
   }
 ]

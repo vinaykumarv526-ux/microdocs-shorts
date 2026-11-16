@@ -491,5 +491,26 @@
     "youtube_url": "https://youtu.be/XW8v1K8EtuQ",
     "publish_at": "2026-11-17T23:30:00Z",
     "uploaded_at": "2026-11-15T20:30:13.777650+00:00"
+  },
+  {
+    "id": "flush-power-outage",
+    "style": "deep-dive",
+    "folder": "videos/flush-power-outage",
+    "video_file": "videos/flush-power-outage/renders/flush-power-outage.mp4",
+    "thumbnail": "videos/flush-power-outage/thumbnail.jpg",
+    "title": "Can You Flush a Toilet During a Power Outage? \ud83d\udebd #Shorts",
+    "description": "What happens if you flush a toilet during a power outage?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Plumbing",
+      "HomeTips",
+      "Blackout",
+      "Curiosity",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/Olfh4el4YYw",
+    "publish_at": "2026-11-18T16:30:00Z",
+    "uploaded_at": "2026-11-16T02:36:45.473079+00:00"
   }
 ]

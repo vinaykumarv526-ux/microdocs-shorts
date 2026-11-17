@@ -5,7 +5,7 @@
 import { ctx, C, clamp, lerp, seg, eob } from './lib.js';
 import { T, lineWords } from './timing.js';
 
-export const CAP = { y: 1400, size: 150, maxW: 900 };
+export const CAP = { y: 1480, size: 118, maxW: 940 };
 let caps = [];
 
 function autoChunks(text) {
@@ -26,9 +26,11 @@ export function buildCaptions(script) {
       // find the chunk's first word in the spoken line (from where the last chunk started); else place it by word count
       const first = nm(c.split(/\s+/)[0]);
       let idx = j === 0 ? 0 : ws.findIndex((w, k) => k > from && first && (nm(w.w) === first || (first.length > 2 && nm(w.w).startsWith(first))));
-      if (idx < 0) idx = Math.max(from + (j ? 1 : 0), Math.min(ws.length - 1, Math.round(acc * ws.length / N)));
+      if (idx < 0 || idx >= ws.length) idx = Math.max(0, Math.min(ws.length - 1, Math.round(acc * ws.length / N)));
       acc += counts[j]; from = idx;
-      caps.push({ line: i, s: ws[idx].s - 0.05, words: c.split(/\s+/).map((w) => ({ txt: w.replace('*', ''), hi: w.startsWith('*') })) });
+      const wordObj = ws[idx] || ws[ws.length - 1];
+      const sTime = wordObj ? wordObj.s - 0.05 : 0;
+      caps.push({ line: i, s: sTime, words: c.split(/\s+/).map((w) => ({ txt: w.replace('*', ''), hi: w.startsWith('*') })) });
     });
   });
   caps.forEach((c, k) => {
@@ -42,7 +44,7 @@ export const captionList = () => caps;
 export function drawCaption(t) {
   const c = caps.find((c) => t >= c.s && t < c.e); if (!c) return;
   const lt = t - c.s, size = CAP.size;
-  ctx.font = `900 ${size}px Inter`; ctx.letterSpacing = '-2px';
+  ctx.font = `900 ${size}px Inter`; ctx.letterSpacing = '-1px';
   const sp = size * 0.26;
   c.words.forEach((w) => (w.w = ctx.measureText(w.txt).width));
   const width = (ws) => ws.reduce((a, w) => a + w.w, 0) + sp * (ws.length - 1);
@@ -60,7 +62,7 @@ export function drawCaption(t) {
   lines.forEach((ln, li) => {
     let x = -width(ln) / 2; const y = y0 + li * lh;
     for (const w of ln) {
-      ctx.lineWidth = 30; ctx.strokeStyle = C.ink; ctx.strokeText(w.txt, x, y + 10); ctx.strokeText(w.txt, x, y);
+      ctx.lineWidth = 22; ctx.strokeStyle = '#111'; ctx.strokeText(w.txt, x, y + 6); ctx.strokeText(w.txt, x, y);
       ctx.fillStyle = w.hi ? C.yellow : C.white; ctx.fillText(w.txt, x, y); x += w.w + sp;
     }
   });

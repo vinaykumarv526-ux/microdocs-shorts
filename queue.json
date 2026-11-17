@@ -533,5 +533,26 @@
     "youtube_url": "https://youtu.be/XJBM0k9d0gs",
     "publish_at": "2026-11-18T23:30:00Z",
     "uploaded_at": "2026-11-16T23:50:51.377488+00:00"
+  },
+  {
+    "id": "crack-knuckles-daily",
+    "style": "deep-dive",
+    "folder": "videos/crack-knuckles-daily",
+    "video_file": "videos/crack-knuckles-daily/renders/crack-knuckles-daily.mp4",
+    "thumbnail": "videos/crack-knuckles-daily/thumbnail.jpg",
+    "title": "What Happens If You Crack Knuckles Daily? \ud83d\udca5 #Shorts",
+    "description": "What happens if you crack your knuckles every day?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "KnuckleCracking",
+      "Science",
+      "MythBusters",
+      "Joints",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/sTJZen7fEbM",
+    "publish_at": "2026-11-19T16:30:00Z",
+    "uploaded_at": "2026-11-17T05:00:11.084059+00:00"
   }
 ]

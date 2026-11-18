@@ -597,5 +597,26 @@
     "youtube_url": "https://youtu.be/w9aNvPv0KHQ",
     "publish_at": "2026-11-20T16:30:00Z",
     "uploaded_at": "2026-11-18T04:16:25.387249+00:00"
+  },
+  {
+    "id": "airplane-stays-air",
+    "style": "inside-out",
+    "folder": "videos/airplane-stays-air",
+    "video_file": "videos/airplane-stays-air/renders/airplane-stays-air.mp4",
+    "thumbnail": "videos/airplane-stays-air/thumbnail.jpg",
+    "title": "How Does a 500-Ton Plane Stay in the Air? \u2708\ufe0f #Shorts",
+    "description": "How does an airplane stay in the air?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Aviation",
+      "Physics",
+      "Aerodynamics",
+      "Airplanes",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/V9weRopusr0",
+    "publish_at": "2026-11-20T23:30:00Z",
+    "uploaded_at": "2026-11-18T23:03:10.631615+00:00"
   }
 ]

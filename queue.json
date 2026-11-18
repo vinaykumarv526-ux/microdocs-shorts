@@ -576,5 +576,26 @@
     "youtube_url": "https://youtu.be/oahtwwITrvM",
     "publish_at": "2026-11-19T23:30:00Z",
     "uploaded_at": "2026-11-17T23:17:02.495029+00:00"
+  },
+  {
+    "id": "phone-knows-location",
+    "style": "deep-dive",
+    "folder": "videos/phone-knows-location",
+    "video_file": "videos/phone-knows-location/renders/phone-knows-location.mp4",
+    "thumbnail": "videos/phone-knows-location/thumbnail.jpg",
+    "title": "How Your Phone REALLY Tracks Your Location \ud83d\udccd #Shorts",
+    "description": "How does your phone know where you are?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Smartphone",
+      "GPS",
+      "Tech",
+      "HowItWorks",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/w9aNvPv0KHQ",
+    "publish_at": "2026-11-20T16:30:00Z",
+    "uploaded_at": "2026-11-18T04:16:25.387249+00:00"
   }
 ]

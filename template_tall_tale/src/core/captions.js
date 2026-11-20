@@ -29,8 +29,10 @@ export function buildCaptions(script) {
       ln.caps.split('|').map((c) => c.trim()).filter(Boolean).forEach((c, j) => {
         const first = nm(c.split(/\s+/)[0]);
         let idx = j === 0 ? 0 : ws.findIndex((w, k) => k > from && nm(w.w) === first);
-        if (idx < 0) idx = Math.min(ws.length - 1, from + 1);
-        from = idx; caps.push({ line: i, s: ws[idx].s - 0.03, text: c.replace(/\*/g, '') });
+        if (idx < 0 || idx >= ws.length) idx = Math.max(0, Math.min(ws.length - 1, from + 1));
+        from = idx;
+        const wordObj = ws[idx] || ws[ws.length - 1];
+        caps.push({ line: i, s: wordObj ? wordObj.s - 0.03 : 0, text: c.replace(/\*/g, '') });
       });
     } else autoChunks(spoken).forEach(([a, b]) => caps.push({ line: i, s: ws[a].s - 0.03, text: spoken.slice(a, b + 1).join(' ') }));
   });

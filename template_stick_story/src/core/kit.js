@@ -131,8 +131,14 @@ export function flashlight(x, y, s = 1, on = true, ang = 0) {
 export function backpack(x, y, s = 1) { ctx.save(); ctx.translate(x, y); ctx.scale(s, s); rr(-80, -180, 160, 190, 40); ctx.fillStyle = '#D9824A'; ctx.fill(); rr(-60, -80, 120, 70, 16); ctx.fillStyle = '#B9683A'; ctx.fill(); ctx.beginPath(); ctx.arc(0, -180, 40, Math.PI, TAU); ctx.lineWidth = 12; ctx.strokeStyle = '#B9683A'; ctx.stroke(); ctx.restore(); }
 
 // ═════════════════════════ GRAPHICS ═════════════════════════
-/** gold step card: number disc + label. sc = pop scale */
-export function stepCard(n, label, x, y, sc = 1) {
+/** gold step card: number disc + label. Supports (n, label, x, y, sc) or (x, y, n, label, sc) */
+export function stepCard(a1, a2, a3, a4, a5 = 1) {
+  let n, label, x, y, sc;
+  if (typeof a1 === 'number' && typeof a2 === 'number' && typeof a3 === 'number') {
+    x = a1; y = a2; n = a3; label = a4; sc = a5;
+  } else {
+    n = a1; label = a2; x = a3; y = a4; sc = a5;
+  }
   if (sc <= 0) return; ctx.save(); ctx.translate(x, y); ctx.scale(sc, sc);
   ctx.font = '900 64px Inter'; const tw = ctx.measureText(label).width, w = tw + 230;
   rr(-w / 2 + 8, -82, w, 180, 34); ctx.fillStyle = 'rgba(0,0,0,0.25)'; ctx.fill();
@@ -141,6 +147,9 @@ export function stepCard(n, label, x, y, sc = 1) {
   ctx.fillStyle = P.navy; ctx.font = '900 64px Inter'; ctx.textAlign = 'left'; ctx.fillText(label, -w / 2 + 180, 4);
   ctx.restore();
 }
+
+export function room(o = {}) { livingRoom(o); }
+export function stick(o = {}) { person(o); }
 export function check(x, y, s = 1) { ctx.save(); ctx.translate(x, y); ctx.scale(s, s); circle(0, 0, 70, P.green); ctx.beginPath(); ctx.moveTo(-32, 2); ctx.lineTo(-8, 28); ctx.lineTo(36, -24); ctx.strokeStyle = P.white; ctx.lineWidth = 18; ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.stroke(); ctx.restore(); }
 export function cross(x, y, s = 1) { ctx.save(); ctx.translate(x, y); ctx.scale(s, s); circle(0, 0, 70, P.red); ctx.beginPath(); ctx.moveTo(-28, -28); ctx.lineTo(28, 28); ctx.moveTo(28, -28); ctx.lineTo(-28, 28); ctx.strokeStyle = P.white; ctx.lineWidth = 18; ctx.lineCap = 'round'; ctx.stroke(); ctx.restore(); }
 export function counterPill(text, x, y, sc = 1) { if (sc <= 0) return; ctx.save(); ctx.translate(x, y); ctx.scale(sc, sc); ctx.font = '900 54px Inter'; const w = ctx.measureText(text).width + 70; rr(-w / 2, -45, w, 90, 45); ctx.fillStyle = P.navy; ctx.fill(); ctx.fillStyle = P.gold; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(text, 0, 3); ctx.restore(); }

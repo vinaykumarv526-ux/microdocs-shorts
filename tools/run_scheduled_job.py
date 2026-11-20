@@ -20,10 +20,9 @@ from generate_topic_project import create_project_for_topic, render_project
 QUEUE_FILE = Path("queue.json")
 MIN_FUTURE_BUFFER = 4  # 4 slots = 2 full days ahead (morning + evening)
 
-# 2 Proven, Highly-Reliable Flagship Styles (3D Deep Dive & 2D Inside Out)
+# Flagship Style: Inside Out (Flat 2D Cutaway Explainer)
 STYLE_ROTATION = [
-    "deep-dive",    # Zack D. Films 3D anatomy simulation (100% stable)
-    "inside-out",   # Flat 2D X-Ray medical explainer (100% stable & fast)
+    "inside-out",   # Flat 2D Cutaway & Explainer (100% stable, fast render, high clarity)
 ]
 
 def get_next_slot(latest_str):

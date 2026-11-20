@@ -618,5 +618,110 @@
     "youtube_url": "https://youtu.be/V9weRopusr0",
     "publish_at": "2026-11-20T23:30:00Z",
     "uploaded_at": "2026-11-18T23:03:10.631615+00:00"
+  },
+  {
+    "id": "gps-satellites-work",
+    "style": "inside-out",
+    "folder": "videos/gps-satellites-work",
+    "video_file": "videos/gps-satellites-work/renders/gps-satellites-work.mp4",
+    "thumbnail": "videos/gps-satellites-work/thumbnail.jpg",
+    "title": "How Does GPS Work From 12,000 Miles Away? \ud83d\udef0\ufe0f #Shorts",
+    "description": "How does GPS work when satellites are so far away?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "GPS",
+      "Satellites",
+      "Relativity",
+      "Einstein",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/nQeMeePvxkE",
+    "publish_at": "2026-11-21T03:30:00Z",
+    "uploaded_at": "2026-11-20T11:02:13.319206+00:00"
+  },
+  {
+    "id": "credit-card-speed",
+    "style": "inside-out",
+    "folder": "videos/credit-card-speed",
+    "video_file": "videos/credit-card-speed/renders/credit-card-speed.mp4",
+    "thumbnail": "videos/credit-card-speed/thumbnail.jpg",
+    "title": "What Happens in 2 Seconds When You Tap Card? \ud83d\udcb3 #Shorts",
+    "description": "How does a credit card payment happen in seconds?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Money",
+      "Fintech",
+      "Banking",
+      "CreditCard",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/xr9A9gXyhk8",
+    "publish_at": "2026-11-21T08:30:00Z",
+    "uploaded_at": "2026-11-20T11:03:24.066508+00:00"
+  },
+  {
+    "id": "brain-recognize-face",
+    "style": "inside-out",
+    "folder": "videos/brain-recognize-face",
+    "video_file": "videos/brain-recognize-face/renders/brain-recognize-face.mp4",
+    "thumbnail": "videos/brain-recognize-face/thumbnail.jpg",
+    "title": "How Your Brain Recognizes Any Face in 0.1s \ud83d\udc41\ufe0f #Shorts",
+    "description": "How does your brain recognize a face?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Brain",
+      "Neuroscience",
+      "HumanBody",
+      "Psychology",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/6QlqX9DOJQs",
+    "publish_at": "2026-11-21T13:30:00Z",
+    "uploaded_at": "2026-11-20T11:04:37.913066+00:00"
+  },
+  {
+    "id": "noise-canceling-works",
+    "style": "inside-out",
+    "folder": "videos/noise-canceling-works",
+    "video_file": "videos/noise-canceling-works/renders/noise-canceling-works.mp4",
+    "thumbnail": "videos/noise-canceling-works/thumbnail.jpg",
+    "title": "How Do Noise Canceling Headphones REALLY Work? \ud83c\udfa7 #Shorts",
+    "description": "How does noise-canceling technology remove sound?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Headphones",
+      "Audio",
+      "Physics",
+      "Tech",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/Lhr3VLvCEt8",
+    "publish_at": "2026-11-21T16:30:00Z",
+    "uploaded_at": "2026-11-20T11:06:03.174066+00:00"
+  },
+  {
+    "id": "microwave-heats-food",
+    "style": "inside-out",
+    "folder": "videos/microwave-heats-food",
+    "video_file": "videos/microwave-heats-food/renders/microwave-heats-food.mp4",
+    "thumbnail": "videos/microwave-heats-food/thumbnail.jpg",
+    "title": "How Does a Microwave ACTUALLY Heat Food? \ud83c\udf72 #Shorts",
+    "description": "How does a microwave heat food?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Microwave",
+      "Physics",
+      "Science",
+      "Cooking",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/H1hs6o13dVM",
+    "publish_at": "2026-11-21T23:30:00Z",
+    "uploaded_at": "2026-11-20T11:07:18.576966+00:00"
   }
 ]

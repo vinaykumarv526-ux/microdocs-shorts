@@ -1,0 +1,49 @@
+{
+ "duration": 29.222,
+ "voice": "en-US-GuyNeural",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Did you know that black sludge trapped inside rocks powers the modern world?",
+   "start": 0.35,
+   "end": 3.479
+  },
+  {
+   "i": 1,
+   "text": "Millions of years ago, prehistoric plankton was crushed under extreme heat and pressure.",
+   "start": 3.759,
+   "end": 7.999
+  },
+  {
+   "i": 2,
+   "text": "It transformed into crude petroleum, soaked deep inside porous reservoir rocks.",
+   "start": 8.279,
+   "end": 12.188
+  },
+  {
+   "i": 3,
+   "text": "Massive drills pump this raw oil into a giant fractional distillation tower.",
+   "start": 12.468,
+   "end": 16.063
+  },
+  {
+   "i": 4,
+   "text": "The crude is boiled over seven hundred degrees, separating vapors by boiling point.",
+   "start": 16.343,
+   "end": 20.412
+  },
+  {
+   "i": 5,
+   "text": "Lighter vapors condense into gasoline and jet fuel, while diesel settles below.",
+   "start": 20.692,
+   "end": 24.433
+  },
+  {
+   "i": 6,
+   "text": "The heaviest residue at the bottom becomes asphalt to pave our highways!",
+   "start": 24.713,
+   "end": 27.942
+  }
+ ]
+}

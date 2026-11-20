@@ -1,0 +1,41 @@
+{
+ "duration": 33.589,
+ "cues": [
+  {
+   "t": 0,
+   "type": "whoosh"
+  },
+  {
+   "t": 0.3,
+   "type": "thud"
+  },
+  {
+   "t": 4.047,
+   "type": "whoosh"
+  },
+  {
+   "t": 9.086,
+   "type": "whoosh"
+  },
+  {
+   "t": 14.4,
+   "type": "whoosh"
+  },
+  {
+   "t": 18.679,
+   "type": "whoosh"
+  },
+  {
+   "t": 23.614,
+   "type": "whoosh"
+  },
+  {
+   "t": 28.506,
+   "type": "whoosh"
+  },
+  {
+   "t": 28.806,
+   "type": "thud"
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "duration": 36.023,
+ "duration": 34.3,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "Do microwaves heat food from the inside out like everyone always tells you?",
    "start": 0.35,
-   "end": 3.895
+   "end": 3.707
   },
   {
    "i": 1,
    "text": "The answer is no, and the actual science is far more fascinating.",
-   "start": 4.175,
-   "end": 7.433
+   "start": 3.987,
+   "end": 7.077
   },
   {
    "i": 2,
    "text": "Inside the oven, a component called a magnetron generates electromagnetic waves vibrating at two point four gigahertz.",
-   "start": 7.713,
-   "end": 13.745
+   "start": 7.357,
+   "end": 13.078
   },
   {
    "i": 3,
    "text": "Water, sugar, and fat molecules inside your food are polar, meaning they have positive and negative ends.",
-   "start": 14.025,
-   "end": 19.318
+   "start": 13.358,
+   "end": 18.363
   },
   {
    "i": 4,
    "text": "As the electric field flips two point four billion times a second, the water molecules violently twist back and forth.",
-   "start": 19.598,
-   "end": 25.456
+   "start": 18.643,
+   "end": 24.202
   },
   {
    "i": 5,
    "text": "This molecular friction creates intense thermal heat, warming your food from the outer layers inward.",
-   "start": 25.736,
-   "end": 30.719
+   "start": 24.482,
+   "end": 29.195
   },
   {
    "i": 6,
    "text": "That is why thick burritos can be scalding hot outside and freezing in the center.",
-   "start": 30.999,
-   "end": 34.723
+   "start": 29.475,
+   "end": 33.0
   }
  ]
 }

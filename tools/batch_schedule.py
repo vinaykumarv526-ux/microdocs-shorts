@@ -19,11 +19,8 @@ STYLE_ROTATION = [
     "inside-out",
 ]
 
-# 5 peak daily slots (preserving existing 16:30 and 23:30 slots)
+# 2 peak daily slots: 16:30 UTC and 23:30 UTC (2 videos per day)
 DAILY_SLOTS = [
-    (3, 30),
-    (8, 30),
-    (13, 30),
     (16, 30),
     (23, 30),
 ]

@@ -18,18 +18,15 @@ from catalog import TOPICS
 from generate_topic_project import create_project_for_topic, render_project
 
 QUEUE_FILE = Path("queue.json")
-MIN_FUTURE_BUFFER = 10  # 10 slots = 2 full days ahead (5 videos per day)
+MIN_FUTURE_BUFFER = 6  # 6 slots = 3 full days ahead (2 videos per day)
 
 # Flagship Style: Inside Out (Flat 2D Cutaway Explainer)
 STYLE_ROTATION = [
     "inside-out",   # Flat 2D Cutaway & Explainer (100% stable, fast render, high clarity)
 ]
 
-# 5 peak daily slots (preserving existing 16:30 and 23:30 slots)
+# 2 peak daily slots: 16:30 UTC and 23:30 UTC (2 videos per day)
 DAILY_SLOTS = [
-    (3, 30),
-    (8, 30),
-    (13, 30),
     (16, 30),
     (23, 30),
 ]

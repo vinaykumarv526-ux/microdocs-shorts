@@ -1,10 +1,16 @@
-name: Automated Twice-Daily YouTube Shorts Publisher
+name: Automated 5-Daily YouTube Shorts Publisher
 
 on:
   schedule:
-    # 15:30 UTC = 11:30 AM EST (US Lunchtime peak)
+    # 02:30 UTC -> Slot 03:30 UTC
+    - cron: '30 2 * * *'
+    # 07:30 UTC -> Slot 08:30 UTC
+    - cron: '30 7 * * *'
+    # 12:30 UTC -> Slot 13:30 UTC
+    - cron: '30 12 * * *'
+    # 15:30 UTC -> Slot 16:30 UTC (Existing Peak)
     - cron: '30 15 * * *'
-    # 22:30 UTC = 6:30 PM EST (US Evening peak)
+    # 22:30 UTC -> Slot 23:30 UTC (Existing Peak)
     - cron: '30 22 * * *'
   workflow_dispatch: # Allows clicking "Run workflow" in GitHub UI anytime
 

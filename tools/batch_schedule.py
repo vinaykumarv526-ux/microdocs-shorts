@@ -14,21 +14,39 @@ from generate_topic_project import create_project_for_topic, render_project
 
 QUEUE_FILE = Path("queue.json")
 
+# Flagship Style: Inside Out (2D Flat Cutaway Explainer)
 STYLE_ROTATION = [
-    "deep-dive",    # Zack D. Films 3D anatomy simulation
+    "inside-out",
+]
+
+# 5 peak daily slots (preserving existing 16:30 and 23:30 slots)
+DAILY_SLOTS = [
+    (3, 30),
+    (8, 30),
+    (13, 30),
+    (16, 30),
+    (23, 30),
 ]
 
 def get_next_slot(latest_str):
     if not latest_str:
-        target = datetime.now(timezone.utc) + timedelta(days=1)
-        hour = 16 if target.hour < 20 else 23
-        return target.replace(hour=hour, minute=30, second=0, microsecond=0).strftime('%Y-%m-%dT%H:%M:%SZ')
+        now = datetime.now(timezone.utc)
+        target_date = now.date() + timedelta(days=1)
+        first_h, first_m = DAILY_SLOTS[0]
+        return datetime(target_date.year, target_date.month, target_date.day, first_h, first_m, tzinfo=timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
     dt = datetime.fromisoformat(latest_str.replace('Z', '+00:00'))
-    if dt.hour < 20:
-        next_dt = dt.replace(hour=23, minute=30, second=0, microsecond=0)
-    else:
-        next_dt = (dt + timedelta(days=1)).replace(hour=16, minute=30, second=0, microsecond=0)
+    curr_h, curr_m = dt.hour, dt.minute
+
+    # Find the next slot on the same day
+    for h, m in DAILY_SLOTS:
+        if (h > curr_h) or (h == curr_h and m > curr_m):
+            next_dt = dt.replace(hour=h, minute=m, second=0, microsecond=0)
+            return next_dt.strftime('%Y-%m-%dT%H:%M:%SZ')
+
+    # Otherwise roll over to first slot of next day
+    first_h, first_m = DAILY_SLOTS[0]
+    next_dt = (dt + timedelta(days=1)).replace(hour=first_h, minute=first_m, second=0, microsecond=0)
     return next_dt.strftime('%Y-%m-%dT%H:%M:%SZ')
 
 def main():

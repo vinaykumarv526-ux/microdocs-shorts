@@ -723,5 +723,27 @@
     "youtube_url": "https://youtu.be/H1hs6o13dVM",
     "publish_at": "2026-11-23T16:30:00Z",
     "uploaded_at": "2026-11-20T11:07:18.576966+00:00"
+  },
+  {
+    "id": "self-driving-car-vision",
+    "style": "inside-out",
+    "folder": "videos/self-driving-car-vision",
+    "video_file": "videos/self-driving-car-vision/renders/self-driving-car-vision.mp4",
+    "thumbnail": "videos/self-driving-car-vision/thumbnail.jpg",
+    "title": "How Does a Self-Driving Car See the Road? \ud83d\ude97 #Shorts",
+    "description": "How does a self-driving car see the road?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "SelfDrivingCars",
+      "AI",
+      "Tesla",
+      "Waymo",
+      "Tech",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/hF9AejqyDEI",
+    "publish_at": "2026-11-23T23:30:00Z",
+    "uploaded_at": "2026-11-20T22:20:33.724434+00:00"
   }
 ]

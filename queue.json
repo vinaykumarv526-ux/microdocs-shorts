@@ -745,5 +745,26 @@
     "youtube_url": "https://youtu.be/hF9AejqyDEI",
     "publish_at": "2026-11-23T23:30:00Z",
     "uploaded_at": "2026-11-20T22:20:33.724434+00:00"
+  },
+  {
+    "id": "barcode-scanner-works",
+    "style": "inside-out",
+    "folder": "videos/barcode-scanner-works",
+    "video_file": "videos/barcode-scanner-works/renders/barcode-scanner-works.mp4",
+    "thumbnail": "videos/barcode-scanner-works/thumbnail.jpg",
+    "title": "How Does a Barcode REALLY Work? \ud83c\udff7\ufe0f #Shorts",
+    "description": "How does a barcode tell a scanner what you bought?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Barcode",
+      "Retail",
+      "Technology",
+      "Invention",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/AFNFi-nkhrQ",
+    "publish_at": "2026-11-24T16:30:00Z",
+    "uploaded_at": "2026-11-21T03:26:13.668022+00:00"
   }
 ]

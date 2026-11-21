@@ -766,5 +766,26 @@
     "youtube_url": "https://youtu.be/AFNFi-nkhrQ",
     "publish_at": "2026-11-24T16:30:00Z",
     "uploaded_at": "2026-11-21T03:26:13.668022+00:00"
+  },
+  {
+    "id": "submarine-buoyancy",
+    "style": "inside-out",
+    "folder": "videos/submarine-buoyancy",
+    "video_file": "videos/submarine-buoyancy/renders/submarine-buoyancy.mp4",
+    "thumbnail": "videos/submarine-buoyancy/thumbnail.jpg",
+    "title": "How Submarines Dive and Rise Without Sinking \u2693 #Shorts",
+    "description": "How does a submarine stay underwater without sinking forever?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Submarine",
+      "Navy",
+      "Physics",
+      "Ocean",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/50FHCdJktek",
+    "publish_at": "2026-11-24T23:30:00Z",
+    "uploaded_at": "2026-11-21T21:00:56.586366+00:00"
   }
 ]

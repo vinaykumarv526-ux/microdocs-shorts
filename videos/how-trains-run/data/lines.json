@@ -1,0 +1,61 @@
+{
+ "duration": 38.048,
+ "voice": "am_michael",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Have you ever wondered why heavy trains don't derail at high speed?",
+   "start": 0.4,
+   "end": 4.417
+  },
+  {
+   "i": 1,
+   "text": "Most people assume train wheels are flat like car tires,",
+   "start": 4.697,
+   "end": 8.107
+  },
+  {
+   "i": 2,
+   "text": "but flat wheels would violently shake right off the steel tracks.",
+   "start": 8.587,
+   "end": 12.212
+  },
+  {
+   "i": 3,
+   "text": "In reality, train wheels are machined into tapered cones.",
+   "start": 12.492,
+   "end": 16.154
+  },
+  {
+   "i": 4,
+   "text": "When a train drifts to one side, that wheel becomes wider,",
+   "start": 16.434,
+   "end": 20.134
+  },
+  {
+   "i": 5,
+   "text": "automatically steering the entire train back to center.",
+   "start": 20.684,
+   "end": 23.843
+  },
+  {
+   "i": 6,
+   "text": "Beneath the cabin, electric traction motors drive the axles,",
+   "start": 24.123,
+   "end": 28.103
+  },
+  {
+   "i": 7,
+   "text": "gliding thousands of tons with virtually zero rolling friction.",
+   "start": 28.603,
+   "end": 32.665
+  },
+  {
+   "i": 8,
+   "text": "So the wheels steer themselves, while the rails just guide the ride.",
+   "start": 32.944,
+   "end": 36.868
+  }
+ ]
+}

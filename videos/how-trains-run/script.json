@@ -1,0 +1,24 @@
+{
+  "title": "How A Train Actually Runs",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lead": 0.4,
+  "outro": 0.9,
+  "gap": 0.28,
+  "music": "bed",
+  "sources": [
+    "Richard Feynman, Feynman Lectures on Physics, Train Stability and Wheel Conicity",
+    "AREMA (American Railway Engineering and Maintenance-of-Way Association) Manual for Railway Engineering"
+  ],
+  "lines": [
+    { "text": "Have you ever wondered why heavy trains don't derail at high speed?", "caps": "EVER *WONDERED | WHY TRAINS *DON'T | DERAIL *OFF?" },
+    { "text": "Most people assume train wheels are flat like car tires,", "caps": "MOST PEOPLE *ASSUME | WHEELS ARE *FLAT" },
+    { "text": "but flat wheels would violently shake right off the steel tracks.", "caps": "FLAT WHEELS *WOULD | SHAKE OFF *TRACKS!" },
+    { "text": "In reality, train wheels are machined into tapered cones.", "caps": "THEY'RE *ACTUALLY | SHAPED LIKE *CONES" },
+    { "text": "When a train drifts to one side, that wheel becomes wider,", "caps": "WHEN IT *DRIFTS | THAT WHEEL *WIDENS" },
+    { "text": "automatically steering the entire train back to center.", "caps": "SELF *STEERING | BACK TO *CENTER" },
+    { "text": "Beneath the cabin, electric traction motors drive the axles,", "caps": "ELECTRIC *MOTORS | POWER THE *AXLES" },
+    { "text": "gliding thousands of tons with virtually zero rolling friction.", "caps": "THOUSANDS OF *TONS | ZERO *FRICTION" },
+    { "text": "So the wheels steer themselves, while the rails just guide the ride.", "caps": "WHEELS STEER *THEMSELVES | RAILS JUST *GUIDE" }
+  ]
+}

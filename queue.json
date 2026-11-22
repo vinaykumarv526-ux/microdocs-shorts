@@ -787,5 +787,26 @@
     "youtube_url": "https://youtu.be/50FHCdJktek",
     "publish_at": "2026-11-24T23:30:00Z",
     "uploaded_at": "2026-11-21T21:00:56.586366+00:00"
+  },
+  {
+    "id": "airplane-window-hole",
+    "style": "inside-out-architectural",
+    "folder": "videos/airplane-window-hole",
+    "video_file": "videos/airplane-window-hole/renders/airplane-window-hole.mp4",
+    "thumbnail": "videos/airplane-window-hole/thumbnail.jpg",
+    "title": "Why Airplane Windows Have Tiny Holes \u2708\ufe0f #Shorts",
+    "description": "Why do airplane windows have a tiny pinhole at the bottom? The 2D architectural breakdown of aircraft cabin pressurization!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #Aviation #Airplanes #HowItWorks #MicroDocs",
+    "tags": [
+      "Shorts",
+      "Aviation",
+      "Airplanes",
+      "Science",
+      "Engineering",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/cnOZMFyLNA8",
+    "publish_at": "2026-11-25T16:30:00Z",
+    "uploaded_at": "2026-11-22T02:44:46.506937+00:00"
   }
 ]

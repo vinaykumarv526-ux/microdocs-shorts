@@ -207,7 +207,8 @@ export function buildShots() {{
         const shake = Math.sin(lt * 45) * clamp(lt * 8, 0, 14);
         const tilt = Math.sin(lt * 18) * 0.12;
         TK.wheelsetCrossFlat(540 + shake, 980, 0.95, {{ tilt, shake: 1 }});
-        K.hazard(540, 480, 160, eob(seg(lt, 0, 0.35)));
+        K.warning(540, 480, eob(seg(lt, 0, 0.35)));
+        K.redX(540, 860, 1.2, 0.9);
       }} }});
     cue(st, 'whoosh'); cue(st + 0.25, 'slam');
   }}

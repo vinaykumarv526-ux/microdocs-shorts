@@ -158,9 +158,10 @@ def main():
             print(f"Error during production of '{next_topic['id']}': {e}")
             import traceback
             traceback.print_exc()
-            # If upload fails due to quota or other fatal issue, break to avoid wasting compute
-            if "quota" in str(e).lower():
-                print("YouTube API daily quota limit reached. Stopping batch.")
+            # If upload fails due to quota or daily upload limit, break cleanly and sync queue
+            err_msg = str(e).lower()
+            if any(k in err_msg for k in ["quota", "uploadlimit", "exceeded", "limit"]):
+                print("\n>>> YouTube API daily upload/quota limit reached. Stopping batch gracefully. <<<")
                 break
             break
 

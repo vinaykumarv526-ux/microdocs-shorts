@@ -10,6 +10,10 @@ Supports rotating across all 6 flagship styles:
 import os, sys, json, shutil, subprocess
 from pathlib import Path
 
+tools_dir = Path(__file__).parent.resolve()
+if str(tools_dir) not in sys.path:
+    sys.path.insert(0, str(tools_dir))
+
 # --- 1. DEEP DIVE 3D SHOTS GENERATOR ---
 def generate_shots_deep_dive(topic):
     pill_text = topic.get("pill", "MEDICAL ALERT")
@@ -160,8 +164,10 @@ export function buildShots(E) {{
 def generate_shots_inside_out(topic):
     title = topic['title'].upper().replace('?', '')
     pill_text = topic.get("pill", "HOW IT WORKS")
+    lines = topic["script"]["lines"]
+    num_lines = len(lines)
 
-    code = f"""// AUTO-GENERATED 2D FLAT ARCHITECTURAL MODEL (9-CUT RETENTION LOOP): {topic['title']}
+    code = f"""// AUTO-GENERATED 2D FLAT ARCHITECTURAL MODEL: {topic['title']}
 import {{ ctx, C, W, H, clamp, lerp, seg, eo, eio, eob, rnd, bigText, rr, circle, ell, line, fillAll }} from './core/lib.js';
 import {{ L, Le, Wd, T }} from './core/timing.js';
 import * as K from './core/kit.js';
@@ -173,117 +179,144 @@ export function buildShots() {{
   const cue = (t, type, o = {{}}) => CUES.push({{ t: +t.toFixed(3), type, ...o }});
   const cut = (i) => (i === 0 ? 0 : L(i) - 0.08);
 
-  // 1 · HOOK: The counter-intuitive challenge / hero in motion
+"""
+    for i in range(num_lines):
+        is_first = (i == 0)
+        is_last = (i == num_lines - 1)
+
+        if is_first:
+            shot = f"""  // {i+1} · HOOK: High speed streamlined motion & opening challenge
   {{
-    const st = cut(0);
-    add({{ id: 'S01', at: st, cam: [540, 850], zoom: 0.18, note: 'hook opening hero in motion',
+    const st = cut({i});
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 850], zoom: 0.18, note: 'hook opening hero in motion',
       draw(lt) {{
         ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
         ctx.fillStyle = '#E8F1F5'; ctx.fillRect(-300, -300, W + 600, 1100);
         TK.trainSide(540, 880, 0.95, lt + 0.5);
         if (lt > 1.2) K.shockLines(540, 880, 320, clamp((lt - 1.2) * 4));
+        K.pill('{pill_text}', 540, 420, 52, C.ink, C.yellow, eob(seg(lt, 0, 0.35)));
       }} }});
     cue(st, 'whoosh'); cue(st + 0.3, 'slide', {{ dur: 3.5 }});
   }}
-
-  // 2 · THE FLAWED MYTH: What people assume (flat cross-section)
+"""
+        elif is_last:
+            shot = f"""  // {i+1} · LOOP OUTRO: High-speed resolution looping to Cut 1
   {{
-    const st = cut(1);
-    add({{ id: 'S02', at: st, cam: [540, 960], note: 'flawed myth flat cross section',
-      draw(lt) {{
-        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        TK.wheelsetCrossFlat(540, 980, 0.95, {{ tilt: 0, shake: 0 }});
-        K.pill('FLAT WHEELS', 540, 480, 56, C.ink, C.white, eob(seg(lt, 0, 0.35)));
-      }} }});
-    cue(st, 'whoosh'); cue(st + 0.3, 'pop');
-  }}
-
-  // 3 · THE FAILURE POINT: Violent breakdown / red alert
-  {{
-    const st = cut(2);
-    add({{ id: 'S03', at: st, cam: [540, 960], note: 'failure point violent breakdown',
-      draw(lt) {{
-        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        const shake = Math.sin(lt * 45) * clamp(lt * 8, 0, 14);
-        const tilt = Math.sin(lt * 18) * 0.12;
-        TK.wheelsetCrossFlat(540 + shake, 980, 0.95, {{ tilt, shake: 1 }});
-        K.warning(540, 480, eob(seg(lt, 0, 0.35)));
-        K.redX(540, 860, 1.2, 0.9);
-      }} }});
-    cue(st, 'whoosh'); cue(st + 0.25, 'slam');
-  }}
-
-  // 4 · THE ARCHITECTURAL SECRET: Technical cutaway & component tags
-  {{
-    const st = cut(3);
-    add({{ id: 'S04', at: st, cam: [540, 960], note: 'architectural secret schematic cutaway',
-      draw(lt) {{
-        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        TK.wheelCloseUpTaper(540, 980, 1.05, {{ contactU: seg(lt, 0.2, 1.0), showTags: true }});
-      }} }});
-    cue(st, 'whoosh'); cue(st + 0.35, 'pop');
-  }}
-
-  // 5 · DYNAMICS / FLOW: Conical geometry shift
-  {{
-    const st = cut(4);
-    add({{ id: 'S05', at: st, cam: [540, 960], note: 'dynamics flow geometry shift',
-      draw(lt) {{
-        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        const drift = Math.sin(lt * 3) * 0.4;
-        TK.wheelsetCrossConical(540, 980, 0.95, {{ drift, showDiff: true }});
-      }} }});
-    cue(st, 'whoosh'); cue(st + 0.3, 'pop');
-  }}
-
-  // 6 · SELF-BALANCING LOOP: Feedback correction around curve
-  {{
-    const st = cut(5);
-    add({{ id: 'S06', at: st, cam: [540, 960], note: 'self balancing loop track curve',
-      draw(lt) {{
-        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        const prog = seg(lt, 0, 2.5);
-        TK.trackCurvingTop(540, 960, 1.0, {{ trainCurve: 1, progress: prog }});
-      }} }});
-    cue(st, 'whoosh'); cue(st + 0.25, 'ding');
-  }}
-
-  // 7 · ENGINE X-RAY: Blueprint internal motor & drive axle
-  {{
-    const st = cut(6);
-    add({{ id: 'S07', at: st, cam: [540, 960], note: 'engine x-ray blueprint',
-      draw(lt) {{
-        ctx.fillStyle = '#080E18'; ctx.fillRect(-300, -300, W + 600, H + 600);
-        TK.tractionMotorXray(540, 980, 0.95, lt);
-      }} }});
-    cue(st, 'whoosh'); cue(st + 0.3, 'slam');
-  }}
-
-  // 8 · EFFICIENCY METRIC: Macro close-up leverage point (<0.1% friction)
-  {{
-    const st = cut(7);
-    add({{ id: 'S08', at: st, cam: [540, 960], note: 'efficiency metric dime sized contact',
-      draw(lt) {{
-        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        TK.contactPatchExtreme(540, 960, 1.1, {{ contactPulse: Math.sin(lt * 8) * 0.5 + 0.5 }});
-      }} }});
-    cue(st, 'whoosh'); cue(st + 0.3, 'pop');
-  }}
-
-  // 9 · LOOP OUTRO: Seamless resolution returning to opening hook
-  {{
-    const st = cut(8);
-    add({{ id: 'S09', at: st, cam: [540, 850], note: 'loop outro seamless resolution',
+    const st = cut({i});
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 850], zoom: 0.15, note: 'loop outro seamless resolution',
       draw(lt) {{
         ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
         ctx.fillStyle = '#E8F1F5'; ctx.fillRect(-300, -300, W + 600, 1100);
         TK.trainSide(540, 880, 0.95, lt + 2.0);
+        K.pill('THE ARCHITECTURAL PRINCIPLE', 540, 420, 48, C.ink, '#10B981', eob(seg(lt, 0, 0.35)));
       }} }});
     cue(st, 'whoosh'); cue(st + 0.25, 'ding');
   }}
+"""
+        elif i == 1:
+            shot = f"""  // {i+1} · THE FLAWED MYTH: Flat assumption cross-section
+  {{
+    const st = cut({i});
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 860], zoom: 0.08, note: 'flawed myth flat cross section',
+      draw(lt) {{
+        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
+        TK.wheelsetFront(540, 860, 1.15, {{ mode: 'flat', drift: 0, label: false }});
+        K.pill('ASSUMPTION: FLAT PROFILE', 540, 480, 50, C.ink, C.white, eob(seg(lt, 0, 0.35)));
+      }} }});
+    cue(st, 'whoosh'); cue(st + 0.3, 'pop');
+  }}
+"""
+        elif i == 2:
+            shot = f"""  // {i+1} · THE FAILURE POINT: Violent breakdown & warning alert
+  {{
+    const st = cut({i});
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 860], zoom: 0.12, note: 'failure point violent breakdown',
+      draw(lt) {{
+        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
+        const shakeIntensity = clamp((lt - 0.2) * 1.5);
+        const osc = Math.sin(lt * 48) * (50 * shakeIntensity);
+        const tilt = Math.sin(lt * 48) * (0.08 * shakeIntensity);
+        TK.wheelsetFront(540, 860, 1.15, {{ mode: 'flat', drift: osc, tilt, label: false }});
+        if (lt > 0.4) K.warning(540, 480, eob(seg(lt, 0.4, 0.7)));
+        if (lt > 0.9) K.redX(540, 860, 1.3, 0.9);
+      }} }});
+    cue(st, 'whoosh'); cue(st + 0.25, 'slam');
+  }}
+"""
+        elif i == 3:
+            shot = f"""  // {i+1} · THE ARCHITECTURAL SECRET: Technical cutaway & component tags
+  {{
+    const st = cut({i});
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 840], zoom: 0.1, note: 'architectural secret schematic cutaway',
+      draw(lt) {{
+        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
+        TK.wheelConeMacro(540, 840, 1.18, {{ contactU: 0.5 }});
+        K.pill('1:20 TAPERED CONE PROFILE', 540, 420, 52, C.yellow, C.ink, eob(seg(lt, 0, 0.35)));
+      }} }});
+    cue(st, 'whoosh'); cue(st + 0.35, 'pop');
+  }}
+"""
+        elif i == 4:
+            shot = f"""  // {i+1} · DYNAMICS / FLOW: Conical geometry shift
+  {{
+    const st = cut({i});
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 840], zoom: 0.08, note: 'dynamics flow geometry shift',
+      draw(lt) {{
+        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
+        const drift = lerp(0, -65, eio(seg(lt, 0.2, 1.8)));
+        TK.wheelsetFront(540, 840, 1.15, {{ mode: 'cone', drift, label: false }});
+        if (lt > 0.6) {{
+          K.tag('WIDER RADIUS: FASTER', 300, 480, 240 + drift, 780, 36, eob(seg(lt, 0.6, 0.9)));
+          K.tag('NARROWER: SLOWER', 780, 480, 840 + drift, 780, 36, eob(seg(lt, 0.6, 0.9)));
+        }}
+      }} }});
+    cue(st, 'whoosh'); cue(st + 0.3, 'pop');
+  }}
+"""
+        elif i == 5:
+            shot = f"""  // {i+1} · SELF-BALANCING LOOP: Feedback correction around curve
+  {{
+    const st = cut({i});
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 800], zoom: 0.08, note: 'self balancing loop track curve',
+      draw(lt, d) {{
+        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
+        const prog = clamp(lt / (d || 3));
+        TK.trackCurvingTop(540, 800, 1.05, {{ trainCurve: 1.0, progress: prog }});
+        K.pill('AUTOMATIC SELF-CENTERING', 540, 360, 48, '#06B6D4', C.white, eob(seg(lt, 0, 0.35)));
+      }} }});
+    cue(st, 'whoosh'); cue(st + 0.25, 'ding');
+  }}
+"""
+        elif i == 6:
+            shot = f"""  // {i+1} · ENGINE X-RAY: Blueprint internal motor & drive axle
+  {{
+    const st = cut({i});
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 850], zoom: 0.08, note: 'engine x-ray blueprint',
+      draw(lt, d, t) {{
+        ctx.fillStyle = '#08121E'; ctx.fillRect(-300, -300, W + 600, H + 600);
+        TK.tractionMotorXray(540, 850, 1.02, t);
+        K.pill('TRACTION MOTOR X-RAY', 540, 340, 48, C.cyan, C.ink, eob(seg(lt, 0, 0.35)));
+      }} }});
+    cue(st, 'whoosh'); cue(st + 0.3, 'slam');
+  }}
+"""
+        else:
+            shot = f"""  // {i+1} · EFFICIENCY METRIC: Macro close-up leverage point
+  {{
+    const st = cut({i});
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 840], zoom: 0.1, note: 'efficiency metric contact patch',
+      draw(lt, d, t) {{
+        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
+        TK.steelContactMacro(540, 840, 1.1, t);
+        K.pill('ROLLING FRICTION: < 0.1%', 540, 380, 48, C.ink, '#FFD43B', eob(seg(lt, 0, 0.35)));
+      }} }});
+    cue(st, 'whoosh'); cue(st + 0.3, 'pop');
+  }}
+"""
+        code += shot
 
-  return {{ shots: S, cues: CUES }};
-}}
+    code += """  return { shots: S, cues: CUES };
+}
 """
     return code
 

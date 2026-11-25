@@ -1017,5 +1017,26 @@
     "youtube_url": "https://youtu.be/-BXtDIA0YTs",
     "publish_at": "2026-11-30T16:30:00Z",
     "uploaded_at": "2026-11-24T20:43:25.427112+00:00"
+  },
+  {
+    "id": "phone-stop-updates",
+    "style": "inside-out",
+    "folder": "videos/phone-stop-updates",
+    "video_file": "videos/phone-stop-updates/renders/phone-stop-updates.mp4",
+    "thumbnail": "videos/phone-stop-updates/thumbnail.jpg",
+    "title": "Why Phones STOP Getting Updates After 5 Years \ud83d\udcf1\ud83d\uded1 #Shorts",
+    "description": "When does a smartphone become too old to receive updates?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "Smartphone",
+      "Apple",
+      "Android",
+      "Tech",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/OzNJ6LB26Hg",
+    "publish_at": "2026-11-30T23:30:00Z",
+    "uploaded_at": "2026-11-25T23:47:01.141717+00:00"
   }
 ]

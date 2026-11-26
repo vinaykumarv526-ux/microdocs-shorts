@@ -1038,5 +1038,26 @@
     "youtube_url": "https://youtu.be/OzNJ6LB26Hg",
     "publish_at": "2026-11-30T23:30:00Z",
     "uploaded_at": "2026-11-25T23:47:01.141717+00:00"
+  },
+  {
+    "id": "black-hole-fall",
+    "style": "inside-out",
+    "folder": "videos/black-hole-fall",
+    "video_file": "videos/black-hole-fall/renders/black-hole-fall.mp4",
+    "thumbnail": "videos/black-hole-fall/thumbnail.jpg",
+    "title": "What Happens If You Fall Into a Black Hole? \ud83d\udd73\ufe0f #Shorts",
+    "description": "What would happen if you fell into a black hole?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "BlackHole",
+      "Space",
+      "Astrophysics",
+      "Relativity",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/HTWiITJO04Y",
+    "publish_at": "2026-12-01T16:30:00Z",
+    "uploaded_at": "2026-11-26T04:20:57.642207+00:00"
   }
 ]

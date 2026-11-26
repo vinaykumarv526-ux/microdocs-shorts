@@ -1227,5 +1227,26 @@
     "youtube_url": "https://youtu.be/xXStXLz6bBk",
     "publish_at": "2026-12-05T16:30:00Z",
     "uploaded_at": "2026-11-26T04:55:34.088963+00:00"
+  },
+  {
+    "id": "school-bus-flashing-lights",
+    "style": "inside-out",
+    "folder": "videos/school-bus-flashing-lights",
+    "video_file": "videos/school-bus-flashing-lights/renders/school-bus-flashing-lights.mp4",
+    "thumbnail": "videos/school-bus-flashing-lights/thumbnail.jpg",
+    "title": "Why American School Buses Have Flashing Red Lights \ud83d\ude8c\ud83d\uded1 #Shorts",
+    "description": "Why do American school buses stop with flashing red lights?\n\nWatch the full breakdown in 3D!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #MicroDocs #3DAnimation #Curiosity",
+    "tags": [
+      "Shorts",
+      "SchoolBus",
+      "TrafficLaws",
+      "Safety",
+      "USA",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/0r2hVLSTgAc",
+    "publish_at": "2026-12-05T23:30:00Z",
+    "uploaded_at": "2026-11-26T23:59:19.378189+00:00"
   }
 ]

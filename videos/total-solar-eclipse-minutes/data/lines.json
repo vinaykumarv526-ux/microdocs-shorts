@@ -1,5 +1,5 @@
 {
- "duration": 35.485,
+ "duration": 33.757,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "What strange phenomena occur in the final seconds before the Moon completely swallows the Sun?",
    "start": 0.35,
-   "end": 4.821
+   "end": 4.58
   },
   {
    "i": 1,
    "text": "As totality approaches, daylight dims into a ghostly, silvery twilight unlike any sunset on Earth.",
-   "start": 5.101,
-   "end": 10.284
+   "start": 4.86,
+   "end": 9.752
   },
   {
    "i": 2,
    "text": "Surrounding air temperatures drop by ten to fifteen degrees within minutes, kicking up sudden chilly breezes.",
-   "start": 10.564,
-   "end": 15.648
+   "start": 10.032,
+   "end": 14.845
   },
   {
    "i": 3,
    "text": "Confused crickets start chirping, birds fall silent and roost, and flowers close their petals.",
-   "start": 15.928,
-   "end": 20.57
+   "start": 15.125,
+   "end": 19.521
   },
   {
    "i": 4,
    "text": "Right along the edge, brilliant pearls of sunlight called Baily's Beads shine through lunar valleys.",
-   "start": 20.85,
-   "end": 25.493
+   "start": 19.801,
+   "end": 24.194
   },
   {
    "i": 5,
    "text": "Then, totality hits: the Sun's ghostly white corona blooms across a pitch-black midday sky.",
-   "start": 25.773,
-   "end": 30.572
+   "start": 24.474,
+   "end": 29.019
   },
   {
    "i": 6,
    "text": "Witnessing a total solar eclipse is a moment you will never forget.",
-   "start": 30.852,
-   "end": 34.185
+   "start": 29.299,
+   "end": 32.457
   }
  ]
 }

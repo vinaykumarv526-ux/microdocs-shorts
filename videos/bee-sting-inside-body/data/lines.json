@@ -1,5 +1,5 @@
 {
- "duration": 35.102,
+ "duration": 33.418,
  "voice": "en-US-GuyNeural",
  "speed": 1.0,
  "lines": [
@@ -7,43 +7,43 @@
    "i": 0,
    "text": "When a honeybee stings your skin, what microscopic war explodes inside your bloodstream?",
    "start": 0.35,
-   "end": 4.737
+   "end": 4.51
   },
   {
    "i": 1,
    "text": "The bee's barbed stinger tears out of its abdomen, continuing to pump venom automatically for minutes.",
-   "start": 5.017,
-   "end": 9.926
+   "start": 4.79,
+   "end": 9.438
   },
   {
    "i": 2,
    "text": "The venom contains melittin, a powerful peptide that literally punches holes through cell membranes.",
-   "start": 10.206,
-   "end": 14.914
+   "start": 9.718,
+   "end": 14.172
   },
   {
    "i": 3,
    "text": "Pain receptors fire emergency alarms to your spinal cord while mast cells release waves of histamine.",
-   "start": 15.194,
-   "end": 20.241
+   "start": 14.452,
+   "end": 19.235
   },
   {
    "i": 4,
    "text": "Blood vessels dilate to rush white blood cells to the scene, causing rapid swelling and fiery redness.",
-   "start": 20.521,
-   "end": 25.37
+   "start": 19.515,
+   "end": 24.105
   },
   {
    "i": 5,
    "text": "White blood cells gobble up venom fragments over three days until the swelling recedes.",
-   "start": 25.649,
-   "end": 29.781
+   "start": 24.385,
+   "end": 28.296
   },
   {
    "i": 6,
    "text": "Scrape the stinger off immediately with a credit card to stop the venom pump early.",
-   "start": 30.061,
-   "end": 33.802
+   "start": 28.576,
+   "end": 32.118
   }
  ]
 }

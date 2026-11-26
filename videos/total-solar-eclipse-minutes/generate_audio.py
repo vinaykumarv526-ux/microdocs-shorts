@@ -6,7 +6,8 @@ import soundfile as sf
 import soxr
 
 VOICE = "en-US-GuyNeural"
-RATE = "+6%"
+RATE = "+12%"
+PITCH = "+3Hz"
 
 PROJECT_DIR = Path(".")
 SCRIPT_FILE = PROJECT_DIR / "script.json"
@@ -33,7 +34,7 @@ async def generate():
         mp3_path = DATA_DIR / f"line_{idx}.mp3"
         wav_path = DATA_DIR / f"line_{idx}.wav"
 
-        comm = edge_tts.Communicate(text, VOICE, rate=RATE)
+        comm = edge_tts.Communicate(text, VOICE, rate=RATE, pitch=PITCH)
         await comm.save(str(mp3_path))
 
         data, sr = sf.read(str(mp3_path))

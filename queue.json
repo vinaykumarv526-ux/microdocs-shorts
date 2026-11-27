@@ -808,5 +808,115 @@
     "youtube_url": "https://youtu.be/cnOZMFyLNA8",
     "publish_at": "2026-11-25T16:30:00Z",
     "uploaded_at": "2026-11-22T02:44:46.506937+00:00"
+  },
+  {
+    "id": "traffic-lights-colors",
+    "style": "inside-out-architectural",
+    "folder": "videos/traffic-lights-colors",
+    "video_file": "videos/traffic-lights-colors/renders/traffic-lights-colors.mp4",
+    "thumbnail": "videos/traffic-lights-colors/thumbnail.jpg",
+    "title": "Why Are Traffic Lights Red, Yellow, and Green? \ud83d\udea6 #Shorts",
+    "description": "Why does almost every country on Earth use red, yellow, and green for traffic signals? The 2D architectural breakdown of optical physics, wavelength penetration, and railway safety!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #TrafficLights #Optics #Physics #Engineering #MicroDocs",
+    "tags": [
+      "Shorts",
+      "TrafficLights",
+      "Optics",
+      "Physics",
+      "History",
+      "Engineering",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/j3Vkif_J9Eg",
+    "publish_at": "2026-11-27T16:30:00Z",
+    "uploaded_at": "2026-11-27T04:40:41.864448+00:00"
+  },
+  {
+    "id": "why-popcorn-pops",
+    "style": "inside-out-architectural",
+    "folder": "videos/why-popcorn-pops",
+    "video_file": "videos/why-popcorn-pops/renders/why-popcorn-pops.mp4",
+    "thumbnail": "videos/why-popcorn-pops/thumbnail.jpg",
+    "title": "Why Does Popcorn ACTUALLY Pop? \ud83c\udf7f #Shorts",
+    "description": "Why does popcorn explode into fluffy white foam while sweet corn just burns? The 2D technical breakdown of pericarp hull pressure vessels and superheated 135 PSI steam!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #Popcorn #Physics #Thermodynamics #FoodScience #MicroDocs",
+    "tags": [
+      "Shorts",
+      "Popcorn",
+      "FoodScience",
+      "Physics",
+      "Thermodynamics",
+      "Curiosity",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/TlxjWclZPSM",
+    "publish_at": "2026-11-27T23:30:00Z",
+    "uploaded_at": "2026-11-27T04:40:55.695547+00:00"
+  },
+  {
+    "id": "manhole-round",
+    "style": "inside-out-architectural",
+    "folder": "videos/manhole-round",
+    "video_file": "videos/manhole-round/renders/manhole-round.mp4",
+    "thumbnail": "videos/manhole-round/thumbnail.jpg",
+    "title": "Why Are Manhole Covers Round? (Not Square!) \u2b55 #Shorts",
+    "description": "Why are sewer manhole covers always perfectly round? The 2D mathematical breakdown of constant diameter Reuleaux geometry and why square covers plunge down holes!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #Manhole #Geometry #Engineering #UrbanCuriosity #MicroDocs",
+    "tags": [
+      "Shorts",
+      "Geometry",
+      "Engineering",
+      "Math",
+      "CivilEngineering",
+      "UrbanCuriosity",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/fJQbC6uGN6g",
+    "publish_at": "2026-11-28T16:30:00Z",
+    "uploaded_at": "2026-11-27T04:41:12.604853+00:00"
+  },
+  {
+    "id": "american-wood-frame-homes",
+    "style": "inside-out-architectural",
+    "folder": "videos/american-wood-frame-homes",
+    "video_file": "videos/american-wood-frame-homes/renders/american-wood-frame-homes.mp4",
+    "thumbnail": "videos/american-wood-frame-homes/thumbnail.jpg",
+    "title": "Why Are Most American Houses Made of Wood? \ud83e\udeb5\ud83c\udfe0 #Shorts",
+    "description": "Why are homes across the United States built with wooden 2x4 framing instead of brick? The 2D architectural breakdown of seismic flexibility, pine timber ecology, and platform framing!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Architecture #Construction #Homes #WoodFraming #Engineering #MicroDocs",
+    "tags": [
+      "Shorts",
+      "Architecture",
+      "Construction",
+      "Homes",
+      "Engineering",
+      "USA",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/Y5eQbxA9Zew",
+    "publish_at": "2026-11-28T23:30:00Z",
+    "uploaded_at": "2026-11-27T04:41:33.268930+00:00"
+  },
+  {
+    "id": "why-deja-vu",
+    "style": "inside-out-architectural",
+    "folder": "videos/why-deja-vu",
+    "video_file": "videos/why-deja-vu/renders/why-deja-vu.mp4",
+    "thumbnail": "videos/why-deja-vu/thumbnail.jpg",
+    "title": "Why Do You REALLY Get D\u00e9j\u00e0 Vu? \ud83c\udf00 #Shorts",
+    "description": "Why do you suddenly feel like you've lived a brand new moment before? The 2D neurological breakdown of the 15-millisecond temporal lobe memory lag!\n\n\ud83d\udd14 Subscribe to @MicroDocsOfficial for daily curiosity explainers!\n\n#Shorts #Science #DejaVu #Neuroscience #Brain #Psychology #MicroDocs",
+    "tags": [
+      "Shorts",
+      "DejaVu",
+      "Brain",
+      "Neuroscience",
+      "Psychology",
+      "Memory",
+      "MicroDocs"
+    ],
+    "status": "scheduled",
+    "youtube_url": "https://youtu.be/BxilocIRFLg",
+    "publish_at": "2026-11-29T16:30:00Z",
+    "uploaded_at": "2026-11-27T04:41:51.425655+00:00"
   }
 ]

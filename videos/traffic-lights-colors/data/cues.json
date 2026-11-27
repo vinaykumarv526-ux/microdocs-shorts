@@ -7,8 +7,7 @@
   },
   {
    "t": 0.3,
-   "type": "slide",
-   "dur": 3.5
+   "type": "pop"
   },
   {
    "t": 4.48,
@@ -24,23 +23,24 @@
   },
   {
    "t": 8.154,
-   "type": "slam"
+   "type": "pop"
   },
   {
    "t": 11.099,
    "type": "whoosh"
   },
   {
-   "t": 11.449,
-   "type": "pop"
+   "t": 11.399,
+   "type": "slide",
+   "dur": 2.5
   },
   {
    "t": 16.617,
    "type": "whoosh"
   },
   {
-   "t": 16.917,
-   "type": "pop"
+   "t": 16.867,
+   "type": "slam"
   },
   {
    "t": 21.859,

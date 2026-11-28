@@ -164,15 +164,31 @@ export function buildShots(E) {{
 def generate_shots_inside_out(topic):
     title = topic['title'].upper().replace('?', '')
     pill_text = topic.get("pill", "HOW IT WORKS")
+    topic_id = topic.get("id", "explainer")
     lines = topic["script"]["lines"]
     num_lines = len(lines)
+
+    # Check if a custom kit exists for this topic
+    custom_kit_map = {
+        "traffic-lights-colors": ("trafficKit.js", "TLK"),
+        "why-popcorn-pops": ("popcornKit.js", "PK"),
+        "manhole-round": ("manholeKit.js", "MK"),
+        "american-wood-frame-homes": ("woodHouseKit.js", "WHK"),
+        "why-deja-vu": ("dejavuKit.js", "DJK"),
+        "airplane-window-hole": ("windowKit.js", "WK"),
+        "how-trains-run": ("trainKit.js", "TK"),
+    }
 
     code = f"""// AUTO-GENERATED 2D FLAT ARCHITECTURAL MODEL: {topic['title']}
 import {{ ctx, C, W, H, clamp, lerp, seg, eo, eio, eob, rnd, bigText, rr, circle, ell, line, fillAll }} from './core/lib.js';
 import {{ L, Le, Wd, T }} from './core/timing.js';
 import * as K from './core/kit.js';
-import * as TK from './core/trainKit.js';
+"""
+    if topic_id in custom_kit_map:
+        kit_file, kit_alias = custom_kit_map[topic_id]
+        code += f"import * as {kit_alias} from './core/{kit_file}';\n"
 
+    code += f"""
 export function buildShots() {{
   const S = [], CUES = [];
   const add = (o) => (S.push(o), o);
@@ -183,132 +199,178 @@ export function buildShots() {{
     for i in range(num_lines):
         is_first = (i == 0)
         is_last = (i == num_lines - 1)
+        line_item = lines[i]
+        line_txt = line_item.get("text", "").replace("'", "\\'")
 
         if is_first:
-            shot = f"""  // {i+1} · HOOK: High speed streamlined motion & opening challenge
+            shot = f"""  // {i+1} · HOOK: Technical Aperture & Hero Entity
   {{
     const st = cut({i});
-    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 850], zoom: 0.18, note: 'hook opening hero in motion',
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 780], zoom: 0.12, note: 'hook opening aperture',
       draw(lt) {{
         ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        ctx.fillStyle = '#E8F1F5'; ctx.fillRect(-300, -300, W + 600, 1100);
-        TK.trainSide(540, 880, 0.95, lt + 0.5);
-        if (lt > 1.2) K.shockLines(540, 880, 320, clamp((lt - 1.2) * 4));
-        K.pill('{pill_text}', 540, 420, 52, C.ink, C.yellow, eob(seg(lt, 0, 0.35)));
+        // Outer technical inspection aperture
+        rr(100, 360, 880, 760, 32);
+        ctx.fillStyle = '#0F172A'; ctx.fill();
+        ctx.lineWidth = 6; ctx.strokeStyle = '#38BDF8'; ctx.stroke();
+        // Pulsing circular core
+        const pulse = Math.sin(lt * 6) * 0.15 + 0.85;
+        circle(540, 740, 180 * pulse, '#1E293B');
+        ctx.lineWidth = 8; ctx.strokeStyle = '#F59E0B'; ctx.stroke();
+        circle(540, 740, 70, '#38BDF8');
+        // Inspection reticle ticks
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)'; ctx.lineWidth = 4;
+        for (let a = 0; a < 8; a++) {{
+          const an = (a / 8) * Math.PI * 2 + lt * 0.5;
+          line([[540 + Math.cos(an) * 190, 740 + Math.sin(an) * 190], [540 + Math.cos(an) * 220, 740 + Math.sin(an) * 220]], '#38BDF8', 4);
+        }}
+        K.pill('{pill_text}', 540, 240, 52, C.ink, '#FFD43B', eob(seg(lt, 0, 0.35)));
       }} }});
-    cue(st, 'whoosh'); cue(st + 0.3, 'slide', {{ dur: 3.5 }});
+    cue(st, 'whoosh'); cue(st + 0.3, 'pop');
   }}
 """
         elif is_last:
-            shot = f"""  // {i+1} · LOOP OUTRO: High-speed resolution looping to Cut 1
+            shot = f"""  // {i+1} · LOOP OUTRO: Core Architectural Resolution
   {{
     const st = cut({i});
-    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 850], zoom: 0.15, note: 'loop outro seamless resolution',
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 780], zoom: 0.12, note: 'loop outro resolution',
       draw(lt) {{
         ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        ctx.fillStyle = '#E8F1F5'; ctx.fillRect(-300, -300, W + 600, 1100);
-        TK.trainSide(540, 880, 0.95, lt + 2.0);
-        K.pill('THE ARCHITECTURAL PRINCIPLE', 540, 420, 48, C.ink, '#10B981', eob(seg(lt, 0, 0.35)));
+        rr(100, 360, 880, 760, 32);
+        ctx.fillStyle = '#0F172A'; ctx.fill();
+        ctx.lineWidth = 6; ctx.strokeStyle = '#10B981'; ctx.stroke();
+        circle(540, 740, 190, '#10B981');
+        circle(540, 740, 160, '#0F172A');
+        ctx.beginPath();
+        ctx.moveTo(490, 740); ctx.lineTo(525, 775); ctx.lineTo(595, 705);
+        ctx.strokeStyle = '#10B981'; ctx.lineWidth = 14; ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.stroke();
+        K.pill('THE ARCHITECTURAL PRINCIPLE', 540, 240, 48, C.ink, '#10B981', eob(seg(lt, 0, 0.35)));
       }} }});
     cue(st, 'whoosh'); cue(st + 0.25, 'ding');
   }}
 """
         elif i == 1:
-            shot = f"""  // {i+1} · THE FLAWED MYTH: Flat assumption cross-section
+            shot = f"""  // {i+1} · THE FLAWED MYTH: Flat Intuitive Assumption
   {{
     const st = cut({i});
-    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 860], zoom: 0.08, note: 'flawed myth flat cross section',
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 780], note: 'flawed myth assumption',
       draw(lt) {{
         ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        TK.wheelsetFront(540, 860, 1.15, {{ mode: 'flat', drift: 0, label: false }});
-        K.pill('ASSUMPTION: FLAT PROFILE', 540, 480, 50, C.ink, C.white, eob(seg(lt, 0, 0.35)));
+        rr(100, 380, 880, 720, 28);
+        ctx.fillStyle = '#1E293B'; ctx.fill();
+        ctx.lineWidth = 6; ctx.strokeStyle = '#94A3B8'; ctx.stroke();
+        // Wireframe assumption grid
+        ctx.strokeStyle = 'rgba(148, 163, 184, 0.2)'; ctx.lineWidth = 2;
+        for (let gx = 160; gx <= 920; gx += 60) line([[gx, 420], [gx, 1060]], 'rgba(148, 163, 184, 0.2)', 2);
+        for (let gy = 420; gy <= 1060; gy += 60) line([[160, gy], [920, gy]], 'rgba(148, 163, 184, 0.2)', 2);
+        circle(540, 740, 110, '#334155');
+        ctx.font = '900 84px Inter'; ctx.fillStyle = '#CBD5E1'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+        ctx.fillText('?', 540, 740);
+        K.pill('THE COMMON ASSUMPTION', 540, 250, 48, C.ink, '#FFFFFF', eob(seg(lt, 0, 0.35)));
       }} }});
     cue(st, 'whoosh'); cue(st + 0.3, 'pop');
   }}
 """
         elif i == 2:
-            shot = f"""  // {i+1} · THE FAILURE POINT: Violent breakdown & warning alert
+            shot = f"""  // {i+1} · THE FAILURE POINT: Catastrophic Breakdown & Red X
   {{
     const st = cut({i});
-    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 860], zoom: 0.12, note: 'failure point violent breakdown',
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 780], note: 'failure point breakdown',
       draw(lt) {{
-        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        const shakeIntensity = clamp((lt - 0.2) * 1.5);
-        const osc = Math.sin(lt * 48) * (50 * shakeIntensity);
-        const tilt = Math.sin(lt * 48) * (0.08 * shakeIntensity);
-        TK.wheelsetFront(540, 860, 1.15, {{ mode: 'flat', drift: osc, tilt, label: false }});
-        if (lt > 0.4) K.warning(540, 480, eob(seg(lt, 0.4, 0.7)));
-        if (lt > 0.9) K.redX(540, 860, 1.3, 0.9);
+        ctx.fillStyle = '#1A1829'; ctx.fillRect(-300, -300, W + 600, H + 600);
+        rr(100, 380, 880, 720, 28);
+        ctx.fillStyle = '#0F172A'; ctx.fill();
+        ctx.lineWidth = 6; ctx.strokeStyle = '#EF4444'; ctx.stroke();
+        // Jagged failure fracture lines
+        ctx.beginPath();
+        ctx.moveTo(320, 520); ctx.lineTo(480, 680); ctx.lineTo(440, 800); ctx.lineTo(620, 940);
+        ctx.strokeStyle = '#EF4444'; ctx.lineWidth = 10; ctx.stroke();
+        K.warning(540, 240, 1.1);
+        K.redX(540, 740, 1.25, 0.95);
+        K.pill('SYSTEM COLLAPSE POINT', 540, 1020, 42, '#EF4444', '#FFFFFF');
       }} }});
     cue(st, 'whoosh'); cue(st + 0.25, 'slam');
   }}
 """
         elif i == 3:
-            shot = f"""  // {i+1} · THE ARCHITECTURAL SECRET: Technical cutaway & component tags
+            shot = f"""  // {i+1} · THE ARCHITECTURAL SECRET: Blueprint Layer Cutaway
   {{
     const st = cut({i});
-    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 840], zoom: 0.1, note: 'architectural secret schematic cutaway',
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 780], note: 'architectural secret cutaway',
       draw(lt) {{
-        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        TK.wheelConeMacro(540, 840, 1.18, {{ contactU: 0.5 }});
-        K.pill('1:20 TAPERED CONE PROFILE', 540, 420, 52, C.yellow, C.ink, eob(seg(lt, 0, 0.35)));
-      }} }});
-    cue(st, 'whoosh'); cue(st + 0.35, 'pop');
-  }}
-"""
-        elif i == 4:
-            shot = f"""  // {i+1} · DYNAMICS / FLOW: Conical geometry shift
-  {{
-    const st = cut({i});
-    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 840], zoom: 0.08, note: 'dynamics flow geometry shift',
-      draw(lt) {{
-        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        const drift = lerp(0, -65, eio(seg(lt, 0.2, 1.8)));
-        TK.wheelsetFront(540, 840, 1.15, {{ mode: 'cone', drift, label: false }});
-        if (lt > 0.6) {{
-          K.tag('WIDER RADIUS: FASTER', 300, 480, 240 + drift, 780, 36, eob(seg(lt, 0.6, 0.9)));
-          K.tag('NARROWER: SLOWER', 780, 480, 840 + drift, 780, 36, eob(seg(lt, 0.6, 0.9)));
-        }}
+        ctx.fillStyle = '#0F172A'; ctx.fillRect(-300, -300, W + 600, H + 600);
+        rr(100, 380, 880, 720, 28);
+        ctx.fillStyle = '#0B132B'; ctx.fill();
+        ctx.lineWidth = 6; ctx.strokeStyle = '#38BDF8'; ctx.stroke();
+        // Nested mechanical layers
+        rr(180, 460, 720, 560, 20); ctx.fillStyle = '#1E293B'; ctx.fill(); ctx.lineWidth = 4; ctx.strokeStyle = '#38BDF8'; ctx.stroke();
+        rr(260, 540, 560, 400, 14); ctx.fillStyle = '#334155'; ctx.fill(); ctx.lineWidth = 4; ctx.strokeStyle = '#F59E0B'; ctx.stroke();
+        K.tag('PRIMARY LAYER', 320, 510, 220, 470, 28);
+        K.tag('INTERNAL MECHANISM', 760, 510, 840, 470, 28);
+        K.pill('THE INTERNAL MECHANISM', 540, 250, 48, C.ink, '#38BDF8', eob(seg(lt, 0, 0.35)));
       }} }});
     cue(st, 'whoosh'); cue(st + 0.3, 'pop');
   }}
 """
-        elif i == 5:
-            shot = f"""  // {i+1} · SELF-BALANCING LOOP: Feedback correction around curve
+        elif i == 4:
+            shot = f"""  // {i+1} · DYNAMICS / FLOW: High Velocity Motion Vectors
   {{
     const st = cut({i});
-    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 800], zoom: 0.08, note: 'self balancing loop track curve',
-      draw(lt, d) {{
-        ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        const prog = clamp(lt / (d || 3));
-        TK.trackCurvingTop(540, 800, 1.05, {{ trainCurve: 1.0, progress: prog }});
-        K.pill('AUTOMATIC SELF-CENTERING', 540, 360, 48, '#06B6D4', C.white, eob(seg(lt, 0, 0.35)));
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 780], note: 'dynamics flow paths',
+      draw(lt) {{
+        ctx.fillStyle = '#0B132B'; ctx.fillRect(-300, -300, W + 600, H + 600);
+        rr(100, 380, 880, 720, 28); ctx.fillStyle = '#0F172A'; ctx.fill(); ctx.lineWidth = 6; ctx.strokeStyle = '#38BDF8'; ctx.stroke();
+        // Flow stream lines
+        for (let l = 0; l < 5; l++) {{
+          const ly = 520 + l * 100;
+          ctx.beginPath();
+          for (let lx = 140; lx <= 940; lx += 10) {{
+            const wave = Math.sin((lx * 0.02) - (lt * 8) + l) * 25;
+            if (lx === 140) ctx.moveTo(lx, ly + wave);
+            else ctx.lineTo(lx, ly + wave);
+          }}
+          ctx.strokeStyle = l % 2 === 0 ? '#38BDF8' : '#F59E0B'; ctx.lineWidth = 6; ctx.stroke();
+        }}
+        K.pill('DYNAMICS & FORCE DISTRIBUTION', 540, 250, 44, C.ink, '#FBBF24', eob(seg(lt, 0, 0.35)));
+      }} }});
+    cue(st, 'whoosh'); cue(st + 0.3, 'slide', {{ dur: 2.0 }});
+  }}
+"""
+        elif i == 5:
+            shot = f"""  // {i+1} · SELF-BALANCING LOOP: Equilibrium Feedback Correction
+  {{
+    const st = cut({i});
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 780], note: 'self balancing loop',
+      draw(lt) {{
+        ctx.fillStyle = '#0F172A'; ctx.fillRect(-300, -300, W + 600, H + 600);
+        rr(100, 380, 880, 720, 28); ctx.fillStyle = '#1E293B'; ctx.fill(); ctx.lineWidth = 6; ctx.strokeStyle = '#10B981'; ctx.stroke();
+        // Dial equilibrium meter
+        circle(540, 740, 200, '#0F172A');
+        ctx.lineWidth = 10; ctx.strokeStyle = '#10B981'; ctx.stroke();
+        // Oscillating needle self-centering
+        const needleAngle = Math.sin(lt * 8) * Math.exp(-lt * 0.8) * 0.6;
+        ctx.save(); ctx.translate(540, 740); ctx.rotate(needleAngle);
+        line([[0, 20], [0, -150]], '#10B981', 8);
+        ctx.restore();
+        circle(540, 740, 22, '#FFFFFF');
+        K.pill('AUTOMATIC SELF-STABILIZATION', 540, 250, 46, '#10B981', '#FFFFFF', eob(seg(lt, 0, 0.35)));
       }} }});
     cue(st, 'whoosh'); cue(st + 0.25, 'ding');
   }}
 """
-        elif i == 6:
-            shot = f"""  // {i+1} · ENGINE X-RAY: Blueprint internal motor & drive axle
-  {{
-    const st = cut({i});
-    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 850], zoom: 0.08, note: 'engine x-ray blueprint',
-      draw(lt, d, t) {{
-        ctx.fillStyle = '#08121E'; ctx.fillRect(-300, -300, W + 600, H + 600);
-        TK.tractionMotorXray(540, 850, 1.02, t);
-        K.pill('TRACTION MOTOR X-RAY', 540, 340, 48, C.cyan, C.ink, eob(seg(lt, 0, 0.35)));
-      }} }});
-    cue(st, 'whoosh'); cue(st + 0.3, 'slam');
-  }}
-"""
         else:
-            shot = f"""  // {i+1} · EFFICIENCY METRIC: Macro close-up leverage point
+            shot = f"""  // {i+1} · EFFICIENCY METRIC: Leverage Point Metric
   {{
     const st = cut({i});
-    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 840], zoom: 0.1, note: 'efficiency metric contact patch',
-      draw(lt, d, t) {{
+    add({{ id: 'S{i+1:02d}', at: st, cam: [540, 780], note: 'efficiency leverage metric',
+      draw(lt) {{
         ctx.fillStyle = C.bg; ctx.fillRect(-300, -300, W + 600, H + 600);
-        TK.steelContactMacro(540, 840, 1.1, t);
-        K.pill('ROLLING FRICTION: < 0.1%', 540, 380, 48, C.ink, '#FFD43B', eob(seg(lt, 0, 0.35)));
+        rr(100, 380, 880, 720, 28); ctx.fillStyle = '#0F172A'; ctx.fill(); ctx.lineWidth = 6; ctx.strokeStyle = '#FFD43B'; ctx.stroke();
+        circle(540, 740, 180, '#1E293B');
+        ctx.lineWidth = 12; ctx.strokeStyle = '#FFD43B'; ctx.stroke();
+        ctx.font = '900 68px Inter'; ctx.fillStyle = '#FFD43B'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+        ctx.fillText('99.9%', 540, 740);
+        K.pill('CORE LEVERAGE POINT', 540, 250, 48, C.ink, '#FFD43B', eob(seg(lt, 0, 0.35)));
       }} }});
     cue(st, 'whoosh'); cue(st + 0.3, 'pop');
   }}

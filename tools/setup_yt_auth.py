@@ -38,6 +38,7 @@ def main():
         sys.exit(1)
 
     print(f"Found credentials: {secrets_file}")
+    root_dir = secrets_file.parent
     with open(secrets_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
         app_info = data.get('installed', data.get('web', {}))
@@ -47,9 +48,40 @@ def main():
     print("\nOpening your browser to authorize @MicroDocsOfficial...")
     print("Please select your Google account and click 'Continue' / 'Allow'.\n")
 
+    import wsgiref.simple_server
+    from google_auth_oauthlib.flow import _RedirectWSGIApp, _ExclusiveWSGIServer, _WSGIRequestHandler
+    import webbrowser
+
     flow = InstalledAppFlow.from_client_secrets_file(str(secrets_file), SCOPES)
-    # port=0 lets the OS pick an available random port so it never conflicts with port 8080
-    creds = flow.run_local_server(port=0, open_browser=True, prompt='consent', access_type='offline')
+    wsgi_app = _RedirectWSGIApp("✓ Authorization complete! You can close this tab and return to Antigravity.")
+    local_server = wsgiref.simple_server.make_server(
+        'localhost',
+        8080,
+        wsgi_app,
+        server_class=_ExclusiveWSGIServer,
+        handler_class=_WSGIRequestHandler
+    )
+
+    flow.redirect_uri = f"http://localhost:{local_server.server_port}/"
+    auth_url, _ = flow.authorization_url(prompt='consent', access_type='offline')
+
+    url_file = root_dir / "auth_url.txt" if 'root_dir' in locals() else Path("auth_url.txt")
+    with open(url_file, "w", encoding="utf-8") as f:
+        f.write(auth_url)
+
+    print(f"OAUTH_URL_START\n{auth_url}\nOAUTH_URL_END\n", flush=True)
+
+    try:
+        webbrowser.open(auth_url)
+    except Exception:
+        pass
+
+    print("Waiting for you to complete authorization in your browser on localhost:8080...", flush=True)
+    local_server.handle_request()
+
+    auth_response = wsgi_app.last_request_uri.replace("http", "https")
+    flow.fetch_token(authorization_response=auth_response)
+    creds = flow.credentials
 
     refresh_token = creds.refresh_token
 
